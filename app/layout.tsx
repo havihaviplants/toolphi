@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Suspense } from "react";
 import Script from "next/script";
 import AnalyticsTracker from "../components/AnalyticsTracker";
 
@@ -48,37 +49,40 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <body>
-        {/* GA4 gtag.js */}
-        <Script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-        />
-        <Script
-          id="ga4-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
+  {/* GA4 gtag.js */}
+  <Script
+    async
+    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+  />
+  <Script
+    id="ga4-init"
+    strategy="afterInteractive"
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+          page_path: window.location.pathname,
+        });
+      `,
+    }}
+  />
 
-        {/* 라우트 변경 감지해서 page_view 전송 */}
-        <AnalyticsTracker />
+  {/* 라우트 변경 감지를 Suspense로 감싸기 (Next 16 requirement) */}
+  <Suspense fallback={null}>
+    <AnalyticsTracker />
+  </Suspense>
 
-        {children}
-      </body>
+  {children}
+</body>
+
     </html>
   );
 }
