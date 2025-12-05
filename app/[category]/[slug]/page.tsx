@@ -32,7 +32,7 @@ function buildToolJsonLd(tool: Tool, categoryName: string) {
 
   return {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication", // 혹은 "WebApplication" / "Calculator" 등으로 바꿔도 됨
+    "@type": "SoftwareApplication",
     name: tool.title,
     description: tool.description,
     applicationCategory: `${categoryName} tool`,
@@ -105,6 +105,13 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const ToolComponent = getToolComponent(tool.slug);
   const jsonLd = buildToolJsonLd(tool, categoryObj.name);
 
+  // ✅ 같은 카테고리의 연관 툴(자기 자신 제외)
+  const relatedTools = tools
+    .filter(
+      (t) => t.category === tool.category && t.slug !== tool.slug
+    )
+    .slice(0, 4);
+
   return (
     <main
       style={{
@@ -161,7 +168,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
         )}
       </section>
 
-       {/* 🔽 여기부터 추가 */}
+      {/* store-profit 전용 How to / Example 섹션 */}
       {tool.slug === "store-profit" && (
         <>
           <section style={{ marginTop: 24 }}>
@@ -203,7 +210,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
             >
               Suppose your store makes <strong>$30,000</strong> per month in
               revenue, your COGS rate is <strong>60%</strong>, rent is
-              <strong> $5,000</strong>, payroll is <strong>$8,000</strong>,
+              <strong>$5,000</strong>, payroll is <strong>$8,000</strong>,
               and other fixed costs are <strong>$2,000</strong>. This tool
               will show you:
             </p>
@@ -222,6 +229,209 @@ export default async function ToolPage({ params }: ToolPageProps) {
             </ul>
           </section>
         </>
+      )}
+
+      {/* breakeven-units 전용 How to / Example */}
+      {tool.slug === "breakeven-units" && (
+        <>
+          <section style={{ marginTop: 24 }}>
+            <h2 style={{ fontSize: 18, marginBottom: 8 }}>
+              How to use this break-even units calculator
+            </h2>
+            <ol
+              style={{
+                paddingLeft: 20,
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              <li>
+                Enter your total fixed costs (rent, salaries, insurance,
+                etc.).
+              </li>
+              <li>
+                Enter the selling price per unit of your product or service.
+              </li>
+              <li>
+                Enter the variable cost per unit (materials, packaging,
+                shipping, etc.).
+              </li>
+              <li>
+                Click <strong>Calculate</strong> to see how many units you
+                need to sell to cover all your fixed and variable costs.
+              </li>
+            </ol>
+          </section>
+
+          <section style={{ marginTop: 24 }}>
+            <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
+            <p
+              style={{
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              Imagine your monthly fixed costs are{" "}
+              <strong>$10,000</strong>, you sell each unit for{" "}
+              <strong>$50</strong>, and your variable cost per unit is{" "}
+              <strong>$20</strong>. This calculator will show you:
+            </p>
+            <ul
+              style={{
+                paddingLeft: 20,
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              <li>The exact number of units you must sell to break even</li>
+              <li>
+                How changes in price or variable cost affect your break-even
+                point
+              </li>
+              <li>
+                Whether your current sales target is above or below
+                break-even
+              </li>
+            </ul>
+          </section>
+        </>
+      )}
+
+      {/* roi-calculator 전용 How to / Example */}
+      {tool.slug === "roi-calculator" && (
+        <>
+          <section style={{ marginTop: 24 }}>
+            <h2 style={{ fontSize: 18, marginBottom: 8 }}>
+              How to use this ROI calculator
+            </h2>
+            <ol
+              style={{
+                paddingLeft: 20,
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              <li>
+                Enter your initial investment amount (how much money you put
+                in).
+              </li>
+              <li>
+                Enter the final value (how much the investment is worth now,
+                or how much revenue/profit it generated).
+              </li>
+              <li>
+                Click <strong>Calculate ROI</strong> to see your return as a
+                percentage.
+              </li>
+              <li>
+                Use the percentage to compare different projects, campaigns,
+                or investments.
+              </li>
+            </ol>
+          </section>
+
+          <section style={{ marginTop: 24 }}>
+            <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
+            <p
+              style={{
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              Suppose you spent <strong>$5,000</strong> on an online marketing
+              campaign, and that campaign generated <strong>$8,500</strong> in
+              additional profit. This calculator will show you:
+            </p>
+            <ul
+              style={{
+                paddingLeft: 20,
+                fontSize: 14,
+                color: "#555",
+                lineHeight: 1.6,
+              }}
+            >
+              <li>Your ROI percentage for this campaign</li>
+              <li>
+                How this ROI compares to other investments or campaigns
+              </li>
+              <li>
+                Whether it makes sense to scale, repeat, or stop this type of
+                investment
+              </li>
+            </ul>
+          </section>
+        </>
+      )}
+
+      {/* ✅ 연관 툴 섹션 */}
+      {relatedTools.length > 0 && (
+        <section
+          style={{
+            marginTop: 32,
+            paddingTop: 24,
+            borderTop: "1px solid #eee",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: 18,
+              fontWeight: 600,
+              marginBottom: 12,
+            }}
+          >
+            More tools in {categoryObj.name}
+          </h2>
+          <ul
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: 16,
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
+            }}
+          >
+            {relatedTools.map((t) => (
+              <li
+                key={t.slug}
+                style={{
+                  border: "1px solid #eee",
+                  borderRadius: 8,
+                  padding: 12,
+                  background: "#fafafa",
+                }}
+              >
+                <Link
+                  href={`/${t.category}/${t.slug}`}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <div
+                    style={{
+                      fontSize: 15,
+                      fontWeight: 600,
+                      marginBottom: 4,
+                    }}
+                  >
+                    {t.title}
+                  </div>
+                  <p
+                    style={{
+                      fontSize: 13,
+                      color: "#555",
+                    }}
+                  >
+                    {t.description}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       <div
