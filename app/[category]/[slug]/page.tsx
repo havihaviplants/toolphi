@@ -105,11 +105,28 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const ToolComponent = getToolComponent(tool.slug);
   const jsonLd = buildToolJsonLd(tool, categoryObj.name);
 
-  // ✅ 같은 카테고리의 연관 툴(자기 자신 제외)
+  // ✅ 같은 카테고리 + tags 기반 연관 툴
   const relatedTools = tools
-    .filter(
-      (t) => t.category === tool.category && t.slug !== tool.slug
-    )
+    .filter((otherTool) => {
+      // 1. 자기 자신 제외
+      if (otherTool.slug === tool.slug) return false;
+
+      // 2. 카테고리 다르면 제외
+      if (otherTool.category !== tool.category) return false;
+
+      // 3. tags가 없으면: 같은 카테고리면 일단 포함 (기존 동작과 유사)
+      if (
+        !tool.tags ||
+        !otherTool.tags ||
+        tool.tags.length === 0 ||
+        otherTool.tags.length === 0
+      ) {
+        return true;
+      }
+
+      // 4. tags에 공통 요소가 하나라도 있으면 연관 툴
+      return otherTool.tags.some((tag) => tool.tags!.includes(tag));
+    })
     .slice(0, 4);
 
   return (
@@ -168,204 +185,53 @@ export default async function ToolPage({ params }: ToolPageProps) {
         )}
       </section>
 
-      {/* store-profit 전용 How to / Example 섹션 */}
-      {tool.slug === "store-profit" && (
-        <>
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>
-              How to use this profit calculator
-            </h2>
-            <ol
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>Enter your monthly total store revenue.</li>
-              <li>
-                Set your average COGS rate (%). For example, 60 means 60% of
-                revenue goes to product cost.
-              </li>
-              <li>
-                Fill in fixed costs like rent, payroll, and other recurring
-                expenses.
-              </li>
-              <li>
-                Click <strong>Calculate profit</strong> to see gross profit,
-                net profit, margin, and break-even revenue.
-              </li>
-            </ol>
-          </section>
-
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
-            <p
-              style={{
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              Suppose your store makes <strong>$30,000</strong> per month in
-              revenue, your COGS rate is <strong>60%</strong>, rent is
-              <strong>$5,000</strong>, payroll is <strong>$8,000</strong>,
-              and other fixed costs are <strong>$2,000</strong>. This tool
-              will show you:
-            </p>
-            <ul
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>Gross profit after COGS</li>
-              <li>Net profit after all fixed costs</li>
-              <li>Net profit margin (%)</li>
-              <li>Monthly break-even revenue level</li>
-            </ul>
-          </section>
-        </>
+      {/* ✅ 공통 How-to 섹션 (meta.howToSteps 기반) */}
+      {tool.howToSteps && tool.howToSteps.length > 0 && (
+        <section style={{ marginTop: 24 }}>
+          <h2 style={{ fontSize: 18, marginBottom: 8 }}>
+            How to use this {tool.title.toLowerCase()}
+          </h2>
+          <ol
+            style={{
+              paddingLeft: 20,
+              fontSize: 14,
+              color: "#555",
+              lineHeight: 1.6,
+            }}
+          >
+            {tool.howToSteps.map((step, idx) => (
+              <li key={idx}>{step}</li>
+            ))}
+          </ol>
+        </section>
       )}
 
-      {/* breakeven-units 전용 How to / Example */}
-      {tool.slug === "breakeven-units" && (
-        <>
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>
-              How to use this break-even units calculator
-            </h2>
-            <ol
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>
-                Enter your total fixed costs (rent, salaries, insurance,
-                etc.).
-              </li>
-              <li>
-                Enter the selling price per unit of your product or service.
-              </li>
-              <li>
-                Enter the variable cost per unit (materials, packaging,
-                shipping, etc.).
-              </li>
-              <li>
-                Click <strong>Calculate</strong> to see how many units you
-                need to sell to cover all your fixed and variable costs.
-              </li>
-            </ol>
-          </section>
-
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
-            <p
-              style={{
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              Imagine your monthly fixed costs are{" "}
-              <strong>$10,000</strong>, you sell each unit for{" "}
-              <strong>$50</strong>, and your variable cost per unit is{" "}
-              <strong>$20</strong>. This calculator will show you:
-            </p>
-            <ul
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>The exact number of units you must sell to break even</li>
-              <li>
-                How changes in price or variable cost affect your break-even
-                point
-              </li>
-              <li>
-                Whether your current sales target is above or below
-                break-even
-              </li>
-            </ul>
-          </section>
-        </>
-      )}
-
-      {/* roi-calculator 전용 How to / Example */}
-      {tool.slug === "roi-calculator" && (
-        <>
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>
-              How to use this ROI calculator
-            </h2>
-            <ol
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>
-                Enter your initial investment amount (how much money you put
-                in).
-              </li>
-              <li>
-                Enter the final value (how much the investment is worth now,
-                or how much revenue/profit it generated).
-              </li>
-              <li>
-                Click <strong>Calculate ROI</strong> to see your return as a
-                percentage.
-              </li>
-              <li>
-                Use the percentage to compare different projects, campaigns,
-                or investments.
-              </li>
-            </ol>
-          </section>
-
-          <section style={{ marginTop: 24 }}>
-            <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
-            <p
-              style={{
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              Suppose you spent <strong>$5,000</strong> on an online marketing
-              campaign, and that campaign generated <strong>$8,500</strong> in
-              additional profit. This calculator will show you:
-            </p>
-            <ul
-              style={{
-                paddingLeft: 20,
-                fontSize: 14,
-                color: "#555",
-                lineHeight: 1.6,
-              }}
-            >
-              <li>Your ROI percentage for this campaign</li>
-              <li>
-                How this ROI compares to other investments or campaigns
-              </li>
-              <li>
-                Whether it makes sense to scale, repeat, or stop this type of
-                investment
-              </li>
-            </ul>
-          </section>
-        </>
+      {/* ✅ 공통 Example 섹션 (meta.example 기반) */}
+      {tool.example && (
+        <section style={{ marginTop: 24 }}>
+          <h2 style={{ fontSize: 18, marginBottom: 8 }}>Example</h2>
+          <p
+            style={{
+              fontSize: 14,
+              color: "#555",
+              lineHeight: 1.6,
+            }}
+          >
+            {tool.example.description}
+          </p>
+          <ul
+            style={{
+              paddingLeft: 20,
+              fontSize: 14,
+              color: "#555",
+              lineHeight: 1.6,
+            }}
+          >
+            {tool.example.bullets.map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {/* ✅ 연관 툴 섹션 */}
