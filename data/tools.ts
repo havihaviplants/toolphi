@@ -190,4 +190,37 @@ export const tools: Tool[] = [
       ],
     },
   },
+    {
+    slug: "amortization-calculator",
+    category: "finance",
+    title: "Amortization Calculator",
+    description:
+      "Generate a full amortization schedule with monthly principal and interest breakdown.",
+    keywords: [
+      "amortization calculator",
+      "loan amortization schedule",
+      "mortgage amortization",
+      "principal and interest breakdown",
+      "loan payoff schedule",
+    ],
+    type: "calculator",
+    tags: ["mortgage", "loan", "amortization", "schedule", "payoff"],
+    howToSteps: [
+      "Enter your total loan amount (principal).",
+      "Enter the annual interest rate for your loan.",
+      "Enter the loan term in years.",
+      "Optionally, enter an extra monthly payment to see how much faster you can pay off the loan.",
+      "Click Calculate to generate a monthly amortization schedule with principal, interest, and remaining balance.",
+    ],
+    example: {
+      description:
+        "For example, suppose you have a $300,000 mortgage at 6% interest over 30 years, and you add a $200 extra monthly payment. This calculator will show you:",
+      bullets: [
+        "Your standard monthly payment based on the principal, rate, and term.",
+        "How much of each payment goes to interest vs principal over time.",
+        "The total interest paid over the life of the loan.",
+        "How many months earlier you can pay off the loan with your extra monthly payment.",
+      ],
+    },
+  },
 ];
