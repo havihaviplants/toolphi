@@ -158,4 +158,36 @@ export const tools: Tool[] = [
       ],
     },
   },
+    {
+    slug: "home-affordability-calculator",
+    category: "finance",
+    title: "Home Affordability Calculator",
+    description:
+      "Estimate how much house you can afford based on your income, debts, and loan terms.",
+    keywords: [
+      "home affordability calculator",
+      "how much house can I afford",
+      "mortgage affordability",
+      "house budget",
+      "DTI calculator",
+    ],
+    type: "calculator",
+    tags: ["mortgage", "home", "affordability", "DTI", "budget"],
+    howToSteps: [
+      "Enter your gross annual income before taxes.",
+      "Enter your total monthly debt payments (credit cards, car loans, student loans, etc.).",
+      "Enter the down payment you can make, along with the expected mortgage interest rate and term.",
+      "Click Calculate to see the maximum home price, loan amount, and estimated monthly mortgage payment you can afford.",
+    ],
+    example: {
+      description:
+        "Imagine you earn $90,000 per year, pay $600 per month on other debts, have $60,000 saved for a down payment, and expect a 6% mortgage over 30 years. This calculator helps you understand:",
+      bullets: [
+        "The maximum monthly mortgage payment that keeps your debt-to-income ratio in a healthy range.",
+        "The maximum loan amount you can reasonably qualify for.",
+        "An estimated maximum home price you should target with your budget.",
+        "Your resulting debt-to-income (DTI) ratio after the mortgage payment.",
+      ],
+    },
+  },
 ];
