@@ -7,6 +7,8 @@ import LoanPaymentCalculator from "./LoanPaymentCalculator";
 import MortgageCalculator from "./MortgageCalculator";
 import HomeAffordabilityCalculator from "./HomeAffordabilityCalculator";
 import AmortizationCalculator from "./AmortizationCalculator";
+import RefinanceCalculator from "./RefinanceCalculator";
+
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -18,8 +20,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "mortgage-calculator": MortgageCalculator,
   "home-affordability-calculator": HomeAffordabilityCalculator, // 🔹 이 줄 추가
   "amortization-calculator": AmortizationCalculator, // ← 이 줄 추가
+  "refinance-calculator": RefinanceCalculator, // 🔹 이 줄
 
-  
 };
 
 export function getToolComponent(slug: string) {

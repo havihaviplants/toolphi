@@ -223,4 +223,39 @@ export const tools: Tool[] = [
       ],
     },
   },
+
+    {
+    slug: "refinance-calculator",
+    category: "finance",
+    title: "Refinance Calculator",
+    description:
+      "Compare your current mortgage with a new refinance offer and see monthly savings, total interest saved, and breakeven point.",
+    keywords: [
+      "refinance calculator",
+      "mortgage refinance",
+      "refi savings",
+      "refinance breakeven",
+      "refinance vs current loan",
+    ],
+    type: "calculator",
+    tags: ["mortgage", "refinance", "interest", "savings", "breakeven"],
+    howToSteps: [
+      "Enter your remaining loan balance on the current mortgage.",
+      "Enter your current interest rate and the remaining term in years.",
+      "Enter the new refinance interest rate and the new term in years.",
+      "Add estimated closing costs for the refinance (if any).",
+      "Click Calculate to see the new payment, monthly savings, total interest saved, and how many months it takes to break even on closing costs.",
+    ],
+    example: {
+      description:
+        "For example, suppose you owe $280,000 on your current mortgage at 6.5% with 25 years left. A lender offers a refinance at 5.5% for a new 25-year term with $4,000 in closing costs. This calculator will show you:",
+      bullets: [
+        "Your current monthly payment vs the new refinanced monthly payment.",
+        "Your monthly savings (or loss) from refinancing.",
+        "Total interest saved over the life of the new loan compared with keeping your current mortgage.",
+        "How many months it takes for your monthly savings to cover the closing costs (the breakeven point).",
+      ],
+    },
+  },
+
 ];
