@@ -292,5 +292,40 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "apr-calculator",
+    category: "finance",
+    title: "APR Calculator",
+    description:
+      "Estimate the annual percentage rate (APR) for a loan, including upfront fees and closing costs.",
+    keywords: [
+      "apr calculator",
+      "annual percentage rate",
+      "loan apr",
+      "mortgage apr",
+      "loan fees calculator",
+    ],
+    type: "calculator",
+    tags: ["loan", "apr", "interest", "fees", "finance"],
+    howToSteps: [
+      "Enter the loan amount you will receive from the lender.",
+      "Enter the nominal annual interest rate for the loan.",
+      "Enter the term of the loan in years.",
+      "Enter any upfront fees or closing costs you pay at the start of the loan.",
+      "Click Calculate to see the estimated APR, which reflects the interest rate plus the impact of fees over the life of the loan.",
+    ],
+    example: {
+      description:
+        "For example, suppose you take a $20,000 loan at 8% interest for 5 years with $600 in upfront fees. This calculator will show you:",
+      bullets: [
+        "Your standard monthly payment based on the nominal interest rate and term.",
+        "An estimated APR that is higher than 8% because it includes the impact of the $600 fees.",
+        "How APR changes if you increase or decrease fees or change the term length.",
+        "A better comparison metric when you are choosing between different loan offers.",
+      ],
+    },
+  },
+
+
 
 ];
