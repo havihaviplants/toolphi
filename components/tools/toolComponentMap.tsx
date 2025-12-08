@@ -8,6 +8,7 @@ import MortgageCalculator from "./MortgageCalculator";
 import HomeAffordabilityCalculator from "./HomeAffordabilityCalculator";
 import AmortizationCalculator from "./AmortizationCalculator";
 import RefinanceCalculator from "./RefinanceCalculator";
+import LoanCalculator from "./LoanCalculator";
 
 
 
@@ -21,6 +22,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "home-affordability-calculator": HomeAffordabilityCalculator, // 🔹 이 줄 추가
   "amortization-calculator": AmortizationCalculator, // ← 이 줄 추가
   "refinance-calculator": RefinanceCalculator, // 🔹 이 줄
+  "loan-calculator": LoanCalculator, // 🔹 이 줄
 
 };
 

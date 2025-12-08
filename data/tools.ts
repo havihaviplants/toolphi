@@ -258,4 +258,39 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "loan-calculator",
+    category: "finance",
+    title: "Loan Calculator",
+    description:
+      "Calculate monthly payment, total interest, and total cost for a fixed-rate loan.",
+    keywords: [
+      "loan calculator",
+      "monthly payment calculator",
+      "loan interest",
+      "personal loan calculator",
+      "installment loan calculator",
+    ],
+    type: "calculator",
+    tags: ["loan", "payment", "interest", "installment", "finance"],
+    howToSteps: [
+      "Enter the total loan amount you plan to borrow.",
+      "Enter the annual interest rate for the loan.",
+      "Enter the loan term in years or months.",
+      "Optionally, add any extra monthly payment you want to pay on top of the required payment.",
+      "Click Calculate to see your monthly payment, total interest, total paid, and estimated payoff time.",
+    ],
+    example: {
+      description:
+        "For example, suppose you borrow $20,000 at 8% interest for 5 years and add a $50 extra monthly payment. This calculator will show you:",
+      bullets: [
+        "Your required monthly payment based on the principal, rate, and term.",
+        "How much interest you will pay over the full life of the loan.",
+        "The total amount repaid (principal plus interest).",
+        "How much faster you can pay off the loan with your extra monthly payment.",
+      ],
+    },
+  },
+
+
 ];
