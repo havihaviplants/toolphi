@@ -11,6 +11,8 @@ import RefinanceCalculator from "./RefinanceCalculator";
 import LoanCalculator from "./LoanCalculator";
 import AprCalculator from "./AprCalculator";
 import CarLoanCalculator from "./CarLoanCalculator";
+import FhaMortgageCalculator from "./FhaMortgageCalculator";
+
 
 
 
@@ -27,6 +29,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "loan-calculator": LoanCalculator, // 🔹 이 줄
   "apr-calculator": AprCalculator, // 🔹 이 줄
   "car-loan-calculator": CarLoanCalculator,
+  "fha-mortgage-calculator": FhaMortgageCalculator,
+
 
 };
 

@@ -359,5 +359,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "fha-mortgage-calculator",
+  category: "finance",
+  title: "FHA Mortgage Calculator",
+  description:
+    "Estimate your monthly FHA mortgage payment including principal, interest, and FHA mortgage insurance (MIP).",
+  keywords: [
+    "fha mortgage calculator",
+    "fha loan payment",
+    "fha mip calculator",
+    "low down payment mortgage",
+    "fha home loan",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "FHA", "MIP", "home loan", "housing"],
+  howToSteps: [
+    "Enter the home price you want to buy.",
+    "Enter your down payment percentage. FHA loans typically allow as low as 3.5%.",
+    "Enter the annual interest rate and loan term in years.",
+    "Optionally adjust the upfront and annual MIP rates if you know your FHA terms.",
+    "Click Calculate to see your estimated monthly payment including principal, interest, and mortgage insurance.",
+  ],
+  example: {
+    description:
+      "For example, suppose you buy a $350,000 home with 3.5% down, a 6.25% interest rate, and a 30-year FHA loan. This calculator will show you:",
+    bullets: [
+      "Your base FHA loan amount after the 3.5% down payment.",
+      "Your adjusted loan amount including upfront MIP.",
+      "Your estimated monthly principal and interest payment.",
+      "Your estimated monthly FHA mortgage insurance, and the total monthly payment including MIP.",
+    ],
+  },
+},
 
 ];
