@@ -18,6 +18,7 @@ import DtiCalculator from "./DtiCalculator";
 import PmiCalculator from "./PmiCalculator";
 import RentVsBuyCalculator from "./RentVsBuyCalculator";
 import ArmMortgageCalculator from "./ArmMortgageCalculator";
+import LtvCalculator from "./LtvCalculator";
 
 
 
@@ -42,7 +43,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "pmi-calculator": PmiCalculator,
   "rent-vs-buy": RentVsBuyCalculator,
   "arm-mortgage-calculator": ArmMortgageCalculator,
-
+  "ltv-calculator": LtvCalculator,
 
 };
 

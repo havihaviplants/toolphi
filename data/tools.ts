@@ -600,10 +600,42 @@ export const tools: Tool[] = [
       "How much more you’ll pay per month after the adjustment, helping you decide if an ARM fits your risk tolerance."
     ]
   }
+},
+
+{
+  slug: "ltv-calculator",
+  category: "finance",
+  title: "Loan-to-Value (LTV) Calculator",
+  description:
+    "Calculate your loan-to-value (LTV) ratio to see how much of the property value is financed by a loan.",
+  keywords: [
+    "ltv calculator",
+    "loan to value",
+    "mortgage ltv",
+    "home equity ratio",
+    "ltv mortgage calculator"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "ltv", "loan", "home value", "equity"],
+
+  howToSteps: [
+    "Enter the current appraised value or purchase price of the property.",
+    "Enter the total loan amount you are borrowing or that remains on your mortgage.",
+    "Click Calculate to compute your LTV ratio as a percentage.",
+    "Compare your LTV against common lender thresholds for mortgage approval or refinancing."
+  ],
+
+  example: {
+    description:
+      "For example, if your home is worth $400,000 and your loan balance is $320,000, this calculator will show:",
+    bullets: [
+      "Your LTV ratio (in this case, 80%).",
+      "Whether your LTV is low enough to remove PMI or qualify for better rates.",
+      "How much equity you currently have in the property.",
+      "How extra payments or price changes could improve your LTV over time."
+    ]
+  }
 }
-
-
-
 
 
 ];
