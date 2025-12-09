@@ -393,4 +393,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "auto-loan-payoff-calculator",
+  category: "finance",
+  title: "Auto Loan Payoff Calculator",
+  description:
+    "See how long it will take to pay off your auto loan and how much interest you will pay, with or without extra monthly payments.",
+  keywords: [
+    "auto loan payoff calculator",
+    "car loan payoff calculator",
+    "pay off car early",
+    "auto loan term",
+    "car payoff date",
+  ],
+  type: "calculator",
+  tags: ["car", "auto loan", "payoff", "debt", "interest"],
+  howToSteps: [
+    "Enter your current auto loan balance.",
+    "Enter your annual interest rate for the loan.",
+    "Enter your current monthly payment amount.",
+    "Optionally enter an extra monthly payment if you plan to pay more than the required amount.",
+    "Click Calculate to see how many months it will take to pay off the loan and how much interest you will pay in total.",
+  ],
+  example: {
+    description:
+      "For example, suppose you owe $18,000 on your car, your rate is 7%, and you pay $380 per month. This calculator will show you:",
+    bullets: [
+      "How many months it will take to pay off the loan at your current payment.",
+      "The total interest you will pay until payoff.",
+      "How the payoff time and total interest change if you add $50–$100 in extra monthly payments.",
+      "Your estimated payoff month and year so you can plan around it.",
+    ],
+  },
+},
+
 ];

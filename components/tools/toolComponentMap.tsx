@@ -12,6 +12,7 @@ import LoanCalculator from "./LoanCalculator";
 import AprCalculator from "./AprCalculator";
 import CarLoanCalculator from "./CarLoanCalculator";
 import FhaMortgageCalculator from "./FhaMortgageCalculator";
+import AutoLoanPayoffCalculator from "./AutoLoanPayoffCalculator";
 
 
 
@@ -30,7 +31,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "apr-calculator": AprCalculator, // 🔹 이 줄
   "car-loan-calculator": CarLoanCalculator,
   "fha-mortgage-calculator": FhaMortgageCalculator,
-
+  "auto-loan-payoff-calculator": AutoLoanPayoffCalculator,
 
 };
 
