@@ -16,6 +16,7 @@ import AutoLoanPayoffCalculator from "./AutoLoanPayoffCalculator";
 import SimpleInterestCalculator from "./SimpleInterestCalculator";
 import DtiCalculator from "./DtiCalculator";
 import PmiCalculator from "./PmiCalculator";
+import RentVsBuyCalculator from "./RentVsBuyCalculator";
 
 
 
@@ -38,6 +39,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "simple-interest-calculator": SimpleInterestCalculator,
   "dti-calculator": DtiCalculator,
   "pmi-calculator": PmiCalculator,
+  "rent-vs-buy": RentVsBuyCalculator,
 
 };
 

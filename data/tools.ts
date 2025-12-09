@@ -529,7 +529,44 @@ export const tools: Tool[] = [
       "Why lenders charge PMI and when it can be removed."
     ]
   }
+},
+
+{
+  slug: "rent-vs-buy",
+  category: "finance",
+  title: "Rent vs Buy Calculator",
+  description:
+    "Compare the cost of renting versus buying a home based on your rent, home price, down payment, and mortgage terms.",
+  keywords: [
+    "rent vs buy calculator",
+    "rent vs buy",
+    "should I rent or buy",
+    "home buying calculator",
+    "house rent or buy"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "rent", "home", "real estate", "decision"],
+
+  howToSteps: [
+    "Enter your current monthly rent.",
+    "Enter the home's price and your planned down payment.",
+    "Enter the mortgage interest rate and term.",
+    "Optionally, enter monthly property tax, insurance, and HOA fees.",
+    "Click Calculate to compare your estimated monthly owning cost with your rent."
+  ],
+
+  example: {
+    description:
+      "For example, if you currently pay $2,000 in rent and you are considering buying a $400,000 home with 10% down at 6.5% interest, this calculator will show:",
+    bullets: [
+      "Your estimated monthly mortgage payment (principal + interest).",
+      "Estimated monthly ownership cost including tax, insurance, and HOA.",
+      "Whether renting or buying is cheaper on a monthly basis.",
+      "How sensitive the result is to changes in down payment, rate, or extra costs."
+    ]
+  }
 }
+
 
 
 
