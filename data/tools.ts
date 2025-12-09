@@ -635,7 +635,42 @@ export const tools: Tool[] = [
       "How extra payments or price changes could improve your LTV over time."
     ]
   }
-}
+},
 
+{
+  slug: "mortgage-comparison",
+  category: "finance",
+  title: "Mortgage Comparison Calculator",
+  description:
+    "Compare two mortgage offers side by side by monthly payment, total interest, and total cost.",
+  keywords: [
+    "mortgage comparison calculator",
+    "compare mortgage rates",
+    "loan comparison",
+    "mortgage payment comparison",
+    "which mortgage is better"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "loan", "comparison", "rates", "home"],
+
+  howToSteps: [
+    "Enter the loan amount for both mortgage options (or the same amount if you’re comparing rates and terms).",
+    "Enter the interest rate and term (years) for Option A.",
+    "Enter the interest rate and term (years) for Option B.",
+    "Click Compare to see monthly payments, total interest, and total cost for each option.",
+    "Use the comparison to decide which mortgage offer is cheaper over time."
+  ],
+
+  example: {
+    description:
+      "For example, if Option A is a 30-year loan at 6.5% and Option B is a 15-year loan at 5.8% for the same $400,000 amount, this calculator will show:",
+    bullets: [
+      "The monthly payment for Option A vs Option B.",
+      "Total interest paid over the life of each loan.",
+      "Total cost (principal + interest) for each mortgage.",
+      "Which option is cheaper long term and how much you save by choosing the better one."
+    ]
+  }
+}
 
 ];
