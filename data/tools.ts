@@ -460,4 +460,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "dti-calculator",
+  category: "finance",
+  title: "Debt-to-Income (DTI) Ratio Calculator",
+  description:
+    "Calculate your DTI ratio to see if you qualify for a mortgage or loan based on your income and monthly debt payments.",
+  keywords: [
+    "dti calculator",
+    "debt to income ratio",
+    "mortgage qualification",
+    "loan approval calculator",
+    "debt ratio calculator"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "loan", "dti", "debt", "income", "finance"],
+
+  howToSteps: [
+    "Enter your total monthly gross income (before taxes).",
+    "Enter all monthly debt payments: credit cards, auto loans, student loans, etc.",
+    "Click Calculate to compute your DTI ratio.",
+    "Compare your DTI to typical lender requirements for mortgages and loans."
+  ],
+
+  example: {
+    description:
+      "For example, if your gross monthly income is $6,000 and your monthly debt payments total $1,500, this calculator will show:",
+    bullets: [
+      "Your exact DTI percentage.",
+      "Whether your DTI is acceptable for most mortgage lenders.",
+      "How adjusting income or reducing debt affects your qualification chances.",
+      "A clear breakdown of debt categories contributing to the ratio."
+    ]
+  }
+}
+
+
 ];

@@ -14,6 +14,7 @@ import CarLoanCalculator from "./CarLoanCalculator";
 import FhaMortgageCalculator from "./FhaMortgageCalculator";
 import AutoLoanPayoffCalculator from "./AutoLoanPayoffCalculator";
 import SimpleInterestCalculator from "./SimpleInterestCalculator";
+import DtiCalculator from "./DtiCalculator";
 
 
 
@@ -34,7 +35,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "fha-mortgage-calculator": FhaMortgageCalculator,
   "auto-loan-payoff-calculator": AutoLoanPayoffCalculator,
   "simple-interest-calculator": SimpleInterestCalculator,
-
+  "dti-calculator": DtiCalculator,
 
 };
 
