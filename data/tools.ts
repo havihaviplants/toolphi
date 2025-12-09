@@ -326,6 +326,38 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+  slug: "car-loan-calculator",
+  category: "finance",
+  title: "Car Loan Calculator",
+  description:
+    "Estimate your monthly car loan payment based on vehicle price, down payment, interest rate, and loan term.",
+  keywords: [
+    "car loan calculator",
+    "auto loan calculator",
+    "car payment calculator",
+    "vehicle finance calculator",
+  ],
+  type: "calculator",
+  tags: ["car", "auto loan", "vehicle", "payment", "finance"],
+  howToSteps: [
+    "Enter the car price or the total purchase price of the vehicle.",
+    "Enter the down payment you plan to pay upfront (if any).",
+    "Enter the annual interest rate for your car loan.",
+    "Enter the loan term in years.",
+    "Click Calculate to see the estimated loan amount, monthly payment, total interest, and total amount paid over the life of the loan.",
+  ],
+  example: {
+    description:
+      "For example, suppose you buy a car for $30,000, pay $5,000 down, take a 5-year loan at 5.5% interest. This calculator will show you:",
+    bullets: [
+      "Your effective loan amount after subtracting the $5,000 down payment.",
+      "Your estimated monthly car payment based on the interest rate and term.",
+      "The total interest you will pay over the 5-year loan.",
+      "The total amount you will have paid for the car including principal and interest.",
+    ],
+  },
+},
 
 
 ];
