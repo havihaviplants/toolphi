@@ -493,7 +493,44 @@ export const tools: Tool[] = [
       "A clear breakdown of debt categories contributing to the ratio."
     ]
   }
+},
+
+{
+  slug: "pmi-calculator",
+  category: "finance",
+  title: "PMI Calculator",
+  description:
+    "Estimate your monthly PMI payment based on loan amount, down payment, credit score, and home value.",
+  keywords: [
+    "pmi calculator",
+    "private mortgage insurance",
+    "mortgage insurance calculator",
+    "pmi cost",
+    "mortgage pmi"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "pmi", "insurance", "loan", "home"],
+  
+  howToSteps: [
+    "Enter the home's purchase price.",
+    "Enter your down payment amount or down payment percentage.",
+    "Enter the loan term and interest rate.",
+    "Enter your estimated PMI rate (typical range: 0.3%–1.5%).",
+    "Click Calculate to see your monthly PMI cost and how it affects your total mortgage payment."
+  ],
+
+  example: {
+    description:
+      "For example, if you buy a $400,000 home with 10% down and a PMI rate of 0.8%, this calculator will show:",
+    bullets: [
+      "The monthly PMI payment added on top of your mortgage.",
+      "How PMI changes based on down payment percentage.",
+      "How much total PMI you’ll pay until you reach 20% equity.",
+      "Why lenders charge PMI and when it can be removed."
+    ]
+  }
 }
+
 
 
 ];
