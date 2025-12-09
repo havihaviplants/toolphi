@@ -565,7 +565,43 @@ export const tools: Tool[] = [
       "How sensitive the result is to changes in down payment, rate, or extra costs."
     ]
   }
+},
+
+{
+  slug: "arm-mortgage-calculator",
+  category: "finance",
+  title: "ARM Mortgage Calculator",
+  description:
+    "Estimate your monthly payment during the introductory ARM period and after the rate adjusts.",
+  keywords: [
+    "arm mortgage calculator",
+    "adjustable rate mortgage",
+    "arm payment",
+    "intro rate mortgage",
+    "mortgage calculator arm"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "arm", "adjustable rate", "home loan"],
+
+  howToSteps: [
+    "Enter the loan amount you plan to borrow.",
+    "Enter the introductory interest rate and how many years that intro rate will last.",
+    "Enter the interest rate after the adjustment period and the total loan term in years.",
+    "Click Calculate to see your estimated monthly payment during the intro period and after the rate adjusts."
+  ],
+
+  example: {
+    description:
+      "For example, if you borrow $400,000 with a 5-year ARM at 4.5% that adjusts to 7.0% afterward on a 30-year term, this calculator will show:",
+    bullets: [
+      "Your monthly payment during the first 5 years at the intro rate.",
+      "The remaining principal at the end of the intro period.",
+      "Your new monthly payment after the rate adjusts to 7.0%.",
+      "How much more you’ll pay per month after the adjustment, helping you decide if an ARM fits your risk tolerance."
+    ]
+  }
 }
+
 
 
 
