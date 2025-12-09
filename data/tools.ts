@@ -427,4 +427,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "simple-interest-calculator",
+  category: "finance",
+  title: "Simple Interest Calculator",
+  description:
+    "Calculate simple interest on a loan or investment based on principal, rate, and time.",
+  keywords: [
+    "simple interest calculator",
+    "interest calculator",
+    "loan interest",
+    "investment interest",
+    "principal rate time",
+  ],
+  type: "calculator",
+  tags: ["interest", "simple interest", "loan", "investment", "math"],
+  howToSteps: [
+    "Enter the principal amount (starting balance).",
+    "Enter the annual interest rate as a percentage.",
+    "Enter the time period in years (or decimal years, e.g. 1.5 years).",
+    "Click Calculate to see the interest earned or paid and the total amount after interest.",
+  ],
+  example: {
+    description:
+      "For example, suppose you invest $5,000 at 6% simple interest for 3 years. This calculator will show you:",
+    bullets: [
+      "The total simple interest earned over the 3-year period.",
+      "The total amount you will have at the end (principal + interest).",
+      "How the result changes if you adjust the rate or time period.",
+      "A quick way to compare simple-interest loans or investments.",
+    ],
+  },
+},
+
 ];

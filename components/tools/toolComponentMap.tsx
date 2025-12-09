@@ -13,6 +13,7 @@ import AprCalculator from "./AprCalculator";
 import CarLoanCalculator from "./CarLoanCalculator";
 import FhaMortgageCalculator from "./FhaMortgageCalculator";
 import AutoLoanPayoffCalculator from "./AutoLoanPayoffCalculator";
+import SimpleInterestCalculator from "./SimpleInterestCalculator";
 
 
 
@@ -32,6 +33,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "car-loan-calculator": CarLoanCalculator,
   "fha-mortgage-calculator": FhaMortgageCalculator,
   "auto-loan-payoff-calculator": AutoLoanPayoffCalculator,
+  "simple-interest-calculator": SimpleInterestCalculator,
+
 
 };
 
