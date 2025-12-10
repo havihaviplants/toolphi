@@ -868,5 +868,38 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "debt-avalanche-calculator",
+    category: "finance",
+    title: "Debt Avalanche Calculator",
+    description:
+      "Use the debt avalanche method to pay off debts by focusing on the highest interest rate first and minimizing total interest paid.",
+    keywords: [
+      "debt avalanche calculator",
+      "debt payoff calculator",
+      "avalanche method",
+      "pay off debt",
+      "credit card debt",
+    ],
+    type: "calculator",
+    tags: ["debt", "avalanche", "payoff", "credit card", "loan"],
+    howToSteps: [
+      "Enter your total monthly budget for debt payments.",
+      "List each debt with its name, current balance, APR, and minimum monthly payment.",
+      "Click Calculate to simulate the debt avalanche method.",
+      "Review the payoff time, total interest, and the order in which debts are paid off.",
+    ],
+    example: {
+      description:
+        "For multiple credit cards and loans with different rates and balances, this calculator shows:",
+      bullets: [
+        "How long it will take to pay off all debts using the avalanche method.",
+        "The total interest you will pay over the payoff period.",
+        "The order in which each debt is paid off when you always target the highest rate first.",
+      ],
+    },
+  },
+
+
 
 ];

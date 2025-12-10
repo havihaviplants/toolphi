@@ -26,6 +26,7 @@ import DebtSnowballCalculator from "./DebtSnowballCalculator";
 import BiweeklyMortgageCalculator from "./BiweeklyMortgageCalculator";
 import AutoLoanRefinanceCalculator from "./AutoLoanRefinanceCalculator";
 import SavingsGoalCalculator from "./SavingsGoalCalculator";
+import DebtAvalancheCalculator from "./DebtAvalancheCalculator";
 
 
 
@@ -58,6 +59,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "biweekly-mortgage-calculator": BiweeklyMortgageCalculator, // 🔹 이 줄 추가
   "auto-loan-refinance-calculator": AutoLoanRefinanceCalculator, // 🔹 추가
   "savings-goal-calculator": SavingsGoalCalculator, // 🔹 추가
+  "debt-avalanche-calculator": DebtAvalancheCalculator, // 🔹 추가
 
 };
 
