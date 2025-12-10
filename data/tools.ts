@@ -932,6 +932,37 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "total-loan-cost-calculator",
+    category: "finance",
+    title: "Total Loan Cost Calculator",
+    description:
+      "See the total cost of a loan, including monthly payment, total paid, and total interest. Optionally add an extra monthly payment to see time and interest savings.",
+    keywords: [
+      "total loan cost calculator",
+      "loan cost calculator",
+      "total interest calculator",
+      "loan payoff calculator",
+      "extra payment calculator",
+    ],
+    type: "calculator",
+    tags: ["loan", "interest", "payment", "extra payment", "payoff"],
+    howToSteps: [
+      "Enter the loan amount.",
+      "Enter the annual interest rate and loan term in years.",
+      "Optionally enter an extra monthly payment amount to simulate paying off the loan faster.",
+      "Click Calculate to see monthly payment, total paid, total interest, and potential savings with extra payments.",
+    ],
+    example: {
+      description:
+        "For a $25,000 loan at 7% over 5 years with an optional $100 extra monthly payment, this calculator shows:",
+      bullets: [
+        "The standard monthly payment and total interest cost over 5 years.",
+        "The new payoff time and total interest if you add an extra $100 per month.",
+        "How much interest and time you save by making extra monthly payments.",
+      ],
+    },
+  },
 
 
 
