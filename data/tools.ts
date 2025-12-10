@@ -671,6 +671,40 @@ export const tools: Tool[] = [
       "Which option is cheaper long term and how much you save by choosing the better one."
     ]
   }
-}
+},
+
+  {
+    slug: "compound-interest-calculator",
+    category: "finance",
+    title: "Compound Interest Calculator",
+    description:
+      "Calculate compound interest on savings or investments based on principal, annual rate, time, and compounding frequency.",
+    keywords: [
+      "compound interest calculator",
+      "compound interest",
+      "investment calculator",
+      "savings calculator",
+      "future value",
+    ],
+    type: "calculator",
+    tags: ["interest", "compound interest", "investment", "savings", "math"],
+    howToSteps: [
+      "Enter the starting principal amount (initial balance).",
+      "Enter the annual interest rate as a percentage (for example, 5 for 5%).",
+      "Enter the time period in years.",
+      "Choose how often the interest is compounded (annually, monthly, daily, etc.).",
+      "Click Calculate to see the future value and total interest earned.",
+    ],
+    example: {
+      description:
+        "For a $10,000 investment at 5% annual interest compounded monthly over 10 years, this calculator shows:",
+      bullets: [
+        "The future value of your investment after compounding.",
+        "The total interest you earned over the 10-year period.",
+        "How much more you earn with compounding compared to simple interest.",
+      ],
+    },
+  },
+
 
 ];

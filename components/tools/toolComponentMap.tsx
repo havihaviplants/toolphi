@@ -20,6 +20,7 @@ import RentVsBuyCalculator from "./RentVsBuyCalculator";
 import ArmMortgageCalculator from "./ArmMortgageCalculator";
 import LtvCalculator from "./LtvCalculator";
 import MortgageComparisonCalculator from "./MortgageComparisonCalculator";
+import CompoundInterestCalculator from "./CompoundInterestCalculator";
 
 
 
@@ -46,6 +47,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "arm-mortgage-calculator": ArmMortgageCalculator,
   "ltv-calculator": LtvCalculator,
   "mortgage-comparison": MortgageComparisonCalculator,
+  "compound-interest-calculator": CompoundInterestCalculator, // 🔹 이 줄 추가
 
 };
 
