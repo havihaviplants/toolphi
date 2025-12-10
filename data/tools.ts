@@ -835,6 +835,38 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "savings-goal-calculator",
+    category: "finance",
+    title: "Savings Goal Calculator",
+    description:
+      "See how long it will take to reach a savings goal based on your current savings, monthly contributions, and expected annual growth rate.",
+    keywords: [
+      "savings goal calculator",
+      "savings calculator",
+      "time to reach savings goal",
+      "investment goal calculator",
+      "how long to save",
+    ],
+    type: "calculator",
+    tags: ["savings", "goal", "investment", "interest", "planning"],
+    howToSteps: [
+      "Enter your current savings balance.",
+      "Enter how much you plan to contribute each month.",
+      "Enter your expected annual interest or growth rate.",
+      "Enter your target savings goal amount.",
+      "Click Calculate to see how long it will take to reach your goal.",
+    ],
+    example: {
+      description:
+        "For $5,000 in savings, contributing $300 per month at 4% annual growth toward a $20,000 goal, this calculator shows:",
+      bullets: [
+        "How many months and years it will take to reach $20,000.",
+        "The total amount you will contribute over that time.",
+        "How much of your final balance comes from interest growth.",
+      ],
+    },
+  },
 
 
 ];
