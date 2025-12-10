@@ -802,6 +802,38 @@ export const tools: Tool[] = [
       ],
     },
   },
+  
+  {
+    slug: "auto-loan-refinance-calculator",
+    category: "finance",
+    title: "Auto Loan Refinance Calculator",
+    description:
+      "Compare your current auto loan with a refinance offer and see how your monthly payment and total interest change.",
+    keywords: [
+      "auto loan refinance calculator",
+      "car loan refinance calculator",
+      "refinance auto loan",
+      "refinance car loan",
+      "auto loan calculator",
+    ],
+    type: "calculator",
+    tags: ["auto loan", "car loan", "refinance", "interest", "payment"],
+    howToSteps: [
+      "Enter your remaining auto loan balance.",
+      "Enter your current interest rate (APR) and remaining term in years.",
+      "Enter the new refinance interest rate and new loan term.",
+      "Click Compare refinance to see the difference in monthly payment and total interest.",
+    ],
+    example: {
+      description:
+        "For a $20,000 remaining balance at 8% APR with 4 years left, refinanced to 5% over 5 years, this calculator shows:",
+      bullets: [
+        "Your current monthly payment and total interest over the remaining term.",
+        "Your new monthly payment and total interest after refinancing.",
+        "The difference in interest cost so you can see whether refinancing saves money.",
+      ],
+    },
+  },
 
 
 
