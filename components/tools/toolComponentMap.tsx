@@ -23,6 +23,7 @@ import MortgageComparisonCalculator from "./MortgageComparisonCalculator";
 import CompoundInterestCalculator from "./CompoundInterestCalculator";
 import CreditCardPayoffCalculator from "./CreditCardPayoffCalculator";
 import DebtSnowballCalculator from "./DebtSnowballCalculator";
+import BiweeklyMortgageCalculator from "./BiweeklyMortgageCalculator";
 
 
 
@@ -52,6 +53,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "compound-interest-calculator": CompoundInterestCalculator, // 🔹 이 줄 추가
   "credit-card-payoff-calculator": CreditCardPayoffCalculator, // 🔹 이 줄 추가
   "debt-snowball-calculator": DebtSnowballCalculator, // 🔹 이 줄 추가
+  "biweekly-mortgage-calculator": BiweeklyMortgageCalculator, // 🔹 이 줄 추가
 
 };
 

@@ -770,5 +770,39 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "biweekly-mortgage-calculator",
+    category: "finance",
+    title: "Biweekly Mortgage Calculator",
+    description:
+      "Compare a standard monthly mortgage schedule with a biweekly payment schedule and see how much interest and time you can save.",
+    keywords: [
+      "biweekly mortgage calculator",
+      "biweekly mortgage",
+      "mortgage payment",
+      "mortgage payoff faster",
+      "mortgage interest savings",
+    ],
+    type: "calculator",
+    tags: ["mortgage", "biweekly", "home loan", "interest", "payoff"],
+    howToSteps: [
+      "Enter your mortgage loan amount.",
+      "Enter the annual interest rate on the loan.",
+      "Enter the loan term in years.",
+      "Click Calculate to compare standard monthly payments with a biweekly schedule.",
+    ],
+    example: {
+      description:
+        "For a $300,000 mortgage at 6% over 30 years, this calculator shows:",
+      bullets: [
+        "The regular monthly payment amount.",
+        "The biweekly payment amount.",
+        "How many years and months it takes to pay off the loan with biweekly payments.",
+        "How much interest you save and how many months sooner you pay off the mortgage.",
+      ],
+    },
+  },
+
+
 
 ];
