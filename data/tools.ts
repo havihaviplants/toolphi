@@ -738,5 +738,37 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "debt-snowball-calculator",
+    category: "finance",
+    title: "Debt Snowball Calculator",
+    description:
+      "Use the debt snowball method to see how quickly you can pay off multiple debts using a fixed monthly budget.",
+    keywords: [
+      "debt snowball calculator",
+      "debt payoff calculator",
+      "pay off debt",
+      "snowball method",
+      "credit card debt",
+    ],
+    type: "calculator",
+    tags: ["debt", "snowball", "payoff", "credit card", "loan"],
+    howToSteps: [
+      "Enter your total monthly budget for debt payments.",
+      "List each debt with its name, current balance, APR, and minimum monthly payment.",
+      "Click Calculate to simulate the debt snowball method.",
+      "Review how long it will take to become debt-free and the payoff order.",
+    ],
+    example: {
+      description:
+        "For three credit cards with different balances and interest rates, this calculator shows:",
+      bullets: [
+        "The total time required to pay off all debts using a fixed monthly budget.",
+        "The total interest paid over the payoff period.",
+        "The order in which each debt will be paid off using the snowball method.",
+      ],
+    },
+  },
+
 
 ];
