@@ -27,6 +27,7 @@ import BiweeklyMortgageCalculator from "./BiweeklyMortgageCalculator";
 import AutoLoanRefinanceCalculator from "./AutoLoanRefinanceCalculator";
 import SavingsGoalCalculator from "./SavingsGoalCalculator";
 import DebtAvalancheCalculator from "./DebtAvalancheCalculator";
+import BalanceTransferCalculator from "./BalanceTransferCalculator";
 
 
 
@@ -60,6 +61,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "auto-loan-refinance-calculator": AutoLoanRefinanceCalculator, // 🔹 추가
   "savings-goal-calculator": SavingsGoalCalculator, // 🔹 추가
   "debt-avalanche-calculator": DebtAvalancheCalculator, // 🔹 추가
+  "balance-transfer-calculator": BalanceTransferCalculator, // 🔹 추가
 
 };
 

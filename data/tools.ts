@@ -900,6 +900,39 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "balance-transfer-calculator",
+    category: "finance",
+    title: "Balance Transfer Calculator",
+    description:
+      "Compare the cost of staying with your current credit card versus moving your balance to a new card with an introductory APR and transfer fee.",
+    keywords: [
+      "balance transfer calculator",
+      "credit card balance transfer",
+      "0% balance transfer",
+      "credit card calculator",
+      "balance transfer savings",
+    ],
+    type: "calculator",
+    tags: ["credit card", "balance transfer", "debt", "interest", "payoff"],
+    howToSteps: [
+      "Enter your current credit card balance, APR, and monthly payment.",
+      "Enter the transfer fee percentage for the new card.",
+      "Enter the introductory APR, the intro period length in months, and the go-to APR after the intro period.",
+      "Click Compare balance transfer to see payoff time and total interest with and without the transfer.",
+    ],
+    example: {
+      description:
+        "For a $5,000 balance at 22% APR with a $200 monthly payment, moved to a card with a 3% transfer fee, 0% APR for 12 months, and 18% APR after that, this calculator shows:",
+      bullets: [
+        "How long it will take to pay off the balance if you stay on your current card.",
+        "How long it will take after transferring to the new card.",
+        "The total interest cost in each case and how much you can save.",
+      ],
+    },
+  },
+
+
 
 
 ];
