@@ -29,6 +29,7 @@ import SavingsGoalCalculator from "./SavingsGoalCalculator";
 import DebtAvalancheCalculator from "./DebtAvalancheCalculator";
 import BalanceTransferCalculator from "./BalanceTransferCalculator";
 import TotalLoanCostCalculator from "./TotalLoanCostCalculator";
+import HelocCalculator from "./HelocCalculator";
 
 
 
@@ -64,6 +65,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "debt-avalanche-calculator": DebtAvalancheCalculator, // 🔹 추가
   "balance-transfer-calculator": BalanceTransferCalculator, // 🔹 추가
   "total-loan-cost-calculator": TotalLoanCostCalculator, // 🔹 추가
+  "heloc-calculator": HelocCalculator, // 🔹 추가
 
 };
 

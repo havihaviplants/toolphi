@@ -963,6 +963,40 @@ export const tools: Tool[] = [
       ],
     },
   },
+  
+  {
+    slug: "heloc-calculator",
+    category: "finance",
+    title: "HELOC Calculator",
+    description:
+      "Estimate how much home equity you can borrow with a HELOC based on your home value, current mortgage balance, and maximum combined LTV.",
+    keywords: [
+      "heloc calculator",
+      "home equity line of credit calculator",
+      "home equity calculator",
+      "combined ltv calculator",
+      "how much heloc can I get",
+    ],
+    type: "calculator",
+    tags: ["mortgage", "heloc", "home equity", "ltv", "loan"],
+    howToSteps: [
+      "Enter your home's current value.",
+      "Enter your current mortgage balance.",
+      "Enter the maximum combined loan-to-value (LTV) percentage that your lender allows.",
+      "Optionally enter the HELOC interest rate and a planned draw amount to estimate an interest-only monthly payment.",
+      "Click Calculate to see your current LTV, maximum combined loan amount, and estimated HELOC available.",
+    ],
+    example: {
+      description:
+        "For a home worth $500,000 with a $300,000 mortgage balance and a max combined LTV of 80%, this calculator shows:",
+      bullets: [
+        "Your current LTV based on existing mortgage only.",
+        "The maximum total loan amount allowed at 80% LTV.",
+        "The approximate HELOC credit available after subtracting your current mortgage balance.",
+        "If you enter a rate and planned draw, the interest-only monthly payment on that draw.",
+      ],
+    },
+  },
 
 
 
