@@ -706,6 +706,37 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "credit-card-payoff-calculator",
+    category: "finance",
+    title: "Credit Card Payoff Calculator",
+    description:
+      "Estimate how long it will take to pay off a credit card based on balance, APR, and monthly payment.",
+    keywords: [
+      "credit card payoff calculator",
+      "credit card calculator",
+      "pay off credit card",
+      "debt payoff calculator",
+      "credit card interest",
+    ],
+    type: "calculator",
+    tags: ["credit card", "debt", "payoff", "interest", "finance"],
+    howToSteps: [
+      "Enter your current credit card balance.",
+      "Enter the annual interest rate (APR) shown on your statement.",
+      "Enter the amount you can pay each month.",
+      "Click Calculate to see how many months it will take to pay off your card and how much interest you will pay.",
+    ],
+    example: {
+      description:
+        "For a $5,000 credit card balance at 19.99% APR with a $200 monthly payment, this calculator shows:",
+      bullets: [
+        "How many months (and years) it will take to pay off the card.",
+        "The total amount you will pay over time.",
+        "The total interest cost of carrying the balance.",
+      ],
+    },
+  },
 
 
 ];

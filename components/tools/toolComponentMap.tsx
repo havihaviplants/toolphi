@@ -21,6 +21,7 @@ import ArmMortgageCalculator from "./ArmMortgageCalculator";
 import LtvCalculator from "./LtvCalculator";
 import MortgageComparisonCalculator from "./MortgageComparisonCalculator";
 import CompoundInterestCalculator from "./CompoundInterestCalculator";
+import CreditCardPayoffCalculator from "./CreditCardPayoffCalculator";
 
 
 
@@ -48,6 +49,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "ltv-calculator": LtvCalculator,
   "mortgage-comparison": MortgageComparisonCalculator,
   "compound-interest-calculator": CompoundInterestCalculator, // 🔹 이 줄 추가
+  "credit-card-payoff-calculator": CreditCardPayoffCalculator, // 🔹 이 줄 추가
 
 };
 
