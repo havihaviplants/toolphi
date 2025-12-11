@@ -1230,6 +1230,35 @@ export const tools: Tool[] = [
     ]
   }
 },
+{
+  slug: "effective-monthly-interest-rate-calculator",
+  category: "finance",
+  title: "Effective Monthly Interest Rate Calculator",
+  description:
+    "Convert an annual interest rate (APR) into an effective monthly interest rate.",
+  keywords: [
+    "monthly interest rate calculator",
+    "convert APR to monthly rate",
+    "effective interest rate calculator",
+    "monthly interest formula",
+    "APR calculator monthly"
+  ],
+  type: "calculator",
+  tags: ["interest", "APR", "loan", "monthly rate"],
+  howToSteps: [
+    "Enter an annual interest rate (APR).",
+    "Click Calculate to convert it to an effective monthly interest rate.",
+    "Use the monthly rate for loan calculations or financial planning."
+  ],
+  example: {
+    description:
+      "For example, converting a 12% APR shows the effective monthly rate used in loan amortization formulas.",
+    bullets: [
+      "APR of 12% → monthly interest rate ~0.9489%",
+      "Useful for mortgage, personal loan, and investment calculations"
+    ]
+  }
+},
 
 
 
