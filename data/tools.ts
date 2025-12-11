@@ -998,6 +998,40 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "student-loan-payment-calculator",
+    category: "finance",
+    title: "Student Loan Payment Calculator",
+    description:
+      "Estimate your monthly student loan payment, total amount repaid, and total interest for a fixed-rate student loan.",
+    keywords: [
+      "student loan payment calculator",
+      "student loan calculator",
+      "student loan repayment",
+      "education loan calculator",
+      "loan payment",
+      "finance"
+    ],
+    type: "calculator",
+    tags: ["student loan", "education", "payment", "interest", "finance"],
+    howToSteps: [
+      "Enter your total outstanding student loan balance.",
+      "Enter the annual interest rate (APR) on your student loan.",
+      "Enter the repayment term in years.",
+      "Click Calculate to see your estimated monthly payment, total amount repaid, and total interest cost."
+    ],
+    example: {
+      description:
+        "For example, if you owe $35,000 in student loans at 5.5% interest over 10 years, this calculator will show:",
+      bullets: [
+        "Your estimated monthly payment amount.",
+        "The total amount you will repay over the full term.",
+        "The total interest you will pay on your student loan."
+      ]
+    }
+  },
+
+
 
 
 ];
