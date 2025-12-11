@@ -1291,6 +1291,38 @@ export const tools: Tool[] = [
     ]
   }
 },
+{
+  slug: "loan-payoff-time-calculator",
+  category: "finance",
+  title: "Loan Payoff Time Calculator",
+  description:
+    "Estimate how long it will take to pay off a loan based on the remaining balance, annual interest rate, and monthly payment.",
+  keywords: [
+    "loan payoff time calculator",
+    "how long to pay off loan",
+    "loan months to payoff",
+    "loan remaining term calculator",
+    "debt payoff time",
+    "loan payment"
+  ],
+  type: "calculator",
+  tags: ["loan", "payoff", "term", "interest", "finance"],
+  howToSteps: [
+    "Enter your remaining loan balance.",
+    "Enter the annual interest rate (APR).",
+    "Enter your monthly payment amount.",
+    "Click Calculate to see how many months it will take to pay off the loan and how much interest you will pay."
+  ],
+  example: {
+    description:
+      "For example, if you owe $12,000 at 7% interest and pay $300 per month, this calculator will show:",
+    bullets: [
+      "How many months it will take to pay off the loan.",
+      "How much total interest you will pay from now until payoff.",
+      "Whether your monthly payment is high enough to ever pay off the loan."
+    ]
+  }
+},
 
 
 
