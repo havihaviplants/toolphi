@@ -1166,6 +1166,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "loan-term-comparison-calculator",
+  category: "finance",
+  title: "Loan Term Comparison Calculator",
+  description:
+    "Compare two different loan terms to see which option results in lower monthly payments and lower total interest.",
+  keywords: [
+    "loan term comparison calculator",
+    "compare loan terms",
+    "5 year vs 7 year loan",
+    "loan comparison tool",
+    "loan payment comparison",
+    "finance"
+  ],
+  type: "calculator",
+  tags: ["loan", "comparison", "term", "interest", "finance"],
+  howToSteps: [
+    "Enter the loan amount (principal).",
+    "Enter the annual interest rate.",
+    "Enter two different loan terms in years to compare.",
+    "Click Calculate to compare monthly payments, total payments, and interest costs."
+  ],
+  example: {
+    description:
+      "For example, comparing a $25,000 loan at 6% interest over 5 years vs 7 years will show:",
+    bullets: [
+      "Monthly payment for each loan term.",
+      "Total interest paid for each option.",
+      "Which term is more cost-efficient overall."
+    ]
+  }
+},
+
 
 
 ];
