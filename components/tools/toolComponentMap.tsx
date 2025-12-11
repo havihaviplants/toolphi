@@ -33,6 +33,7 @@ import HelocCalculator from "./HelocCalculator";
 import StudentLoanPaymentCalculator from "./StudentLoanPaymentCalculator";
 import LatePaymentInterestCalculator from "./LatePaymentInterestCalculator";
 import IncomeBasedRepaymentCalculator from "./IncomeBasedRepaymentCalculator";
+import CarLoanInterestRateCalculator from "./CarLoanInterestRateCalculator";
 
 
 
@@ -72,6 +73,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "student-loan-payment-calculator": StudentLoanPaymentCalculator,
   "late-payment-interest-calculator": LatePaymentInterestCalculator,
   "income-based-repayment-calculator": IncomeBasedRepaymentCalculator,
+  "car-loan-interest-rate-calculator": CarLoanInterestRateCalculator,
 
 };
 

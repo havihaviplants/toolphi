@@ -1098,6 +1098,39 @@ export const tools: Tool[] = [
     }
   },
 
+    {
+    slug: "car-loan-interest-rate-calculator",
+    category: "finance",
+    title: "Car Loan Interest Rate Calculator",
+    description:
+      "Estimate the annual interest rate on a car loan based on the loan amount, term, and monthly payment.",
+    keywords: [
+      "calculate interest rate on car loan",
+      "car loan interest rate calculator",
+      "car payment interest rate",
+      "auto loan interest rate",
+      "loan payment",
+      "finance"
+    ],
+    type: "calculator",
+    tags: ["car loan", "auto loan", "interest rate", "payment", "finance"],
+    howToSteps: [
+      "Enter the car loan amount (principal).",
+      "Enter the monthly payment amount.",
+      "Enter the loan term in years or months.",
+      "Click Calculate to estimate the annual interest rate, total amount repaid, and total interest."
+    ],
+    example: {
+      description:
+        "For example, if you borrowed $22,000 for a car with a 5-year term and a $415 monthly payment, this calculator will show:",
+      bullets: [
+        "The estimated annual interest rate on your car loan.",
+        "The total amount you will repay over the full term.",
+        "The total interest cost of the loan."
+      ]
+    }
+  },
+
 
 
 ];
