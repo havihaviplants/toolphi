@@ -1130,6 +1130,41 @@ export const tools: Tool[] = [
       ]
     }
   },
+{
+  slug: "mortgage-payment-frequency-calculator",
+  category: "finance",
+  title: "Mortgage Payment Frequency Calculator",
+  description:
+    "Compare mortgage payments across payment frequencies such as monthly, biweekly, weekly, and accelerated schedules.",
+  keywords: [
+    "mortgage payment frequency calculator",
+    "weekly mortgage calculator",
+    "biweekly mortgage calculator",
+    "accelerated mortgage payments",
+    "mortgage payment comparison",
+    "finance",
+    "home loan"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "payment frequency", "home loan", "interest", "finance"],
+  howToSteps: [
+    "Enter the mortgage amount (principal).",
+    "Enter the annual interest rate.",
+    "Enter the amortization period in years.",
+    "Choose payment frequencies: monthly, biweekly, weekly, or accelerated options.",
+    "Click Calculate to compare payment amounts and total interest costs."
+  ],
+  example: {
+    description:
+      "For example, on a $400,000 mortgage at 5% interest over 25 years, this calculator will show:",
+    bullets: [
+      "Monthly payment amount.",
+      "Biweekly and weekly payment amounts.",
+      "Accelerated biweekly and accelerated weekly options.",
+      "Total interest savings from switching payment frequency."
+    ]
+  }
+},
 
 
 
