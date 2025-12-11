@@ -36,6 +36,7 @@ import IncomeBasedRepaymentCalculator from "./IncomeBasedRepaymentCalculator";
 import CarLoanInterestRateCalculator from "./CarLoanInterestRateCalculator";
 import MortgagePaymentFrequencyCalculator from "./MortgagePaymentFrequencyCalculator";
 import LoanTermComparisonCalculator from "./LoanTermComparisonCalculator";
+import StudentLoanInterestSavingsCalculator from "./StudentLoanInterestSavingsCalculator";
 
 
 
@@ -78,6 +79,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "car-loan-interest-rate-calculator": CarLoanInterestRateCalculator,
   "mortgage-payment-frequency-calculator": MortgagePaymentFrequencyCalculator,
   "loan-term-comparison-calculator": LoanTermComparisonCalculator,
+  "student-loan-interest-savings-calculator": StudentLoanInterestSavingsCalculator,
 
 };
 

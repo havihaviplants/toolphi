@@ -1198,6 +1198,38 @@ export const tools: Tool[] = [
     ]
   }
 },
+{
+  slug: "student-loan-interest-savings-calculator",
+  category: "finance",
+  title: "Student Loan Interest Savings Calculator",
+  description:
+    "Calculate how much interest you can save on a student loan by making extra monthly payments.",
+  keywords: [
+    "student loan interest savings",
+    "student loan extra payment calculator",
+    "student loan payoff calculator",
+    "extra payments student loan",
+    "save interest student loan"
+  ],
+  type: "calculator",
+  tags: ["loan", "student loan", "interest", "savings", "extra payment"],
+  howToSteps: [
+    "Enter your current student loan balance.",
+    "Enter the annual interest rate.",
+    "Enter your regular monthly payment.",
+    "Enter an optional extra payment per month.",
+    "Click Calculate to see interest savings and new payoff time."
+  ],
+  example: {
+    description:
+      "For example, a $30,000 student loan at 6% interest with a $300 payment and $50 extra payment will show:",
+    bullets: [
+      "Original payoff time vs accelerated payoff time.",
+      "Total interest paid vs interest saved.",
+      "Months saved by adding extra payments."
+    ]
+  }
+},
 
 
 
