@@ -1064,6 +1064,39 @@ export const tools: Tool[] = [
   }
 },
 
+  {
+    slug: "income-based-repayment-calculator",
+    category: "finance",
+    title: "Income-Based Repayment (IBR) Calculator",
+    description:
+      "Compare a standard student loan payment with an income-based repayment amount based on your annual income and payment percentage.",
+    keywords: [
+      "income based repayment calculator",
+      "IBR calculator",
+      "income based student loan repayment",
+      "student loan payment calculator",
+      "education loan repayment",
+      "finance"
+    ],
+    type: "calculator",
+    tags: ["student loan", "income based", "IBR", "repayment", "finance"],
+    howToSteps: [
+      "Enter your total student loan balance.",
+      "Enter the annual interest rate (APR) on your student loan.",
+      "Enter the standard repayment term in years (for example, 10 years).",
+      "Enter your annual income and the percentage of income you can allocate to student loan payments.",
+      "Click Calculate to compare the standard monthly payment with an income-based payment estimate."
+    ],
+    example: {
+      description:
+        "For example, if you have $45,000 in student loans at 6% interest over 10 years, with an annual income of $55,000 and 10% allocated to loan payments, this calculator will show:",
+      bullets: [
+        "The standard monthly payment required to pay off the loan in 10 years.",
+        "The estimated income-based monthly payment based on your income and payment percentage.",
+        "How the income-based payment compares to the standard payment."
+      ]
+    }
+  },
 
 
 
