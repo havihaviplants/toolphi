@@ -31,6 +31,7 @@ import BalanceTransferCalculator from "./BalanceTransferCalculator";
 import TotalLoanCostCalculator from "./TotalLoanCostCalculator";
 import HelocCalculator from "./HelocCalculator";
 import StudentLoanPaymentCalculator from "./StudentLoanPaymentCalculator";
+import LatePaymentInterestCalculator from "./LatePaymentInterestCalculator";
 
 
 
@@ -68,6 +69,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "total-loan-cost-calculator": TotalLoanCostCalculator, // 🔹 추가
   "heloc-calculator": HelocCalculator, // 🔹 추가
   "student-loan-payment-calculator": StudentLoanPaymentCalculator,
+  "late-payment-interest-calculator": LatePaymentInterestCalculator,
 
 };
 

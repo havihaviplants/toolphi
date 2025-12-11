@@ -1031,6 +1031,39 @@ export const tools: Tool[] = [
     }
   },
 
+  {
+  slug: "late-payment-interest-calculator",
+  category: "finance",
+  title: "Late Payment Interest Calculator",
+  description:
+    "Calculate interest charges on overdue payments using principal amount, interest rate, and number of late days.",
+  keywords: [
+    "late payment interest calculator",
+    "late fee calculator",
+    "overdue payment interest",
+    "past due interest calculator",
+    "finance",
+    "payment interest"
+  ],
+  type: "calculator",
+  tags: ["late payment", "interest", "fees", "overdue", "finance"],
+  howToSteps: [
+    "Enter the principal amount owed.",
+    "Enter the annual interest rate applied to late payments.",
+    "Enter how many days the payment is overdue.",
+    "Click Calculate to see the late interest amount and total owed."
+  ],
+  example: {
+    description:
+      "For example, if someone owes $1,200 at a 12% annual late payment rate and is 40 days late, this calculator will show:",
+    bullets: [
+      "Interest charged for the overdue period.",
+      "Total amount owed including interest.",
+      "Effective daily interest rate impact."
+    ]
+  }
+},
+
 
 
 
