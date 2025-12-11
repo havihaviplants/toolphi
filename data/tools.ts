@@ -1260,6 +1260,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "interest-only-loan-cost-calculator",
+  category: "finance",
+  title: "Interest-Only Loan Cost Calculator",
+  description:
+    "Calculate interest-only monthly payments and compare them with fully amortized payments.",
+  keywords: [
+    "interest only loan calculator",
+    "interest-only mortgage",
+    "loan payment calculator interest only",
+    "compare interest only vs amortized",
+    "mortgage interest only calculator"
+  ],
+  type: "calculator",
+  tags: ["loan", "interest", "mortgage", "interest-only"],
+  howToSteps: [
+    "Enter the loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click Calculate to view monthly interest-only payments and full amortization comparison."
+  ],
+  example: {
+    description:
+      "Interest-only loans have lower initial payments compared to fully amortizing loans.",
+    bullets: [
+      "Interest-only payment: principal × (APR ÷ 12)",
+      "Fully amortized payments include principal + interest",
+      "Useful for mortgage planning and investment property analysis"
+    ]
+  }
+},
+
+
 
 
 ];

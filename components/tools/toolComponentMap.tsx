@@ -38,6 +38,7 @@ import MortgagePaymentFrequencyCalculator from "./MortgagePaymentFrequencyCalcul
 import LoanTermComparisonCalculator from "./LoanTermComparisonCalculator";
 import StudentLoanInterestSavingsCalculator from "./StudentLoanInterestSavingsCalculator";
 import EffectiveMonthlyInterestRateCalculator from "./EffectiveMonthlyInterestRateCalculator";
+import InterestOnlyLoanCostCalculator from "./InterestOnlyLoanCostCalculator";
 
 
 
@@ -82,6 +83,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "loan-term-comparison-calculator": LoanTermComparisonCalculator,
   "student-loan-interest-savings-calculator": StudentLoanInterestSavingsCalculator,
   "effective-monthly-interest-rate-calculator": EffectiveMonthlyInterestRateCalculator,
+  "interest-only-loan-cost-calculator": InterestOnlyLoanCostCalculator,
   
 };
 
