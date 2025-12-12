@@ -48,6 +48,7 @@ import AdditionalPrincipalPaymentCalculator from "./AdditionalPrincipalPaymentCa
 import AmortizationScheduleWithExtraPaymentsCalculator from "./AmortizationScheduleWithExtraPaymentsCalculator";
 import BalloonLoanCalculator from "./BalloonLoanCalculator";
 import BalloonMortgageCalculator from "./BalloonMortgageCalculator";
+import AmortizationScheduleWithBalloonPayment from "./AmortizationScheduleWithBalloonPayment";
 
 
 
@@ -102,6 +103,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "amortization-schedule-with-extra-payments": AmortizationScheduleWithExtraPaymentsCalculator,
   "balloon-loan-calculator": BalloonLoanCalculator,
   "balloon-mortgage-calculator": BalloonMortgageCalculator,
+  "amortization-schedule-with-balloon-payment": AmortizationScheduleWithBalloonPayment,
 
 };
 

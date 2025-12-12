@@ -1589,6 +1589,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "amortization-schedule-with-balloon-payment",
+  category: "finance",
+  title: "Amortization Schedule with Balloon Payment",
+  description:
+    "Generate an amortization schedule for a loan with a balloon payment and see the remaining balance due at the balloon date.",
+  keywords: [
+    "amortization schedule with balloon payment",
+    "balloon payment amortization schedule",
+    "amortization schedule balloon",
+    "loan amortization with balloon payment",
+    "balloon mortgage amortization schedule",
+    "balloon payment schedule"
+  ],
+  type: "calculator",
+  tags: ["amortization", "balloon", "schedule", "loan", "finance"],
+  howToSteps: [
+    "Enter the loan amount, APR, and amortization term.",
+    "Enter when the balloon payment is due (in months or years).",
+    "Click Calculate to generate the amortization schedule up to the balloon date.",
+    "Review the remaining balance at the balloon date (this is your balloon payment)."
+  ],
+  example: {
+    description:
+      "For example, a $250,000 loan at 7% APR amortized over 30 years with a balloon due in 5 years will show:",
+    bullets: [
+      "Monthly payment based on 30-year amortization.",
+      "Month-by-month schedule until month 60.",
+      "Remaining balance at month 60 as the balloon payment."
+    ]
+  }
+},
+
+
 
 
 ];
