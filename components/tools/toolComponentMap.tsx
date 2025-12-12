@@ -40,6 +40,7 @@ import StudentLoanInterestSavingsCalculator from "./StudentLoanInterestSavingsCa
 import EffectiveMonthlyInterestRateCalculator from "./EffectiveMonthlyInterestRateCalculator";
 import InterestOnlyLoanCostCalculator from "./InterestOnlyLoanCostCalculator";
 import LoanPayoffTimeCalculator from "./LoanPayoffTimeCalculator";
+import DownPaymentCalculator from "./down-payment-calculator/DownPaymentCalculator";
 
 
 
@@ -86,6 +87,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "effective-monthly-interest-rate-calculator": EffectiveMonthlyInterestRateCalculator,
   "interest-only-loan-cost-calculator": InterestOnlyLoanCostCalculator,
   "loan-payoff-time-calculator": LoanPayoffTimeCalculator,
+  "down-payment-calculator": DownPaymentCalculator,
 
 };
 

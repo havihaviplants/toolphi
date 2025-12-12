@@ -1324,6 +1324,37 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "down-payment-calculator",
+  category: "finance",
+  title: "Down Payment Calculator",
+  description:
+    "Calculate how much you need for a down payment based on the purchase price and down payment percentage.",
+  keywords: [
+    "down payment calculator",
+    "calculate down payment",
+    "down payment for house",
+    "home down payment calculator",
+    "mortgage down payment",
+    "loan down payment"
+  ],
+  type: "calculator",
+  tags: ["down payment", "mortgage", "loan", "home", "finance"],
+  howToSteps: [
+    "Enter the purchase price of the home or vehicle.",
+    "Enter the down payment percentage.",
+    "Click Calculate to see the required down payment amount and remaining loan amount."
+  ],
+  example: {
+    description:
+      "For example, if the purchase price is $300,000 and the down payment is 20%, this calculator will show:",
+    bullets: [
+      "The down payment amount required upfront.",
+      "The remaining loan amount after the down payment."
+    ]
+  }
+},
+
 
 
 
