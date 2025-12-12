@@ -1355,6 +1355,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "loan-interest-calculator",
+  category: "finance",
+  title: "Loan Interest Calculator",
+  description:
+    "Calculate loan interest based on principal, interest rate, and time. Get total interest and total amount repaid.",
+  keywords: [
+    "loan interest calculator",
+    "calculate interest on a loan",
+    "loan interest calculation",
+    "interest on loan calculator",
+    "how to calculate loan interest",
+    "simple loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["loan", "interest", "principal", "apr", "finance"],
+  howToSteps: [
+    "Enter the loan principal (amount borrowed).",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term (in months or years).",
+    "Choose interest type (simple or compound, if available).",
+    "Click Calculate to see total interest and total repayment amount."
+  ],
+  example: {
+    description:
+      "For example, if you borrow $10,000 at 6% APR for 3 years, this calculator will show:",
+    bullets: [
+      "Estimated total interest paid over the term.",
+      "Total amount repaid (principal + interest)."
+    ]
+  }
+},
 
 
 
