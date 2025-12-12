@@ -1521,6 +1521,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "balloon-loan-calculator",
+  category: "finance",
+  title: "Balloon Loan Calculator",
+  description:
+    "Calculate monthly payments and the balloon payment amount for a balloon loan, and see total interest paid before the balloon is due.",
+  keywords: [
+    "balloon loan calculator",
+    "balloon payment loan calculator",
+    "loan with balloon payment",
+    "balloon payment calculator",
+    "balloon note calculator",
+    "balloon payment amount"
+  ],
+  type: "calculator",
+  tags: ["loan", "balloon", "payment", "interest", "finance"],
+  howToSteps: [
+    "Enter the loan amount (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the amortization term (years) used to compute the monthly payment.",
+    "Enter the balloon due time (years from start).",
+    "Click Calculate to see the monthly payment, remaining balance at balloon, and total interest paid before balloon."
+  ],
+  example: {
+    description:
+      "For example, if you borrow $250,000 at 7% APR amortized over 30 years with a balloon due in 5 years, this tool will show:",
+    bullets: [
+      "Estimated monthly payment based on a 30-year amortization.",
+      "Remaining balance after 5 years (balloon payment).",
+      "Total interest paid during the first 5 years."
+    ]
+  }
+},
+
+
+
 
 
 
