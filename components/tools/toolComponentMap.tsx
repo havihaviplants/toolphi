@@ -43,6 +43,7 @@ import LoanPayoffTimeCalculator from "./LoanPayoffTimeCalculator";
 import DownPaymentCalculator from "./DownPaymentCalculator";
 import LoanInterestCalculator from "./LoanInterestCalculator";
 import PrincipalInterestPaymentCalculator from "./PrincipalInterestPaymentCalculator";
+import MortgageExtraPaymentCalculator from "./MortgageExtraPaymentCalculator";
 
 
 
@@ -92,6 +93,9 @@ const toolComponentMap: Record<string, ComponentType> = {
   "down-payment-calculator": DownPaymentCalculator,
   "loan-interest-calculator": LoanInterestCalculator,
   "principal-interest-payment-calculator": PrincipalInterestPaymentCalculator,
+  "mortgage-extra-payment-calculator": MortgageExtraPaymentCalculator,
+
+
 };
 
 export function getToolComponent(slug: string) {

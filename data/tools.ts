@@ -1420,6 +1420,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "mortgage-extra-payment-calculator",
+  category: "finance",
+  title: "Mortgage Extra Payment Calculator",
+  description:
+    "See how extra mortgage payments can reduce your payoff time and total interest. Compare your current schedule vs. extra payments.",
+  keywords: [
+    "mortgage extra payment calculator",
+    "extra mortgage payment calculator",
+    "make extra mortgage payments",
+    "how much interest saved by extra mortgage payments",
+    "pay off mortgage early calculator",
+    "additional mortgage payment"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "extra payment", "payoff", "interest", "finance"],
+  howToSteps: [
+    "Enter your current mortgage balance (loan amount).",
+    "Enter your annual interest rate (APR).",
+    "Enter your remaining loan term (years).",
+    "Enter your extra payment amount (monthly).",
+    "Click Calculate to compare payoff time and interest with vs. without extra payments."
+  ],
+  example: {
+    description:
+      "For example, if your balance is $300,000 at 6% APR with 30 years remaining and you pay an extra $200 per month, this calculator will show:",
+    bullets: [
+      "How many months/years sooner you can pay off the mortgage.",
+      "How much total interest you can save.",
+      "A side-by-side summary of baseline vs. extra payment scenario."
+    ]
+  }
+},
+
+
 
 
 
