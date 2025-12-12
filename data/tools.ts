@@ -1454,6 +1454,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "additional-principal-payment-calculator",
+  category: "finance",
+  title: "Additional Principal Payment Calculator",
+  description:
+    "Estimate how much time and interest you can save by making additional principal-only payments on your loan or mortgage.",
+  keywords: [
+    "additional principal payment calculator",
+    "principal only payment calculator",
+    "extra principal payment calculator",
+    "pay principal only",
+    "additional principal mortgage payment",
+    "principal payment savings"
+  ],
+  type: "calculator",
+  tags: ["principal", "extra payment", "payoff", "interest", "finance"],
+  howToSteps: [
+    "Enter your loan balance (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the remaining term (years).",
+    "Enter an additional principal-only payment amount (monthly).",
+    "Click Calculate to see estimated time saved and interest saved."
+  ],
+  example: {
+    description:
+      "For example, if your balance is $200,000 at 5.5% APR with 25 years remaining and you add $150 per month toward principal, this calculator will show:",
+    bullets: [
+      "How many months/years sooner you could pay off the loan.",
+      "How much interest you could save overall."
+    ]
+  }
+},
+
 
 
 
