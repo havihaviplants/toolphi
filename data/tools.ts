@@ -1388,6 +1388,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "principal-interest-payment-calculator",
+  category: "finance",
+  title: "Principal & Interest Payment Calculator",
+  description:
+    "Calculate monthly principal and interest (P&I) payments without taxes, insurance, or other fees.",
+  keywords: [
+    "principal and interest calculator",
+    "principal and interest payment",
+    "p and i calculator",
+    "monthly principal and interest",
+    "loan principal interest payment",
+    "mortgage principal and interest"
+  ],
+  type: "calculator",
+  tags: ["principal", "interest", "mortgage", "loan", "finance"],
+  howToSteps: [
+    "Enter the loan amount (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click Calculate to see the monthly principal and interest payment."
+  ],
+  example: {
+    description:
+      "For example, if you borrow $250,000 at 5% interest for 30 years, this calculator will show:",
+    bullets: [
+      "The monthly principal and interest payment.",
+      "The total amount paid over the loan term (excluding taxes and insurance)."
+    ]
+  }
+},
+
+
 
 
 ];

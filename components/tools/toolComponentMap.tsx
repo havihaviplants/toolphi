@@ -42,6 +42,7 @@ import InterestOnlyLoanCostCalculator from "./InterestOnlyLoanCostCalculator";
 import LoanPayoffTimeCalculator from "./LoanPayoffTimeCalculator";
 import DownPaymentCalculator from "./DownPaymentCalculator";
 import LoanInterestCalculator from "./LoanInterestCalculator";
+import PrincipalInterestPaymentCalculator from "./PrincipalInterestPaymentCalculator";
 
 
 
@@ -90,7 +91,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "loan-payoff-time-calculator": LoanPayoffTimeCalculator,
   "down-payment-calculator": DownPaymentCalculator,
   "loan-interest-calculator": LoanInterestCalculator,
-
+  "principal-interest-payment-calculator": PrincipalInterestPaymentCalculator,
 };
 
 export function getToolComponent(slug: string) {
