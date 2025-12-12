@@ -1622,7 +1622,38 @@ export const tools: Tool[] = [
   }
 },
 
-
+{
+  slug: "sba-loan-payment-calculator",
+  category: "finance",
+  title: "SBA Loan Payment Calculator",
+  description:
+    "Estimate monthly payments for an SBA loan and optionally include SBA guarantee fee and packaging/origination fees in your financed amount.",
+  keywords: [
+    "sba loan payment calculator",
+    "sba payment calculator",
+    "pay sba loan",
+    "sba 7a loan payment calculator",
+    "sba loan monthly payment",
+    "sba loan calculator"
+  ],
+  type: "calculator",
+  tags: ["sba", "loan", "payment", "business", "finance"],
+  howToSteps: [
+    "Enter the SBA loan amount, interest rate (APR), and loan term.",
+    "Optionally enter an SBA guarantee fee % and choose whether it is financed into the loan.",
+    "Optionally add packaging/origination fees (financed or paid upfront).",
+    "Click Calculate to see monthly payment, total interest, and total cost."
+  ],
+  example: {
+    description:
+      "For example, a $350,000 SBA loan at 10.5% APR for 10 years with a 3% guarantee fee financed will show:",
+    bullets: [
+      "Estimated monthly payment.",
+      "Total interest paid over the term.",
+      "Total cost including financed fees."
+    ]
+  }
+},
 
 
 ];
