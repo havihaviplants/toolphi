@@ -1487,6 +1487,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "amortization-schedule-with-extra-payments",
+  category: "finance",
+  title: "Amortization Schedule with Extra Payments",
+  description:
+    "Generate an amortization schedule with extra monthly payments and see payoff time and interest savings.",
+  keywords: [
+    "amortization schedule with extra payments",
+    "loan amortization schedule with extra payments",
+    "amortization calculator extra payments",
+    "extra payment amortization schedule",
+    "pay off loan early amortization",
+    "mortgage amortization schedule with extra payments"
+  ],
+  type: "calculator",
+  tags: ["amortization", "extra payment", "schedule", "loan", "finance"],
+  howToSteps: [
+    "Enter the loan amount (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Enter your extra monthly payment amount.",
+    "Click Calculate to generate a full amortization schedule and see interest savings."
+  ],
+  example: {
+    description:
+      "For example, if you borrow $300,000 at 6% for 30 years and pay an extra $200 per month, this tool will show:",
+    bullets: [
+      "A full month-by-month amortization schedule including extra payments.",
+      "New payoff time (months/years).",
+      "Total interest with vs. without extra payments and the interest saved."
+    ]
+  }
+},
+
 
 
 
