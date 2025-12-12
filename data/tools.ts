@@ -1555,9 +1555,39 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
+{
+  slug: "balloon-mortgage-calculator",
+  category: "finance",
+  title: "Balloon Mortgage Calculator",
+  description:
+    "Estimate monthly mortgage payments and the balloon payment (remaining balance) due at a specific time, including optional taxes and insurance.",
+  keywords: [
+    "balloon mortgage calculator",
+    "balloon payment mortgage calculator",
+    "mortgage with balloon payment",
+    "balloon payment on mortgage",
+    "balloon mortgage payment",
+    "balloon mortgage amortization"
+  ],
+  type: "calculator",
+  tags: ["mortgage", "balloon", "payment", "amortization", "finance"],
+  howToSteps: [
+    "Enter the home price and down payment to get the loan amount (or enter loan amount directly).",
+    "Enter the interest rate (APR) and amortization term (years).",
+    "Enter when the balloon is due (years from start).",
+    "Optionally add annual property tax and home insurance to estimate total monthly cost.",
+    "Click Calculate to see monthly payment, balloon amount, and interest paid before balloon."
+  ],
+  example: {
+    description:
+      "For example, a $400,000 home with 20% down at 6.5% APR amortized over 30 years with a balloon due in 7 years will show:",
+    bullets: [
+      "Monthly principal & interest (P&I).",
+      "Total estimated monthly cost with tax/insurance (optional).",
+      "Remaining balance after 7 years (balloon payment)."
+    ]
+  }
+},
 
 
 
