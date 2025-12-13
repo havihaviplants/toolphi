@@ -1934,6 +1934,37 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "idr-plan-comparison-calculator",
+  category: "finance",
+  title: "IDR Plan Comparison Calculator",
+  description:
+    "Compare income-driven repayment (IDR) plans including IBR, PAYE, SAVE, and ICR. See estimated monthly payments and annual costs side by side.",
+  keywords: [
+    "idr plan comparison calculator",
+    "income driven repayment plan comparison",
+    "ibr vs paye vs save",
+    "student loan idr comparison",
+    "income based repayment plan comparison"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "idr", "comparison", "repayment"],
+  howToSteps: [
+    "Enter your annual income.",
+    "Choose an IDR payment percentage for each plan.",
+    "Click Calculate to compare estimated payments."
+  ],
+  example: {
+    description:
+      "For example, compare IBR (10%) vs PAYE (10%) vs SAVE (5%) vs ICR (20%).",
+    bullets: [
+      "Monthly payment by plan",
+      "Annual repayment comparison",
+      "Lowest-cost plan highlight"
+    ]
+  }
+},
+
 
 
 
