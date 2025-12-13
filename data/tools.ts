@@ -1866,6 +1866,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-loan-payment-calculator",
+  category: "finance",
+  title: "USDA Loan Payment Calculator",
+  description:
+    "Estimate USDA loan monthly payments including USDA upfront guarantee fee and annual fee. Compare payments with and without rolling fees into the loan.",
+  keywords: [
+    "usda loan payment calculator",
+    "usda mortgage payment calculator",
+    "usda loan calculator",
+    "usda monthly payment",
+    "usda guarantee fee calculator",
+    "usda annual fee calculator"
+  ],
+  type: "calculator",
+  tags: ["usda", "mortgage", "loan", "payment", "guarantee-fee"],
+  howToSteps: [
+    "Enter the home price (or total amount financed before USDA fees).",
+    "Enter your down payment (optional).",
+    "Enter the annual interest rate (%) and loan term (years).",
+    "Set the USDA upfront guarantee fee rate and annual fee rate (or keep defaults).",
+    "Choose whether to roll the upfront fee into the loan amount.",
+    "Click Calculate to see your estimated monthly payment including USDA annual fee."
+  ],
+  example: {
+    description:
+      "For example, a $350,000 home with $0 down at 6.0% for 30 years:",
+    bullets: [
+      "Monthly principal & interest payment",
+      "Estimated monthly USDA annual fee",
+      "Total estimated monthly payment"
+    ]
+  }
+},
+
+
 
 
 ];
