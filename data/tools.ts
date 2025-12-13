@@ -1901,6 +1901,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "income-driven-repayment-calculator",
+  category: "finance",
+  title: "Income-Driven Repayment (IDR) Calculator",
+  description:
+    "Estimate your monthly payment under an income-driven repayment (IDR) plan based on income, family size, and payment percentage. Compare IDR with standard repayment.",
+  keywords: [
+    "income driven repayment calculator",
+    "income driven repayment",
+    "income driven repayment plan",
+    "idr calculator",
+    "idr repayment calculator",
+    "student loan income driven repayment"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "idr", "income-driven", "repayment"],
+  howToSteps: [
+    "Enter your annual income.",
+    "Enter your family size.",
+    "Enter the percentage of discretionary income used for IDR.",
+    "Click Calculate to see your estimated monthly IDR payment."
+  ],
+  example: {
+    description:
+      "For example, an annual income of $55,000 with a 10% IDR rate:",
+    bullets: [
+      "Estimated monthly IDR payment",
+      "Estimated annual payment",
+      "Comparison with standard repayment"
+    ]
+  }
+},
+
 
 
 
