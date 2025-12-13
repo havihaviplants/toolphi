@@ -59,6 +59,7 @@ import LoanDefermentInterestCalculator from "./LoanDefermentInterestCalculator";
 import UsdaLoanPaymentCalculator from "./UsdaLoanPaymentCalculator";
 import IncomeDrivenRepaymentCalculator from "./IncomeDrivenRepaymentCalculator";
 import IDRPlanComparisonCalculator from "./IDRPlanComparisonCalculator";
+import IDREligibilityChecklist from "./IDREligibilityChecklist";
 
 
 
@@ -124,6 +125,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "usda-loan-payment-calculator": UsdaLoanPaymentCalculator,
   "income-driven-repayment-calculator": IncomeDrivenRepaymentCalculator,
   "idr-plan-comparison-calculator": IDRPlanComparisonCalculator,
+  "idr-eligibility-checklist": IDREligibilityChecklist,
 
 };
 

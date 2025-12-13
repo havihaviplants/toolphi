@@ -1965,6 +1965,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "idr-eligibility-checklist",
+  category: "finance",
+  title: "IDR Eligibility & Application Checklist",
+  description:
+    "Check if you may be eligible for an income-driven repayment (IDR) plan and see a step-by-step application checklist before applying.",
+  keywords: [
+    "idr eligibility",
+    "income driven repayment eligibility",
+    "apply for idr",
+    "idr application checklist",
+    "student loan idr eligibility"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "idr", "eligibility", "application"],
+  howToSteps: [
+    "Answer a few basic eligibility questions.",
+    "Review which IDR plans you may qualify for.",
+    "Follow the checklist to prepare your application."
+  ],
+  example: {
+    description:
+      "For example, see if federal student loans qualify for IDR and what documents are required before applying.",
+    bullets: [
+      "Federal vs private loan check",
+      "Employment and income requirements",
+      "Application preparation checklist"
+    ]
+  }
+},
+
+
+
 
 
 
