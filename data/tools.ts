@@ -1655,5 +1655,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "home-loan-repayments-calculator",
+  category: "finance",
+  title: "Home Loan Repayments Calculator",
+  description:
+    "Calculate home loan repayments for monthly, fortnightly, or weekly payment schedules.",
+  keywords: [
+    "home loan repayments calculator",
+    "home loan repayment calculator",
+    "home loan repayments",
+    "fortnightly home loan repayments",
+    "weekly home loan repayments",
+    "home loan repayments australia",
+    "home loan repayments uk"
+  ],
+  type: "calculator",
+  tags: ["home-loan", "loan", "repayments", "mortgage", "australia", "uk"],
+  howToSteps: [
+    "Enter the loan amount.",
+    "Enter the annual interest rate (%).",
+    "Enter the loan term (years).",
+    "Choose a repayment frequency (monthly, fortnightly, weekly).",
+    "Click Calculate to see your repayment amount and total interest."
+  ],
+  example: {
+    description:
+      "For example, a $500,000 home loan at 6.0% over 30 years can be compared across repayment frequencies:",
+    bullets: [
+      "Repayment per period (monthly / fortnightly / weekly).",
+      "Total repayments over the full term.",
+      "Total interest paid over the full term."
+    ]
+  }
+},
+
 
 ];
