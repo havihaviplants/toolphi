@@ -1763,6 +1763,43 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "parent-plus-loan-repayment-calculator",
+  category: "finance",
+  title: "Parent PLUS Loan Repayment Calculator",
+  description:
+    "Estimate Parent PLUS loan repayment amounts and total interest for a fixed-rate loan. Compare monthly, biweekly, and weekly repayment schedules.",
+  keywords: [
+    "parent plus loan repayment calculator",
+    "parent plus loan calculator",
+    "parent plus loan payment calculator",
+    "parent plus loan monthly payment",
+    "parent plus loan repayment",
+    "parent plus repayment calculator",
+    "biweekly parent plus loan payment",
+    "weekly parent plus loan payment"
+  ],
+  type: "calculator",
+  tags: ["parent-plus", "student-loan", "repayment", "federal-loans", "usa"],
+  howToSteps: [
+    "Enter your Parent PLUS loan amount.",
+    "Enter the annual interest rate (%).",
+    "Enter the loan term (years).",
+    "Choose a repayment frequency (monthly, biweekly, weekly).",
+    "Click Calculate to see your repayment amount, total repaid, and total interest."
+  ],
+  example: {
+    description:
+      "For example, a $40,000 Parent PLUS loan at 8% over 10 years:",
+    bullets: [
+      "Monthly repayment amount",
+      "Biweekly repayment amount",
+      "Weekly repayment amount",
+      "Total repaid and total interest over the full term"
+    ]
+  }
+},
+
 
 
 ];
