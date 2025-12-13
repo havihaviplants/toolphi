@@ -54,6 +54,7 @@ import HomeLoanRepaymentsCalculator from "./HomeLoanRepaymentsCalculator";
 import CarLoanRepaymentsCalculator from "./CarLoanRepaymentsCalculator";
 import EducationLoanRepaymentCalculator from "./EducationLoanRepaymentCalculator";
 import ParentPlusLoanRepaymentCalculator from "./ParentPlusLoanRepaymentCalculator";
+import PersonalLoanPaymentCalculator from "./PersonalLoanPaymentCalculator";
 
 
 
@@ -114,6 +115,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "car-loan-repayments-calculator": CarLoanRepaymentsCalculator,
   "education-loan-repayment-calculator": EducationLoanRepaymentCalculator,
   "parent-plus-loan-repayment-calculator": ParentPlusLoanRepaymentCalculator,
+  "personal-loan-payment-calculator": PersonalLoanPaymentCalculator,
 
 };
 

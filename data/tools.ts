@@ -1800,6 +1800,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "personal-loan-payment-calculator",
+  category: "finance",
+  title: "Personal Loan Payment Calculator",
+  description:
+    "Calculate monthly payments, total repaid, and total interest for a personal loan with a fixed interest rate.",
+  keywords: [
+    "personal loan payment calculator",
+    "personal loan monthly payment",
+    "personal loan calculator",
+    "calculate personal loan payment",
+    "personal loan repayment calculator"
+  ],
+  type: "calculator",
+  tags: ["personal-loan", "loan", "payment"],
+  howToSteps: [
+    "Enter the personal loan amount.",
+    "Enter the annual interest rate (%).",
+    "Enter the loan term (years).",
+    "Click Calculate to see your monthly payment and total cost."
+  ],
+  example: {
+    description:
+      "For example, a $15,000 personal loan at 11% over 3 years:",
+    bullets: [
+      "Monthly payment amount",
+      "Total amount repaid",
+      "Total interest paid"
+    ]
+  }
+},
+
+
 
 
 ];
