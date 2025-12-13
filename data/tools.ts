@@ -1725,5 +1725,44 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "education-loan-repayment-calculator",
+  category: "finance",
+  title: "Education Loan Repayment Calculator",
+  description:
+    "Calculate education loan repayments for monthly, biweekly, or weekly schedules. See repayment amount, total repaid, and total interest.",
+  keywords: [
+    "education loan repayment calculator",
+    "education loan repayments calculator",
+    "education loan repayment",
+    "education loan repayments",
+    "education loan emi calculator",
+    "education loan repayment calculator india",
+    "education loan repayment calculator uk",
+    "weekly education loan repayment",
+    "biweekly education loan repayment"
+  ],
+  type: "calculator",
+  tags: ["education-loan", "student-loan", "repayment", "emi"],
+  howToSteps: [
+    "Enter your education loan amount.",
+    "Enter the annual interest rate (%).",
+    "Enter the loan term (years).",
+    "Choose a repayment frequency (monthly, biweekly, weekly).",
+    "Click Calculate to see your repayment amount and total interest."
+  ],
+  example: {
+    description:
+      "For example, a $20,000 education loan at 10% over 10 years:",
+    bullets: [
+      "Monthly repayment amount",
+      "Biweekly repayment amount",
+      "Weekly repayment amount",
+      "Total repaid and total interest over the full term"
+    ]
+  }
+},
+
+
 
 ];

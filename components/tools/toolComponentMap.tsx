@@ -52,6 +52,7 @@ import AmortizationScheduleWithBalloonPayment from "./AmortizationScheduleWithBa
 import SbaLoanPaymentCalculator from "./SbaLoanPaymentCalculator";
 import HomeLoanRepaymentsCalculator from "./HomeLoanRepaymentsCalculator";
 import CarLoanRepaymentsCalculator from "./CarLoanRepaymentsCalculator";
+import EducationLoanRepaymentCalculator from "./EducationLoanRepaymentCalculator";
 
 
 
@@ -110,6 +111,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "sba-loan-payment-calculator": SbaLoanPaymentCalculator,
   "home-loan-repayments-calculator": HomeLoanRepaymentsCalculator,
   "car-loan-repayments-calculator": CarLoanRepaymentsCalculator,
+  "education-loan-repayment-calculator": EducationLoanRepaymentCalculator,
 
 };
 
