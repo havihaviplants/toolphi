@@ -1832,6 +1832,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "loan-deferment-interest-calculator",
+  category: "finance",
+  title: "Loan Deferment Interest Calculator",
+  description:
+    "Estimate how much interest accrues during a loan deferment period. Compare simple interest vs. capitalized interest (interest added to balance).",
+  keywords: [
+    "loan deferment interest calculator",
+    "deferment interest calculator",
+    "loan interest during deferment",
+    "deferred loan interest",
+    "interest accrual during deferment",
+    "capitalized interest calculator"
+  ],
+  type: "calculator",
+  tags: ["loan", "deferment", "interest", "capitalized-interest"],
+  howToSteps: [
+    "Enter your current loan balance.",
+    "Enter the annual interest rate (%).",
+    "Enter the deferment period (months).",
+    "Choose whether interest is capitalized (added to balance) at the end of deferment.",
+    "Click Calculate to see accrued interest and the new balance."
+  ],
+  example: {
+    description:
+      "For example, a $25,000 loan at 6% with a 12-month deferment:",
+    bullets: [
+      "Accrued interest during deferment",
+      "New balance if interest is capitalized",
+      "Difference between capitalized vs. not capitalized"
+    ]
+  }
+},
 
 
 
