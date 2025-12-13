@@ -1690,5 +1690,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "car-loan-repayments-calculator",
+  category: "finance",
+  title: "Car Loan Repayments Calculator",
+  description:
+    "Calculate car loan repayments for monthly, fortnightly, or weekly payment schedules. Compare repayment amounts and total interest.",
+  keywords: [
+    "car loan repayments calculator",
+    "car loan repayment calculator",
+    "auto loan repayments calculator",
+    "fortnightly car loan repayments",
+    "weekly car loan repayments",
+    "car loan repayments australia",
+    "car loan repayments uk"
+  ],
+  type: "calculator",
+  tags: ["car-loan", "auto-loan", "repayments", "australia", "uk"],
+  howToSteps: [
+    "Enter the car loan amount.",
+    "Enter the annual interest rate (%).",
+    "Enter the loan term (years).",
+    "Choose a repayment frequency (monthly, fortnightly, weekly).",
+    "Click Calculate to see your repayment amount and total interest."
+  ],
+  example: {
+    description:
+      "For example, a $30,000 car loan at 8.5% over 5 years can be compared across repayment frequencies:",
+    bullets: [
+      "Repayment per period (monthly / fortnightly / weekly).",
+      "Total amount repaid over the full term.",
+      "Total interest paid over the full term."
+    ]
+  }
+},
+
 
 ];
