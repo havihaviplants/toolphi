@@ -2060,6 +2060,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "student-loan-apr-calculator",
+  category: "finance",
+  title: "Student Loan APR Calculator",
+  description:
+    "Estimate a fee-adjusted APR for a student loan by accounting for origination and upfront fees and net disbursement.",
+  keywords: [
+    "student loan apr calculator",
+    "student loan apr",
+    "student loan origination fee apr",
+    "fee adjusted apr student loan",
+    "student loan interest rate vs apr"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "apr", "interest-rate", "fees"],
+  howToSteps: [
+    "Enter the loan principal and repayment term.",
+    "Enter the note rate (or provide your actual monthly payment if you have an offer).",
+    "Add any origination or upfront fees to compute your net disbursed amount.",
+    "Calculate to estimate a fee-adjusted APR and compare offers more accurately."
+  ],
+  example: {
+    description:
+      "If you borrow $25,000 with a 1% origination fee, this tool helps estimate the APR impact of fees by comparing payments to the net amount received.",
+    bullets: [
+      "Net disbursed amount after fees",
+      "Fee-adjusted APR estimate",
+      "Total repaid and total interest"
+    ]
+  }
+},
+
+
 
 
 
