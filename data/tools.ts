@@ -2189,6 +2189,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "save-plan-calculator",
+  category: "finance",
+  title: "SAVE Plan Calculator",
+  description:
+    "Estimate your student loan payment under a simplified SAVE Plan model using discretionary income. Optionally compare payment vs estimated monthly interest.",
+  keywords: [
+    "save plan calculator",
+    "save student loan calculator",
+    "student loan save payment calculator",
+    "save plan monthly payment",
+    "save plan discretionary income"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "save", "idr", "repayment"],
+  howToSteps: [
+    "Enter your annual AGI and family size.",
+    "Enter a poverty guideline value (editable) and choose the multiplier (e.g., 225%).",
+    "Set the payment percentage applied to discretionary income.",
+    "Optionally enter loan balance and APR to compare payment vs monthly interest.",
+    "Calculate to estimate monthly and annual payments."
+  ],
+  example: {
+    description:
+      "If your AGI is $55,000 with family size 1 and a 225% poverty threshold, this tool estimates:",
+    bullets: [
+      "Discretionary income used for the SAVE calculation",
+      "Estimated monthly and annual payment under SAVE",
+      "Whether the payment likely covers monthly interest (optional)"
+    ]
+  }
+},
+
 
 
 

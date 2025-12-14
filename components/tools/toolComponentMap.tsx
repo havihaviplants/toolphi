@@ -66,6 +66,7 @@ import StudentLoanAprCalculator from "./StudentLoanAprCalculator";
 import StudentLoanRefinanceSavingsCalculator from "./StudentLoanRefinanceSavingsCalculator";
 import PslfForgivenessEstimator from "./PslfForgivenessEstimator";
 import StudentLoanForgivenessCalculator from "./StudentLoanForgivenessCalculator";
+import SavePlanCalculator from "./SavePlanCalculator";
 
 
 
@@ -138,6 +139,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "student-loan-refinance-savings-calculator": StudentLoanRefinanceSavingsCalculator,
   "pslf-forgiveness-estimator": PslfForgivenessEstimator,
   "student-loan-forgiveness-calculator": StudentLoanForgivenessCalculator,
+  "save-plan-calculator": SavePlanCalculator,
 
 };
 
