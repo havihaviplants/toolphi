@@ -2124,6 +2124,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "pslf-forgiveness-estimator",
+  category: "finance",
+  title: "PSLF Forgiveness Estimator",
+  description:
+    "Estimate remaining PSLF qualifying payments (up to 120) and project potential loan forgiveness based on your balance, rate, and qualifying monthly payment.",
+  keywords: [
+    "pslf calculator",
+    "pslf forgiveness estimator",
+    "public service loan forgiveness calculator",
+    "pslf qualifying payments",
+    "pslf remaining balance forgiven"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "pslf", "forgiveness", "repayment"],
+  howToSteps: [
+    "Enter your current loan balance and interest rate.",
+    "Enter how many qualifying payments you’ve already made (0–120).",
+    "Enter your expected qualifying monthly payment (or estimate it).",
+    "Calculate to estimate remaining time to 120 payments and potential forgiven balance."
+  ],
+  example: {
+    description:
+      "If you have $50,000 remaining at 6.5% and have made 36 qualifying payments, this tool estimates:",
+    bullets: [
+      "How many payments remain to reach 120",
+      "Projected amount paid until 120",
+      "Estimated balance that could be forgiven"
+    ]
+  }
+},
+
 
 
 
