@@ -68,6 +68,7 @@ import PslfForgivenessEstimator from "./PslfForgivenessEstimator";
 import StudentLoanForgivenessCalculator from "./StudentLoanForgivenessCalculator";
 import SavePlanCalculator from "./SavePlanCalculator";
 import PayePlanCalculator from "./PayePlanCalculator";
+import IcrPlanCalculator from "./IcrPlanCalculator";
 
 
 
@@ -142,6 +143,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "student-loan-forgiveness-calculator": StudentLoanForgivenessCalculator,
   "save-plan-calculator": SavePlanCalculator,
   "paye-plan-calculator": PayePlanCalculator,
+  "icr-plan-calculator": IcrPlanCalculator,
 
 };
 

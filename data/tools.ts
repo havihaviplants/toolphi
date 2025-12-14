@@ -2255,6 +2255,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "icr-plan-calculator",
+  category: "finance",
+  title: "ICR Plan Calculator",
+  description:
+    "Estimate your student loan payment under a simplified ICR (Income-Contingent Repayment) model using discretionary income. Optionally compare payment vs estimated monthly interest.",
+  keywords: [
+    "icr plan calculator",
+    "income contingent repayment calculator",
+    "icr student loan calculator",
+    "icr payment calculator",
+    "icr discretionary income"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "icr", "idr", "repayment"],
+  howToSteps: [
+    "Enter your annual AGI and family size.",
+    "Enter a poverty guideline value (editable) and set the multiplier (commonly ~100%).",
+    "Set the payment percentage applied to discretionary income (commonly modeled higher than other IDR plans).",
+    "Optionally enter loan balance and APR to compare payment vs monthly interest.",
+    "Calculate to estimate monthly and annual ICR payments."
+  ],
+  example: {
+    description:
+      "If your AGI is $55,000 with family size 1, this tool estimates:",
+    bullets: [
+      "Discretionary income used for the ICR calculation",
+      "Estimated monthly and annual payment",
+      "Whether the payment likely covers monthly interest (optional)"
+    ]
+  }
+},
+
+
 
 
 
