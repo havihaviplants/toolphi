@@ -2222,6 +2222,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "paye-plan-calculator",
+  category: "finance",
+  title: "PAYE Plan Calculator",
+  description:
+    "Estimate your student loan payment under a simplified PAYE model using discretionary income (AGI minus 150% poverty guideline). Optionally compare payment vs estimated monthly interest.",
+  keywords: [
+    "paye plan calculator",
+    "paye student loan calculator",
+    "paye payment calculator",
+    "pay as you earn calculator",
+    "paye discretionary income"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "paye", "idr", "repayment"],
+  howToSteps: [
+    "Enter your annual AGI and family size.",
+    "Enter a poverty guideline value (editable) and set the multiplier (commonly 150%).",
+    "Set the payment percentage applied to discretionary income (commonly 10%).",
+    "Optionally enter loan balance and APR to compare payment vs monthly interest.",
+    "Calculate to estimate monthly and annual PAYE payments."
+  ],
+  example: {
+    description:
+      "If your AGI is $55,000 with family size 1 and a 150% poverty threshold, this tool estimates:",
+    bullets: [
+      "Discretionary income used for the PAYE calculation",
+      "Estimated monthly and annual payment",
+      "Whether the payment likely covers monthly interest (optional)"
+    ]
+  }
+},
+
 
 
 
