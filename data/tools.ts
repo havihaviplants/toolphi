@@ -2092,6 +2092,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "student-loan-refinance-savings-calculator",
+  category: "finance",
+  title: "Student Loan Refinance Savings Calculator",
+  description:
+    "Compare your current student loan to a refinance offer to estimate monthly savings, total savings, interest savings, and break-even month if fees apply.",
+  keywords: [
+    "student loan refinance calculator",
+    "student loan refinance savings calculator",
+    "refinance student loan savings",
+    "student loan refinance break even",
+    "student loan refinance vs current"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "refinance", "savings", "interest"],
+  howToSteps: [
+    "Enter your remaining loan balance and current APR and remaining term.",
+    "Enter the refinance APR and term from a new offer.",
+    "Optionally add refinance fees to calculate a break-even month.",
+    "Compare monthly payment and total cost to estimate savings."
+  ],
+  example: {
+    description:
+      "If you owe $35,000 at 6.5% with 10 years remaining and get a refinance offer at 5.0%, this tool can estimate:",
+    bullets: [
+      "Monthly payment change",
+      "Total savings and interest savings",
+      "Break-even month if you pay fees"
+    ]
+  }
+},
+
 
 
 
