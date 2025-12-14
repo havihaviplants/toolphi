@@ -1996,8 +1996,37 @@ export const tools: Tool[] = [
   }
 },
 
-
-
+{
+  slug: "federal-student-loan-calculator",
+  category: "finance",
+  title: "Federal Student Loan Calculator",
+  description:
+    "Estimate federal student loan payments using loan type presets, APR, origination fee, and term.",
+  keywords: [
+    "federal student loan calculator",
+    "direct loan calculator",
+    "grad plus loan calculator",
+    "parent plus loan calculator",
+    "federal student loan payment"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "federal", "direct", "plus", "payment"],
+  howToSteps: [
+    "Select the federal loan type (Direct, Grad PLUS, or Parent PLUS).",
+    "Enter your loan amount (principal).",
+    "Confirm or adjust the APR and origination fee (defaults are typical and editable).",
+    "Enter the repayment term (years) and calculate your monthly payment and totals."
+  ],
+  example: {
+    description:
+      "If you plan to borrow $25,000 as a Direct loan over 10 years, this tool can estimate:",
+    bullets: [
+      "Monthly payment on the financed amount (principal + fee)",
+      "Total repaid over the term",
+      "Total interest paid"
+    ]
+  }
+},
 
 
 
