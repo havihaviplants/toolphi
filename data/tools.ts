@@ -2156,6 +2156,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "student-loan-forgiveness-calculator",
+  category: "finance",
+  title: "Student Loan Forgiveness Calculator",
+  description:
+    "Estimate remaining student loan balance and potential forgiveness after a chosen timeline based on your expected monthly payment. Optionally estimate taxes on forgiven amount.",
+  keywords: [
+    "student loan forgiveness calculator",
+    "loan forgiveness calculator",
+    "student loan balance after 20 years",
+    "idr forgiveness calculator",
+    "student loan forgiven amount estimate"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "forgiveness", "idr", "repayment"],
+  howToSteps: [
+    "Enter your current loan balance and interest rate.",
+    "Set the number of months until forgiveness (e.g., 240 or 300).",
+    "Enter your expected monthly payment (or estimate it).",
+    "Optionally add annual payment growth and estimate taxes on forgiven amount.",
+    "Calculate to estimate remaining balance and potential forgiveness."
+  ],
+  example: {
+    description:
+      "If you have $60,000 at 6.5% and pay $250/mo for 240 months, this tool estimates:",
+    bullets: [
+      "Total paid over the forgiveness timeline",
+      "Estimated remaining balance",
+      "Potential forgiven amount"
+    ]
+  }
+},
+
 
 
 
