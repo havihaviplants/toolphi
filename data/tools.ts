@@ -2028,6 +2028,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "student-loan-consolidation-calculator",
+  category: "finance",
+  title: "Student Loan Consolidation Calculator",
+  description:
+    "Estimate student loan consolidation by calculating the weighted average APR (with optional Direct Consolidation rounding) and an estimated repayment term.",
+  keywords: [
+    "student loan consolidation calculator",
+    "loan consolidation calculator",
+    "direct consolidation loan calculator",
+    "weighted average interest rate student loans",
+    "student loan consolidation payment"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "consolidation", "interest-rate", "repayment"],
+  howToSteps: [
+    "Enter each loan balance and APR to calculate a weighted average interest rate.",
+    "Optionally apply Direct Consolidation rounding (rounded up to the nearest 1/8 of 1%).",
+    "Choose an estimated term automatically based on total balance or set your own term.",
+    "Calculate your estimated monthly payment, total repaid, and total interest."
+  ],
+  example: {
+    description:
+      "If you have multiple student loans with different balances and rates, this tool can estimate:",
+    bullets: [
+      "Total consolidated balance",
+      "Weighted APR (and rounded APR if enabled)",
+      "Estimated monthly payment and total interest"
+    ]
+  }
+},
+
+
 
 
 ];

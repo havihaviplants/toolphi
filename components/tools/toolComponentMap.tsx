@@ -61,6 +61,7 @@ import IncomeDrivenRepaymentCalculator from "./IncomeDrivenRepaymentCalculator";
 import IDRPlanComparisonCalculator from "./IDRPlanComparisonCalculator";
 import IDREligibilityChecklist from "./IDREligibilityChecklist";
 import FederalStudentLoanCalculator from "./FederalStudentLoanCalculator";
+import StudentLoanConsolidationCalculator from "./StudentLoanConsolidationCalculator";
 
 
 
@@ -128,6 +129,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "idr-plan-comparison-calculator": IDRPlanComparisonCalculator,
   "idr-eligibility-checklist": IDREligibilityChecklist,
   "federal-student-loan-calculator": FederalStudentLoanCalculator,
+  "student-loan-consolidation-calculator": StudentLoanConsolidationCalculator,
 
 };
 
