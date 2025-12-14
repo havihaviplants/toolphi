@@ -2288,6 +2288,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "ibr-plan-calculator",
+  category: "finance",
+  title: "IBR Plan Calculator",
+  description:
+    "Estimate your student loan payment under a simplified IBR (Income-Based Repayment) model using discretionary income. Choose 10% vs 15% rate and optionally compare payment vs estimated monthly interest.",
+  keywords: [
+    "ibr plan calculator",
+    "income based repayment calculator",
+    "ibr student loan calculator",
+    "ibr payment calculator",
+    "ibr discretionary income"
+  ],
+  type: "calculator",
+  tags: ["student-loan", "ibr", "idr", "repayment"],
+  howToSteps: [
+    "Enter your annual AGI and family size.",
+    "Enter a poverty guideline value (editable) and set the multiplier (commonly 150%).",
+    "Choose your IBR rate (10% or 15%) for planning.",
+    "Optionally enter loan balance and APR to compare payment vs monthly interest.",
+    "Calculate to estimate monthly and annual IBR payments."
+  ],
+  example: {
+    description:
+      "If your AGI is $55,000 with family size 1 and a 150% poverty threshold, this tool estimates:",
+    bullets: [
+      "Discretionary income used for the IBR calculation",
+      "Estimated monthly and annual payment at 10% or 15%",
+      "Whether the payment likely covers monthly interest (optional)"
+    ]
+  }
+},
+
 
 
 
