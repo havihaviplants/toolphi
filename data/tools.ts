@@ -2616,6 +2616,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "quarterly-estimated-tax-calculator",
+  category: "finance",
+  title: "Quarterly Estimated Tax Calculator",
+  description:
+    "Estimate quarterly tax payments based on expected annual taxable income and an estimated effective tax rate. Optionally subtract withholding and payments already made.",
+  keywords: [
+    "quarterly estimated tax calculator",
+    "estimated tax payment calculator",
+    "quarterly tax payment calculator",
+    "how much estimated tax to pay",
+    "pay quarterly taxes calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "estimated tax", "quarterly", "freelancer", "finance"],
+  howToSteps: [
+    "Enter your expected annual taxable income.",
+    "Enter your estimated effective tax rate.",
+    "Optionally enter annual withholding and any estimated payments already made.",
+    "Choose how many quarters remain this year.",
+    "Click Calculate to see estimated quarterly payments and remaining balance."
+  ],
+  example: {
+    description:
+      "If your taxable income is $120,000, effective tax rate is 20%, withholding is $5,000, and you have 3 quarters remaining:",
+    bullets: [
+      "Estimated annual tax: $24,000",
+      "Remaining tax after withholding: $19,000",
+      "Payment per remaining quarter: $6,333.33"
+    ]
+  }
+},
 
 
 
