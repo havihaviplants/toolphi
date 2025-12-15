@@ -2321,6 +2321,41 @@ export const tools: Tool[] = [
   }
 },
 
+  {
+    slug: "annual-fee-break-even-calculator",
+    category: "finance",
+    title: "Annual Fee Break-even Calculator",
+    description:
+      "Calculate whether a credit card’s annual fee is worth it based on your spending and rewards rate.",
+    keywords: [
+      "annual fee break even calculator",
+      "credit card annual fee worth it",
+      "credit card annual fee calculator",
+      "annual fee breakeven",
+      "credit card rewards break even",
+    ],
+    type: "calculator",
+    tags: ["credit card", "annual fee", "rewards", "cashback", "finance"],
+    howToSteps: [
+      "Enter the card’s annual fee.",
+      "Enter your rewards rate (cashback % or equivalent value per $1 spent).",
+      "Enter your estimated monthly spending.",
+      "Optionally add a signup bonus value and whether the first-year fee is waived.",
+      "Click Calculate to see break-even spending and estimated net value.",
+    ],
+    example: {
+      description:
+        "If a card has a $95 annual fee, offers 2% cashback, and you spend $800/month, this calculator estimates:",
+      bullets: [
+        "Your annual rewards value from spending.",
+        "How much monthly spending is needed to break even on the annual fee.",
+        "How many months it takes to break even at your spending level.",
+        "Your estimated net gain or loss after one year.",
+      ],
+    },
+  },
+
+
 
 
 

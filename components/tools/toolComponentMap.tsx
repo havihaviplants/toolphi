@@ -70,6 +70,7 @@ import SavePlanCalculator from "./SavePlanCalculator";
 import PayePlanCalculator from "./PayePlanCalculator";
 import IcrPlanCalculator from "./IcrPlanCalculator";
 import IbrPlanCalculator from "./IbrPlanCalculator";
+import AnnualFeeBreakEvenCalculator from "./AnnualFeeBreakEvenCalculator";
 
 
 
@@ -146,6 +147,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "paye-plan-calculator": PayePlanCalculator,
   "icr-plan-calculator": IcrPlanCalculator,
   "ibr-plan-calculator": IbrPlanCalculator,
+  "annual-fee-break-even-calculator": AnnualFeeBreakEvenCalculator,
 
 };
 
