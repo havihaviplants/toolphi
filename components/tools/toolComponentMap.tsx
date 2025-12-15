@@ -78,6 +78,7 @@ import ForeignTransactionFeeSavingsCalculator from "./ForeignTransactionFeeSavin
 import CreditCardAPRSavingsCalculator from "./CreditCardAPRSavingsCalculator";
 import CapitalGainsTaxCalculator from "./CapitalGainsTaxCalculator";
 import SelfEmploymentTaxCalculator from "./SelfEmploymentTaxCalculator";
+import SalaryAfterTaxCalculator from "./SalaryAfterTaxCalculator";
 
 
 
@@ -162,6 +163,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "credit-card-apr-savings-calculator": CreditCardAPRSavingsCalculator,
   "capital-gains-tax-calculator": CapitalGainsTaxCalculator,
   "self-employment-tax-calculator": SelfEmploymentTaxCalculator,
+  "salary-after-tax-calculator": SalaryAfterTaxCalculator,
 
 };
 

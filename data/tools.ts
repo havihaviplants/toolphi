@@ -2583,6 +2583,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "salary-after-tax-calculator",
+  category: "finance",
+  title: "Salary After Tax Calculator",
+  description:
+    "Estimate your after-tax salary (take-home pay) using a simplified model with federal tax rate, optional state tax, FICA, and pre-tax deductions.",
+  keywords: [
+    "salary after tax calculator",
+    "after tax salary calculator",
+    "take home pay calculator",
+    "net salary calculator",
+    "gross to net salary calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "salary", "take home pay", "income", "finance"],
+  howToSteps: [
+    "Enter your gross annual salary.",
+    "Optionally enter pre-tax deductions (401k, HSA, etc.).",
+    "Enter your estimated federal tax rate and optional state tax rate.",
+    "Toggle FICA (Social Security + Medicare) if applicable.",
+    "Click Calculate to see yearly and monthly take-home pay."
+  ],
+  example: {
+    description:
+      "If your gross salary is $100,000, you contribute $10,000 pre-tax, federal tax is 18%, state tax is 5%, and FICA is on:",
+    bullets: [
+      "Taxable income: $90,000",
+      "Estimated total taxes: computed from rates",
+      "Net (after tax): yearly and monthly outputs"
+    ]
+  }
+},
+
+
 
 
 
