@@ -2550,6 +2550,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "self-employment-tax-calculator",
+  category: "finance",
+  title: "Self-Employment Tax Calculator",
+  description:
+    "Estimate self-employment tax (Social Security + Medicare) based on net profit. Includes the 92.35% net earnings adjustment and optional Social Security wage base cap.",
+  keywords: [
+    "self employment tax calculator",
+    "self-employment tax calculator",
+    "1099 self employment tax calculator",
+    "freelance self employment tax",
+    "how much self employment tax"
+  ],
+  type: "calculator",
+  tags: ["tax", "self employment", "freelancer", "1099", "finance"],
+  howToSteps: [
+    "Enter your net profit (income minus business expenses).",
+    "Choose whether to apply the 92.35% net earnings adjustment (default: on).",
+    "Optionally enter the Social Security wage base cap and wages already subject to Social Security tax.",
+    "Click Calculate to see Social Security tax, Medicare tax, and total self-employment tax."
+  ],
+  example: {
+    description:
+      "If your net profit is $80,000 and you apply the 92.35% adjustment:",
+    bullets: [
+      "Net earnings: $73,880",
+      "Social Security portion (up to cap): calculated on net earnings",
+      "Medicare portion: calculated on net earnings",
+      "Total self-employment tax: Social Security + Medicare"
+    ]
+  }
+},
+
+
 
 
 

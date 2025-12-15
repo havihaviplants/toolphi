@@ -77,6 +77,7 @@ import TravelRewardsValueCalculator from "./TravelRewardsValueCalculator";
 import ForeignTransactionFeeSavingsCalculator from "./ForeignTransactionFeeSavingsCalculator";
 import CreditCardAPRSavingsCalculator from "./CreditCardAPRSavingsCalculator";
 import CapitalGainsTaxCalculator from "./CapitalGainsTaxCalculator";
+import SelfEmploymentTaxCalculator from "./SelfEmploymentTaxCalculator";
 
 
 
@@ -160,6 +161,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "foreign-transaction-fee-savings-calculator": ForeignTransactionFeeSavingsCalculator,
   "credit-card-apr-savings-calculator": CreditCardAPRSavingsCalculator,
   "capital-gains-tax-calculator": CapitalGainsTaxCalculator,
+  "self-employment-tax-calculator": SelfEmploymentTaxCalculator,
 
 };
 
