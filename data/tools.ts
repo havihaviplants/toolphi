@@ -2486,5 +2486,37 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "credit-card-apr-savings-calculator",
+    category: "finance",
+    title: "Credit Card APR Savings Calculator",
+    description:
+      "Estimate how much interest you could save by reducing your credit card APR, based on balance, payments, and payoff timeline.",
+    keywords: [
+      "credit card apr savings calculator",
+      "apr savings calculator",
+      "credit card interest savings calculator",
+      "lower apr savings",
+      "how much interest will I save with lower apr",
+    ],
+    type: "calculator",
+    tags: ["credit card", "apr", "interest", "debt", "finance"],
+    howToSteps: [
+      "Enter your current balance.",
+      "Enter your current APR and your new APR.",
+      "Choose your payment method: fixed monthly payment or payoff in N months.",
+      "Click Calculate to see interest cost under both APRs and your estimated savings.",
+    ],
+    example: {
+      description:
+        "If you have a $5,000 balance, pay $200/month, current APR is 24% and new APR is 18%:",
+      bullets: [
+        "This calculator estimates total interest under each APR.",
+        "You’ll see the estimated savings from the lower APR.",
+      ],
+    },
+  },
+
+
 
 ];

@@ -75,6 +75,7 @@ import CashbackValueCalculator from "./CashbackValueCalculator";
 import PointsToCashValueCalculator from "./PointsToCashValueCalculator";
 import TravelRewardsValueCalculator from "./TravelRewardsValueCalculator";
 import ForeignTransactionFeeSavingsCalculator from "./ForeignTransactionFeeSavingsCalculator";
+import CreditCardAPRSavingsCalculator from "./CreditCardAPRSavingsCalculator";
 
 
 
@@ -156,6 +157,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "points-to-cash-value-calculator": PointsToCashValueCalculator,
   "travel-rewards-value-calculator": TravelRewardsValueCalculator,
   "foreign-transaction-fee-savings-calculator": ForeignTransactionFeeSavingsCalculator,
+  "credit-card-apr-savings-calculator": CreditCardAPRSavingsCalculator,
 
 };
 
