@@ -2421,5 +2421,39 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "travel-rewards-value-calculator",
+    category: "finance",
+    title: "Travel Rewards Value Calculator",
+    description:
+      "Estimate the dollar value of travel rewards (points or miles) based on your travel spending, earn rates, and cents-per-point value.",
+    keywords: [
+      "travel rewards value calculator",
+      "travel credit card rewards calculator",
+      "miles value calculator",
+      "points value for travel",
+      "travel points worth",
+    ],
+    type: "calculator",
+    tags: ["credit card", "travel", "rewards", "points", "finance"],
+    howToSteps: [
+      "Enter your monthly travel spending and non-travel spending.",
+      "Enter your earn rates (points per $1) for travel and non-travel purchases.",
+      "Enter your estimated cents per point (CPP) for travel redemptions.",
+      "Optionally add an annual fee and signup bonus points.",
+      "Click Calculate to see monthly/yearly rewards value and net value after fees.",
+    ],
+    example: {
+      description:
+        "If you spend $600/month on travel (3x), $1,400/month on other spend (1x), and value points at 1.5 CPP:",
+      bullets: [
+        "Monthly points: 3,200",
+        "Monthly value: $48",
+        "Yearly value: $576",
+        "If annual fee is $95, net yearly value: $481 (plus signup bonus value if any).",
+      ],
+    },
+  },
+
 
 ];

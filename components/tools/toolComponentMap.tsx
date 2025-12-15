@@ -73,6 +73,7 @@ import IbrPlanCalculator from "./IbrPlanCalculator";
 import AnnualFeeBreakEvenCalculator from "./AnnualFeeBreakEvenCalculator";
 import CashbackValueCalculator from "./CashbackValueCalculator";
 import PointsToCashValueCalculator from "./PointsToCashValueCalculator";
+import TravelRewardsValueCalculator from "./TravelRewardsValueCalculator";
 
 
 
@@ -152,6 +153,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "annual-fee-break-even-calculator": AnnualFeeBreakEvenCalculator,
   "cashback-value-calculator": CashbackValueCalculator,
   "points-to-cash-value-calculator": PointsToCashValueCalculator,
+  "travel-rewards-value-calculator": TravelRewardsValueCalculator,
 
 };
 
