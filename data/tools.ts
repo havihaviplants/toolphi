@@ -2455,5 +2455,36 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "foreign-transaction-fee-savings-calculator",
+    category: "finance",
+    title: "Foreign Transaction Fee Savings Calculator",
+    description:
+      "Estimate how much you pay in foreign transaction fees and how much you could save with a no-foreign-fee credit card.",
+    keywords: [
+      "foreign transaction fee savings calculator",
+      "no foreign transaction fee calculator",
+      "foreign transaction fee how much",
+      "credit card foreign transaction fee",
+      "foreign fee savings",
+    ],
+    type: "calculator",
+    tags: ["credit card", "fees", "travel", "finance"],
+    howToSteps: [
+      "Enter your estimated yearly foreign spending.",
+      "Enter your card’s foreign transaction fee rate (e.g., 3%).",
+      "Optionally enter a new card’s annual fee to compare net savings.",
+      "Click Calculate to see your annual fees paid and net savings.",
+    ],
+    example: {
+      description:
+        "If you spend $8,000/year abroad and your card charges a 3% foreign transaction fee:",
+      bullets: [
+        "Annual foreign transaction fees: $240",
+        "If a no-foreign-fee card costs $95/year, net savings: $145",
+      ],
+    },
+  },
+
 
 ];
