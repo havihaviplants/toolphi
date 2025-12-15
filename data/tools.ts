@@ -2387,11 +2387,39 @@ export const tools: Tool[] = [
     },
   },
 
-
-
-
-
-
+    {
+    slug: "points-to-cash-value-calculator",
+    category: "finance",
+    title: "Points to Cash Value Calculator",
+    description:
+      "Convert credit card points into cash value based on your spending, earn rate, and point value (cents per point).",
+    keywords: [
+      "points to cash value calculator",
+      "credit card points value calculator",
+      "how much are points worth",
+      "points value cents per point",
+      "convert points to dollars",
+    ],
+    type: "calculator",
+    tags: ["credit card", "points", "rewards", "finance"],
+    howToSteps: [
+      "Enter your monthly spending.",
+      "Enter your earn rate (points per $1 spent).",
+      "Enter your point value (cents per point).",
+      "Optionally add an annual fee and signup bonus points.",
+      "Click Calculate to see monthly and yearly value in dollars.",
+    ],
+    example: {
+      description:
+        "If you spend $2,000/month, earn 1.5 points per $1, and value points at 1.2 cents each:",
+      bullets: [
+        "Monthly points: 3,000",
+        "Monthly value: $36",
+        "Yearly value: $432",
+        "If annual fee is $95, net yearly value: $337",
+      ],
+    },
+  },
 
 
 ];
