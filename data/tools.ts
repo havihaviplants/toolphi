@@ -2517,6 +2517,40 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+  slug: "capital-gains-tax-calculator",
+  category: "finance",
+  title: "Capital Gains Tax Calculator",
+  description:
+    "Calculate capital gains tax based on purchase price, sale price, holding period, and tax rate. Estimate net profit after tax.",
+  keywords: [
+    "capital gains tax calculator",
+    "capital gain tax calculator",
+    "how much capital gains tax",
+    "capital gains tax estimate",
+    "investment tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "capital gains", "investing", "finance"],
+  howToSteps: [
+    "Enter the asset purchase price.",
+    "Enter the sale price.",
+    "Select whether the gain is short-term or long-term.",
+    "Enter your applicable tax rate.",
+    "Click Calculate to see tax owed and net profit."
+  ],
+  example: {
+    description:
+      "If you bought an asset for $10,000 and sold it for $15,000 with a 15% tax rate:",
+    bullets: [
+      "Capital gain: $5,000",
+      "Capital gains tax: $750",
+      "Net profit after tax: $4,250"
+    ]
+  }
+},
+
+
 
 
 ];
