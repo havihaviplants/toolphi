@@ -71,6 +71,7 @@ import PayePlanCalculator from "./PayePlanCalculator";
 import IcrPlanCalculator from "./IcrPlanCalculator";
 import IbrPlanCalculator from "./IbrPlanCalculator";
 import AnnualFeeBreakEvenCalculator from "./AnnualFeeBreakEvenCalculator";
+import CashbackValueCalculator from "./CashbackValueCalculator";
 
 
 
@@ -148,6 +149,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "icr-plan-calculator": IcrPlanCalculator,
   "ibr-plan-calculator": IbrPlanCalculator,
   "annual-fee-break-even-calculator": AnnualFeeBreakEvenCalculator,
+  "cashback-value-calculator": CashbackValueCalculator,
 
 };
 

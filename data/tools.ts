@@ -2355,6 +2355,39 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "cashback-value-calculator",
+    category: "finance",
+    title: "Cashback Value Calculator",
+    description:
+      "Estimate how much cashback you earn per month and per year based on your spending and cashback rate.",
+    keywords: [
+      "cashback value calculator",
+      "credit card cashback calculator",
+      "cash back calculator",
+      "cashback rewards calculator",
+      "how much cashback will I earn",
+    ],
+    type: "calculator",
+    tags: ["credit card", "cashback", "rewards", "finance"],
+    howToSteps: [
+      "Enter your monthly spending.",
+      "Enter your cashback rate (e.g., 2 for 2%).",
+      "Optionally enter your annual fee to see net value after fees.",
+      "Click Calculate to see monthly and yearly cashback estimates.",
+    ],
+    example: {
+      description:
+        "If you spend $1,500/month and your card gives 2% cashback:",
+      bullets: [
+        "Monthly cashback: $30",
+        "Yearly cashback: $360",
+        "If the annual fee is $95, net yearly value: $265",
+      ],
+    },
+  },
+
+
 
 
 
