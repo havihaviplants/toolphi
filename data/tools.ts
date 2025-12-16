@@ -2937,7 +2937,37 @@ export const tools: Tool[] = [
   }
 },
 
-
+{
+  slug: "take-home-pay-calculator",
+  category: "finance",
+  title: "Take Home Pay Calculator",
+  description:
+    "Estimate take-home pay after taxes and deductions based on gross income, tax rate, and other deductions. See net pay and breakdown.",
+  keywords: [
+    "take home pay calculator",
+    "net pay calculator",
+    "after tax income calculator",
+    "take home salary calculator",
+    "how much take home pay"
+  ],
+  type: "calculator",
+  tags: ["tax", "salary", "income", "paycheck", "finance"],
+  howToSteps: [
+    "Enter your gross income (annual or monthly).",
+    "Enter your estimated total tax rate.",
+    "Enter any additional deductions (optional).",
+    "Click Calculate to see take-home pay and breakdown."
+  ],
+  example: {
+    description:
+      "If your gross income is $90,000 with a 22% tax rate and $3,000 deductions:",
+    bullets: [
+      "Estimated tax: $19,800",
+      "Deductions: $3,000",
+      "Take-home pay: $67,200"
+    ]
+  }
+},
 
 
 

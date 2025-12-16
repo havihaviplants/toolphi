@@ -89,6 +89,7 @@ import Tax1099Calculator from "./Tax1099Calculator";
 import FreelancerTaxCalculator from "./FreelancerTaxCalculator";
 import UnderpaymentPenaltyCalculator from "./UnderpaymentPenaltyCalculator";
 import EstimatedTaxPaymentCalculator from "./EstimatedTaxPaymentCalculator";
+import TakeHomePayCalculator from "./TakeHomePayCalculator";
 
 
 
@@ -184,6 +185,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "freelancer-tax-calculator": FreelancerTaxCalculator,
   "underpayment-penalty-calculator": UnderpaymentPenaltyCalculator,
   "estimated-tax-payment-calculator": EstimatedTaxPaymentCalculator,
+  "take-home-pay-calculator": TakeHomePayCalculator,
 
 };
 
