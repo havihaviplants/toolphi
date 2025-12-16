@@ -2746,6 +2746,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "crypto-tax-calculator",
+  category: "finance",
+  title: "Crypto Tax Calculator",
+  description:
+    "Estimate crypto taxes based on buy/sell price, quantity, fees, and capital gains tax rate. Calculate gain, tax owed, and net profit.",
+  keywords: [
+    "crypto tax calculator",
+    "cryptocurrency tax calculator",
+    "bitcoin tax calculator",
+    "how much tax on crypto gains",
+    "crypto capital gains tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "crypto", "capital gains", "investing", "finance"],
+  howToSteps: [
+    "Enter the buy price per coin.",
+    "Enter the sell price per coin.",
+    "Enter the quantity sold.",
+    "Optionally enter total fees (exchange fees).",
+    "Enter your capital gains tax rate and click Calculate."
+  ],
+  example: {
+    description:
+      "If you bought 0.5 BTC at $30,000 and sold at $40,000 with $50 fees and a 15% tax rate:",
+    bullets: [
+      "Gross gain: $4,950",
+      "Tax owed: $742.50",
+      "Net profit after tax: $4,207.50"
+    ]
+  }
+},
+
+
+
 
 
 
