@@ -2779,9 +2779,36 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
+{
+  slug: "dividend-tax-calculator",
+  category: "finance",
+  title: "Dividend Tax Calculator",
+  description:
+    "Estimate dividend taxes based on dividend amount and tax rate. Choose between qualified or ordinary dividends and calculate tax owed and net dividends.",
+  keywords: [
+    "dividend tax calculator",
+    "qualified dividend tax calculator",
+    "ordinary dividend tax calculator",
+    "how much tax on dividends",
+    "dividend tax estimate"
+  ],
+  type: "calculator",
+  tags: ["tax", "dividends", "investing", "income", "finance"],
+  howToSteps: [
+    "Enter your total dividend amount.",
+    "Choose qualified or ordinary dividends.",
+    "Enter your tax rate for that dividend type.",
+    "Click Calculate to see estimated tax and net dividends."
+  ],
+  example: {
+    description:
+      "If you received $5,000 in qualified dividends and use a 15% rate:",
+    bullets: [
+      "Tax owed: $750",
+      "Net dividends: $4,250"
+    ]
+  }
+},
 
 
 ];

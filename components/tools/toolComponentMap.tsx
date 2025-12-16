@@ -84,6 +84,7 @@ import ShortTermCapitalGainsTaxCalculator from "./ShortTermCapitalGainsTaxCalcul
 import LongTermCapitalGainsTaxCalculator from "./LongTermCapitalGainsTaxCalculator";
 import StockSaleTaxCalculator from "./StockSaleTaxCalculator";
 import CryptoTaxCalculator from "./CryptoTaxCalculator";
+import DividendTaxCalculator from "./DividendTaxCalculator";
 
 
 
@@ -174,6 +175,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "long-term-capital-gains-tax-calculator": LongTermCapitalGainsTaxCalculator,
   "stock-sale-tax-calculator": StockSaleTaxCalculator,
   "crypto-tax-calculator": CryptoTaxCalculator,
+  "dividend-tax-calculator": DividendTaxCalculator,
 
 };
 
