@@ -2876,6 +2876,37 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "underpayment-penalty-calculator",
+  category: "finance",
+  title: "Underpayment Penalty Calculator",
+  description:
+    "Estimate IRS underpayment penalties based on unpaid tax amount, annual penalty rate, and number of days underpaid.",
+  keywords: [
+    "underpayment penalty calculator",
+    "irs underpayment penalty calculator",
+    "estimated tax penalty calculator",
+    "how much is underpayment penalty",
+    "tax underpayment interest calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "penalty", "irs", "estimated tax", "finance"],
+  howToSteps: [
+    "Enter the unpaid tax amount.",
+    "Enter the annual penalty (interest) rate.",
+    "Enter the number of days the tax was unpaid.",
+    "Click Calculate to estimate the penalty."
+  ],
+  example: {
+    description:
+      "If $5,000 of tax was underpaid for 120 days at a 7% annual rate:",
+    bullets: [
+      "Estimated penalty: $115.07"
+    ]
+  }
+},
+
+
 
 
 ];

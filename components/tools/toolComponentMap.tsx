@@ -87,6 +87,7 @@ import CryptoTaxCalculator from "./CryptoTaxCalculator";
 import DividendTaxCalculator from "./DividendTaxCalculator";
 import Tax1099Calculator from "./Tax1099Calculator";
 import FreelancerTaxCalculator from "./FreelancerTaxCalculator";
+import UnderpaymentPenaltyCalculator from "./UnderpaymentPenaltyCalculator";
 
 
 
@@ -180,6 +181,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "dividend-tax-calculator": DividendTaxCalculator,
   "1099-tax-calculator": Tax1099Calculator,
   "freelancer-tax-calculator": FreelancerTaxCalculator,
+  "underpayment-penalty-calculator": UnderpaymentPenaltyCalculator,
 
 };
 
