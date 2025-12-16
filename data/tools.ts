@@ -2649,8 +2649,37 @@ export const tools: Tool[] = [
   }
 },
 
-
-
+{
+  slug: "short-term-capital-gains-tax-calculator",
+  category: "finance",
+  title: "Short-Term Capital Gains Tax Calculator",
+  description:
+    "Calculate short-term capital gains tax based on purchase price, sale price, and ordinary income tax rate. Estimate tax owed and net profit.",
+  keywords: [
+    "short term capital gains tax calculator",
+    "short-term capital gains calculator",
+    "short term capital gains tax estimate",
+    "how much short term capital gains tax",
+    "short term investment tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "capital gains", "short term", "investing", "finance"],
+  howToSteps: [
+    "Enter the purchase price of the asset.",
+    "Enter the sale price.",
+    "Enter your ordinary income tax rate.",
+    "Click Calculate to see tax owed and net profit."
+  ],
+  example: {
+    description:
+      "If you bought an asset for $10,000 and sold it for $14,000 with a 24% income tax rate:",
+    bullets: [
+      "Short-term gain: $4,000",
+      "Tax owed: $960",
+      "Net profit after tax: $3,040"
+    ]
+  }
+},
 
 
 ];
