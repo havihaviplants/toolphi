@@ -2906,6 +2906,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "estimated-tax-payment-calculator",
+  category: "finance",
+  title: "Estimated Tax Payment Calculator",
+  description:
+    "Estimate quarterly tax payments based on annual taxable income and an estimated tax rate. See per-quarter payments and total annual tax.",
+  keywords: [
+    "estimated tax payment calculator",
+    "quarterly tax payment calculator",
+    "estimated quarterly taxes calculator",
+    "how much estimated tax should i pay",
+    "irs estimated tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "estimated tax", "quarterly", "irs", "finance"],
+  howToSteps: [
+    "Enter your estimated annual taxable income.",
+    "Enter your estimated total effective tax rate.",
+    "Choose the number of quarterly payments (usually 4).",
+    "Click Calculate to see per-quarter estimated payments."
+  ],
+  example: {
+    description:
+      "If your annual taxable income is $100,000 and your effective tax rate is 20%:",
+    bullets: [
+      "Estimated annual tax: $20,000",
+      "Estimated quarterly payment (4): $5,000"
+    ]
+  }
+},
+
+
 
 
 
