@@ -2843,5 +2843,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "freelancer-tax-calculator",
+  category: "finance",
+  title: "Freelancer Tax Calculator",
+  description:
+    "Estimate freelancer taxes using net income, estimated self-employment tax rate, and income tax rate. Calculate total tax and take-home pay.",
+  keywords: [
+    "freelancer tax calculator",
+    "freelance tax calculator",
+    "self employed tax calculator freelancer",
+    "how much tax do freelancers pay",
+    "freelancer take home pay calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "freelance", "self employment", "income"],
+  howToSteps: [
+    "Enter your estimated annual net freelance income (after expenses).",
+    "Enter an estimated self-employment tax rate.",
+    "Enter your estimated income tax rate.",
+    "Click Calculate to see total tax and take-home pay."
+  ],
+  example: {
+    description:
+      "If your net freelance income is $60,000, you estimate 15.3% self-employment tax and 10% income tax:",
+    bullets: [
+      "Self-employment tax: $9,180",
+      "Income tax: $6,000",
+      "Total tax: $15,180",
+      "Take-home pay: $44,820"
+    ]
+  }
+},
+
+
 
 ];
