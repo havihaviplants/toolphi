@@ -2810,5 +2810,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "1099-tax-calculator",
+  category: "finance",
+  title: "1099 Tax Calculator",
+  description:
+    "Estimate 1099 contractor taxes using net income, estimated self-employment tax rate, and income tax rate. Calculate total tax and take-home pay.",
+  keywords: [
+    "1099 tax calculator",
+    "independent contractor tax calculator",
+    "freelancer tax calculator 1099",
+    "how much tax do i pay on 1099 income",
+    "1099 take home pay calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "1099", "freelance", "self employment", "income"],
+  howToSteps: [
+    "Enter your estimated annual net 1099 income (after business expenses).",
+    "Enter an estimated self-employment tax rate (or use a typical estimate).",
+    "Enter your estimated income tax rate.",
+    "Click Calculate to see total tax and take-home pay."
+  ],
+  example: {
+    description:
+      "If your net 1099 income is $80,000, you estimate 15.3% self-employment tax and 12% income tax:",
+    bullets: [
+      "Self-employment tax: $12,240",
+      "Income tax: $9,600",
+      "Total tax: $21,840",
+      "Take-home pay: $58,160"
+    ]
+  }
+},
+
 
 ];
