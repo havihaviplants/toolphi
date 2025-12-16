@@ -81,6 +81,7 @@ import SelfEmploymentTaxCalculator from "./SelfEmploymentTaxCalculator";
 import SalaryAfterTaxCalculator from "./SalaryAfterTaxCalculator";
 import QuarterlyEstimatedTaxCalculator from "./QuarterlyEstimatedTaxCalculator";
 import ShortTermCapitalGainsTaxCalculator from "./ShortTermCapitalGainsTaxCalculator";
+import LongTermCapitalGainsTaxCalculator from "./LongTermCapitalGainsTaxCalculator";
 
 
 
@@ -168,6 +169,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "salary-after-tax-calculator": SalaryAfterTaxCalculator,
   "quarterly-estimated-tax-calculator": QuarterlyEstimatedTaxCalculator,
   "short-term-capital-gains-tax-calculator": ShortTermCapitalGainsTaxCalculator,
+  "long-term-capital-gains-tax-calculator": LongTermCapitalGainsTaxCalculator,
 
 };
 

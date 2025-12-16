@@ -2681,5 +2681,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "long-term-capital-gains-tax-calculator",
+  category: "finance",
+  title: "Long-Term Capital Gains Tax Calculator",
+  description:
+    "Calculate long-term capital gains tax based on purchase price, sale price, and long-term capital gains tax rate. Estimate tax owed and net profit.",
+  keywords: [
+    "long term capital gains tax calculator",
+    "long-term capital gains calculator",
+    "long term capital gains tax estimate",
+    "how much long term capital gains tax",
+    "long term investment tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "capital gains", "long term", "investing", "finance"],
+  howToSteps: [
+    "Enter the purchase price of the asset.",
+    "Enter the sale price.",
+    "Enter your long-term capital gains tax rate.",
+    "Click Calculate to see tax owed and net profit."
+  ],
+  example: {
+    description:
+      "If you bought an asset for $10,000 and sold it for $14,000 with a 15% long-term capital gains rate:",
+    bullets: [
+      "Long-term gain: $4,000",
+      "Tax owed: $600",
+      "Net profit after tax: $3,400"
+    ]
+  }
+},
+
+
 
 ];
