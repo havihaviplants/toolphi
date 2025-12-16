@@ -2713,6 +2713,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "stock-sale-tax-calculator",
+  category: "finance",
+  title: "Stock Sale Tax Calculator",
+  description:
+    "Calculate tax and net profit from selling stocks based on buy price, sell price, shares, fees, and capital gains tax rate.",
+  keywords: [
+    "stock sale tax calculator",
+    "stock capital gains tax calculator",
+    "sell stock tax calculator",
+    "how much tax on stock sale",
+    "stock profit tax calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "stocks", "capital gains", "investing", "finance"],
+  howToSteps: [
+    "Enter the buy price per share.",
+    "Enter the sell price per share.",
+    "Enter the number of shares sold.",
+    "Optionally enter total fees (commissions).",
+    "Enter your capital gains tax rate and click Calculate."
+  ],
+  example: {
+    description:
+      "If you bought 100 shares at $50 and sold at $70 with $20 fees and a 15% tax rate:",
+    bullets: [
+      "Gross gain: $2,000",
+      "Tax owed: $297",
+      "Net profit after tax: $1,683"
+    ]
+  }
+},
+
+
 
 
 ];
