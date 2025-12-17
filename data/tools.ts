@@ -3216,7 +3216,47 @@ export const tools: Tool[] = [
       "Total immediate cost: about $32.50"
     ]
   }
+},
+
+{
+  slug: "credit-card-cash-app-transfer-fee-calculator",
+  category: "finance",
+  title: "Credit Card Cash App Transfer Fee Calculator",
+  description:
+    "Estimate the fee and immediate interest cost when adding money to Cash App using a credit card.",
+  keywords: [
+    "credit card cash app fee",
+    "cash app credit card fee calculator",
+    "transfer money from credit card to cash app",
+    "cash app add money credit card fee"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "cash app",
+    "transfer",
+    "fee",
+    "interest",
+    "cash",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the amount you want to add to Cash App.",
+    "Enter the Cash App fee percentage.",
+    "Enter the credit card APR.",
+    "Calculate the fee and first-day interest cost."
+  ],
+  example: {
+    description:
+      "If you add $300 to Cash App with a 3% fee and a 25% APR:",
+    bullets: [
+      "Cash App fee: $9.00",
+      "First-day interest: approximately $0.21",
+      "Total immediate cost: about $9.21"
+    ]
+  }
 }
+
 
 
 

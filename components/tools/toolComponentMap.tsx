@@ -97,6 +97,7 @@ import CreditCardCashAdvanceFeeCalculator from "./CreditCardCashAdvanceFeeCalcul
 import CreditCardCashWithdrawalCostCalculator from "./CreditCardCashWithdrawalCostCalculator";
 import CreditCardToBankTransferFeeCalculator from "./CreditCardToBankTransferFeeCalculator";
 import CreditCardToDebitCardTransferFeeCalculator from "./CreditCardToDebitCardTransferFeeCalculator";
+import CreditCardCashAppTransferFeeCalculator from "./CreditCardCashAppTransferFeeCalculator";
 
 
 
@@ -200,6 +201,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "credit-card-cash-withdrawal-cost-calculator": CreditCardCashWithdrawalCostCalculator,
   "credit-card-to-bank-transfer-fee-calculator": CreditCardToBankTransferFeeCalculator,
   "credit-card-to-debit-card-transfer-fee-calculator": CreditCardToDebitCardTransferFeeCalculator,
+  "credit-card-cash-app-transfer-fee-calculator": CreditCardCashAppTransferFeeCalculator,
+
 };
 
 export function getToolComponent(slug: string) {
