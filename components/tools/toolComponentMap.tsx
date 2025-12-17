@@ -92,6 +92,7 @@ import EstimatedTaxPaymentCalculator from "./EstimatedTaxPaymentCalculator";
 import TakeHomePayCalculator from "./TakeHomePayCalculator";
 import HourlyToAfterTaxSalaryCalculator from "./HourlyToAfterTaxSalaryCalculator";
 import HowMuchTaxDoIOweCalculator from "./HowMuchTaxDoIOweCalculator";
+import TaxRefundEstimator from "./TaxRefundEstimator";
 
 
 
@@ -190,6 +191,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "take-home-pay-calculator": TakeHomePayCalculator,
   "hourly-to-after-tax-salary-calculator": HourlyToAfterTaxSalaryCalculator,
   "how-much-tax-do-i-owe-calculator": HowMuchTaxDoIOweCalculator,
+  "tax-refund-estimator": TaxRefundEstimator,
 
 };
 

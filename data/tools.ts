@@ -3033,6 +3033,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "tax-refund-estimator",
+  category: "finance",
+  title: "Tax Refund Estimator",
+  description:
+    "Estimate your tax refund (or amount owed) based on taxable income, effective tax rate, taxes withheld, and credits.",
+  keywords: [
+    "tax refund estimator",
+    "tax refund calculator",
+    "estimate my tax refund",
+    "how much tax refund will i get",
+    "refund vs owe calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "refund", "withholding", "income", "finance"],
+  howToSteps: [
+    "Enter your estimated taxable income.",
+    "Enter your estimated effective tax rate.",
+    "Enter total taxes withheld or already paid.",
+    "Optionally enter tax credits (reduces total tax).",
+    "Click Calculate to estimate refund or amount owed."
+  ],
+  example: {
+    description:
+      "If taxable income is $80,000 at 18% and you had $16,000 withheld:",
+    bullets: [
+      "Estimated total tax: $14,400",
+      "Estimated refund: $1,600"
+    ]
+  }
+},
+
 
 
 
