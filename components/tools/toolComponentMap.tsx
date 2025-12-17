@@ -94,6 +94,7 @@ import HourlyToAfterTaxSalaryCalculator from "./HourlyToAfterTaxSalaryCalculator
 import HowMuchTaxDoIOweCalculator from "./HowMuchTaxDoIOweCalculator";
 import TaxRefundEstimator from "./TaxRefundEstimator";
 import CreditCardCashAdvanceFeeCalculator from "./CreditCardCashAdvanceFeeCalculator";
+import CreditCardCashWithdrawalCostCalculator from "./CreditCardCashWithdrawalCostCalculator";
 
 
 
@@ -194,7 +195,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "how-much-tax-do-i-owe-calculator": HowMuchTaxDoIOweCalculator,
   "tax-refund-estimator": TaxRefundEstimator,
   "credit-card-cash-advance-fee-calculator": CreditCardCashAdvanceFeeCalculator,
-
+  "credit-card-cash-withdrawal-cost-calculator": CreditCardCashWithdrawalCostCalculator,
 };
 
 export function getToolComponent(slug: string) {

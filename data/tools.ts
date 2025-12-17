@@ -3101,7 +3101,46 @@ export const tools: Tool[] = [
       "Total immediate cost: about $25.34"
     ]
   }
-}
+},
+
+{
+  slug: "credit-card-cash-withdrawal-cost-calculator",
+  category: "finance",
+  title: "Credit Card Cash Withdrawal Cost Calculator",
+  description:
+    "Calculate the total cost of withdrawing cash using a credit card, including ATM fees and immediate interest charges.",
+  keywords: [
+    "credit card cash withdrawal",
+    "credit card atm withdrawal fee",
+    "cash withdrawal credit card cost",
+    "credit card cash withdrawal calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "cash withdrawal",
+    "atm",
+    "fee",
+    "interest",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the cash withdrawal amount.",
+    "Enter the ATM fee (flat amount or percentage).",
+    "Enter the credit card APR.",
+    "Calculate the total withdrawal cost including first-day interest."
+  ],
+  example: {
+    description:
+      "If you withdraw $400 from an ATM with a $6 ATM fee and a 24% APR:",
+    bullets: [
+      "ATM fee: $6.00",
+      "First-day interest: approximately $0.26",
+      "Total immediate cost: about $6.26"
+    ]
+  }
+},
+
 
 
 
