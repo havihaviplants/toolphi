@@ -3065,6 +3065,45 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "credit-card-cash-advance-fee-calculator",
+  category: "finance",
+  title: "Credit Card Cash Advance Fee Calculator",
+  description:
+    "Calculate the upfront fee and immediate interest cost of a credit card cash advance.",
+  keywords: [
+    "credit card cash advance fee",
+    "cash advance credit card cost",
+    "credit card cash advance calculator",
+    "cash advance interest calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "cash advance",
+    "fee",
+    "interest",
+    "cash",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the cash advance amount.",
+    "Enter the cash advance fee percentage.",
+    "Enter the credit card APR.",
+    "Calculate the upfront fee and first-day interest cost."
+  ],
+  example: {
+    description:
+      "If you take a $500 cash advance with a 5% fee and a 25% APR:",
+    bullets: [
+      "Upfront fee: $25.00",
+      "First-day interest: approximately $0.34",
+      "Total immediate cost: about $25.34"
+    ]
+  }
+}
+
+
 
 
 
