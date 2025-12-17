@@ -3293,13 +3293,43 @@ export const tools: Tool[] = [
       "Total cost increases with more days carried"
     ]
   }
+},
+
+{
+  slug: "credit-card-cash-advance-interest-per-day-calculator",
+  category: "finance",
+  title: "Credit Card Cash Advance Interest Per Day Calculator",
+  description:
+    "Calculate how much interest accrues per day on a credit card cash advance based on APR and balance.",
+  keywords: [
+    "credit card cash advance interest per day",
+    "cash advance daily interest",
+    "credit card daily interest cash advance",
+    "cash advance interest per day calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "cash advance",
+    "interest",
+    "daily interest",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the cash advance amount.",
+    "Enter the credit card APR.",
+    "Calculate how much interest accrues per day."
+  ],
+  example: {
+    description:
+      "If you take a $1,000 cash advance with a 30% APR:",
+    bullets: [
+      "Daily interest rate: 30% ÷ 365",
+      "Interest per day: about $0.82",
+      "Holding the balance longer increases total cost linearly"
+    ]
+  }
 }
-
-
-
-
-
-
 
 
 
