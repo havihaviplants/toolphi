@@ -3177,7 +3177,47 @@ export const tools: Tool[] = [
       "Total immediate cost: about $30.60"
     ]
   }
+},
+
+{
+  slug: "credit-card-to-debit-card-transfer-fee-calculator",
+  category: "finance",
+  title: "Credit Card to Debit Card Transfer Fee Calculator",
+  description:
+    "Calculate the total fee and immediate interest cost when transferring money from a credit card to a debit card or linked bank account.",
+  keywords: [
+    "credit card to debit card transfer fee",
+    "transfer money from credit card to debit card",
+    "credit card to debit transfer calculator",
+    "credit card debit card fee"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "debit card",
+    "transfer",
+    "cash",
+    "fee",
+    "interest",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the transfer amount.",
+    "Enter the transfer fee percentage.",
+    "Enter the credit card APR.",
+    "Calculate the total transfer cost including first-day interest."
+  ],
+  example: {
+    description:
+      "If you transfer $800 from a credit card to a debit card with a 4% fee and a 23% APR:",
+    bullets: [
+      "Transfer fee: $32.00",
+      "First-day interest: approximately $0.50",
+      "Total immediate cost: about $32.50"
+    ]
+  }
 }
+
 
 
 
