@@ -98,6 +98,7 @@ import CreditCardCashWithdrawalCostCalculator from "./CreditCardCashWithdrawalCo
 import CreditCardToBankTransferFeeCalculator from "./CreditCardToBankTransferFeeCalculator";
 import CreditCardToDebitCardTransferFeeCalculator from "./CreditCardToDebitCardTransferFeeCalculator";
 import CreditCardCashAppTransferFeeCalculator from "./CreditCardCashAppTransferFeeCalculator";
+import CreditCardCashWithdrawalInterestCalculator from "./CreditCardCashWithdrawalInterestCalculator";
 
 
 
@@ -202,6 +203,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "credit-card-to-bank-transfer-fee-calculator": CreditCardToBankTransferFeeCalculator,
   "credit-card-to-debit-card-transfer-fee-calculator": CreditCardToDebitCardTransferFeeCalculator,
   "credit-card-cash-app-transfer-fee-calculator": CreditCardCashAppTransferFeeCalculator,
+  "credit-card-cash-withdrawal-interest-calculator": CreditCardCashWithdrawalInterestCalculator,
 
 };
 

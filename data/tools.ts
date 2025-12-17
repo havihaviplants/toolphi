@@ -3255,7 +3255,46 @@ export const tools: Tool[] = [
       "Total immediate cost: about $9.21"
     ]
   }
+},
+
+{
+  slug: "credit-card-cash-withdrawal-interest-calculator",
+  category: "finance",
+  title: "Credit Card Cash Withdrawal Interest Calculator",
+  description:
+    "Estimate interest charges on a credit card cash withdrawal based on APR and the number of days you carry the balance.",
+  keywords: [
+    "credit card cash withdrawal interest",
+    "credit card cash advance interest calculator",
+    "cash advance interest per day",
+    "credit card cash withdrawal apr calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "cash withdrawal",
+    "cash advance",
+    "interest",
+    "apr",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the cash withdrawal amount.",
+    "Enter the credit card APR.",
+    "Enter the number of days you will carry the balance.",
+    "Calculate estimated interest charges for that period."
+  ],
+  example: {
+    description:
+      "If you withdraw $600 at a 27% APR and carry it for 14 days:",
+    bullets: [
+      "Daily interest rate: 27% / 365",
+      "Estimated interest: about $6.21",
+      "Total cost increases with more days carried"
+    ]
+  }
 }
+
 
 
 
