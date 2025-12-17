@@ -3141,6 +3141,43 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "credit-card-to-bank-transfer-fee-calculator",
+  category: "finance",
+  title: "Credit Card to Bank Transfer Fee Calculator",
+  description:
+    "Calculate the total fee and immediate interest cost when transferring money from a credit card to a bank account.",
+  keywords: [
+    "credit card to bank transfer fee",
+    "transfer money from credit card to bank account",
+    "credit card fund transfer calculator",
+    "credit card to bank fee calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "credit card",
+    "bank transfer",
+    "cash",
+    "fee",
+    "interest",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the transfer amount.",
+    "Enter the transfer fee percentage or flat fee.",
+    "Enter the credit card APR.",
+    "Calculate the total transfer cost including first-day interest."
+  ],
+  example: {
+    description:
+      "If you transfer $1,000 from a credit card to a bank account with a 3% fee and a 22% APR:",
+    bullets: [
+      "Transfer fee: $30.00",
+      "First-day interest: approximately $0.60",
+      "Total immediate cost: about $30.60"
+    ]
+  }
+}
 
 
 
