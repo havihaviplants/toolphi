@@ -2969,6 +2969,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "hourly-to-after-tax-salary-calculator",
+  category: "finance",
+  title: "Hourly to After-Tax Salary Calculator",
+  description:
+    "Convert hourly wage into estimated after-tax annual and monthly salary based on hours per week, weeks per year, and an estimated tax rate.",
+  keywords: [
+    "hourly to after tax salary calculator",
+    "hourly to net salary calculator",
+    "hourly wage to take home pay",
+    "after tax hourly to salary",
+    "hourly to annual after tax"
+  ],
+  type: "calculator",
+  tags: ["tax", "salary", "hourly", "income", "finance"],
+  howToSteps: [
+    "Enter your hourly wage.",
+    "Enter hours worked per week and weeks worked per year.",
+    "Enter your estimated total tax rate.",
+    "Click Calculate to see estimated after-tax annual and monthly pay."
+  ],
+  example: {
+    description:
+      "If you earn $25/hour, work 40 hours/week for 50 weeks/year, and estimate 20% tax:",
+    bullets: [
+      "Gross annual pay: $50,000",
+      "After-tax annual pay: $40,000",
+      "After-tax monthly pay: $3,333.33"
+    ]
+  }
+},
+
+
 
 
 ];
