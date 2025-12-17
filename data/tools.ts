@@ -3001,6 +3001,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "how-much-tax-do-i-owe-calculator",
+  category: "finance",
+  title: "How Much Tax Do I Owe Calculator",
+  description:
+    "Estimate how much tax you owe (or may be refunded) based on taxable income, estimated tax rate, and taxes already paid or withheld.",
+  keywords: [
+    "how much tax do i owe calculator",
+    "tax owed calculator",
+    "how much do i owe in taxes",
+    "estimated tax owed calculator",
+    "tax liability calculator"
+  ],
+  type: "calculator",
+  tags: ["tax", "tax owed", "refund", "income", "finance"],
+  howToSteps: [
+    "Enter your estimated taxable income.",
+    "Enter your estimated effective tax rate.",
+    "Enter taxes already paid or withheld (optional).",
+    "Optionally enter other credits/deductions (as a dollar amount).",
+    "Click Calculate to see estimated tax owed or refund."
+  ],
+  example: {
+    description:
+      "If your taxable income is $100,000, you estimate 20% tax, and already paid $15,000:",
+    bullets: [
+      "Estimated total tax: $20,000",
+      "Estimated remaining owed: $5,000"
+    ]
+  }
+},
+
+
 
 
 
