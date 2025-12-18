@@ -3528,7 +3528,41 @@ export const tools: Tool[] = [
       "Effective fee rate: 4.25%"
     ]
   }
+},
+
+{
+  slug: "western-union-transfer-fee-calculator",
+  category: "finance",
+  title: "Western Union Transfer Fee Calculator",
+  description:
+    "Estimate the total cost of a Western Union money transfer including transfer fees and exchange rate markup.",
+  keywords: [
+    "western union transfer fee calculator",
+    "western union fees",
+    "western union transfer fees",
+    "how much does western union charge",
+    "western union cost calculator"
+  ],
+  type: "calculator",
+  tags: ["western union", "international", "transfer", "fee", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter the Western Union transfer fee.",
+    "Enter the exchange rate markup percentage (if applicable).",
+    "Click Calculate to estimate the total cost and effective fee rate."
+  ],
+  example: {
+    description:
+      "If you send $300 with a $12 transfer fee and a 3% FX markup:",
+    bullets: [
+      "Transfer fee: $12.00",
+      "FX markup cost: $9.00",
+      "Total cost: $21.00",
+      "Effective fee rate: 7.00%"
+    ]
+  }
 }
+
 
 
 
