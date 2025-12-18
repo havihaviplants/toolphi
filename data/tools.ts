@@ -3624,6 +3624,37 @@ export const tools: Tool[] = [
       "Total international ATM fees: $18.00"
     ]
   }
+},
+
+{
+  slug: "stop-payment-fee-calculator",
+  category: "finance",
+  title: "Stop Payment Fee Calculator",
+  description:
+    "Calculate stop payment fees charged by banks when you request to stop a check or automatic payment.",
+  keywords: [
+    "stop payment fee calculator",
+    "stop payment fee",
+    "bank stop payment cost",
+    "how much is a stop payment fee",
+    "check stop payment fee"
+  ],
+  type: "calculator",
+  tags: ["bank", "stop payment", "fee", "checking account", "finance"],
+  howToSteps: [
+    "Enter the stop payment fee charged by your bank.",
+    "Enter how many stop payment requests you made.",
+    "Click Calculate to estimate total stop payment fees."
+  ],
+  example: {
+    description:
+      "If your bank charges a $35 stop payment fee and you request it twice:",
+    bullets: [
+      "Stop payment fee per request: $35",
+      "Number of stop payment requests: 2",
+      "Total stop payment fees: $70"
+    ]
+  }
 }
 
 
