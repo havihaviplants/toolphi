@@ -3592,14 +3592,39 @@ export const tools: Tool[] = [
       "Total maintenance fees: $288"
     ]
   }
+},
+
+{
+  slug: "international-atm-fee-calculator",
+  category: "finance",
+  title: "International ATM Fee Calculator",
+  description:
+    "Estimate how much international ATM fees will cost you including foreign ATM fees and foreign transaction fees.",
+  keywords: [
+    "international atm fee calculator",
+    "international atm fees",
+    "foreign atm fee",
+    "international withdrawal fee",
+    "foreign atm withdrawal cost"
+  ],
+  type: "calculator",
+  tags: ["international", "atm", "fee", "cash", "finance"],
+  howToSteps: [
+    "Enter the ATM fee charged per withdrawal.",
+    "Enter the foreign transaction fee percentage.",
+    "Enter how many international ATM withdrawals you make per month.",
+    "Click Calculate to estimate total international ATM fees."
+  ],
+  example: {
+    description:
+      "If you pay a $3 ATM fee, a 3% foreign transaction fee, and withdraw $200 twice per month:",
+    bullets: [
+      "ATM fee total: $6.00",
+      "Foreign transaction fee: $12.00",
+      "Total international ATM fees: $18.00"
+    ]
+  }
 }
-
-
-
-
-
-
-
 
 
 
