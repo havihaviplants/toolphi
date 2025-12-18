@@ -3329,7 +3329,39 @@ export const tools: Tool[] = [
       "Holding the balance longer increases total cost linearly"
     ]
   }
+},
+
+{
+  slug: "overdraft-fee-calculator",
+  category: "finance",
+  title: "Overdraft Fee Calculator",
+  description:
+    "Calculate how much overdraft fees will cost you based on fee amount and how often your account is overdrawn.",
+  keywords: [
+    "overdraft fee calculator",
+    "overdraft fees",
+    "bank overdraft fee",
+    "how much are overdraft fees",
+    "overdraft cost calculator"
+  ],
+  type: "calculator",
+  tags: ["bank", "fee", "overdraft", "checking account", "finance"],
+  howToSteps: [
+    "Enter the overdraft fee charged by your bank.",
+    "Enter how many times your account goes into overdraft.",
+    "Click Calculate to see the total overdraft cost."
+  ],
+  example: {
+    description:
+      "If your bank charges a $35 overdraft fee and you overdraft 3 times in a month:",
+    bullets: [
+      "Fee per overdraft: $35",
+      "Number of overdrafts: 3",
+      "Total overdraft fees: $105"
+    ]
+  }
 }
+
 
 
 
