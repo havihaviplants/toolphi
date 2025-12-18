@@ -102,6 +102,7 @@ import CreditCardCashWithdrawalInterestCalculator from "./CreditCardCashWithdraw
 import CreditCardCashAdvanceInterestPerDayCalculator from "./CreditCardCashAdvanceInterestPerDayCalculator";
 import OverdraftFeeCalculator from "./OverdraftFeeCalculator";
 import NsfFeeCalculator from "./NsfFeeCalculator";
+import AtmFeeCalculator from "./AtmFeeCalculator";
 
 
 
@@ -210,6 +211,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "credit-card-cash-advance-interest-per-day-calculator": CreditCardCashAdvanceInterestPerDayCalculator,
   "overdraft-fee-calculator": OverdraftFeeCalculator,
   "nsf-fee-calculator": NsfFeeCalculator,
+  "atm-fee-calculator": AtmFeeCalculator,
 
   
 };

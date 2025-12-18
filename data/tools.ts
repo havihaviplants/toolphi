@@ -3391,7 +3391,40 @@ export const tools: Tool[] = [
       "Total NSF fees: $60"
     ]
   }
+},
+
+{
+  slug: "atm-fee-calculator",
+  category: "finance",
+  title: "ATM Fee Calculator",
+  description:
+    "Estimate how much ATM fees will cost you based on the fee per withdrawal and how often you use out-of-network ATMs.",
+  keywords: [
+    "atm fee calculator",
+    "atm fees",
+    "out of network atm fee",
+    "how much are atm fees",
+    "atm withdrawal fee calculator"
+  ],
+  type: "calculator",
+  tags: ["bank", "atm", "fee", "cash", "finance"],
+  howToSteps: [
+    "Enter the ATM fee per withdrawal (include both bank and ATM operator fees if applicable).",
+    "Enter how many ATM withdrawals you make per month.",
+    "Click Calculate to estimate your monthly and yearly ATM fee cost."
+  ],
+  example: {
+    description:
+      "If you pay $3.50 per withdrawal and use an out-of-network ATM 4 times per month:",
+    bullets: [
+      "Fee per withdrawal: $3.50",
+      "Withdrawals per month: 4",
+      "Monthly ATM fees: $14.00",
+      "Yearly ATM fees: $168.00"
+    ]
+  }
 }
+
 
 
 
