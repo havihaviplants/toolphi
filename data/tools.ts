@@ -3360,7 +3360,39 @@ export const tools: Tool[] = [
       "Total overdraft fees: $105"
     ]
   }
+},
+
+{
+  slug: "nsf-fee-calculator",
+  category: "finance",
+  title: "NSF Fee Calculator",
+  description:
+    "Estimate how much NSF (Non-Sufficient Funds) fees will cost you based on fee amount and the number of declined/returned transactions.",
+  keywords: [
+    "nsf fee calculator",
+    "nsf fees",
+    "non sufficient funds fee",
+    "how much are nsf fees",
+    "returned payment fee calculator"
+  ],
+  type: "calculator",
+  tags: ["bank", "fee", "nsf", "checking account", "finance"],
+  howToSteps: [
+    "Enter the NSF fee charged by your bank.",
+    "Enter how many times a payment was declined or returned for insufficient funds.",
+    "Click Calculate to see the total NSF fees."
+  ],
+  example: {
+    description:
+      "If your bank charges a $30 NSF fee and you have 2 returned payments in a month:",
+    bullets: [
+      "Fee per NSF event: $30",
+      "Number of NSF events: 2",
+      "Total NSF fees: $60"
+    ]
+  }
 }
+
 
 
 
