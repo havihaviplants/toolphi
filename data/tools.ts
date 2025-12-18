@@ -3423,7 +3423,43 @@ export const tools: Tool[] = [
       "Yearly ATM fees: $168.00"
     ]
   }
+},
+
+{
+  slug: "wire-transfer-fee-calculator",
+  category: "finance",
+  title: "Wire Transfer Fee Calculator",
+  description:
+    "Estimate the total cost of a wire transfer using a fixed fee, optional percentage fee, and an exchange rate markup (if applicable).",
+  keywords: [
+    "wire transfer fee calculator",
+    "wire transfer fees",
+    "bank wire transfer fees",
+    "wire transfer cost calculator",
+    "how much does a wire transfer cost"
+  ],
+  type: "calculator",
+  tags: ["bank", "wire transfer", "fee", "transfer", "finance"],
+  howToSteps: [
+    "Enter the amount you plan to send.",
+    "Enter your bank's fixed wire transfer fee.",
+    "Optionally enter a percentage fee (if your provider charges one).",
+    "Optionally enter an exchange rate markup (if converting currencies).",
+    "Click Calculate to estimate the total cost and effective fee rate."
+  ],
+  example: {
+    description:
+      "If you send $1,000 with a $25 fixed fee, a 0.5% fee, and a 1% FX markup:",
+    bullets: [
+      "Fixed fee: $25.00",
+      "Percentage fee: $5.00",
+      "FX markup cost: $10.00",
+      "Total cost: $40.00",
+      "Effective fee rate: 4.00%"
+    ]
+  }
 }
+
 
 
 
