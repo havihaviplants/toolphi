@@ -3493,7 +3493,43 @@ export const tools: Tool[] = [
       "Effective fee rate: 3.80%"
     ]
   }
+},
+
+{
+  slug: "international-wire-transfer-fee-calculator",
+  category: "finance",
+  title: "International Wire Transfer Fee Calculator",
+  description:
+    "Estimate the total cost of an international wire transfer including fixed bank fees, percentage fees, and FX rate markups.",
+  keywords: [
+    "international wire transfer fee calculator",
+    "international wire transfer fees",
+    "bank international wire fees",
+    "international wire transfer cost",
+    "how much does an international wire transfer cost"
+  ],
+  type: "calculator",
+  tags: ["international", "wire transfer", "bank", "fee", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send internationally.",
+    "Enter the bank's fixed international wire fee.",
+    "Optionally enter any percentage-based fee.",
+    "Enter the exchange rate markup applied by the bank.",
+    "Click Calculate to estimate total cost and effective fee rate."
+  ],
+  example: {
+    description:
+      "If you send $2,000 internationally with a $45 fixed fee, a 0.5% fee, and a 1.5% FX markup:",
+    bullets: [
+      "Fixed fee: $45.00",
+      "Percentage fee: $10.00",
+      "FX markup cost: $30.00",
+      "Total cost: $85.00",
+      "Effective fee rate: 4.25%"
+    ]
+  }
 }
+
 
 
 
