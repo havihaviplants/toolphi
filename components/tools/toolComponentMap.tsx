@@ -107,6 +107,7 @@ import WireTransferFeeCalculator from "./WireTransferFeeCalculator";
 import InternationalMoneyTransferFeeCalculator from "./InternationalMoneyTransferFeeCalculator";
 import InternationalWireTransferFeeCalculator from "./InternationalWireTransferFeeCalculator";
 import WesternUnionTransferFeeCalculator from "./WesternUnionTransferFeeCalculator";
+import BankMaintenanceFeeCalculator from "./BankMaintenanceFeeCalculator";
 
 
 
@@ -220,6 +221,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "international-money-transfer-fee-calculator": InternationalMoneyTransferFeeCalculator,
   "international-wire-transfer-fee-calculator": InternationalWireTransferFeeCalculator,
   "western-union-transfer-fee-calculator": WesternUnionTransferFeeCalculator,
+  "bank-maintenance-fee-calculator": BankMaintenanceFeeCalculator,
 
   
 };

@@ -3561,7 +3561,39 @@ export const tools: Tool[] = [
       "Effective fee rate: 7.00%"
     ]
   }
+},
+
+{
+  slug: "bank-maintenance-fee-calculator",
+  category: "finance",
+  title: "Bank Maintenance Fee Calculator",
+  description:
+    "Estimate how much bank maintenance fees will cost you based on monthly fees and how long you keep the account open.",
+  keywords: [
+    "bank maintenance fee calculator",
+    "monthly maintenance fee calculator",
+    "bank account maintenance fee",
+    "how much are bank maintenance fees",
+    "checking account monthly fee"
+  ],
+  type: "calculator",
+  tags: ["bank", "account", "maintenance fee", "checking", "finance"],
+  howToSteps: [
+    "Enter the monthly maintenance fee charged by your bank.",
+    "Enter how many months you plan to keep the account open.",
+    "Click Calculate to estimate total maintenance fees."
+  ],
+  example: {
+    description:
+      "If your bank charges a $12 monthly maintenance fee and you keep the account for 24 months:",
+    bullets: [
+      "Monthly fee: $12",
+      "Number of months: 24",
+      "Total maintenance fees: $288"
+    ]
+  }
 }
+
 
 
 
