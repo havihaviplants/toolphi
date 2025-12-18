@@ -3458,7 +3458,43 @@ export const tools: Tool[] = [
       "Effective fee rate: 4.00%"
     ]
   }
+},
+
+{
+  slug: "international-money-transfer-fee-calculator",
+  category: "finance",
+  title: "International Money Transfer Fee Calculator",
+  description:
+    "Estimate the total cost of an international money transfer using transfer fees, exchange rate markup, and the amount sent.",
+  keywords: [
+    "international money transfer fee calculator",
+    "international money transfer fees",
+    "international bank transfer fees",
+    "international transfer fee calculator",
+    "how much are international transfer fees"
+  ],
+  type: "calculator",
+  tags: ["international", "transfer", "fee", "fx", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter the provider's fixed fee (if any).",
+    "Optionally enter a percentage fee (if any).",
+    "Enter the exchange rate markup percentage (common hidden cost).",
+    "Click Calculate to see total cost and effective fee rate."
+  ],
+  example: {
+    description:
+      "If you send $500 with a $4 fixed fee, a 1% fee, and a 2% FX markup:",
+    bullets: [
+      "Fixed fee: $4.00",
+      "Percentage fee: $5.00",
+      "FX markup cost: $10.00",
+      "Total cost: $19.00",
+      "Effective fee rate: 3.80%"
+    ]
+  }
 }
+
 
 
 

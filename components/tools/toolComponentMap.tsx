@@ -104,6 +104,7 @@ import OverdraftFeeCalculator from "./OverdraftFeeCalculator";
 import NsfFeeCalculator from "./NsfFeeCalculator";
 import AtmFeeCalculator from "./AtmFeeCalculator";
 import WireTransferFeeCalculator from "./WireTransferFeeCalculator";
+import InternationalMoneyTransferFeeCalculator from "./InternationalMoneyTransferFeeCalculator";
 
 
 
@@ -214,6 +215,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "nsf-fee-calculator": NsfFeeCalculator,
   "atm-fee-calculator": AtmFeeCalculator,
   "wire-transfer-fee-calculator": WireTransferFeeCalculator,
+  "international-money-transfer-fee-calculator": InternationalMoneyTransferFeeCalculator,
 
   
 };
