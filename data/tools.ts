@@ -3830,7 +3830,40 @@ export const tools: Tool[] = [
       "After-tax ROI: 9.78%"
     ]
   }
+},
+
+{
+  slug: "capital-gains-tax-estimator",
+  category: "finance",
+  title: "Capital Gains Tax Estimator",
+  description:
+    "Estimate capital gains tax quickly using a simplified method to get a rough after-tax profit estimate.",
+  keywords: [
+    "capital gains tax estimator",
+    "estimate capital gains tax",
+    "capital gains tax estimate",
+    "rough capital gains tax",
+    "capital gains tax quick estimate"
+  ],
+  type: "calculator",
+  tags: ["investment", "tax", "capital gains", "estimator", "finance"],
+  howToSteps: [
+    "Enter your estimated capital gain amount.",
+    "Enter your estimated capital gains tax rate.",
+    "Click Calculate to see a rough tax estimate and after-tax gain."
+  ],
+  example: {
+    description:
+      "If you estimate a $5,000 capital gain and a 15% tax rate:",
+    bullets: [
+      "Estimated capital gain: $5,000",
+      "Tax rate: 15%",
+      "Estimated tax: $750",
+      "Estimated after-tax gain: $4,250"
+    ]
+  }
 }
+
 
 
 
