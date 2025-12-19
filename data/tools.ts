@@ -3862,7 +3862,42 @@ export const tools: Tool[] = [
       "Estimated after-tax gain: $4,250"
     ]
   }
+},
+
+{
+  slug: "investment-tax-calculator",
+  category: "finance",
+  title: "Investment Tax Calculator",
+  description:
+    "Estimate taxes on investment profits by entering capital gains, dividends/interest income, and applicable tax rates to see total tax and after-tax profit.",
+  keywords: [
+    "investment tax calculator",
+    "tax on investments calculator",
+    "investment taxes calculator",
+    "calculate investment tax",
+    "how much tax on investments"
+  ],
+  type: "calculator",
+  tags: ["investment", "tax", "capital gains", "income", "after tax", "finance"],
+  howToSteps: [
+    "Enter your capital gains amount.",
+    "Enter your dividend/interest income amount.",
+    "Enter your capital gains tax rate.",
+    "Enter your investment income tax rate.",
+    "Click Calculate to see total investment tax and after-tax profit."
+  ],
+  example: {
+    description:
+      "If you have $5,000 in capital gains and $2,000 in dividends, with 15% capital gains tax and 22% income tax:",
+    bullets: [
+      "Capital gains: $5,000 → Tax (15%): $750",
+      "Dividend/interest income: $2,000 → Tax (22%): $440",
+      "Total investment tax: $1,190",
+      "After-tax profit: $5,810"
+    ]
+  }
 }
+
 
 
 
