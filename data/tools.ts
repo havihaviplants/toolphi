@@ -3760,7 +3760,41 @@ export const tools: Tool[] = [
       "Net return: 10.30%"
     ]
   }
+},
+
+{
+  slug: "net-investment-income-tax-calculator",
+  category: "finance",
+  title: "Net Investment Income Tax Calculator",
+  description:
+    "Estimate net investment income tax by calculating the taxable portion of investment income above a threshold and applying a tax rate.",
+  keywords: [
+    "net investment income tax calculator",
+    "net investment income tax",
+    "investment income surtax calculator",
+    "niit tax calculator",
+    "tax on net investment income"
+  ],
+  type: "calculator",
+  tags: ["investment", "tax", "income", "net", "finance"],
+  howToSteps: [
+    "Enter your net investment income amount (e.g., dividends, interest, capital gains).",
+    "Enter your applicable threshold amount (if any).",
+    "Enter the net investment income tax rate.",
+    "Click Calculate to estimate taxable amount and tax owed."
+  ],
+  example: {
+    description:
+      "If you have $50,000 of net investment income, a $200,000 threshold, and a 3.8% tax rate:",
+    bullets: [
+      "Net investment income: $50,000",
+      "Threshold: $200,000",
+      "Taxable portion: $0 (income does not exceed threshold)",
+      "Tax owed: $0"
+    ]
+  }
 }
+
 
 
 
