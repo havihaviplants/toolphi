@@ -3967,15 +3967,39 @@ export const tools: Tool[] = [
       "Net investment income: $1,540.50"
     ]
   }
+},
+
+{
+  slug: "prepayment-penalty-calculator",
+  category: "finance",
+  title: "Prepayment Penalty Calculator",
+  description:
+    "Calculate a loan prepayment penalty (early payoff fee) using either a percentage of the remaining balance or a fixed fee to estimate your total penalty cost.",
+  keywords: [
+    "prepayment penalty calculator",
+    "loan prepayment penalty calculator",
+    "early payoff fee calculator",
+    "early repayment penalty calculator",
+    "how much is a prepayment penalty"
+  ],
+  type: "calculator",
+  tags: ["loan", "penalty", "fee", "mortgage", "finance"],
+  howToSteps: [
+    "Enter your remaining loan balance.",
+    "Choose how your penalty is calculated (percent of balance or fixed fee).",
+    "Enter the penalty rate (%) or fixed penalty amount.",
+    "Click Calculate to estimate your prepayment penalty."
+  ],
+  example: {
+    description:
+      "If your remaining balance is $200,000 and the penalty is 2% of the balance:",
+    bullets: [
+      "Remaining balance: $200,000",
+      "Penalty rate: 2%",
+      "Prepayment penalty: $4,000"
+    ]
+  }
 }
-
-
-
-
-
-
-
-
 
 
 

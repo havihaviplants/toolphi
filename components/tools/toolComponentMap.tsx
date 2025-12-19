@@ -119,6 +119,7 @@ import CapitalGainsTaxEstimator from "./CapitalGainsTaxEstimator";
 import InvestmentTaxCalculator from "./InvestmentTaxCalculator";
 import InvestmentNetProfitCalculator from "./InvestmentNetProfitCalculator";
 import NetInvestmentIncomeCalculator from "./NetInvestmentIncomeCalculator";
+import PrepaymentPenaltyCalculator from "./PrepaymentPenaltyCalculator";
 
 
 
@@ -244,6 +245,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "investment-tax-calculator": InvestmentTaxCalculator,
   "investment-net-profit-calculator": InvestmentNetProfitCalculator,
   "net-investment-income-calculator": NetInvestmentIncomeCalculator,
+  "prepayment-penalty-calculator": PrepaymentPenaltyCalculator,
 
   
 };
