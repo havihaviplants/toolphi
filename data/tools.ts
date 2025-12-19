@@ -3896,7 +3896,45 @@ export const tools: Tool[] = [
       "After-tax profit: $5,810"
     ]
   }
+},
+
+{
+  slug: "investment-net-profit-calculator",
+  category: "finance",
+  title: "Investment Net Profit Calculator",
+  description:
+    "Calculate net profit from an investment by subtracting fees and taxes from your gross profit to see what you actually keep.",
+  keywords: [
+    "investment net profit calculator",
+    "net profit investment calculator",
+    "investment profit after tax and fees",
+    "calculate net profit investment",
+    "after tax investment profit calculator"
+  ],
+  type: "calculator",
+  tags: ["investment", "net profit", "tax", "fee", "after tax", "finance"],
+  howToSteps: [
+    "Enter your purchase price (cost basis).",
+    "Enter your selling price (ending value).",
+    "Enter total fees paid (optional).",
+    "Enter total taxes paid (optional).",
+    "Click Calculate to see gross profit, net profit, and net margin."
+  ],
+  example: {
+    description:
+      "If you buy for $10,000 and sell for $12,000 with $40 fees and $180 taxes:",
+    bullets: [
+      "Purchase price: $10,000",
+      "Selling price: $12,000",
+      "Gross profit: $2,000",
+      "Fees: $40",
+      "Taxes: $180",
+      "Net profit: $1,780",
+      "Net margin (vs gross profit): 89.00%"
+    ]
+  }
 }
+
 
 
 
