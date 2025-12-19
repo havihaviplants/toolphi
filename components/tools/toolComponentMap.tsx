@@ -118,6 +118,7 @@ import AfterTaxROICalculator from "./AfterTaxROICalculator";
 import CapitalGainsTaxEstimator from "./CapitalGainsTaxEstimator";
 import InvestmentTaxCalculator from "./InvestmentTaxCalculator";
 import InvestmentNetProfitCalculator from "./InvestmentNetProfitCalculator";
+import NetInvestmentIncomeCalculator from "./NetInvestmentIncomeCalculator";
 
 
 
@@ -242,6 +243,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "capital-gains-tax-estimator": CapitalGainsTaxEstimator,
   "investment-tax-calculator": InvestmentTaxCalculator,
   "investment-net-profit-calculator": InvestmentNetProfitCalculator,
+  "net-investment-income-calculator": NetInvestmentIncomeCalculator,
 
   
 };

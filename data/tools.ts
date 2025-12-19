@@ -3933,8 +3933,41 @@ export const tools: Tool[] = [
       "Net margin (vs gross profit): 89.00%"
     ]
   }
-}
+},
 
+{
+  slug: "net-investment-income-calculator",
+  category: "finance",
+  title: "Net Investment Income Calculator",
+  description:
+    "Calculate net investment income after taxes and fees from dividends, interest, and other investment income.",
+  keywords: [
+    "net investment income calculator",
+    "net investment income",
+    "investment income after tax",
+    "after tax investment income calculator",
+    "net income from investments"
+  ],
+  type: "calculator",
+  tags: ["investment", "income", "net", "tax", "fee", "finance"],
+  howToSteps: [
+    "Enter your total investment income amount.",
+    "Enter total fees related to earning that income (optional).",
+    "Enter your tax rate on investment income.",
+    "Click Calculate to estimate net investment income."
+  ],
+  example: {
+    description:
+      "If you have $2,000 investment income, $25 fees, and 22% tax rate:",
+    bullets: [
+      "Investment income: $2,000",
+      "Fees: $25",
+      "Taxable income: $1,975",
+      "Tax (22%): $434.50",
+      "Net investment income: $1,540.50"
+    ]
+  }
+}
 
 
 
