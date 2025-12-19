@@ -3793,7 +3793,45 @@ export const tools: Tool[] = [
       "Tax owed: $0"
     ]
   }
+},
+
+{
+  slug: "after-tax-roi-calculator",
+  category: "finance",
+  title: "After-Tax ROI Calculator",
+  description:
+    "Calculate after-tax return on investment (ROI) by accounting for taxes and fees to see your true net ROI.",
+  keywords: [
+    "after tax roi calculator",
+    "roi after tax calculator",
+    "after tax return on investment",
+    "net roi calculator",
+    "roi calculator after fees and taxes"
+  ],
+  type: "calculator",
+  tags: ["investment", "roi", "tax", "after tax", "net return", "finance"],
+  howToSteps: [
+    "Enter your initial investment amount.",
+    "Enter your total profit before tax.",
+    "Enter total fees paid.",
+    "Enter your tax rate on gains.",
+    "Click Calculate to see after-tax ROI."
+  ],
+  example: {
+    description:
+      "If you invest $10,000, earn $1,200 profit, pay $50 in fees, and 15% tax:",
+    bullets: [
+      "Initial investment: $10,000",
+      "Gross profit: $1,200",
+      "Fees: $50",
+      "Taxable profit: $1,150",
+      "Tax (15%): $172.50",
+      "After-tax profit: $977.50",
+      "After-tax ROI: 9.78%"
+    ]
+  }
 }
+
 
 
 
