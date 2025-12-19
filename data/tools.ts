@@ -3687,7 +3687,44 @@ export const tools: Tool[] = [
       "After-tax income: $1,560"
     ]
   }
+},
+
+{
+  slug: "after-tax-investment-return-calculator",
+  category: "finance",
+  title: "After-Tax Investment Return Calculator",
+  description:
+    "Estimate your after-tax investment return by subtracting taxes and fees from your gross profit to see net profit and net return rate.",
+  keywords: [
+    "after tax investment return calculator",
+    "after tax return calculator",
+    "investment return after tax",
+    "net investment return calculator",
+    "after tax roi calculator"
+  ],
+  type: "calculator",
+  tags: ["investment", "tax", "after tax", "net return", "finance"],
+  howToSteps: [
+    "Enter your initial investment amount.",
+    "Enter your expected gross return rate.",
+    "Enter any fee rate (optional).",
+    "Enter your tax rate on gains.",
+    "Click Calculate to see after-tax net profit and net return."
+  ],
+  example: {
+    description:
+      "If you invest $10,000 with an 8% gross return, 0.5% fee, and 15% tax on gains:",
+    bullets: [
+      "Initial investment: $10,000",
+      "Gross return rate: 8% → Gross profit: $800",
+      "Fee rate: 0.5% → Fees: $50",
+      "Taxable gain: $750 → Tax (15%): $112.50",
+      "After-tax net profit: $637.50",
+      "After-tax return rate: 6.38%"
+    ]
+  }
 }
+
 
 
 
