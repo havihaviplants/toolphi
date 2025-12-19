@@ -112,6 +112,7 @@ import InternationalAtmFeeCalculator from "./InternationalAtmFeeCalculator";
 import StopPaymentFeeCalculator from "./StopPaymentFeeCalculator";
 import InvestmentIncomeTaxCalculator from "./InvestmentIncomeTaxCalculator";
 import AfterTaxInvestmentReturnCalculator from "./AfterTaxInvestmentReturnCalculator";
+import NetInvestmentReturnCalculator from "./NetInvestmentReturnCalculator";
 
 
 
@@ -230,6 +231,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "stop-payment-fee-calculator": StopPaymentFeeCalculator,
   "investment-income-tax-calculator": InvestmentIncomeTaxCalculator,
   "after-tax-investment-return-calculator": AfterTaxInvestmentReturnCalculator,
+  "net-investment-return-calculator": NetInvestmentReturnCalculator,
 
   
 };

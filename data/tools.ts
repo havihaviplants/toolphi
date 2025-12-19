@@ -3723,7 +3723,45 @@ export const tools: Tool[] = [
       "After-tax return rate: 6.38%"
     ]
   }
+},
+
+{
+  slug: "net-investment-return-calculator",
+  category: "finance",
+  title: "Net Investment Return Calculator",
+  description:
+    "Calculate net investment return after fees and taxes to estimate net profit and net return percentage.",
+  keywords: [
+    "net investment return calculator",
+    "net return calculator",
+    "investment net return",
+    "after fee and tax return calculator",
+    "net profit investment calculator"
+  ],
+  type: "calculator",
+  tags: ["investment", "net return", "tax", "fee", "finance"],
+  howToSteps: [
+    "Enter your initial investment amount.",
+    "Enter your ending value (or sale value).",
+    "Enter total fees paid (optional).",
+    "Enter total taxes paid (optional).",
+    "Click Calculate to see net profit and net return percentage."
+  ],
+  example: {
+    description:
+      "If you invest $10,000 and your ending value is $11,200 with $50 in fees and $120 in taxes:",
+    bullets: [
+      "Initial investment: $10,000",
+      "Ending value: $11,200",
+      "Gross profit: $1,200",
+      "Fees: $50",
+      "Taxes: $120",
+      "Net profit: $1,030",
+      "Net return: 10.30%"
+    ]
+  }
 }
+
 
 
 
