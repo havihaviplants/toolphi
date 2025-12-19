@@ -3655,7 +3655,40 @@ export const tools: Tool[] = [
       "Total stop payment fees: $70"
     ]
   }
+},
+
+{
+  slug: "investment-income-tax-calculator",
+  category: "finance",
+  title: "Investment Income Tax Calculator",
+  description:
+    "Calculate estimated tax on investment income such as dividends, interest, and distributions to see your after-tax income.",
+  keywords: [
+    "investment income tax calculator",
+    "tax on investment income",
+    "investment income tax",
+    "dividend income tax calculator",
+    "interest income tax calculator"
+  ],
+  type: "calculator",
+  tags: ["investment", "tax", "income", "after tax", "finance"],
+  howToSteps: [
+    "Enter your investment income amount (dividends, interest, distributions).",
+    "Enter your tax rate for this income type.",
+    "Click Calculate to estimate tax and after-tax income."
+  ],
+  example: {
+    description:
+      "If you earned $2,000 in investment income and your tax rate is 22%:",
+    bullets: [
+      "Investment income: $2,000",
+      "Tax rate: 22%",
+      "Estimated tax: $440",
+      "After-tax income: $1,560"
+    ]
+  }
 }
+
 
 
 

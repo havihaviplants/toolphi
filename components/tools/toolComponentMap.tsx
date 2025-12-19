@@ -110,6 +110,7 @@ import WesternUnionTransferFeeCalculator from "./WesternUnionTransferFeeCalculat
 import BankMaintenanceFeeCalculator from "./BankMaintenanceFeeCalculator";
 import InternationalAtmFeeCalculator from "./InternationalAtmFeeCalculator";
 import StopPaymentFeeCalculator from "./StopPaymentFeeCalculator";
+import InvestmentIncomeTaxCalculator from "./InvestmentIncomeTaxCalculator";
 
 
 
@@ -226,6 +227,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "bank-maintenance-fee-calculator": BankMaintenanceFeeCalculator,
   "international-atm-fee-calculator": InternationalAtmFeeCalculator,
   "stop-payment-fee-calculator": StopPaymentFeeCalculator,
+  "investment-income-tax-calculator": InvestmentIncomeTaxCalculator,
 
   
 };
