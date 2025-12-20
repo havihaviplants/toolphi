@@ -4221,7 +4221,39 @@ export const tools: Tool[] = [
       "Annual total = $7,500"
     ]
   }
+},
+
+{
+  slug: "hourly-to-salary-calculator",
+  category: "finance",
+  title: "Hourly to Salary Calculator",
+  description:
+    "Convert an hourly wage into annual, monthly, weekly, and daily salary estimates based on your work schedule.",
+  keywords: [
+    "hourly to salary calculator",
+    "hourly wage to salary",
+    "hourly to annual salary",
+    "hourly to monthly salary",
+    "convert hourly to salary"
+  ],
+  type: "calculator",
+  tags: ["salary", "hourly", "pay", "income", "conversion"],
+  howToSteps: [
+    "Enter your hourly wage.",
+    "Enter hours worked per week and weeks worked per year.",
+    "Review annual, monthly, weekly, and daily salary estimates."
+  ],
+  example: {
+    description:
+      "If your hourly wage is $25, you work 40 hours per week and 52 weeks per year:",
+    bullets: [
+      "Annual salary = $25 × 40 × 52 = $52,000",
+      "Monthly salary ≈ $4,333",
+      "Weekly salary = $1,000"
+    ]
+  }
 }
+
 
 
 
