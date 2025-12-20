@@ -4131,7 +4131,38 @@ export const tools: Tool[] = [
       "Seller share: 40% → $480"
     ]
   }
+},
+
+{
+  slug: "escrow-account-fee-calculator",
+  category: "finance",
+  title: "Escrow Account Fee Calculator",
+  description:
+    "Estimate monthly escrow account payments (tax + insurance) and optionally include a servicing/escrow account fee.",
+  keywords: [
+    "escrow account fee calculator",
+    "escrow account payment calculator",
+    "monthly escrow payment calculator",
+    "escrow tax and insurance calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "account", "fee", "mortgage", "tax", "insurance", "monthly-payment"],
+  howToSteps: [
+    "Enter your annual property tax and annual homeowners insurance.",
+    "Optionally enter a monthly escrow account servicing fee.",
+    "Review the estimated monthly escrow payment and annual totals."
+  ],
+  example: {
+    description:
+      "If annual tax is $6,000 and insurance is $1,200, monthly escrow is $600. Add a $5 monthly servicing fee and total monthly escrow becomes $605.",
+    bullets: [
+      "Monthly escrow (tax+insurance) = ($6,000 + $1,200) / 12 = $600",
+      "Monthly servicing fee = $5",
+      "Total monthly escrow payment = $605"
+    ]
+  }
 }
+
 
 
 
