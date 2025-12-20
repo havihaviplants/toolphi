@@ -4064,7 +4064,43 @@ export const tools: Tool[] = [
       "Estimated total (first month + one-time) = $2,100 (if you include first month's escrow)"
     ]
   }
+},
+
+{
+  slug: "escrow-closing-cost-calculator",
+  category: "finance",
+  title: "Escrow Closing Cost Calculator",
+  description:
+    "Estimate escrow and closing costs (settlement, title, recording) and see an overall closing-cost estimate.",
+  keywords: [
+    "escrow closing cost calculator",
+    "closing cost calculator",
+    "escrow fee calculator",
+    "escrow cost calculator",
+    "settlement fee calculator",
+    "title fee calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "closing-cost", "settlement", "title", "recording", "mortgage", "home"],
+  howToSteps: [
+    "Enter the home price and select whether this is a purchase or refinance.",
+    "Enter escrow/settlement fees, title fees, recording fees, and other closing costs.",
+    "Optionally estimate lender fees as a percentage of the loan amount.",
+    "Review the estimated total closing costs."
+  ],
+  example: {
+    description:
+      "If escrow/settlement is $1,200, title fees are $600, recording is $150, and other costs are $400, total closing costs are $2,350.",
+    bullets: [
+      "Escrow/Settlement: $1,200",
+      "Title fees: $600",
+      "Recording: $150",
+      "Other: $400",
+      "Total: $2,350"
+    ]
+  }
 }
+
 
 
 

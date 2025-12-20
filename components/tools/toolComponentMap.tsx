@@ -122,6 +122,7 @@ import NetInvestmentIncomeCalculator from "./NetInvestmentIncomeCalculator";
 import PrepaymentPenaltyCalculator from "./PrepaymentPenaltyCalculator";
 import EscrowFeeCalculator from "./EscrowFeeCalculator";
 import EscrowCostCalculator from "./EscrowCostCalculator";
+import EscrowClosingCostCalculator from "./EscrowClosingCostCalculator";
 
 
 
@@ -250,6 +251,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "prepayment-penalty-calculator": PrepaymentPenaltyCalculator,
   "escrow-fee-calculator": EscrowFeeCalculator,
   "escrow-cost-calculator": EscrowCostCalculator,
+  "escrow-closing-cost-calculator": EscrowClosingCostCalculator,
 
   
 };
