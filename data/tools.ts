@@ -4161,7 +4161,38 @@ export const tools: Tool[] = [
       "Total monthly escrow payment = $605"
     ]
   }
+},
+
+{
+  slug: "monthly-escrow-payment-calculator",
+  category: "finance",
+  title: "Monthly Escrow Payment Calculator",
+  description:
+    "Calculate your monthly escrow payment from annual property tax and homeowners insurance (and optional HOA).",
+  keywords: [
+    "monthly escrow payment calculator",
+    "escrow payment calculator",
+    "escrow tax and insurance calculator",
+    "escrow account payment calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "monthly-payment", "mortgage", "tax", "insurance", "hoa"],
+  howToSteps: [
+    "Enter annual property tax and annual homeowners insurance.",
+    "Optionally enter monthly HOA dues (not escrow, but often part of the housing payment).",
+    "Review monthly escrow payment and a simple total monthly housing add-on."
+  ],
+  example: {
+    description:
+      "If annual tax is $6,000 and insurance is $1,200, monthly escrow is $600. If HOA is $100/month, total add-on becomes $700/month.",
+    bullets: [
+      "Monthly escrow = ($6,000 + $1,200) / 12 = $600",
+      "HOA (optional) = $100/month",
+      "Escrow + HOA = $700/month"
+    ]
+  }
 }
+
 
 
 
