@@ -4280,14 +4280,38 @@ export const tools: Tool[] = [
       "Hourly wage = $52,000 ÷ (40 × 52) = $25/hour"
     ]
   }
+},
+
+{
+  slug: "monthly-salary-calculator",
+  category: "finance",
+  title: "Monthly Salary Calculator",
+  description:
+    "Convert an annual salary into monthly, weekly, and daily salary estimates. Optionally include bonus to estimate total compensation.",
+  keywords: [
+    "monthly salary calculator",
+    "annual to monthly salary",
+    "salary to monthly calculator",
+    "monthly income calculator",
+    "convert salary to monthly"
+  ],
+  type: "calculator",
+  tags: ["salary", "monthly", "income", "conversion", "pay"],
+  howToSteps: [
+    "Enter your annual salary.",
+    "Optionally enter an annual bonus.",
+    "Review monthly, weekly, and daily salary estimates."
+  ],
+  example: {
+    description:
+      "If your annual salary is $60,000 and your annual bonus is $6,000:",
+    bullets: [
+      "Total annual comp = $66,000",
+      "Monthly = $66,000 / 12 = $5,500",
+      "Weekly ≈ $66,000 / 52 = $1,269.23"
+    ]
+  }
 }
-
-
-
-
-
-
-
 
 
 
