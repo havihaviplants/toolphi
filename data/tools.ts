@@ -4099,7 +4099,40 @@ export const tools: Tool[] = [
       "Total: $2,350"
     ]
   }
+},
+
+{
+  slug: "escrow-fees-buyer-seller",
+  category: "finance",
+  title: "Escrow Fees Buyer vs Seller Calculator",
+  description:
+    "Estimate escrow fees at closing and split them between buyer and seller (buyer pays, seller pays, or custom split).",
+  keywords: [
+    "escrow fees buyer seller",
+    "who pays escrow fees",
+    "escrow fee split calculator",
+    "escrow fee calculator",
+    "escrow closing cost calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "fee", "buyer", "seller", "closing-cost", "mortgage", "home"],
+  howToSteps: [
+    "Enter a home price and your estimated escrow fee (fixed and/or % of price).",
+    "Choose who pays (buyer, seller, or custom split).",
+    "If custom, set the buyer share percentage.",
+    "Review the buyer and seller amounts."
+  ],
+  example: {
+    description:
+      "If escrow fee is $1,200 and buyer pays 60%, buyer pays $720 and seller pays $480.",
+    bullets: [
+      "Total escrow fee: $1,200",
+      "Buyer share: 60% → $720",
+      "Seller share: 40% → $480"
+    ]
+  }
 }
+
 
 
 
