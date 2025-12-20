@@ -4033,7 +4033,39 @@ export const tools: Tool[] = [
       "If buyer pays 100%, buyer escrow fee = $1,200"
     ]
   }
+},
+
+{
+  slug: "escrow-cost-calculator",
+  category: "finance",
+  title: "Escrow Cost Calculator",
+  description:
+    "Estimate total escrow-related costs at closing and your ongoing monthly escrow payment for tax and insurance.",
+  keywords: [
+    "escrow cost calculator",
+    "escrow fee calculator",
+    "escrow closing cost calculator",
+    "monthly escrow payment calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "cost", "closing-cost", "mortgage", "home", "tax", "insurance"],
+  howToSteps: [
+    "Enter the home price and (optional) loan amount.",
+    "Enter annual property tax and annual homeowners insurance.",
+    "Add one-time escrow/title costs (optional) to estimate total closing escrow-related costs.",
+    "Review monthly escrow payment and total estimated costs."
+  ],
+  example: {
+    description:
+      "If annual property tax is $6,000 and insurance is $1,200, monthly escrow is $600. Add $1,500 in one-time escrow costs to estimate closing escrow-related costs.",
+    bullets: [
+      "Monthly escrow payment = ($6,000 + $1,200) / 12 = $600",
+      "Total one-time escrow-related costs = $1,500",
+      "Estimated total (first month + one-time) = $2,100 (if you include first month's escrow)"
+    ]
+  }
 }
+
 
 
 
