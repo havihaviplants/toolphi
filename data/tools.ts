@@ -4191,7 +4191,38 @@ export const tools: Tool[] = [
       "Escrow + HOA = $700/month"
     ]
   }
+},
+
+{
+  slug: "escrow-tax-and-insurance-calculator",
+  category: "finance",
+  title: "Escrow Tax and Insurance Calculator",
+  description:
+    "Estimate monthly escrow payments from property tax and homeowners insurance, and compare monthly vs annual costs.",
+  keywords: [
+    "escrow tax and insurance calculator",
+    "monthly escrow payment calculator",
+    "escrow account fee calculator",
+    "escrow payment calculator",
+    "property tax insurance escrow"
+  ],
+  type: "calculator",
+  tags: ["escrow", "tax", "insurance", "monthly-payment", "mortgage", "home"],
+  howToSteps: [
+    "Enter annual property tax and annual homeowners insurance.",
+    "Optionally add annual flood insurance or PMI if applicable.",
+    "Review monthly escrow payment and annual totals."
+  ],
+  example: {
+    description:
+      "If annual tax is $6,000, insurance is $1,200, and flood insurance is $300/year, monthly escrow becomes $625.",
+    bullets: [
+      "Monthly escrow = (6,000 + 1,200 + 300) / 12 = $625",
+      "Annual total = $7,500"
+    ]
+  }
 }
+
 
 
 
