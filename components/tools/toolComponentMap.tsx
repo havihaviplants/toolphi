@@ -128,6 +128,7 @@ import EscrowAccountFeeCalculator from "./EscrowAccountFeeCalculator";
 import MonthlyEscrowPaymentCalculator from "./MonthlyEscrowPaymentCalculator";
 import EscrowTaxAndInsuranceCalculator from "./EscrowTaxAndInsuranceCalculator";
 import HourlyToSalaryCalculator from "./HourlyToSalaryCalculator";
+import SalaryToHourlyCalculator from "./SalaryToHourlyCalculator";
 
 
 
@@ -262,6 +263,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "monthly-escrow-payment-calculator": MonthlyEscrowPaymentCalculator,
   "escrow-tax-and-insurance-calculator": EscrowTaxAndInsuranceCalculator,
   "hourly-to-salary-calculator": HourlyToSalaryCalculator,
+  "salary-to-hourly-calculator": SalaryToHourlyCalculator,
 
   
 };

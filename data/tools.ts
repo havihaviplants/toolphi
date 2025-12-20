@@ -4252,7 +4252,36 @@ export const tools: Tool[] = [
       "Weekly salary = $1,000"
     ]
   }
+},
+
+{
+  slug: "salary-to-hourly-calculator",
+  category: "finance",
+  title: "Salary to Hourly Calculator",
+  description:
+    "Convert an annual salary into an hourly wage based on hours worked per week and weeks worked per year.",
+  keywords: [
+    "salary to hourly calculator",
+    "annual salary to hourly",
+    "convert salary to hourly",
+    "salary to hourly wage"
+  ],
+  type: "calculator",
+  tags: ["salary", "hourly", "pay", "income", "conversion"],
+  howToSteps: [
+    "Enter your annual salary.",
+    "Enter hours worked per week and weeks worked per year.",
+    "Review the estimated hourly wage."
+  ],
+  example: {
+    description:
+      "If your annual salary is $52,000 and you work 40 hours per week for 52 weeks:",
+    bullets: [
+      "Hourly wage = $52,000 ÷ (40 × 52) = $25/hour"
+    ]
+  }
 }
+
 
 
 
