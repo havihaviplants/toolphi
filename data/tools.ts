@@ -3999,7 +3999,42 @@ export const tools: Tool[] = [
       "Prepayment penalty: $4,000"
     ]
   }
+},
+
+{
+  slug: "escrow-fee-calculator",
+  category: "finance",
+  title: "Escrow Fee Calculator",
+  description:
+    "Estimate escrow fees and monthly escrow payments (tax + insurance) for a home purchase or refinance.",
+  keywords: [
+    "escrow fee calculator",
+    "escrow cost calculator",
+    "escrow fees buyer seller",
+    "escrow closing cost calculator",
+    "monthly escrow payment calculator",
+    "escrow account fee calculator"
+  ],
+  type: "calculator",
+  tags: ["escrow", "fee", "closing-cost", "mortgage", "home", "tax", "insurance"],
+  howToSteps: [
+    "Enter the home price and (optional) loan amount.",
+    "Enter annual property tax and annual homeowners insurance.",
+    "Enter an escrow fee as a fixed amount and/or percentage (optional).",
+    "Select who pays the escrow fee (buyer, seller, or split).",
+    "Review the estimated closing escrow fee and monthly escrow payment."
+  ],
+  example: {
+    description:
+      "If the home price is $500,000, annual property tax is $6,000, and annual insurance is $1,200:",
+    bullets: [
+      "Monthly escrow payment = ($6,000 + $1,200) / 12 = $600",
+      "If escrow fee is $1,200 fixed, closing escrow fee = $1,200",
+      "If buyer pays 100%, buyer escrow fee = $1,200"
+    ]
+  }
 }
+
 
 
 
