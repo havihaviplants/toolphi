@@ -4475,7 +4475,30 @@ export const tools: Tool[] = [
       "Net paycheck = $3,000 − $660 − $150 = $2,190"
     ]
   }
+},
+
+{
+  slug: "monthly-take-home-pay-calculator",
+  category: "finance",
+  title: "Monthly Take Home Pay Calculator",
+  description:
+    "Calculate your monthly take-home pay after taxes and deductions based on your salary or paycheck.",
+  keywords: [
+    "monthly take home pay calculator",
+    "monthly net salary calculator",
+    "monthly paycheck calculator",
+    "take home pay per month",
+    "monthly salary after tax"
+  ],
+  type: "calculator",
+  tags: ["salary", "monthly-pay", "take-home", "net-pay", "paycheck", "tax"],
+  howToSteps: [
+    "Enter your annual salary or net paycheck details.",
+    "Apply an effective tax rate and deductions.",
+    "View estimated monthly take-home pay."
+  ]
 }
+
 
 
 
