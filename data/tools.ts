@@ -4410,7 +4410,40 @@ export const tools: Tool[] = [
       "After-tax biweekly ≈ $2,596.15"
     ]
   }
+},
+
+{
+  slug: "paycheck-calculator",
+  category: "finance",
+  title: "Paycheck Calculator",
+  description:
+    "Estimate your paycheck amount after taxes and deductions, with support for common pay frequencies.",
+  keywords: [
+    "paycheck calculator",
+    "paycheck estimator",
+    "net paycheck calculator",
+    "take home paycheck calculator",
+    "paycheck after tax calculator"
+  ],
+  type: "calculator",
+  tags: ["paycheck", "salary", "net-pay", "tax", "deductions", "income"],
+  howToSteps: [
+    "Choose your pay frequency and enter your gross pay.",
+    "Enter an estimated effective tax rate.",
+    "Enter per-paycheck deductions (or convert from annual if needed).",
+    "Review estimated net paycheck and monthly/annual equivalents."
+  ],
+  example: {
+    description:
+      "If your gross biweekly paycheck is $3,000, effective tax rate is 24%, and deductions are $250 per paycheck:",
+    bullets: [
+      "Taxes per paycheck = $3,000 × 0.24 = $720",
+      "Net paycheck = $3,000 − $720 − $250 = $2,030",
+      "Estimated net monthly ≈ $2,030 × 26 / 12 = $4,398.33"
+    ]
+  }
 }
+
 
 
 
