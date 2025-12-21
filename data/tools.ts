@@ -4311,7 +4311,42 @@ export const tools: Tool[] = [
       "Weekly ≈ $66,000 / 52 = $1,269.23"
     ]
   }
+},
+
+{
+  slug: "gross-vs-net-salary-calculator",
+  category: "finance",
+  title: "Gross vs Net Salary Calculator",
+  description:
+    "Compare gross salary vs net (take-home) pay by accounting for taxes and common deductions, and see monthly/biweekly/weekly breakdowns.",
+  keywords: [
+    "gross vs net salary calculator",
+    "gross to net salary calculator",
+    "net salary calculator",
+    "take home pay calculator",
+    "after tax salary calculator",
+    "salary after deductions calculator"
+  ],
+  type: "calculator",
+  tags: ["salary", "net-pay", "gross-pay", "tax", "deductions", "paycheck"],
+  howToSteps: [
+    "Enter your gross annual salary (or gross per paycheck).",
+    "Enter an estimated effective tax rate and any deductions (401k, insurance, other).",
+    "Review net annual, net monthly, and net per-paycheck results."
+  ],
+  example: {
+    description:
+      "If gross annual salary is $80,000, effective tax rate is 22%, and deductions are $6,000/year, net annual pay is $56,400.",
+    bullets: [
+      "Gross annual: $80,000",
+      "Taxes (22%): $17,600",
+      "Deductions: $6,000",
+      "Net annual: $56,400",
+      "Net monthly: $4,700"
+    ]
+  }
 }
+
 
 
 

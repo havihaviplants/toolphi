@@ -130,6 +130,7 @@ import EscrowTaxAndInsuranceCalculator from "./EscrowTaxAndInsuranceCalculator";
 import HourlyToSalaryCalculator from "./HourlyToSalaryCalculator";
 import SalaryToHourlyCalculator from "./SalaryToHourlyCalculator";
 import MonthlySalaryCalculator from "./MonthlySalaryCalculator";
+import GrossVsNetSalaryCalculator from "./GrossVsNetSalaryCalculator";
 
 
 
@@ -266,6 +267,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "hourly-to-salary-calculator": HourlyToSalaryCalculator,
   "salary-to-hourly-calculator": SalaryToHourlyCalculator,
   "monthly-salary-calculator": MonthlySalaryCalculator,
+  "gross-vs-net-salary-calculator": GrossVsNetSalaryCalculator,
 
   
 };
