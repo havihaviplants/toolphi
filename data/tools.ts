@@ -4528,7 +4528,40 @@ export const tools: Tool[] = [
       "After-tax take-home = $77,500 × (1 − 0.22) = $60,450"
     ]
   }
+},
+
+{
+  slug: "salary-tax-calculator",
+  category: "finance",
+  title: "Salary Tax Calculator",
+  description:
+    "Estimate salary taxes using an effective tax rate and see how much tax you pay per year and per paycheck.",
+  keywords: [
+    "salary tax calculator",
+    "tax on salary calculator",
+    "income tax on salary calculator",
+    "salary tax estimator",
+    "how much tax on salary"
+  ],
+  type: "calculator",
+  tags: ["salary", "tax", "income-tax", "paycheck", "withholding", "take-home"],
+  howToSteps: [
+    "Enter your gross annual salary (or per-paycheck gross).",
+    "Choose pay frequency (optional) to view per-paycheck tax.",
+    "Enter an estimated effective tax rate.",
+    "Review estimated tax per year and per pay period."
+  ],
+  example: {
+    description:
+      "If salary is $100,000 and effective tax rate is 24%, estimated annual tax is $24,000 and monthly tax is $2,000.",
+    bullets: [
+      "Annual tax = $100,000 × 0.24 = $24,000",
+      "Monthly tax = $24,000 / 12 = $2,000",
+      "Biweekly tax ≈ $24,000 / 26 = $923.08"
+    ]
+  }
 }
+
 
 
 
