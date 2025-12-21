@@ -4560,17 +4560,39 @@ export const tools: Tool[] = [
       "Biweekly tax ≈ $24,000 / 26 = $923.08"
     ]
   }
+},
+
+{
+  slug: "semi-monthly-paycheck-calculator",
+  category: "finance",
+  title: "Semi-Monthly Paycheck Calculator",
+  description:
+    "Estimate your semi-monthly paycheck (24 paychecks per year) after taxes and deductions.",
+  keywords: [
+    "semi monthly paycheck calculator",
+    "semimonthly paycheck calculator",
+    "24 paychecks per year calculator",
+    "semi monthly net pay calculator",
+    "semi monthly take home pay"
+  ],
+  type: "calculator",
+  tags: ["paycheck", "semi-monthly", "net-pay", "tax", "deductions", "salary"],
+  howToSteps: [
+    "Enter your gross pay per semi-monthly paycheck.",
+    "Enter an estimated effective tax rate.",
+    "Enter deductions per paycheck.",
+    "Review estimated net paycheck and monthly/annual equivalents."
+  ],
+  example: {
+    description:
+      "If gross semi-monthly pay is $4,000, tax rate is 25%, and deductions are $300, net paycheck is $2,700.",
+    bullets: [
+      "Taxes = $4,000 × 0.25 = $1,000",
+      "Net = $4,000 − $1,000 − $300 = $2,700",
+      "Net annual = $2,700 × 24 = $64,800"
+    ]
+  }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
