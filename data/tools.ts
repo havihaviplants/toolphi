@@ -4497,7 +4497,39 @@ export const tools: Tool[] = [
     "Apply an effective tax rate and deductions.",
     "View estimated monthly take-home pay."
   ]
+},
+
+{
+  slug: "salary-after-deductions-calculator",
+  category: "finance",
+  title: "Salary After Deductions Calculator",
+  description:
+    "Estimate salary after deductions (retirement, insurance, other), and optionally apply an effective tax rate to get take-home pay.",
+  keywords: [
+    "salary after deductions calculator",
+    "salary deductions calculator",
+    "paycheck deductions calculator",
+    "net pay after deductions",
+    "salary after benefits deductions"
+  ],
+  type: "calculator",
+  tags: ["salary", "deductions", "net-pay", "take-home", "benefits", "paycheck"],
+  howToSteps: [
+    "Enter your gross annual salary.",
+    "Enter annual deductions (retirement, insurance, other).",
+    "Optionally enter an effective tax rate to estimate take-home pay.",
+    "Review salary after deductions and after-tax take-home estimates."
+  ],
+  example: {
+    description:
+      "If gross salary is $85,000 and deductions are $7,500/year, salary after deductions is $77,500. With a 22% effective tax rate, take-home is $60,450.",
+    bullets: [
+      "After deductions = $85,000 − $7,500 = $77,500",
+      "After-tax take-home = $77,500 × (1 − 0.22) = $60,450"
+    ]
+  }
 }
+
 
 
 

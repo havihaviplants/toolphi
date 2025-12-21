@@ -136,6 +136,7 @@ import AfterTaxSalaryCalculator from "./AfterTaxSalaryCalculator";
 import PaycheckCalculator from "./PaycheckCalculator";
 import SalaryPaycheckCalculator from "./SalaryPaycheckCalculator";
 import MonthlyTakeHomePayCalculator from "./MonthlyTakeHomePayCalculator";
+import SalaryAfterDeductionsCalculator from "./SalaryAfterDeductionsCalculator";
 
 
 
@@ -278,6 +279,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "paycheck-calculator": PaycheckCalculator,
   "salary-paycheck-calculator": SalaryPaycheckCalculator,
   "monthly-take-home-pay-calculator": MonthlyTakeHomePayCalculator,
+  "salary-after-deductions-calculator": SalaryAfterDeductionsCalculator,
 
   
 };
