@@ -131,6 +131,7 @@ import HourlyToSalaryCalculator from "./HourlyToSalaryCalculator";
 import SalaryToHourlyCalculator from "./SalaryToHourlyCalculator";
 import MonthlySalaryCalculator from "./MonthlySalaryCalculator";
 import GrossVsNetSalaryCalculator from "./GrossVsNetSalaryCalculator";
+import NetSalaryCalculator from "./NetSalaryCalculator";
 
 
 
@@ -268,6 +269,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "salary-to-hourly-calculator": SalaryToHourlyCalculator,
   "monthly-salary-calculator": MonthlySalaryCalculator,
   "gross-vs-net-salary-calculator": GrossVsNetSalaryCalculator,
+  "net-salary-calculator": NetSalaryCalculator,
 
   
 };

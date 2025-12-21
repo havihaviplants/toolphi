@@ -4345,7 +4345,42 @@ export const tools: Tool[] = [
       "Net monthly: $4,700"
     ]
   }
+},
+
+{
+  slug: "net-salary-calculator",
+  category: "finance",
+  title: "Net Salary Calculator",
+  description:
+    "Calculate your net (take-home) salary after applying an effective tax rate and deductions, with monthly/biweekly/weekly breakdowns.",
+  keywords: [
+    "net salary calculator",
+    "take home pay calculator",
+    "net pay calculator",
+    "salary after tax calculator",
+    "salary after deductions calculator"
+  ],
+  type: "calculator",
+  tags: ["salary", "net-pay", "take-home", "tax", "deductions", "paycheck"],
+  howToSteps: [
+    "Enter your gross annual salary (or per-paycheck gross).",
+    "Enter your estimated effective tax rate.",
+    "Add annual deductions (retirement, insurance, other).",
+    "Review net annual and net per-period results."
+  ],
+  example: {
+    description:
+      "If gross annual salary is $70,000, effective tax rate is 20%, and deductions are $5,000/year, net annual pay is $51,000.",
+    bullets: [
+      "Gross annual: $70,000",
+      "Taxes (20%): $14,000",
+      "Deductions: $5,000",
+      "Net annual: $51,000",
+      "Net monthly: $4,250"
+    ]
+  }
 }
+
 
 
 
