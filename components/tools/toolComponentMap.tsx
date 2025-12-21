@@ -134,6 +134,7 @@ import GrossVsNetSalaryCalculator from "./GrossVsNetSalaryCalculator";
 import NetSalaryCalculator from "./NetSalaryCalculator";
 import AfterTaxSalaryCalculator from "./AfterTaxSalaryCalculator";
 import PaycheckCalculator from "./PaycheckCalculator";
+import SalaryPaycheckCalculator from "./SalaryPaycheckCalculator";
 
 
 
@@ -274,6 +275,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "net-salary-calculator": NetSalaryCalculator,
   "after-tax-salary-calculator": AfterTaxSalaryCalculator,
   "paycheck-calculator": PaycheckCalculator,
+  "salary-paycheck-calculator": SalaryPaycheckCalculator,
 
   
 };

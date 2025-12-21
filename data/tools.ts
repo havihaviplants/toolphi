@@ -4442,7 +4442,41 @@ export const tools: Tool[] = [
       "Estimated net monthly ≈ $2,030 × 26 / 12 = $4,398.33"
     ]
   }
+},
+
+{
+  slug: "salary-paycheck-calculator",
+  category: "finance",
+  title: "Salary Paycheck Calculator",
+  description:
+    "Convert an annual salary into an estimated paycheck amount based on pay frequency, tax rate, and deductions.",
+  keywords: [
+    "salary paycheck calculator",
+    "salary to paycheck calculator",
+    "annual salary paycheck calculator",
+    "paycheck from salary",
+    "salary to biweekly paycheck"
+  ],
+  type: "calculator",
+  tags: ["salary", "paycheck", "net-pay", "tax", "deductions", "income"],
+  howToSteps: [
+    "Enter your gross annual salary.",
+    "Choose pay frequency (weekly, biweekly, semi-monthly, monthly).",
+    "Enter an estimated effective tax rate and annual deductions.",
+    "Review gross and net paycheck amounts."
+  ],
+  example: {
+    description:
+      "If annual salary is $78,000, biweekly pay (26/year), tax rate is 22%, and deductions are $3,900/year:",
+    bullets: [
+      "Gross per paycheck = $78,000 / 26 = $3,000",
+      "Taxes per paycheck = $3,000 × 0.22 = $660",
+      "Deductions per paycheck = $3,900 / 26 = $150",
+      "Net paycheck = $3,000 − $660 − $150 = $2,190"
+    ]
+  }
 }
+
 
 
 
