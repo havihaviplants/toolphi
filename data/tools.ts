@@ -4379,7 +4379,39 @@ export const tools: Tool[] = [
       "Net monthly: $4,250"
     ]
   }
+},
+
+{
+  slug: "after-tax-salary-calculator",
+  category: "finance",
+  title: "After-Tax Salary Calculator",
+  description:
+    "Estimate your after-tax salary using an effective tax rate, with annual/monthly/biweekly/weekly breakdowns.",
+  keywords: [
+    "after tax salary calculator",
+    "salary after tax calculator",
+    "after tax income calculator",
+    "net salary after tax",
+    "take home pay after tax"
+  ],
+  type: "calculator",
+  tags: ["salary", "after-tax", "tax", "take-home", "income", "paycheck"],
+  howToSteps: [
+    "Enter your gross salary (annual or per-paycheck).",
+    "Enter an estimated effective tax rate (combined).",
+    "Review after-tax salary across common pay periods."
+  ],
+  example: {
+    description:
+      "If gross annual salary is $90,000 and effective tax rate is 25%, after-tax annual salary is $67,500.",
+    bullets: [
+      "After-tax annual = $90,000 × (1 − 0.25) = $67,500",
+      "After-tax monthly = $5,625",
+      "After-tax biweekly ≈ $2,596.15"
+    ]
+  }
 }
+
 
 
 
