@@ -4592,7 +4592,39 @@ export const tools: Tool[] = [
       "Net annual = $2,700 × 24 = $64,800"
     ]
   }
+},
+
+{
+  slug: "bonus-after-tax-calculator",
+  category: "finance",
+  title: "Bonus After-Tax Calculator",
+  description:
+    "Estimate your after-tax bonus using a withholding tax rate, and see take-home bonus amounts.",
+  keywords: [
+    "bonus after tax calculator",
+    "after tax bonus calculator",
+    "bonus tax calculator",
+    "take home bonus calculator",
+    "bonus withholding calculator"
+  ],
+  type: "calculator",
+  tags: ["bonus", "after-tax", "tax", "withholding", "take-home", "income"],
+  howToSteps: [
+    "Enter your gross bonus amount.",
+    "Enter an estimated bonus withholding rate (tax rate).",
+    "Optionally enter additional deductions.",
+    "Review after-tax (take-home) bonus."
+  ],
+  example: {
+    description:
+      "If gross bonus is $10,000 and withholding rate is 30%, take-home bonus is $7,000.",
+    bullets: [
+      "Tax withheld = $10,000 × 0.30 = $3,000",
+      "After-tax bonus = $10,000 − $3,000 = $7,000"
+    ]
+  }
 }
+
 
 
 
