@@ -4749,11 +4749,50 @@ export const tools: Tool[] = [
       "Take-home dividend income = $2,000 − $300 = $1,700"
     ]
   }
+},
+
+{
+  slug: "qualified-vs-ordinary-dividend-tax-calculator",
+  category: "finance",
+  title: "Qualified vs Ordinary Dividend Tax Calculator",
+  description:
+    "Compare estimated taxes on qualified vs ordinary dividends and see the difference in take-home dividend income using two tax rates.",
+  keywords: [
+    "qualified vs ordinary dividend tax calculator",
+    "qualified dividend tax calculator",
+    "ordinary dividend tax calculator",
+    "qualified vs non qualified dividend tax",
+    "dividend tax comparison calculator",
+    "after tax dividend calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "qualified-dividend",
+    "ordinary-dividend",
+    "investment-tax",
+    "after-tax",
+    "take-home",
+    "tax-comparison"
+  ],
+  howToSteps: [
+    "Enter your total dividend amount.",
+    "Enter a qualified dividend tax rate (estimated).",
+    "Enter an ordinary dividend tax rate (estimated).",
+    "Compare taxes and take-home dividend income under both cases."
+  ],
+  example: {
+    description:
+      "If dividends are $2,000, qualified rate is 15%, and ordinary rate is 30%, qualified dividends result in lower tax and higher take-home income.",
+    bullets: [
+      "Qualified tax = $2,000 × 0.15 = $300",
+      "Qualified take-home = $2,000 − $300 = $1,700",
+      "Ordinary tax = $2,000 × 0.30 = $600",
+      "Ordinary take-home = $2,000 − $600 = $1,400",
+      "Difference in take-home = $300"
+    ]
+  }
 }
-
-
-
-
 
 
 
