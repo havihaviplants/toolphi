@@ -4792,7 +4792,49 @@ export const tools: Tool[] = [
       "Difference in take-home = $300"
     ]
   }
+},
+
+{
+  slug: "investment-tax-drag-calculator",
+  category: "finance",
+  title: "Investment Tax Drag Calculator",
+  description:
+    "Estimate investment tax drag and see how taxes reduce your pre-tax return to an after-tax return over a year.",
+  keywords: [
+    "investment tax drag calculator",
+    "tax drag calculator",
+    "after tax investment return drag",
+    "how much taxes reduce investment returns",
+    "after tax return calculator investment",
+    "investment return tax impact"
+  ],
+  type: "calculator",
+  tags: [
+    "investment",
+    "tax-drag",
+    "after-tax",
+    "return",
+    "tax-rate",
+    "portfolio",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your expected pre-tax annual return (%).",
+    "Enter your effective tax rate on investment returns (%).",
+    "Optionally enter an investment amount to estimate the dollar impact.",
+    "Review after-tax return and estimated tax drag."
+  ],
+  example: {
+    description:
+      "If pre-tax return is 8% and effective tax rate is 25%, after-tax return is 6% and tax drag is 2%. On $100,000 invested, drag is $2,000 per year.",
+    bullets: [
+      "After-tax return = 8.00% × (1 − 0.25) = 6.00%",
+      "Tax drag = 8.00% − 6.00% = 2.00%",
+      "Dollar drag = $100,000 × 0.02 = $2,000"
+    ]
+  }
 }
+
 
 
 

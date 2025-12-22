@@ -144,6 +144,7 @@ import LongTermVsShortTermCapitalGainsTaxCalculator from "./LongTermVsShortTermC
 import CapitalGainsTaxHoldingPeriodCalculator from "./CapitalGainsTaxHoldingPeriodCalculator";
 import AfterTaxDividendYieldCalculator from "./AfterTaxDividendYieldCalculator";
 import QualifiedVsOrdinaryDividendTaxCalculator from "./QualifiedVsOrdinaryDividendTaxCalculator";
+import InvestmentTaxDragCalculator from "./InvestmentTaxDragCalculator";
 
 
 
@@ -294,6 +295,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "capital-gains-tax-holding-period-calculator": CapitalGainsTaxHoldingPeriodCalculator,
   "after-tax-dividend-yield-calculator": AfterTaxDividendYieldCalculator,
   "qualified-vs-ordinary-dividend-tax-calculator": QualifiedVsOrdinaryDividendTaxCalculator,
+  "investment-tax-drag-calculator": InvestmentTaxDragCalculator,
 
 };
 
