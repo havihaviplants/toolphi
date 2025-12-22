@@ -5006,7 +5006,50 @@ export const tools: Tool[] = [
       "Estimated tax savings = $2,000 − $1,200 = $800"
     ]
   }
+},
+
+{
+  slug: "after-tax-dividend-income-calculator",
+  category: "finance",
+  title: "After Tax Dividend Income Calculator",
+  description:
+    "Estimate take-home dividend income after taxes. Calculate monthly and annual after-tax dividend income using dividend yield, investment amount, and dividend tax rate.",
+  keywords: [
+    "after tax dividend income calculator",
+    "after-tax dividend income calculator",
+    "take home dividend income calculator",
+    "monthly dividend income after tax",
+    "dividend income calculator after tax",
+    "dividend withholding tax calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "dividend-income",
+    "after-tax",
+    "monthly-income",
+    "annual-income",
+    "tax-rate",
+    "take-home"
+  ],
+  howToSteps: [
+    "Enter your investment amount.",
+    "Enter your dividend yield (annual %).",
+    "Enter your dividend tax rate (%).",
+    "Review gross dividend income and take-home dividend income (monthly & annual)."
+  ],
+  example: {
+    description:
+      "If you invest $50,000 with a 4% dividend yield and pay 15% dividend tax, annual take-home dividends are $1,700 and monthly take-home dividends are about $141.67.",
+    bullets: [
+      "Gross annual dividends = $50,000 × 0.04 = $2,000",
+      "Dividend tax = $2,000 × 0.15 = $300",
+      "After-tax annual dividends = $2,000 − $300 = $1,700",
+      "After-tax monthly dividends ≈ $1,700 ÷ 12 ≈ $141.67"
+    ]
+  }
 }
+
 
 
 

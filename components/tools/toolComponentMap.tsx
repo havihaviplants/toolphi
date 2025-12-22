@@ -149,6 +149,7 @@ import EffectiveTaxRateOnInvestmentsCalculator from "./EffectiveTaxRateOnInvestm
 import TaxableVsTaxAdvantagedInvestmentCalculator from "./TaxableVsTaxAdvantagedInvestmentCalculator";
 import BeforeVsAfterTaxInvestmentReturnCalculator from "./BeforeVsAfterTaxInvestmentReturnCalculator";
 import TaxLossHarvestingBenefitCalculator from "./TaxLossHarvestingBenefitCalculator";
+import AfterTaxDividendIncomeCalculator from "./AfterTaxDividendIncomeCalculator";
 
 
 
@@ -304,6 +305,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "taxable-vs-tax-advantaged-investment-calculator": TaxableVsTaxAdvantagedInvestmentCalculator,
   "before-vs-after-tax-investment-return-calculator": BeforeVsAfterTaxInvestmentReturnCalculator,
   "tax-loss-harvesting-benefit-calculator": TaxLossHarvestingBenefitCalculator,
+  "after-tax-dividend-income-calculator": AfterTaxDividendIncomeCalculator,
 
 
 };
