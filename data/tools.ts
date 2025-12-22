@@ -4963,7 +4963,51 @@ export const tools: Tool[] = [
       "After-tax return = $6,000 ÷ $100,000 = 6.00%"
     ]
   }
+},
+
+{
+  slug: "tax-loss-harvesting-benefit-calculator",
+  category: "finance",
+  title: "Tax Loss Harvesting Benefit Calculator",
+  description:
+    "Estimate potential tax savings from tax-loss harvesting by entering realized gains, harvested losses, and your capital gains tax rate.",
+  keywords: [
+    "tax loss harvesting benefit calculator",
+    "tax loss harvesting calculator",
+    "tax loss harvesting savings calculator",
+    "harvest capital losses calculator",
+    "tax loss harvesting tax savings",
+    "capital loss tax benefit calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "tax-loss-harvesting",
+    "capital-gains",
+    "capital-loss",
+    "investment-tax",
+    "tax-savings",
+    "after-tax",
+    "portfolio"
+  ],
+  howToSteps: [
+    "Enter your realized capital gains amount for the year (or period).",
+    "Enter the amount of capital losses you plan to harvest.",
+    "Enter your capital gains tax rate (%).",
+    "Optionally enter a maximum loss offset limit if you want to cap offsetting.",
+    "Review estimated taxable gains after harvesting and potential tax savings."
+  ],
+  example: {
+    description:
+      "If realized gains are $10,000, harvested losses are $4,000, and capital gains tax rate is 20%, taxable gains become $6,000 and estimated tax savings are $800.",
+    bullets: [
+      "Taxable gains after harvesting = $10,000 − $4,000 = $6,000",
+      "Tax before harvesting = $10,000 × 0.20 = $2,000",
+      "Tax after harvesting = $6,000 × 0.20 = $1,200",
+      "Estimated tax savings = $2,000 − $1,200 = $800"
+    ]
+  }
 }
+
 
 
 
