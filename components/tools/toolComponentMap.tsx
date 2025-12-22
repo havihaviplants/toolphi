@@ -146,6 +146,7 @@ import AfterTaxDividendYieldCalculator from "./AfterTaxDividendYieldCalculator";
 import QualifiedVsOrdinaryDividendTaxCalculator from "./QualifiedVsOrdinaryDividendTaxCalculator";
 import InvestmentTaxDragCalculator from "./InvestmentTaxDragCalculator";
 import EffectiveTaxRateOnInvestmentsCalculator from "./EffectiveTaxRateOnInvestmentsCalculator";
+import TaxableVsTaxAdvantagedInvestmentCalculator from "./TaxableVsTaxAdvantagedInvestmentCalculator";
 
 
 
@@ -298,7 +299,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "qualified-vs-ordinary-dividend-tax-calculator": QualifiedVsOrdinaryDividendTaxCalculator,
   "investment-tax-drag-calculator": InvestmentTaxDragCalculator,
   "effective-tax-rate-on-investments-calculator": EffectiveTaxRateOnInvestmentsCalculator,
-
+  "taxable-vs-tax-advantaged-investment-calculator": TaxableVsTaxAdvantagedInvestmentCalculator,
 };
 
 export function getToolComponent(slug: string) {

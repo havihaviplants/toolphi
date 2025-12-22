@@ -4877,7 +4877,52 @@ export const tools: Tool[] = [
       "Effective tax rate = $750 ÷ $4,000 = 18.75%"
     ]
   }
+},
+
+{
+  slug: "taxable-vs-tax-advantaged-investment-calculator",
+  category: "finance",
+  title: "Taxable vs Tax-Advantaged Investment Calculator",
+  description:
+    "Compare taxable vs tax-advantaged investing by estimating taxes, after-tax returns, and how much more you may keep in a tax-advantaged account.",
+  keywords: [
+    "taxable vs tax advantaged investment calculator",
+    "taxable vs tax-advantaged calculator",
+    "tax advantaged vs taxable account calculator",
+    "after tax return taxable vs tax advantaged",
+    "taxable brokerage vs retirement account calculator",
+    "tax deferred vs taxable investment calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "account-type",
+    "taxable",
+    "tax-advantaged",
+    "after-tax",
+    "investment-return",
+    "tax-planning",
+    "comparison"
+  ],
+  howToSteps: [
+    "Enter an investment amount.",
+    "Enter an expected pre-tax annual return (%).",
+    "Enter an effective annual tax rate for a taxable account (%).",
+    "Enter an effective annual tax rate for a tax-advantaged account (%).",
+    "Review after-tax returns and the difference between the two account types."
+  ],
+  example: {
+    description:
+      "If you invest $50,000 with an 8% pre-tax return, taxable effective tax is 25% and tax-advantaged effective tax is 0%, taxable after-tax return is 6% while tax-advantaged stays near 8%.",
+    bullets: [
+      "Taxable after-tax return = 8.00% × (1 − 0.25) = 6.00%",
+      "Tax-advantaged after-tax return ≈ 8.00% × (1 − 0.00) = 8.00%",
+      "Taxable profit = $50,000 × 0.06 = $3,000",
+      "Tax-advantaged profit = $50,000 × 0.08 = $4,000",
+      "Difference = $1,000"
+    ]
+  }
 }
+
 
 
 
