@@ -4665,7 +4665,50 @@ export const tools: Tool[] = [
       "Tax savings by holding long term = $3,000"
     ]
   }
+},
+
+{
+  slug: "capital-gains-tax-holding-period-calculator",
+  category: "finance",
+  title: "Capital Gains Tax Holding Period Calculator",
+  description:
+    "Estimate capital gains tax differences based on holding period and compare short-term vs long-term outcomes to plan a tax-efficient sell date.",
+  keywords: [
+    "capital gains tax holding period calculator",
+    "holding period capital gains tax calculator",
+    "capital gains holding period calculator",
+    "short term vs long term capital gains holding period",
+    "when to sell to pay less capital gains tax",
+    "capital gains tax holding period"
+  ],
+  type: "calculator",
+  tags: [
+    "capital-gains",
+    "investment-tax",
+    "holding-period",
+    "sell-date",
+    "long-term",
+    "short-term",
+    "tax-planning"
+  ],
+  howToSteps: [
+    "Enter your expected capital gain amount.",
+    "Select or enter your holding period (in days).",
+    "Enter your short-term capital gains tax rate.",
+    "Enter your long-term capital gains tax rate.",
+    "Compare estimated taxes and see the potential savings from holding longer."
+  ],
+  example: {
+    description:
+      "If capital gain is $10,000, holding 200 days may be taxed at a short-term rate (30%), while holding 400 days may qualify for a long-term rate (15%).",
+    bullets: [
+      "Short-term tax = $10,000 × 0.30 = $3,000",
+      "Long-term tax = $10,000 × 0.15 = $1,500",
+      "Potential savings if you qualify for long-term = $1,500"
+    ]
+  }
 }
+
 
 
 

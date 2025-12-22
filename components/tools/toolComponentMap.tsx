@@ -141,6 +141,7 @@ import SalaryTaxCalculator from "./SalaryTaxCalculator";
 import SemiMonthlyPaycheckCalculator from "./SemiMonthlyPaycheckCalculator";
 import BonusAfterTaxCalculator from "./BonusAfterTaxCalculator";
 import LongTermVsShortTermCapitalGainsTaxCalculator from "./LongTermVsShortTermCapitalGainsTaxCalculator";
+import CapitalGainsTaxHoldingPeriodCalculator from "./CapitalGainsTaxHoldingPeriodCalculator";
 
 
 
@@ -288,7 +289,9 @@ const toolComponentMap: Record<string, ComponentType> = {
   "semi-monthly-paycheck-calculator": SemiMonthlyPaycheckCalculator,
   "bonus-after-tax-calculator": BonusAfterTaxCalculator,
   "long-term-vs-short-term-capital-gains-tax-calculator": LongTermVsShortTermCapitalGainsTaxCalculator,
-  
+  "capital-gains-tax-holding-period-calculator": CapitalGainsTaxHoldingPeriodCalculator,
+
+
 };
 
 export function getToolComponent(slug: string) {
