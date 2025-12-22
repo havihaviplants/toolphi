@@ -4707,7 +4707,50 @@ export const tools: Tool[] = [
       "Potential savings if you qualify for long-term = $1,500"
     ]
   }
+},
+
+{
+  slug: "after-tax-dividend-yield-calculator",
+  category: "finance",
+  title: "After Tax Dividend Yield Calculator",
+  description:
+    "Estimate your after-tax dividend yield and take-home dividend income by applying a dividend tax rate to your dividend yield.",
+  keywords: [
+    "after tax dividend yield calculator",
+    "after-tax dividend yield calculator",
+    "dividend yield after tax",
+    "after tax dividend calculator",
+    "dividend tax yield calculator",
+    "take home dividend yield"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "dividend-yield",
+    "after-tax",
+    "investment-tax",
+    "income",
+    "tax-rate",
+    "take-home"
+  ],
+  howToSteps: [
+    "Enter your dividend yield (annual %).",
+    "Enter your dividend tax rate (withholding or effective tax %).",
+    "Optionally enter an investment amount to estimate yearly take-home dividend income.",
+    "Review your after-tax dividend yield and take-home dividend income."
+  ],
+  example: {
+    description:
+      "If dividend yield is 4% and dividend tax rate is 15%, after-tax dividend yield is 3.4%. On $50,000 invested, yearly take-home dividend income is $1,700.",
+    bullets: [
+      "After-tax yield = 4.00% × (1 − 0.15) = 3.40%",
+      "Gross dividend income = $50,000 × 0.04 = $2,000",
+      "Dividend tax = $2,000 × 0.15 = $300",
+      "Take-home dividend income = $2,000 − $300 = $1,700"
+    ]
+  }
 }
+
 
 
 

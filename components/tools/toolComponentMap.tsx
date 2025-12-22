@@ -142,6 +142,7 @@ import SemiMonthlyPaycheckCalculator from "./SemiMonthlyPaycheckCalculator";
 import BonusAfterTaxCalculator from "./BonusAfterTaxCalculator";
 import LongTermVsShortTermCapitalGainsTaxCalculator from "./LongTermVsShortTermCapitalGainsTaxCalculator";
 import CapitalGainsTaxHoldingPeriodCalculator from "./CapitalGainsTaxHoldingPeriodCalculator";
+import AfterTaxDividendYieldCalculator from "./AfterTaxDividendYieldCalculator";
 
 
 
@@ -290,6 +291,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "bonus-after-tax-calculator": BonusAfterTaxCalculator,
   "long-term-vs-short-term-capital-gains-tax-calculator": LongTermVsShortTermCapitalGainsTaxCalculator,
   "capital-gains-tax-holding-period-calculator": CapitalGainsTaxHoldingPeriodCalculator,
+  "after-tax-dividend-yield-calculator": AfterTaxDividendYieldCalculator,
 
 
 };
