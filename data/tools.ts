@@ -4623,7 +4623,50 @@ export const tools: Tool[] = [
       "After-tax bonus = $10,000 − $3,000 = $7,000"
     ]
   }
+},
+
+{
+  slug: "long-term-vs-short-term-capital-gains-tax-calculator",
+  category: "finance",
+  title: "Long Term vs Short Term Capital Gains Tax Calculator",
+  description:
+    "Compare long-term and short-term capital gains tax to understand how holding period impacts your investment taxes and after-tax profit.",
+  keywords: [
+    "long term vs short term capital gains tax calculator",
+    "long term capital gains tax calculator",
+    "short term capital gains tax calculator",
+    "capital gains holding period tax calculator",
+    "capital gains tax comparison",
+    "capital gains tax holding period"
+  ],
+  type: "calculator",
+  tags: [
+    "capital-gains",
+    "investment-tax",
+    "holding-period",
+    "long-term",
+    "short-term",
+    "after-tax",
+    "tax-comparison"
+  ],
+  howToSteps: [
+    "Enter your total capital gain amount.",
+    "Enter the short-term capital gains tax rate.",
+    "Enter the long-term capital gains tax rate.",
+    "Compare tax amounts based on holding period.",
+    "Review potential tax savings from long-term holding."
+  ],
+  example: {
+    description:
+      "If capital gain is $20,000, short-term tax rate is 30%, and long-term tax rate is 15%, holding long term significantly reduces tax.",
+    bullets: [
+      "Short-term tax = $20,000 × 0.30 = $6,000",
+      "Long-term tax = $20,000 × 0.15 = $3,000",
+      "Tax savings by holding long term = $3,000"
+    ]
+  }
 }
+
 
 
 
