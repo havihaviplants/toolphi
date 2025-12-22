@@ -4833,7 +4833,52 @@ export const tools: Tool[] = [
       "Dollar drag = $100,000 × 0.02 = $2,000"
     ]
   }
+},
+
+{
+  slug: "effective-tax-rate-on-investments-calculator",
+  category: "finance",
+  title: "Effective Tax Rate on Investments Calculator",
+  description:
+    "Estimate your effective tax rate on investment income by combining taxes from dividends and capital gains, and see after-tax investment income.",
+  keywords: [
+    "effective tax rate on investments calculator",
+    "investment effective tax rate calculator",
+    "effective tax rate investment income",
+    "tax rate on dividends and capital gains calculator",
+    "blended tax rate on investments",
+    "after tax investment income calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "investment-tax",
+    "effective-tax-rate",
+    "blended-rate",
+    "dividends",
+    "capital-gains",
+    "after-tax",
+    "investment-income"
+  ],
+  howToSteps: [
+    "Enter your dividend income amount.",
+    "Enter your dividend tax rate (%).",
+    "Enter your capital gains amount.",
+    "Enter your capital gains tax rate (%).",
+    "Review total tax, total investment income, and effective (blended) tax rate."
+  ],
+  example: {
+    description:
+      "If dividends are $1,000 taxed at 15% and capital gains are $3,000 taxed at 20%, total tax is $750 and effective tax rate is 18.75% on $4,000 of investment income.",
+    bullets: [
+      "Dividend tax = $1,000 × 0.15 = $150",
+      "Capital gains tax = $3,000 × 0.20 = $600",
+      "Total investment income = $1,000 + $3,000 = $4,000",
+      "Total tax = $150 + $600 = $750",
+      "Effective tax rate = $750 ÷ $4,000 = 18.75%"
+    ]
+  }
 }
+
 
 
 
