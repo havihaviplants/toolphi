@@ -4921,7 +4921,50 @@ export const tools: Tool[] = [
       "Difference = $1,000"
     ]
   }
+},
+
+{
+  slug: "before-vs-after-tax-investment-return-calculator",
+  category: "finance",
+  title: "Before vs After Tax Investment Return Calculator",
+  description:
+    "Compare before-tax vs after-tax investment returns to estimate how taxes reduce your return and take-home profit.",
+  keywords: [
+    "before vs after tax investment return calculator",
+    "before and after tax return calculator",
+    "after tax investment return calculator",
+    "investment return after tax",
+    "tax impact on investment return calculator",
+    "pre tax vs after tax return"
+  ],
+  type: "calculator",
+  tags: [
+    "investment-return",
+    "before-tax",
+    "after-tax",
+    "tax-rate",
+    "portfolio",
+    "tax-planning",
+    "comparison"
+  ],
+  howToSteps: [
+    "Enter your investment amount.",
+    "Enter your expected before-tax return (%).",
+    "Enter your effective tax rate on investment returns (%).",
+    "Review after-tax return, taxes paid, and the difference between before-tax and after-tax outcomes."
+  ],
+  example: {
+    description:
+      "If you invest $100,000, earn 8% before tax, and pay an effective tax rate of 25%, after-tax return is 6% and taxes reduce profit by $2,000.",
+    bullets: [
+      "Before-tax profit = $100,000 × 0.08 = $8,000",
+      "Tax paid = $8,000 × 0.25 = $2,000",
+      "After-tax profit = $8,000 − $2,000 = $6,000",
+      "After-tax return = $6,000 ÷ $100,000 = 6.00%"
+    ]
+  }
 }
+
 
 
 
