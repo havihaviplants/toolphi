@@ -5132,14 +5132,45 @@ export const tools: Tool[] = [
       "Last day to buy (estimate) ≈ 2025-06-17 (prior business day)"
     ]
   }
+},
+
+{
+  slug: "dividend-yield-calculator",
+  category: "finance",
+  title: "Dividend Yield Calculator",
+  description:
+    "Calculate dividend yield using annual dividends and current share price, or estimate yield from dividend per share and price per share. Pre-tax dividend yield for quick comparison.",
+  keywords: [
+    "dividend yield calculator",
+    "calculate dividend yield",
+    "dividend yield calculator pre tax",
+    "annual dividend yield calculator",
+    "how to calculate dividend yield",
+    "dividend yield formula calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "yield",
+    "income",
+    "pre-tax",
+    "stocks",
+    "etf"
+  ],
+  howToSteps: [
+    "Choose an input method: annual dividends + share price, or dividend per share + price per share.",
+    "Enter the dividend amount and current price.",
+    "Review dividend yield (%) and annual dividend income estimate."
+  ],
+  example: {
+    description:
+      "If annual dividends are $2 per share and the current share price is $50, dividend yield is 4%.",
+    bullets: [
+      "Dividend yield = $2 ÷ $50 = 0.04",
+      "Dividend yield (%) = 0.04 × 100 = 4%"
+    ]
+  }
 }
-
-
-
-
-
-
-
 
 
 
