@@ -5248,8 +5248,47 @@ export const tools: Tool[] = [
       "Estimated retirement savings ≈ $700,000+"
     ]
   }
-}
+},
 
+{
+  slug: "retirement-income-calculator",
+  category: "finance",
+  title: "Retirement Income Calculator",
+  description:
+    "Estimate retirement income from your portfolio using a withdrawal rate. See annual and monthly retirement income based on your retirement savings.",
+  keywords: [
+    "retirement income calculator",
+    "how much retirement income will I have",
+    "retirement monthly income calculator",
+    "retirement withdrawal rate calculator",
+    "4 percent rule calculator retirement income"
+  ],
+  type: "calculator",
+  tags: [
+    "retirement",
+    "income",
+    "withdrawal",
+    "4-percent-rule",
+    "planning",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter your estimated retirement savings (portfolio value).",
+    "Enter a withdrawal rate (e.g., 4%).",
+    "Optionally enter other annual income sources (pension, social security).",
+    "Review estimated annual and monthly retirement income."
+  ],
+  example: {
+    description:
+      "If you retire with $1,000,000 and use a 4% withdrawal rate, your portfolio may support about $40,000 per year (≈ $3,333 per month) before taxes.",
+    bullets: [
+      "Portfolio = $1,000,000",
+      "Withdrawal rate = 4%",
+      "Annual income ≈ $1,000,000 × 0.04 = $40,000",
+      "Monthly income ≈ $40,000 ÷ 12 = $3,333"
+    ]
+  }
+}
 
 
 
