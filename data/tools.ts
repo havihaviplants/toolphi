@@ -5329,7 +5329,51 @@ export const tools: Tool[] = [
       "Required savings = $40,000 ÷ 0.04 = $1,000,000"
     ]
   }
+},
+
+{
+  slug: "early-retirement-calculator",
+  category: "finance",
+  title: "Early Retirement Calculator",
+  description:
+    "Estimate how many years until you can retire early based on your current savings, annual contributions, expected return, and target spending using a withdrawal rate.",
+  keywords: [
+    "early retirement calculator",
+    "when can I retire calculator",
+    "years until retirement calculator",
+    "retire early calculator",
+    "fire calculator years to retirement"
+  ],
+  type: "calculator",
+  tags: [
+    "early-retirement",
+    "retirement",
+    "fire",
+    "savings",
+    "withdrawal",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your current savings.",
+    "Enter how much you add each year (annual savings).",
+    "Enter expected annual return rate.",
+    "Enter your target annual retirement spending.",
+    "Choose a withdrawal rate (e.g., 4%).",
+    "Review the target nest egg and estimated years to reach it."
+  ],
+  example: {
+    description:
+      "If you need $50,000 per year in retirement and use a 4% withdrawal rate, the target nest egg is $1,250,000. With $200,000 saved, $30,000 annual savings, and 6% return, you may reach it in around 15–20 years.",
+    bullets: [
+      "Target spending = $50,000/yr",
+      "Withdrawal rate = 4% → Target nest egg = $50,000 ÷ 0.04 = $1,250,000",
+      "Current savings = $200,000",
+      "Annual savings = $30,000, Return = 6%",
+      "Years to target ≈ ~15–20 (estimate)"
+    ]
+  }
 }
+
 
 
 
