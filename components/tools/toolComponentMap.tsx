@@ -150,8 +150,7 @@ import TaxableVsTaxAdvantagedInvestmentCalculator from "./TaxableVsTaxAdvantaged
 import BeforeVsAfterTaxInvestmentReturnCalculator from "./BeforeVsAfterTaxInvestmentReturnCalculator";
 import TaxLossHarvestingBenefitCalculator from "./TaxLossHarvestingBenefitCalculator";
 import AfterTaxDividendIncomeCalculator from "./AfterTaxDividendIncomeCalculator";
-
-
+import DividendReinvestmentDripCalculator from "./DividendReinvestmentDripCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -306,6 +305,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "before-vs-after-tax-investment-return-calculator": BeforeVsAfterTaxInvestmentReturnCalculator,
   "tax-loss-harvesting-benefit-calculator": TaxLossHarvestingBenefitCalculator,
   "after-tax-dividend-income-calculator": AfterTaxDividendIncomeCalculator,
+  "dividend-reinvestment-drip-calculator": DividendReinvestmentDripCalculator,
 
 
 };

@@ -5048,7 +5048,51 @@ export const tools: Tool[] = [
       "After-tax monthly dividends ≈ $1,700 ÷ 12 ≈ $141.67"
     ]
   }
+},
+
+{
+  slug: "dividend-reinvestment-drip-calculator",
+  category: "finance",
+  title: "Dividend Reinvestment (DRIP) Calculator",
+  description:
+    "Estimate the long-term impact of dividend reinvestment (DRIP). See how reinvesting dividends compounds your investment value and dividend income over time.",
+  keywords: [
+    "dividend reinvestment calculator",
+    "drip calculator",
+    "dividend reinvestment plan calculator",
+    "drip investing calculator",
+    "dividend drip calculator",
+    "reinvest dividends calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "drip",
+    "reinvestment",
+    "compound-growth",
+    "passive-income",
+    "long-term-investing"
+  ],
+  howToSteps: [
+    "Enter your initial investment amount.",
+    "Enter annual dividend yield (%).",
+    "Enter expected annual price growth rate (%).",
+    "Enter number of years you plan to reinvest dividends.",
+    "Review final investment value and dividend income with DRIP."
+  ],
+  example: {
+    description:
+      "If you invest $10,000 with a 4% dividend yield and reinvest dividends for 10 years, your investment grows faster than taking dividends as cash.",
+    bullets: [
+      "Initial investment = $10,000",
+      "Dividend yield = 4%",
+      "Annual price growth = 3%",
+      "Years = 10",
+      "Reinvested dividends compound into additional shares"
+    ]
+  }
 }
+
 
 
 
