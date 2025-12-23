@@ -5091,7 +5091,49 @@ export const tools: Tool[] = [
       "Reinvested dividends compound into additional shares"
     ]
   }
+},
+
+{
+  slug: "ex-dividend-date-calculator",
+  category: "finance",
+  title: "Ex-Dividend Date Calculator",
+  description:
+    "Calculate the ex-dividend date from a record date using common market conventions (T+1 or legacy T+2). Also estimate the last day to buy to receive the dividend.",
+  keywords: [
+    "ex dividend date calculator",
+    "ex-dividend date calculator",
+    "calculate ex dividend date",
+    "record date to ex dividend date",
+    "last day to buy dividend",
+    "dividend ex date calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "ex-dividend",
+    "record-date",
+    "settlement",
+    "t+1",
+    "t+2",
+    "income"
+  ],
+  howToSteps: [
+    "Enter the dividend record date.",
+    "Choose a convention (US T+1 regular way, or legacy T+2-style).",
+    "Review the estimated ex-dividend date.",
+    "Check the estimated last day to buy (cum-dividend) to receive the dividend."
+  ],
+  example: {
+    description:
+      "If the record date is 2025-06-18 and you use US T+1 convention, the ex-dividend date is typically the same day (2025-06-18). The last day to buy to receive the dividend is usually the prior business day.",
+    bullets: [
+      "Record date = 2025-06-18",
+      "US T+1 (regular way): Ex-date ≈ 2025-06-18",
+      "Last day to buy (estimate) ≈ 2025-06-17 (prior business day)"
+    ]
+  }
 }
+
 
 
 
