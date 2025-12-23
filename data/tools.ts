@@ -5372,7 +5372,51 @@ export const tools: Tool[] = [
       "Years to target ≈ ~15–20 (estimate)"
     ]
   }
+},
+
+{
+  slug: "fire-retirement-calculator",
+  category: "finance",
+  title: "FIRE Retirement Calculator",
+  description:
+    "Estimate your FIRE number and how many years it may take to reach financial independence based on income, expenses, savings rate, return rate, and a withdrawal rate.",
+  keywords: [
+    "fire retirement calculator",
+    "fire calculator",
+    "financial independence calculator",
+    "how many years to fire",
+    "fire number calculator",
+    "savings rate fire calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "fire",
+    "retirement",
+    "financial-independence",
+    "savings-rate",
+    "withdrawal",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your annual income and annual expenses.",
+    "Review your implied annual savings and savings rate.",
+    "Enter your current savings (optional) and expected return rate.",
+    "Choose a withdrawal rate (e.g., 4%) to calculate your FIRE number.",
+    "Review estimated years to FIRE."
+  ],
+  example: {
+    description:
+      "If you spend $50,000 per year and use a 4% withdrawal rate, your FIRE number is $1,250,000. With $200,000 saved and $30,000 annual savings at 6% return, you may reach FIRE in around 15–20 years.",
+    bullets: [
+      "Annual expenses = $50,000",
+      "Withdrawal rate = 4% → FIRE number = $50,000 ÷ 0.04 = $1,250,000",
+      "Current savings = $200,000",
+      "Annual savings = $30,000, Return = 6%",
+      "Years to FIRE ≈ ~15–20 (estimate)"
+    ]
+  }
 }
+
 
 
 
