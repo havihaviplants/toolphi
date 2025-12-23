@@ -5207,7 +5207,49 @@ export const tools: Tool[] = [
       "$10,000,000 ÷ 5,000,000 = $2.00 per share"
     ]
   }
+},
+
+{
+  slug: "retirement-savings-calculator",
+  category: "finance",
+  title: "Retirement Savings Calculator",
+  description:
+    "Estimate how much you will save for retirement based on current savings, annual contributions, return rate, and years to retirement.",
+  keywords: [
+    "retirement savings calculator",
+    "how much will I have for retirement",
+    "retirement savings estimate",
+    "retirement contribution calculator",
+    "retirement savings growth calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "retirement",
+    "savings",
+    "investment",
+    "long-term",
+    "planning",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter your current retirement savings.",
+    "Enter your annual contribution amount.",
+    "Enter expected annual return rate.",
+    "Enter number of years until retirement.",
+    "Review total estimated retirement savings."
+  ],
+  example: {
+    description:
+      "If you have $50,000 saved, contribute $10,000 per year, earn 6% annually for 25 years, you may accumulate over $700,000.",
+    bullets: [
+      "Starting balance = $50,000",
+      "Annual contribution = $10,000",
+      "Years = 25, Return = 6%",
+      "Estimated retirement savings ≈ $700,000+"
+    ]
+  }
 }
+
 
 
 
