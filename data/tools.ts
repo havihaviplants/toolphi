@@ -5170,7 +5170,45 @@ export const tools: Tool[] = [
       "Dividend yield (%) = 0.04 × 100 = 4%"
     ]
   }
+},
+
+{
+  slug: "dividend-per-share-calculator",
+  category: "finance",
+  title: "Dividend Per Share (DPS) Calculator",
+  description:
+    "Calculate dividend per share (DPS) using total dividends paid and shares outstanding. Useful for analyzing dividend-paying stocks and ETFs.",
+  keywords: [
+    "dividend per share calculator",
+    "dps calculator",
+    "calculate dividend per share",
+    "dividend per share formula",
+    "how to calculate dps"
+  ],
+  type: "calculator",
+  tags: [
+    "dividend",
+    "dps",
+    "income",
+    "stocks",
+    "etf",
+    "financial-metrics"
+  ],
+  howToSteps: [
+    "Enter total dividends paid by the company.",
+    "Enter the number of shares outstanding.",
+    "Review dividend per share (DPS)."
+  ],
+  example: {
+    description:
+      "If a company pays $10 million in dividends and has 5 million shares outstanding, DPS is $2.",
+    bullets: [
+      "DPS = Total Dividends ÷ Shares Outstanding",
+      "$10,000,000 ÷ 5,000,000 = $2.00 per share"
+    ]
+  }
 }
+
 
 
 
