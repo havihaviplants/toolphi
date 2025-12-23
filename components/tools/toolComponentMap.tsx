@@ -159,6 +159,7 @@ import RetirementIncomeCalculator from "./RetirementIncomeCalculator";
 import RetirementSpendingCalculator from "./RetirementSpendingCalculator";
 import EarlyRetirementCalculator from "./EarlyRetirementCalculator";
 import FireRetirementCalculator from "./FireRetirementCalculator";
+import K401Calculator from "./401kCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -322,6 +323,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "retirement-spending-calculator": RetirementSpendingCalculator,
   "early-retirement-calculator": EarlyRetirementCalculator,
   "fire-retirement-calculator": FireRetirementCalculator,
+  "401k-calculator": K401Calculator,
 
 
 };

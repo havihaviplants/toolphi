@@ -5415,7 +5415,50 @@ export const tools: Tool[] = [
       "Years to FIRE ≈ ~15–20 (estimate)"
     ]
   }
+},
+
+{
+  slug: "401k-calculator",
+  category: "finance",
+  title: "401(k) Calculator",
+  description:
+    "Estimate how your 401(k) balance could grow based on current balance, annual contributions, employer match (optional), return rate, and years until retirement.",
+  keywords: [
+    "401k calculator",
+    "401 k calculator",
+    "401k estimator",
+    "401k growth calculator",
+    "401k retirement calculator",
+    "how much will my 401k be worth"
+  ],
+  type: "calculator",
+  tags: [
+    "401k",
+    "retirement",
+    "savings",
+    "employer-match",
+    "compound-growth",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your current 401(k) balance.",
+    "Enter your annual contribution amount.",
+    "Optionally enter employer match as a percent of salary and your salary.",
+    "Enter expected annual return rate and years until retirement.",
+    "Review estimated future 401(k) balance."
+  ],
+  example: {
+    description:
+      "If you have $75,000 in your 401(k), contribute $12,000 per year, get $3,000/year employer match, earn 6% annually for 25 years, your balance could grow to over $900,000.",
+    bullets: [
+      "Starting balance = $75,000",
+      "Total yearly additions = $12,000 + $3,000 = $15,000",
+      "Years = 25, Return = 6%",
+      "Estimated 401(k) balance ≈ $900,000+"
+    ]
+  }
 }
+
 
 
 
