@@ -5288,7 +5288,49 @@ export const tools: Tool[] = [
       "Monthly income ≈ $40,000 ÷ 12 = $3,333"
     ]
   }
+},
+
+{
+  slug: "retirement-spending-calculator",
+  category: "finance",
+  title: "Retirement Spending Calculator",
+  description:
+    "Estimate how much retirement savings you need based on your planned retirement spending and a withdrawal rate. Compare required savings vs your current portfolio.",
+  keywords: [
+    "retirement spending calculator",
+    "how much do I need to retire",
+    "retirement budget calculator",
+    "retirement expenses calculator",
+    "required retirement savings calculator",
+    "4 percent rule how much do I need"
+  ],
+  type: "calculator",
+  tags: [
+    "retirement",
+    "spending",
+    "budget",
+    "withdrawal",
+    "4-percent-rule",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your planned monthly or annual retirement spending.",
+    "Enter expected other annual income sources (optional).",
+    "Choose a withdrawal rate (e.g., 4%).",
+    "Review the required retirement savings (nest egg) and the gap vs your current portfolio."
+  ],
+  example: {
+    description:
+      "If you want $60,000 per year of spending and expect $20,000 per year from other income, you need $40,000 per year from your portfolio. At 4%, required savings is $1,000,000.",
+    bullets: [
+      "Planned spending = $60,000/yr",
+      "Other income = $20,000/yr",
+      "Needed from portfolio = $40,000/yr",
+      "Required savings = $40,000 ÷ 0.04 = $1,000,000"
+    ]
+  }
 }
+
 
 
 
