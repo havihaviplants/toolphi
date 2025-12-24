@@ -5713,6 +5713,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "insurance-coverage-level-cost-comparison-calculator",
+  category: "finance",
+  title: "Insurance Coverage Level Cost Comparison Calculator",
+  description:
+    "Compare Basic vs Standard vs Full coverage plans by estimating total annual cost from premiums, deductibles, coinsurance, and expected covered expenses.",
+  keywords: [
+    "insurance coverage level cost comparison calculator",
+    "basic vs standard vs full coverage",
+    "coverage comparison calculator",
+    "insurance plan comparison calculator",
+    "compare insurance coverage levels",
+  ],
+  type: "calculator",
+  tags: ["insurance", "coverage", "comparison", "premium", "deductible", "cost"],
+  howToSteps: [
+    "Enter premium, deductible, and coinsurance for each coverage level (Basic/Standard/Full).",
+    "Enter your expected covered expenses for the year.",
+    "Click Calculate to compare total annual costs across plans.",
+  ],
+  example: {
+    description:
+      "If Basic has $1,800 premium / $3,000 deductible / 30% coinsurance, Standard has $2,600 / $1,500 / 20%, and Full has $3,400 / $500 / 10% with $6,000 expected expenses:",
+    bullets: [
+      "Each plan's total cost = premium + deductible paid + coinsurance on remaining expenses.",
+      "The calculator ranks plans by estimated total annual cost.",
+      "Use it to decide which coverage level fits your expected usage.",
+    ],
+  },
+},
+
 
 
 
