@@ -5539,7 +5539,49 @@ export const tools: Tool[] = [
       "Per paycheck ≈ $8,000 ÷ 26 ≈ $308"
     ]
   }
+},
+
+{
+  slug: "roth-401k-calculator",
+  category: "finance",
+  title: "Roth 401(k) Calculator",
+  description:
+    "Compare Roth 401(k) vs Traditional 401(k) outcomes using tax rates now vs in retirement, and estimate after-tax retirement value.",
+  keywords: [
+    "roth 401k calculator",
+    "roth 401 k calculator",
+    "roth 401k vs traditional calculator",
+    "roth vs traditional 401k",
+    "should I do roth 401k",
+    "roth 401k tax calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "roth-401k",
+    "401k",
+    "retirement",
+    "tax",
+    "after-tax",
+    "comparison"
+  ],
+  howToSteps: [
+    "Enter your annual contribution and years to invest.",
+    "Enter expected annual return rate.",
+    "Enter your tax rate now and your expected tax rate in retirement.",
+    "Review after-tax retirement value for Roth vs Traditional.",
+    "Compare which option could be higher under your assumptions."
+  ],
+  example: {
+    description:
+      "If you invest $10,000/year for 20 years at 6%, and tax rate is 30% now vs 20% in retirement, Traditional may come out ahead because withdrawals are taxed at a lower rate later.",
+    bullets: [
+      "Roth: contribute after-tax now, withdrawals tax-free later",
+      "Traditional: contribute pre-tax now, pay tax on withdrawals later",
+      "Lower retirement tax rate can favor Traditional"
+    ]
+  }
 }
+
 
 
 
