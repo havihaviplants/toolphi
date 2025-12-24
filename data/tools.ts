@@ -5681,6 +5681,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "high-vs-low-deductible-insurance-calculator",
+  category: "finance",
+  title: "High vs Low Deductible Insurance Calculator",
+  description:
+    "Compare high-deductible and low-deductible insurance plans by estimating total annual cost based on premiums, deductibles, coinsurance, and expected expenses.",
+  keywords: [
+    "high vs low deductible insurance calculator",
+    "high deductible vs low deductible",
+    "deductible comparison calculator",
+    "insurance deductible comparison",
+    "is high deductible worth it",
+  ],
+  type: "calculator",
+  tags: ["insurance", "deductible", "comparison", "premium", "cost"],
+  howToSteps: [
+    "Enter premium, deductible, and coinsurance for the high-deductible plan.",
+    "Enter premium, deductible, and coinsurance for the low-deductible plan.",
+    "Enter your expected covered expenses for the year.",
+    "Click Calculate to compare total annual costs.",
+  ],
+  example: {
+    description:
+      "If a high-deductible plan has a $1,800 premium, $3,000 deductible, and 20% coinsurance, and a low-deductible plan has a $3,200 premium, $500 deductible, and 10% coinsurance, with $6,000 expected expenses:",
+    bullets: [
+      "High-deductible total cost is calculated from lower premium but higher out-of-pocket.",
+      "Low-deductible total cost is calculated from higher premium but lower out-of-pocket.",
+      "The calculator shows which option is cheaper for your situation.",
+    ],
+  },
+},
+
+
 
 
 

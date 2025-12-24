@@ -166,6 +166,7 @@ import Roth401kCalculator from "./Roth401kCalculator";
 import SepIraCalculator from "./SepIraCalculator";
 import SimpleIraCalculator from "./SimpleIraCalculator";
 import InsuranceDeductibleCostCalculator from "./InsuranceDeductibleCostCalculator";
+import HighVsLowDeductibleInsuranceCalculator from "./HighVsLowDeductibleInsuranceCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -336,6 +337,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "sep-ira-calculator": SepIraCalculator,
   "simple-ira-calculator": SimpleIraCalculator,
   "insurance-deductible-cost-calculator": InsuranceDeductibleCostCalculator,
+  "high-vs-low-deductible-insurance-calculator": HighVsLowDeductibleInsuranceCalculator,
 
 
 };
