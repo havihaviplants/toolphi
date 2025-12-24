@@ -5612,7 +5612,40 @@ export const tools: Tool[] = [
       "Projected balance ≈ $662,000"
     ]
   }
+},
+
+{
+  slug: "simple-ira-calculator",
+  category: "finance",
+  title: "SIMPLE IRA Calculator",
+  description:
+    "Estimate SIMPLE IRA employee contributions and project retirement balance growth over time using an expected annual return.",
+  keywords: [
+    "simple ira calculator",
+    "simple ira contribution calculator",
+    "simple ira employee contribution calculator",
+    "how much can I contribute to a simple ira",
+    "simple ira retirement calculator"
+  ],
+  type: "calculator",
+  tags: ["simple-ira", "ira", "retirement", "contribution", "growth", "employee"],
+  howToSteps: [
+    "Enter your annual salary (or compensation).",
+    "Enter your employee contribution percent.",
+    "Choose years to invest and an expected annual return.",
+    "Review estimated annual contribution and projected retirement balance."
+  ],
+  example: {
+    description:
+      "If salary is $70,000 and you contribute 8% for 25 years at 6% return:",
+    bullets: [
+      "Annual contribution = $70,000 × 0.08 = $5,600",
+      "Total contributed = $5,600 × 25 = $140,000",
+      "Projected balance ≈ $307,000"
+    ]
+  }
 }
+
 
 
 
