@@ -5644,7 +5644,43 @@ export const tools: Tool[] = [
       "Projected balance ≈ $307,000"
     ]
   }
-}
+},
+
+{
+  slug: "insurance-deductible-cost-calculator",
+  category: "finance",
+  title: "Insurance Deductible Cost Calculator",
+  description:
+    "Estimate your annual out-of-pocket cost and total annual cost based on premium, deductible, coinsurance, and expected covered expenses.",
+  keywords: [
+    "insurance deductible cost calculator",
+    "deductible calculator",
+    "out of pocket cost",
+    "coinsurance calculator",
+    "insurance premium vs deductible",
+    "expected medical cost",
+  ],
+  type: "calculator",
+  tags: ["insurance", "deductible", "out-of-pocket", "premium", "risk", "cost"],
+  howToSteps: [
+    "Enter your annual premium (what you pay to keep the plan active).",
+    "Enter your deductible (what you pay before coinsurance starts).",
+    "Enter your coinsurance rate (your share after the deductible).",
+    "Optionally enter your out-of-pocket maximum (cap for covered expenses).",
+    "Enter your expected covered expenses for the year and click Calculate.",
+  ],
+  example: {
+    description:
+      "If your premium is $2,400/year, deductible is $1,500, coinsurance is 20%, out-of-pocket max is $6,000, and expected covered expenses are $10,000:",
+    bullets: [
+      "You pay the first $1,500 (deductible).",
+      "Then you pay 20% of the remaining $8,500 = $1,700 (until OOP max).",
+      "Estimated out-of-pocket for expenses = $3,200.",
+      "Estimated total annual cost = premium ($2,400) + out-of-pocket ($3,200) = $5,600.",
+    ],
+  },
+},
+
 
 
 
