@@ -5744,9 +5744,39 @@ export const tools: Tool[] = [
   },
 },
 
-
-
-
+{
+  slug: "monthly-vs-annual-insurance-premium-calculator",
+  category: "finance",
+  title: "Monthly vs Annual Insurance Premium Calculator",
+  description:
+    "Compare monthly payment vs annual payment for insurance premiums, including discounts, fees, and total yearly cost difference.",
+  keywords: [
+    "monthly vs annual insurance premium calculator",
+    "pay monthly vs yearly insurance",
+    "insurance annual payment discount",
+    "insurance monthly payment fee",
+    "monthly vs yearly premium cost",
+  ],
+  type: "calculator",
+  tags: ["insurance", "premium", "comparison", "monthly", "annual", "discount", "fees"],
+  howToSteps: [
+    "Enter the monthly premium amount.",
+    "Enter any monthly billing fee (if applicable).",
+    "Enter the annual pay discount percentage (if the insurer discounts annual payment).",
+    "Enter any one-time annual payment fee (optional).",
+    "Click Calculate to compare total annual cost for monthly vs annual payment.",
+  ],
+  example: {
+    description:
+      "If monthly premium is $200, monthly billing fee is $5, and annual pay discount is 8% with no annual fee:",
+    bullets: [
+      "Monthly total = (200 + 5) × 12 = $2,460",
+      "Annual base = 200 × 12 = $2,400",
+      "Annual total after discount = 2,400 × (1 - 0.08) = $2,208",
+      "Annual payment saves $252 vs monthly.",
+    ],
+  },
+},
 
 
 ];
