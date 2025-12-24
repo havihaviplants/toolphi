@@ -5457,12 +5457,48 @@ export const tools: Tool[] = [
       "Estimated 401(k) balance ≈ $900,000+"
     ]
   }
+},
+
+{
+  slug: "retirement-calculator",
+  category: "finance",
+  title: "Retirement Calculator",
+  description:
+    "An all-in-one retirement calculator hub: estimate your target nest egg, income, and timeline — then jump to detailed retirement tools for savings, income, spending, FIRE, and 401(k).",
+  keywords: [
+    "retirement calculator",
+    "retirement planning calculator",
+    "how much do I need to retire",
+    "retirement nest egg calculator",
+    "retirement timeline calculator",
+    "retirement income and savings calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "retirement",
+    "planning",
+    "nest-egg",
+    "timeline",
+    "withdrawal",
+    "hub"
+  ],
+  howToSteps: [
+    "Enter your current savings and annual contribution.",
+    "Set expected annual return and years until retirement.",
+    "Enter desired annual retirement spending and withdrawal rate.",
+    "Review estimated future savings and target nest egg.",
+    "Use the related tools section to refine your plan."
+  ],
+  example: {
+    description:
+      "If you want $60,000/year in retirement and use a 4% withdrawal rate, your target nest egg is $1,500,000. If your projected savings reaches $1,200,000, you may be short by $300,000.",
+    bullets: [
+      "Target nest egg = $60,000 ÷ 0.04 = $1,500,000",
+      "Projected savings at retirement = $1,200,000",
+      "Gap = $1,500,000 − $1,200,000 = $300,000"
+    ]
+  }
 }
-
-
-
-
-
 
 
 
