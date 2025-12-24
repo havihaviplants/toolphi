@@ -5580,10 +5580,39 @@ export const tools: Tool[] = [
       "Lower retirement tax rate can favor Traditional"
     ]
   }
+},
+
+{
+  slug: "sep-ira-calculator",
+  category: "finance",
+  title: "SEP IRA Calculator",
+  description:
+    "Estimate SEP IRA contributions and project retirement balance growth. Useful for self-employed and small business owners planning retirement savings.",
+  keywords: [
+    "sep ira calculator",
+    "sep ira contribution calculator",
+    "how much can I contribute to a sep ira",
+    "sep ira retirement calculator",
+    "self employed sep ira calculator"
+  ],
+  type: "calculator",
+  tags: ["sep-ira", "ira", "retirement", "self-employed", "contribution", "growth"],
+  howToSteps: [
+    "Enter your annual compensation or net self-employment income.",
+    "Enter your contribution rate (or planned contribution amount).",
+    "Enter expected annual return and years to invest.",
+    "Review estimated annual contribution and projected balance at retirement."
+  ],
+  example: {
+    description:
+      "If compensation is $120,000 and you contribute 15% for 20 years at 6% return:",
+    bullets: [
+      "Annual contribution = $120,000 × 0.15 = $18,000",
+      "Future value grows with compounding over 20 years",
+      "Projected balance ≈ $662,000"
+    ]
+  }
 }
-
-
-
 
 
 
