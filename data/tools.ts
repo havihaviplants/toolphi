@@ -5778,5 +5778,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "insurance-premium-increase-impact-calculator",
+  category: "finance",
+  title: "Insurance Premium Increase Impact Calculator",
+  description:
+    "Estimate how much a premium increase costs over time by comparing your current premium vs a higher premium across months or years.",
+  keywords: [
+    "insurance premium increase impact calculator",
+    "premium increase calculator",
+    "insurance rate hike cost",
+    "how much more will I pay insurance",
+    "premium increase over time",
+  ],
+  type: "calculator",
+  tags: ["insurance", "premium", "increase", "rate hike", "cost", "projection"],
+  howToSteps: [
+    "Enter your current premium amount and payment frequency (monthly or annual).",
+    "Enter the premium increase as a percentage or as a new premium amount.",
+    "Enter the number of months or years to project.",
+    "Click Calculate to see added cost and cumulative totals.",
+  ],
+  example: {
+    description:
+      "If your monthly premium is $200 and it increases by 15% for the next 12 months:",
+    bullets: [
+      "New monthly premium = 200 × (1 + 0.15) = $230",
+      "Extra paid per month = $30",
+      "Extra paid over 12 months = $360",
+      "Total premium over 12 months (new) = $2,760",
+    ],
+  },
+},
+
+
 
 ];
