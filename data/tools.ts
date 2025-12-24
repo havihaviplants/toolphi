@@ -5498,7 +5498,49 @@ export const tools: Tool[] = [
       "Gap = $1,500,000 − $1,200,000 = $300,000"
     ]
   }
+},
+
+{
+  slug: "401k-contribution-calculator",
+  category: "finance",
+  title: "401(k) Contribution Calculator",
+  description:
+    "Calculate your 401(k) contribution amount based on salary and contribution percent, and estimate paycheck contributions. Compare to an annual contribution limit target.",
+  keywords: [
+    "401k contribution calculator",
+    "401 k contribution calculator",
+    "401k contribution percentage calculator",
+    "how much should I contribute to my 401k",
+    "401k paycheck contribution calculator",
+    "401k contribution amount calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "401k",
+    "contribution",
+    "salary",
+    "paycheck",
+    "retirement",
+    "planning"
+  ],
+  howToSteps: [
+    "Enter your annual salary.",
+    "Enter your 401(k) contribution percent.",
+    "Choose your pay frequency to estimate per-paycheck contributions.",
+    "Optionally enter an annual contribution limit target.",
+    "Review annual and per-paycheck contribution amounts."
+  ],
+  example: {
+    description:
+      "If your salary is $80,000 and you contribute 10% with biweekly pay, your estimated contribution is $8,000/year (about $308 per paycheck).",
+    bullets: [
+      "Annual contribution = $80,000 × 0.10 = $8,000",
+      "Biweekly paychecks ≈ 26",
+      "Per paycheck ≈ $8,000 ÷ 26 ≈ $308"
+    ]
+  }
 }
+
 
 
 
