@@ -5913,5 +5913,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "hsa-compatible-insurance-cost-calculator",
+  category: "finance",
+  title: "HSA-Compatible Insurance Cost Calculator",
+  description:
+    "Estimate your net annual cost for an HSA-compatible (HDHP) health insurance plan, including premiums, out-of-pocket, HSA contributions, and tax savings.",
+  keywords: [
+    "hsa compatible insurance cost calculator",
+    "hsa health insurance cost calculator",
+    "hdhp cost calculator",
+    "hsa tax savings calculator",
+    "net cost of hsa plan",
+    "hsa contribution savings estimate",
+  ],
+  type: "calculator",
+  tags: ["insurance", "health", "hsa", "hdhp", "tax", "out-of-pocket", "cost"],
+  howToSteps: [
+    "Enter your monthly premium and expected annual medical expenses.",
+    "Enter deductible, out-of-pocket max, and coinsurance rate (%).",
+    "Enter your planned HSA contribution and marginal tax rate (%).",
+    "Click Calculate to see net annual cost after estimated tax savings.",
+  ],
+  example: {
+    description:
+      "If premium is $280/month, deductible is $2,000, out-of-pocket max is $6,500, coinsurance is 20%, expected medical expenses are $4,000, HSA contribution is $3,000, and marginal tax rate is 24%:",
+    bullets: [
+      "Annual premium = $280 × 12 = $3,360",
+      "Out-of-pocket estimate = deductible + coinsurance (capped by out-of-pocket max)",
+      "Tax savings ≈ HSA contribution × 24%",
+      "Net annual cost = premium + out-of-pocket − tax savings",
+    ],
+  },
+},
+
+
 
 ];
