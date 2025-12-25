@@ -6044,6 +6044,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "insurance-vs-self-pay-cost-calculator",
+  category: "finance",
+  title: "Insurance vs Self-Pay Cost Calculator",
+  description:
+    "Compare the estimated cost of using insurance vs paying self-pay (cash price) for a medical service, considering deductible, copay/coinsurance, and remaining out-of-pocket max.",
+  keywords: [
+    "insurance vs self pay cost calculator",
+    "self pay vs insurance calculator",
+    "cash price vs insurance cost",
+    "should I use insurance or pay cash",
+    "healthcare self pay insurance comparison",
+  ],
+  type: "calculator",
+  tags: ["insurance", "health", "self-pay", "cash price", "deductible", "coinsurance", "copay"],
+  howToSteps: [
+    "Enter the self-pay (cash) price for the service.",
+    "Enter the insurance allowed amount for the service.",
+    "Enter remaining deductible, copay or coinsurance rate, and out-of-pocket max (optional).",
+    "Calculate estimated insurance cost vs self-pay and compare.",
+  ],
+  example: {
+    description:
+      "If self-pay price is $300, insurance allowed amount is $600, remaining deductible is $200, coinsurance is 20%, and remaining out-of-pocket max is $2,000:",
+    bullets: [
+      "Insurance: pay deductible first ($200), then 20% of remaining ($400 × 0.20 = $80) → $280",
+      "Self-pay: pay cash price ($300)",
+      "Insurance is cheaper in this example ($280 vs $300)",
+    ],
+  },
+},
 
 
 
