@@ -5811,6 +5811,41 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "health-insurance-out-of-pocket-cost-calculator",
+  category: "finance",
+  title: "Health Insurance Out-of-Pocket Cost Calculator",
+  description:
+    "Estimate your real annual health insurance cost, including premiums, deductible, coinsurance, and out-of-pocket max.",
+  keywords: [
+    "health insurance out of pocket cost calculator",
+    "out-of-pocket cost",
+    "deductible coinsurance calculator",
+    "health insurance cost estimator",
+    "annual health insurance cost",
+    "premium deductible coinsurance",
+  ],
+  type: "calculator",
+  tags: ["insurance", "health", "out-of-pocket", "deductible", "coinsurance", "cost"],
+  howToSteps: [
+    "Enter your monthly premium.",
+    "Enter your annual deductible and out-of-pocket maximum.",
+    "Enter your expected annual medical expenses.",
+    "Enter your coinsurance rate (%).",
+    "Click Calculate to see your estimated out-of-pocket payment and total annual cost.",
+  ],
+  example: {
+    description:
+      "If your monthly premium is $300, deductible is $1,500, out-of-pocket max is $6,000, expected medical expenses are $8,000, and coinsurance is 20%:",
+    bullets: [
+      "Annual premium = $300 × 12 = $3,600",
+      "Out-of-pocket estimate includes deductible + coinsurance, capped by out-of-pocket max",
+      "Total annual cost = annual premium + estimated out-of-pocket",
+    ],
+  },
+},
+
+
 
 
 ];

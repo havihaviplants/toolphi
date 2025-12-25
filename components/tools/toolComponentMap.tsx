@@ -170,6 +170,7 @@ import HighVsLowDeductibleInsuranceCalculator from "./HighVsLowDeductibleInsuran
 import InsuranceCoverageLevelCostComparisonCalculator from "./InsuranceCoverageLevelCostComparisonCalculator";
 import MonthlyVsAnnualInsurancePremiumCalculator from "./MonthlyVsAnnualInsurancePremiumCalculator";
 import InsurancePremiumIncreaseImpactCalculator from "./InsurancePremiumIncreaseImpactCalculator";
+import HealthInsuranceOutOfPocketCostCalculator from "./HealthInsuranceOutOfPocketCostCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -344,6 +345,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "insurance-coverage-level-cost-comparison-calculator": InsuranceCoverageLevelCostComparisonCalculator,
   "monthly-vs-annual-insurance-premium-calculator": MonthlyVsAnnualInsurancePremiumCalculator,
   "insurance-premium-increase-impact-calculator": InsurancePremiumIncreaseImpactCalculator,
+  "health-insurance-out-of-pocket-cost-calculator": HealthInsuranceOutOfPocketCostCalculator,
 
 
 };
