@@ -5845,6 +5845,42 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "family-health-insurance-cost-calculator",
+  category: "finance",
+  title: "Family Health Insurance Cost Calculator",
+  description:
+    "Estimate a family's annual health insurance cost based on premiums, deductible, out-of-pocket max, coinsurance, and expected medical expenses for each member.",
+  keywords: [
+    "family health insurance cost calculator",
+    "health insurance family cost",
+    "family out of pocket cost calculator",
+    "family deductible coinsurance calculator",
+    "annual health insurance cost family",
+    "health insurance cost estimator family",
+  ],
+  type: "calculator",
+  tags: ["insurance", "health", "family", "out-of-pocket", "deductible", "coinsurance", "cost"],
+  howToSteps: [
+    "Enter your monthly premium for the family plan.",
+    "Enter the family deductible and family out-of-pocket maximum.",
+    "Enter coinsurance rate (%).",
+    "Add expected annual medical expenses for each family member.",
+    "Click Calculate to see estimated family out-of-pocket and total annual cost.",
+  ],
+  example: {
+    description:
+      "If your family plan premium is $450/month, family deductible is $3,000, family out-of-pocket max is $12,000, coinsurance is 20%, and expected medical expenses are $5,000 + $2,000 + $1,000:",
+    bullets: [
+      "Annual premium = $450 × 12 = $5,400",
+      "Total expected medical expenses = $8,000",
+      "Estimated out-of-pocket = deductible + coinsurance (capped by out-of-pocket max)",
+      "Total annual cost = annual premium + estimated out-of-pocket",
+    ],
+  },
+},
+
+
 
 
 
