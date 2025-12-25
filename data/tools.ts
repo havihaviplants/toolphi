@@ -5880,8 +5880,38 @@ export const tools: Tool[] = [
   },
 },
 
-
-
+{
+  slug: "health-insurance-copay-vs-coinsurance-calculator",
+  category: "finance",
+  title: "Health Insurance Copay vs Coinsurance Calculator",
+  description:
+    "Compare copay vs coinsurance to estimate what you’ll pay for a medical service under different health insurance cost-sharing rules.",
+  keywords: [
+    "copay vs coinsurance calculator",
+    "health insurance copay vs coinsurance",
+    "copay coinsurance cost calculator",
+    "how much will I pay copay coinsurance",
+    "health insurance cost sharing calculator",
+  ],
+  type: "calculator",
+  tags: ["insurance", "health", "copay", "coinsurance", "cost-sharing", "calculator"],
+  howToSteps: [
+    "Enter the service price (allowed amount).",
+    "Enter your copay amount (if applicable).",
+    "Enter your coinsurance rate (%).",
+    "Optional: enter remaining deductible and whether the service is subject to deductible.",
+    "Compare estimated patient cost under copay vs coinsurance.",
+  ],
+  example: {
+    description:
+      "If a service costs $800, copay is $40, coinsurance is 20%, and remaining deductible is $200 (service subject to deductible):",
+    bullets: [
+      "Copay scenario: pay deductible first ($200), then copay ($40) if your plan works that way",
+      "Coinsurance scenario: pay deductible first ($200), then 20% of remaining ($600 × 0.20 = $120)",
+      "Compare which cost-sharing rule results in a lower out-of-pocket cost",
+    ],
+  },
+},
 
 
 ];
