@@ -179,6 +179,7 @@ import AutoInsuranceCollisionVsComprehensiveCostCalculator from "./AutoInsurance
 import HomeInsuranceCoverageLimitCalculator from "./HomeInsuranceCoverageLimitCalculator";
 import InsuranceVsSelfPayCostCalculator from "./InsuranceVsSelfPayCostCalculator";
 import InsuranceClaimBreakEvenCalculator from "./InsuranceClaimBreakEvenCalculator";
+import IsInsuranceWorthItCalculator from "./IsInsuranceWorthItCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -362,6 +363,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "home-insurance-coverage-limit-calculator": HomeInsuranceCoverageLimitCalculator,
   "insurance-vs-self-pay-cost-calculator": InsuranceVsSelfPayCostCalculator,
   "insurance-claim-break-even-calculator": InsuranceClaimBreakEvenCalculator,
+  "is-insurance-worth-it-calculator": IsInsuranceWorthItCalculator,
 
 
 };

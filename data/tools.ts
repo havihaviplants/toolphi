@@ -6109,6 +6109,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "is-insurance-worth-it-calculator",
+  category: "finance",
+  title: "Is Insurance Worth It Calculator",
+  description:
+    "Estimate whether an insurance plan is worth it by comparing annual premiums plus expected out-of-pocket cost vs expected losses without insurance.",
+  keywords: [
+    "is insurance worth it calculator",
+    "should I buy insurance calculator",
+    "insurance worth it estimate",
+    "expected value insurance calculator",
+    "premium vs risk calculator",
+  ],
+  type: "calculator",
+  tags: ["insurance", "worth it", "expected value", "premium", "risk", "decision"],
+  howToSteps: [
+    "Enter annual premium and deductible (or expected out-of-pocket).",
+    "Estimate probability of a loss event and the expected loss amount.",
+    "Optionally include coverage limit and the portion not covered.",
+    "Calculate expected annual cost with insurance vs without insurance.",
+  ],
+  example: {
+    description:
+      "If premium is $1,200/year, deductible is $500, probability of loss is 10%, expected loss is $10,000, and coverage limit is $10,000:",
+    bullets: [
+      "With insurance expected cost = $1,200 + 0.10 × $500 = $1,250",
+      "Without insurance expected cost = 0.10 × $10,000 = $1,000",
+      "Expected value suggests not worth it, but risk protection may still matter",
+    ],
+  },
+},
+
 
 
 
