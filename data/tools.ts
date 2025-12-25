@@ -6011,6 +6011,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "home-insurance-coverage-limit-calculator",
+  category: "finance",
+  title: "Home Insurance Coverage Limit Calculator",
+  description:
+    "Estimate a recommended home insurance dwelling coverage limit based on rebuild cost, square footage, cost per square foot, upgrades, and optional buffers.",
+  keywords: [
+    "home insurance coverage limit calculator",
+    "dwelling coverage calculator",
+    "home insurance dwelling limit estimate",
+    "rebuild cost calculator home insurance",
+    "how much dwelling coverage do I need",
+  ],
+  type: "calculator",
+  tags: ["insurance", "home", "dwelling", "coverage", "rebuild", "calculator"],
+  howToSteps: [
+    "Enter your home square footage and estimated rebuild cost per square foot.",
+    "Optionally add upgrade/finish costs and debris removal percentage.",
+    "Choose an inflation/buffer percentage for safety.",
+    "Calculate a recommended dwelling coverage limit estimate.",
+  ],
+  example: {
+    description:
+      "If your home is 2,000 sq ft, rebuild cost is $200/sq ft, upgrades are $20,000, debris removal is 5%, and buffer is 10%:",
+    bullets: [
+      "Base rebuild cost = 2,000 × $200 = $400,000",
+      "Add upgrades = $400,000 + $20,000 = $420,000",
+      "Debris removal (5%) = $21,000 → subtotal $441,000",
+      "Buffer (10%) = $44,100 → recommended limit ≈ $485,100",
+    ],
+  },
+},
+
+
 
 
 
