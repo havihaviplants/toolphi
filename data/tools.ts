@@ -5947,6 +5947,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "auto-insurance-coverage-cost-comparison-calculator",
+  category: "finance",
+  title: "Auto Insurance Coverage Cost Comparison Calculator",
+  description:
+    "Compare two auto insurance coverage options by estimating annual premiums, expected out-of-pocket costs, and total expected annual cost.",
+  keywords: [
+    "auto insurance coverage cost comparison calculator",
+    "car insurance coverage comparison calculator",
+    "compare car insurance coverage cost",
+    "auto insurance deductible premium comparison",
+    "liability vs full coverage cost calculator",
+  ],
+  type: "calculator",
+  tags: ["insurance", "auto", "car", "coverage", "comparison", "premium", "deductible"],
+  howToSteps: [
+    "Enter annual premium and deductible for Plan A and Plan B.",
+    "Estimate your annual claim probability and expected claim amount (repair cost).",
+    "Choose which coverages apply (collision/comprehensive) and whether deductible applies.",
+    "Calculate expected annual cost for each plan and compare.",
+  ],
+  example: {
+    description:
+      "Plan A premium $1,200/year with $500 deductible vs Plan B premium $1,500/year with $250 deductible. If claim probability is 10% and expected claim amount is $2,000:",
+    bullets: [
+      "Expected deductible cost (A) = 0.10 × $500 = $50",
+      "Expected deductible cost (B) = 0.10 × $250 = $25",
+      "Total expected cost = premium + expected deductible cost",
+    ],
+  },
+},
+
+
 
 
 ];

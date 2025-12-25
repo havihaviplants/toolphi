@@ -174,6 +174,7 @@ import HealthInsuranceOutOfPocketCostCalculator from "./HealthInsuranceOutOfPock
 import FamilyHealthInsuranceCostCalculator from "./FamilyHealthInsuranceCostCalculator";
 import HealthInsuranceCopayVsCoinsuranceCalculator from "./HealthInsuranceCopayVsCoinsuranceCalculator";
 import HsaCompatibleInsuranceCostCalculator from "./HsaCompatibleInsuranceCostCalculator";
+import AutoInsuranceCoverageCostComparisonCalculator from "./AutoInsuranceCoverageCostComparisonCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -352,6 +353,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "family-health-insurance-cost-calculator": FamilyHealthInsuranceCostCalculator,
   "health-insurance-copay-vs-coinsurance-calculator": HealthInsuranceCopayVsCoinsuranceCalculator,
   "hsa-compatible-insurance-cost-calculator": HsaCompatibleInsuranceCostCalculator,
+  "auto-insurance-coverage-cost-comparison-calculator": AutoInsuranceCoverageCostComparisonCalculator,
 
 
 };
