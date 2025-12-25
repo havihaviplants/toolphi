@@ -5979,6 +5979,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "auto-insurance-collision-vs-comprehensive-cost-calculator",
+  category: "finance",
+  title: "Auto Insurance Collision vs Comprehensive Cost Calculator",
+  description:
+    "Compare collision vs comprehensive coverage by estimating annual premiums, expected deductible payments, and total expected annual cost for each option.",
+  keywords: [
+    "collision vs comprehensive cost calculator",
+    "auto insurance collision vs comprehensive calculator",
+    "collision coverage cost estimate",
+    "comprehensive coverage cost estimate",
+    "car insurance collision comprehensive comparison",
+  ],
+  type: "calculator",
+  tags: ["insurance", "auto", "collision", "comprehensive", "deductible", "premium", "comparison"],
+  howToSteps: [
+    "Enter annual premium and deductible for collision coverage.",
+    "Enter annual premium and deductible for comprehensive coverage.",
+    "Estimate annual claim probability for collision and comprehensive events.",
+    "Calculate expected annual cost for each coverage and compare.",
+  ],
+  example: {
+    description:
+      "If collision premium is $400/year with $500 deductible and collision claim probability is 8%, and comprehensive premium is $250/year with $250 deductible and claim probability is 6%:",
+    bullets: [
+      "Collision expected deductible cost = 0.08 × $500 = $40",
+      "Comprehensive expected deductible cost = 0.06 × $250 = $15",
+      "Total expected cost = premium + expected deductible cost",
+    ],
+  },
+},
+
+
 
 
 
