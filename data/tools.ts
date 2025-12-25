@@ -6076,6 +6076,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "insurance-claim-break-even-calculator",
+  category: "finance",
+  title: "Insurance Claim Break-Even Calculator",
+  description:
+    "Estimate whether filing an insurance claim is worth it by comparing expected payout vs deductible and potential premium increase over time.",
+  keywords: [
+    "insurance claim break even calculator",
+    "should I file an insurance claim calculator",
+    "insurance claim worth it calculator",
+    "deductible vs premium increase calculator",
+    "auto insurance claim break even",
+    "home insurance claim break even",
+  ],
+  type: "calculator",
+  tags: ["insurance", "claim", "break-even", "deductible", "premium increase", "decision"],
+  howToSteps: [
+    "Enter the repair/loss amount and your deductible.",
+    "Enter your estimated premium increase and how many years it may last.",
+    "Optionally include probability of non-renewal or additional costs (simplified).",
+    "Calculate break-even and see if the claim likely makes sense.",
+  ],
+  example: {
+    description:
+      "If loss is $2,500, deductible is $500, premium increases by $200/year for 3 years:",
+    bullets: [
+      "Estimated payout = $2,500 − $500 = $2,000",
+      "Total premium increase cost = $200 × 3 = $600",
+      "Net benefit ≈ $2,000 − $600 = $1,400 (claim likely worth it)",
+    ],
+  },
+},
+
+
 
 
 
