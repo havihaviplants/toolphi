@@ -6280,6 +6280,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "short-term-vs-annual-insurance-cost-calculator",
+  category: "finance",
+  title: "Short-Term vs Annual Insurance Cost Calculator",
+  description:
+    "Compare short-term insurance vs annual insurance by estimating total cost over your coverage period and finding the break-even point.",
+  keywords: [
+    "short term vs annual insurance cost calculator",
+    "short term insurance vs annual policy",
+    "temporary insurance vs annual insurance",
+    "short term insurance worth it",
+    "insurance break even calculator"
+  ],
+  type: "calculator",
+  tags: ["insurance", "short term", "annual", "cost", "break-even", "decision"],
+  howToSteps: [
+    "Enter how long you need coverage (days or months).",
+    "Enter the short-term insurance rate (per day or per month).",
+    "Enter the annual insurance premium.",
+    "Estimate total cost for both options over your coverage period.",
+    "See which option is cheaper and the break-even duration."
+  ],
+  example: {
+    description:
+      "If you need 3 months of coverage, short-term insurance costs $120/month, and an annual policy costs $900/year:",
+    bullets: [
+      "Short-term total = 3 × $120 = $360",
+      "Annual total (prorated) = $900 × (3/12) = $225",
+      "Annual is cheaper over 3 months in this example"
+    ]
+  }
+},
+
+
 
 
 ];
