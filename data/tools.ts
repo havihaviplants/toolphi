@@ -6354,6 +6354,49 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "medical-bill-without-insurance-calculator",
+  category: "finance",
+  title: "Medical Bill Without Insurance Calculator",
+  description:
+    "Estimate how much you might pay for a medical bill without insurance by combining base visit cost and additional fees.",
+  keywords: [
+    "medical bill without insurance calculator",
+    "medical bill without insurance",
+    "hospital bill without insurance",
+    "how much is a doctor visit without insurance",
+    "medical cost without insurance",
+    "self pay medical bill calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical bill",
+    "without insurance",
+    "self pay",
+    "out of pocket",
+    "hospital",
+    "clinic"
+  ],
+  howToSteps: [
+    "Select the visit type (clinic, hospital, urgent care, or ER).",
+    "Enter the base visit cost without insurance (self-pay price if known).",
+    "Add additional fees for tests, imaging, or procedures.",
+    "Optionally apply a self-pay discount percentage.",
+    "See your estimated medical bill without insurance."
+  ],
+  example: {
+    description:
+      "If a clinic visit costs $180, additional fees are $70, and you get a 15% self-pay discount:",
+    bullets: [
+      "Subtotal = $180 + $70 = $250",
+      "Discount = $250 × 15% = $37.50",
+      "Estimated bill (no insurance) = $250 − $37.50 = $212.50"
+    ]
+  }
+}
+
+
 
 
 
