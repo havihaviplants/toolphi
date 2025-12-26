@@ -6178,6 +6178,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "insurance-cost-by-usage-calculator",
+  category: "finance",
+  title: "Insurance Cost by Usage Calculator",
+  description:
+    "Estimate how insurance costs change based on usage (e.g., driving mileage, trip frequency, or usage intensity) using a simple risk multiplier model.",
+  keywords: [
+    "insurance cost by usage calculator",
+    "insurance premium by mileage",
+    "pay per mile insurance calculator",
+    "insurance cost by driving frequency",
+    "how usage affects insurance cost"
+  ],
+  type: "calculator",
+  tags: ["insurance", "premium", "usage", "mileage", "cost", "estimate"],
+  howToSteps: [
+    "Enter your current monthly premium.",
+    "Select your usage type (e.g., driving, travel, general usage).",
+    "Enter your monthly usage (e.g., miles driven per month).",
+    "Set a baseline usage level and a risk sensitivity.",
+    "View the estimated premium based on usage."
+  ],
+  example: {
+    description:
+      "If you pay $140/month and drive 1,500 miles/month vs a baseline of 1,000 miles/month, the tool estimates a higher premium based on usage.",
+    bullets: [
+      "Current premium: $140/month",
+      "Usage type: Driving",
+      "Monthly usage: 1,500 miles",
+      "Baseline: 1,000 miles",
+      "Estimated premium increases due to higher usage"
+    ]
+  }
+},
+
+
 
 
 ];

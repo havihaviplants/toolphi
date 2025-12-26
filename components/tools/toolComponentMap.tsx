@@ -181,6 +181,7 @@ import InsuranceVsSelfPayCostCalculator from "./InsuranceVsSelfPayCostCalculator
 import InsuranceClaimBreakEvenCalculator from "./InsuranceClaimBreakEvenCalculator";
 import IsInsuranceWorthItCalculator from "./IsInsuranceWorthItCalculator";
 import InsuranceCostByAgeCalculator from "./InsuranceCostByAgeCalculator";
+import InsuranceCostByUsageCalculator from "./InsuranceCostByUsageCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -366,6 +367,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "insurance-claim-break-even-calculator": InsuranceClaimBreakEvenCalculator,
   "is-insurance-worth-it-calculator": IsInsuranceWorthItCalculator,
   "insurance-cost-by-age-calculator": InsuranceCostByAgeCalculator,
+  "insurance-cost-by-usage-calculator": InsuranceCostByUsageCalculator,
 
 
 };
