@@ -6213,7 +6213,38 @@ export const tools: Tool[] = [
   }
 },
 
-
+{
+  slug: "travel-insurance-cost-vs-risk-calculator",
+  category: "finance",
+  title: "Travel Insurance Cost vs Risk Calculator",
+  description:
+    "Compare travel insurance cost vs your expected travel risk cost using a simple probability and expected-loss model.",
+  keywords: [
+    "travel insurance cost vs risk calculator",
+    "is travel insurance worth it",
+    "travel insurance worth it calculator",
+    "travel insurance expected value calculator",
+    "travel insurance risk cost estimate"
+  ],
+  type: "calculator",
+  tags: ["travel insurance", "insurance", "risk", "expected value", "cost", "decision"],
+  howToSteps: [
+    "Enter the travel insurance premium for your trip.",
+    "Estimate the probability of a covered event (medical, cancellation, delay, theft).",
+    "Enter the expected loss amount if an event happens.",
+    "Optionally add a deductible and coverage limit.",
+    "Compare expected cost with insurance vs expected risk without insurance."
+  ],
+  example: {
+    description:
+      "If travel insurance costs $80, event probability is 5%, expected loss is $2,000, deductible is $100, and coverage limit is $2,000:",
+    bullets: [
+      "With insurance expected cost = $80 + (0.05 × $100) = $85",
+      "Without insurance expected cost = 0.05 × $2,000 = $100",
+      "Expected value suggests travel insurance is worth it in this scenario"
+    ]
+  }
+},
 
 
 ];
