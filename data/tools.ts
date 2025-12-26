@@ -6438,6 +6438,51 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "out-of-pocket-medical-expense-calculator",
+  category: "finance",
+  title: "Out-of-Pocket Medical Expense Calculator",
+  description:
+    "Estimate your out-of-pocket medical expense by combining provider charges with your payment responsibility (copay/coinsurance) and any deductible you expect to pay.",
+  keywords: [
+    "out of pocket medical expense calculator",
+    "out of pocket medical cost",
+    "how much will i pay out of pocket",
+    "medical out of pocket estimate",
+    "copay coinsurance deductible calculator",
+    "out of pocket healthcare cost calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "out of pocket",
+    "medical expense",
+    "deductible",
+    "copay",
+    "coinsurance",
+    "estimate"
+  ],
+  howToSteps: [
+    "Enter the total provider charges (estimated bill amount).",
+    "Enter any deductible amount you expect to pay for this visit.",
+    "Choose whether you pay a copay or coinsurance.",
+    "Enter the copay amount or coinsurance percentage.",
+    "See your estimated out-of-pocket medical expense."
+  ],
+  example: {
+    description:
+      "If total charges are $1,000, you expect to pay $200 of deductible, and coinsurance is 20%:",
+    bullets: [
+      "Charges = $1,000",
+      "Deductible you pay = $200",
+      "Remaining = $1,000 − $200 = $800",
+      "Coinsurance = $800 × 20% = $160",
+      "Estimated out-of-pocket = $200 + $160 = $360"
+    ]
+  }
+},
+
+
 
 
 
