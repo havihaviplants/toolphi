@@ -6394,7 +6394,50 @@ export const tools: Tool[] = [
       "Estimated bill (no insurance) = $250 − $37.50 = $212.50"
     ]
   }
-}
+},
+
+{
+  slug: "self-pay-medical-cost-calculator",
+  category: "finance",
+  title: "Self-Pay Medical Cost Calculator",
+  description:
+    "Estimate your self-pay medical cost by calculating a base visit price, additional fees, and an optional upfront payment discount.",
+  keywords: [
+    "self pay medical cost calculator",
+    "self pay medical bill",
+    "self pay doctor visit cost",
+    "self pay hospital cost",
+    "cash pay medical cost",
+    "self pay discount calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "self pay",
+    "cash pay",
+    "medical cost",
+    "medical bill",
+    "out of pocket",
+    "discount"
+  ],
+  howToSteps: [
+    "Select your visit type (clinic, hospital, urgent care, or ER).",
+    "Enter the self-pay base price for the visit or service.",
+    "Add estimated fees for tests, imaging, or procedures.",
+    "Enter an optional upfront payment discount percentage.",
+    "See your estimated total self-pay medical cost."
+  ],
+  example: {
+    description:
+      "If your self-pay base price is $220, additional fees are $90, and you get a 10% upfront discount:",
+    bullets: [
+      "Subtotal = $220 + $90 = $310",
+      "Discount = $310 × 10% = $31",
+      "Estimated self-pay total = $310 − $31 = $279"
+    ]
+  }
+},
+
 
 
 
