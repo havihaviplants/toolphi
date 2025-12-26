@@ -6313,6 +6313,49 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "medical-bill-cost-calculator",
+  category: "finance",
+  title: "Medical Bill Cost Calculator",
+  description:
+    "Estimate your total medical bill cost by calculating base medical services and additional fees to understand how much you may need to pay.",
+  keywords: [
+    "medical bill cost calculator",
+    "medical bill calculator",
+    "hospital bill cost",
+    "clinic visit cost",
+    "average medical bill",
+    "medical expenses calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical bill",
+    "medical cost",
+    "hospital",
+    "clinic",
+    "self pay",
+    "out of pocket"
+  ],
+  howToSteps: [
+    "Enter the base cost of the medical visit or service.",
+    "Add any additional fees such as tests, imaging, or procedures.",
+    "Calculate the total estimated medical bill.",
+    "Review the result to understand your potential healthcare expense."
+  ],
+  example: {
+    description:
+      "If your base medical service costs $1,200 and additional fees are $450:",
+    bullets: [
+      "Base service cost = $1,200",
+      "Additional fees = $450",
+      "Estimated total medical bill = $1,650"
+    ]
+  }
+},
+
+
+
 
 
 
