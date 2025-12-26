@@ -6482,12 +6482,47 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
-
-
-
+{
+  slug: "hospital-vs-clinic-cost-calculator",
+  category: "finance",
+  title: "Hospital vs Clinic Cost Calculator",
+  description:
+    "Compare estimated costs for a hospital visit vs a clinic visit by entering base costs and additional fees to see which option may be cheaper.",
+  keywords: [
+    "hospital vs clinic cost calculator",
+    "hospital vs clinic cost",
+    "doctor office vs hospital cost",
+    "clinic visit vs hospital visit cost",
+    "hospital bill vs clinic bill",
+    "which is cheaper hospital or clinic"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "hospital",
+    "clinic",
+    "cost comparison",
+    "medical bill",
+    "decision",
+    "estimate"
+  ],
+  howToSteps: [
+    "Enter the hospital base visit cost and any additional fees.",
+    "Enter the clinic base visit cost and any additional fees.",
+    "Calculate the total cost for each option.",
+    "Compare the totals and see the difference.",
+    "Use the result to choose the cheaper option for your scenario."
+  ],
+  example: {
+    description:
+      "If the hospital visit is $1,200 plus $300 fees, and the clinic visit is $220 plus $80 fees:",
+    bullets: [
+      "Hospital total = $1,200 + $300 = $1,500",
+      "Clinic total = $220 + $80 = $300",
+      "Clinic is cheaper by $1,200"
+    ]
+  }
+}
 
 
 ];
