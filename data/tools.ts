@@ -6109,15 +6109,16 @@ export const tools: Tool[] = [
   },
 },
 
+
 {
   slug: "is-insurance-worth-it-calculator",
   category: "finance",
   title: "Is Insurance Worth It Calculator",
   description:
-    "Estimate whether an insurance plan is worth it by comparing annual premiums plus expected out-of-pocket cost vs expected losses without insurance.",
+    "Estimate whether an insurance plan is worth it by comparing expected annual costs with and without insurance based on premiums, risk, and potential losses.",
   keywords: [
     "is insurance worth it calculator",
-    "should I buy insurance calculator",
+    "should i buy insurance calculator",
     "insurance worth it estimate",
     "expected value insurance calculator",
     "premium vs risk calculator",
@@ -6125,24 +6126,57 @@ export const tools: Tool[] = [
   type: "calculator",
   tags: ["insurance", "worth it", "expected value", "premium", "risk", "decision"],
   howToSteps: [
-    "Enter annual premium and deductible (or expected out-of-pocket).",
-    "Estimate probability of a loss event and the expected loss amount.",
-    "Optionally include coverage limit and the portion not covered.",
-    "Calculate expected annual cost with insurance vs without insurance.",
+    "Enter the annual insurance premium.",
+    "Enter the deductible.",
+    "Enter the probability of a loss event.",
+    "Enter the expected loss amount.",
+    "Compare expected annual cost with insurance vs without insurance.",
   ],
   example: {
     description:
-      "If premium is $1,200/year, deductible is $500, probability of loss is 10%, expected loss is $10,000, and coverage limit is $10,000:",
+      "If premium is $1,200/year, deductible is $500, probability of loss is 10%, and expected loss is $10,000:",
     bullets: [
-      "With insurance expected cost = $1,200 + 0.10 × $500 = $1,250",
+      "With insurance expected cost = $1,200 + (0.10 × $500) = $1,250",
       "Without insurance expected cost = 0.10 × $10,000 = $1,000",
-      "Expected value suggests not worth it, but risk protection may still matter",
+      "Expected value suggests insurance may not be worth it, but risk protection can still matter",
     ],
   },
 },
 
-
-
+{
+  slug: "insurance-cost-by-age-calculator",
+  category: "finance",
+  title: "Insurance Cost by Age Calculator",
+  description:
+    "Estimate how insurance premiums may change by age using a simple growth model and compare projected costs across age ranges.",
+  keywords: [
+    "insurance cost by age calculator",
+    "insurance premium by age",
+    "premium increase by age",
+    "how age affects insurance cost",
+    "insurance age pricing"
+  ],
+  type: "calculator",
+  tags: ["insurance", "premium", "age", "cost", "estimate"],
+  howToSteps: [
+    "Enter your current age.",
+    "Enter your current monthly premium.",
+    "Enter an estimated annual premium growth rate.",
+    "Choose a target age range to project premiums.",
+    "View projected premiums and total cost over the period."
+  ],
+  example: {
+    description:
+      "If you pay $120/month at age 30 and assume a 4% annual premium increase, this tool estimates the premium at age 40 and 50.",
+    bullets: [
+      "Current age: 30",
+      "Current premium: $120/month",
+      "Annual growth rate: 4%",
+      "Estimated at age 40: about $178/month",
+      "Estimated at age 50: about $263/month"
+    ]
+  }
+},
 
 
 
