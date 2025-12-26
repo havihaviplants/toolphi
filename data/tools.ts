@@ -6246,5 +6246,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "temporary-insurance-cost-estimator",
+  category: "finance",
+  title: "Temporary Insurance Cost Estimator",
+  description:
+    "Estimate the cost of temporary insurance (short-term coverage) based on duration, base rate, and optional risk adjustments.",
+  keywords: [
+    "temporary insurance cost estimator",
+    "short term insurance cost calculator",
+    "temporary coverage cost estimate",
+    "short term insurance premium estimator",
+    "temporary insurance price calculator"
+  ],
+  type: "calculator",
+  tags: ["insurance", "temporary", "short term", "premium", "cost", "estimate"],
+  howToSteps: [
+    "Enter coverage duration (days or months).",
+    "Enter a base rate (per day or per month).",
+    "Choose insurance type and optional risk adjustments.",
+    "Estimate total cost and average monthly equivalent.",
+    "Compare multiple durations or plans."
+  ],
+  example: {
+    description:
+      "If temporary insurance costs $6/day and you need 14 days of coverage with a 10% risk adjustment:",
+    bullets: [
+      "Duration: 14 days",
+      "Base rate: $6/day",
+      "Risk adjustment: +10%",
+      "Estimated total cost = 14 × $6 × 1.10 = $92.40"
+    ]
+  }
+},
+
+
 
 ];
