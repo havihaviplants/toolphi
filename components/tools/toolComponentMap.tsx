@@ -191,6 +191,7 @@ import SelfPayMedicalCostCalculator from "./SelfPayMedicalCostCalculator";
 import OutOfPocketMedicalExpenseCalculator from "./OutOfPocketMedicalExpenseCalculator";
 import HospitalVsClinicCostCalculator from "./HospitalVsClinicCostCalculator";
 import EmergencyRoomVsUrgentCareCostCalculator from "./EmergencyRoomVsUrgentCareCostCalculator";
+import UrgentCareVsClinicCostCalculator from "./UrgentCareVsClinicCostCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -386,6 +387,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "out-of-pocket-medical-expense-calculator": OutOfPocketMedicalExpenseCalculator,
   "hospital-vs-clinic-cost-calculator": HospitalVsClinicCostCalculator,
   "emergency-room-vs-urgent-care-cost-calculator": EmergencyRoomVsUrgentCareCostCalculator,
+  "urgent-care-vs-clinic-cost-calculator": UrgentCareVsClinicCostCalculator,
 
 
 };

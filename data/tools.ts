@@ -6563,7 +6563,49 @@ export const tools: Tool[] = [
       "Urgent care is cheaper by $2,230"
     ]
   }
+},
+
+{
+  slug: "urgent-care-vs-clinic-cost-calculator",
+  category: "finance",
+  title: "Urgent Care vs Clinic Cost Calculator",
+  description:
+    "Compare urgent care vs clinic visit costs by estimating base charges and additional fees to see which option may be cheaper.",
+  keywords: [
+    "urgent care vs clinic cost calculator",
+    "urgent care vs clinic cost",
+    "clinic vs urgent care bill",
+    "urgent care or clinic which is cheaper",
+    "urgent care visit cost vs clinic",
+    "walk in clinic vs urgent care cost"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "urgent care",
+    "clinic",
+    "cost comparison",
+    "medical bill",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the urgent care base visit cost and additional fees.",
+    "Enter the clinic base visit cost and additional fees.",
+    "Calculate total estimated cost for each option.",
+    "Compare the totals and cost difference.",
+    "Use the result to choose the cheaper care option."
+  ],
+  example: {
+    description:
+      "If urgent care costs $280 plus $120 in fees, and a clinic visit costs $180 plus $60 in fees:",
+    bullets: [
+      "Urgent care total = $280 + $120 = $400",
+      "Clinic total = $180 + $60 = $240",
+      "Clinic is cheaper by $160"
+    ]
+  }
 }
+
 
 
 
