@@ -6522,7 +6522,49 @@ export const tools: Tool[] = [
       "Clinic is cheaper by $1,200"
     ]
   }
+},
+
+{
+  slug: "emergency-room-vs-urgent-care-cost-calculator",
+  category: "finance",
+  title: "Emergency Room vs Urgent Care Cost Calculator",
+  description:
+    "Compare emergency room vs urgent care costs by estimating base visit charges and additional fees to see which option may be cheaper.",
+  keywords: [
+    "emergency room vs urgent care cost calculator",
+    "er vs urgent care cost",
+    "emergency room cost vs urgent care",
+    "urgent care vs er bill",
+    "which is cheaper er or urgent care",
+    "emergency room bill estimate"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "emergency room",
+    "urgent care",
+    "cost comparison",
+    "medical bill",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the emergency room base visit cost and additional fees.",
+    "Enter the urgent care base visit cost and additional fees.",
+    "Calculate total estimated cost for both options.",
+    "Compare the totals and cost difference.",
+    "Use the result to choose the cheaper care setting."
+  ],
+  example: {
+    description:
+      "If an ER visit costs $2,000 plus $600 in fees, and urgent care costs $250 plus $120 in fees:",
+    bullets: [
+      "ER total = $2,000 + $600 = $2,600",
+      "Urgent care total = $250 + $120 = $370",
+      "Urgent care is cheaper by $2,230"
+    ]
+  }
 }
+
 
 
 ];
