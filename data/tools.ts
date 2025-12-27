@@ -6683,7 +6683,47 @@ export const tools: Tool[] = [
       "Estimated total cost = $5,700"
     ]
   }
+},
+
+{
+  slug: "out-of-network-medical-cost-calculator",
+  category: "finance",
+  title: "Out-of-Network Medical Cost Calculator",
+  description:
+    "Estimate out-of-network medical costs by calculating how much you may need to pay after insurance coverage limits.",
+  keywords: [
+    "out of network medical cost calculator",
+    "out of network medical bill",
+    "out of network healthcare cost",
+    "insurance out of network cost",
+    "out of network medical expenses"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "out of network",
+    "insurance",
+    "medical cost",
+    "self pay",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the total medical bill amount.",
+    "Enter the percentage or amount covered by insurance for out-of-network care.",
+    "Calculate your estimated out-of-pocket cost.",
+    "Use the result to understand potential medical expenses."
+  ],
+  example: {
+    description:
+      "If an out-of-network bill is $6,000 and insurance covers 40%:",
+    bullets: [
+      "Insurance pays = $2,400",
+      "You pay = $3,600",
+      "Out-of-pocket cost = $3,600"
+    ]
+  }
 }
+
 
 
 
