@@ -6803,7 +6803,49 @@ export const tools: Tool[] = [
       "Extra cost ≈ $156"
     ]
   }
+},
+
+{
+  slug: "high-deductible-health-plan-cost-calculator",
+  category: "finance",
+  title: "High Deductible Health Plan Cost Calculator",
+  description:
+    "Estimate the total annual cost of a high-deductible health plan (HDHP) by combining premiums and expected out-of-pocket spending up to the deductible.",
+  keywords: [
+    "high deductible health plan cost calculator",
+    "hdhp cost calculator",
+    "high deductible plan vs low deductible cost",
+    "is a high deductible health plan worth it",
+    "hdhp out of pocket estimate"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "insurance",
+    "high deductible",
+    "hdhp",
+    "premium",
+    "out of pocket",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your monthly premium for the HDHP.",
+    "Enter your annual deductible amount.",
+    "Enter your expected annual medical spending (allowed charges).",
+    "Calculate estimated out-of-pocket (up to the deductible).",
+    "See your estimated total annual cost (premium + out-of-pocket)."
+  ],
+  example: {
+    description:
+      "If monthly premium is $220, deductible is $3,000, and expected medical spending is $1,800:",
+    bullets: [
+      "Annual premium = $220 × 12 = $2,640",
+      "Out-of-pocket (up to deductible) = min($1,800, $3,000) = $1,800",
+      "Estimated total annual cost = $2,640 + $1,800 = $4,440"
+    ]
+  }
 }
+
 
 
 
