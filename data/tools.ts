@@ -6762,7 +6762,49 @@ export const tools: Tool[] = [
       "Final bill = $2,400"
     ]
   }
+},
+
+{
+  slug: "payment-plan-medical-cost-calculator",
+  category: "finance",
+  title: "Payment Plan Medical Cost Calculator",
+  description:
+    "Estimate the total cost of a medical bill payment plan by calculating monthly payments and any interest or fees.",
+  keywords: [
+    "payment plan medical cost calculator",
+    "medical bill payment plan calculator",
+    "hospital bill payment plan calculator",
+    "medical bill installment calculator",
+    "medical payment plan interest calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical bill",
+    "payment plan",
+    "installment",
+    "interest",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your medical bill amount.",
+    "Enter the payment plan term (months).",
+    "Enter the interest rate (APR) if applicable.",
+    "Calculate estimated monthly payment and total paid.",
+    "Compare total paid vs paying the bill upfront."
+  ],
+  example: {
+    description:
+      "If your bill is $3,600, term is 12 months, and APR is 8%:",
+    bullets: [
+      "Monthly interest rate ≈ 0.08/12",
+      "Estimated monthly payment ≈ $313",
+      "Total paid ≈ $3,756",
+      "Extra cost ≈ $156"
+    ]
+  }
 }
+
 
 
 
