@@ -6884,7 +6884,49 @@ export const tools: Tool[] = [
       "Estimated deduction = $4,000"
     ]
   }
+},
+
+{
+  slug: "prescription-drug-cost-comparison-calculator",
+  category: "finance",
+  title: "Prescription Drug Cost Comparison Calculator",
+  description:
+    "Compare prescription drug costs between two options (e.g., brand vs generic or pharmacy A vs pharmacy B) to see which is cheaper.",
+  keywords: [
+    "prescription drug cost comparison calculator",
+    "brand vs generic cost calculator",
+    "generic vs brand drug cost",
+    "pharmacy price comparison calculator",
+    "prescription cost comparison"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "prescription",
+    "drug cost",
+    "generic",
+    "brand",
+    "comparison",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the monthly cost for option A (e.g., brand drug or pharmacy A).",
+    "Enter the monthly cost for option B (e.g., generic drug or pharmacy B).",
+    "Choose how many months you want to compare.",
+    "Calculate total cost for both options.",
+    "See which option is cheaper and by how much."
+  ],
+  example: {
+    description:
+      "If option A costs $180/month, option B costs $65/month, and you compare 12 months:",
+    bullets: [
+      "Option A total = $180 × 12 = $2,160",
+      "Option B total = $65 × 12 = $780",
+      "Option B is cheaper by $1,380"
+    ]
+  }
 }
+
 
 
 
