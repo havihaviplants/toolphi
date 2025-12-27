@@ -6722,11 +6722,47 @@ export const tools: Tool[] = [
       "Out-of-pocket cost = $3,600"
     ]
   }
+},
+
+{
+  slug: "medical-bill-negotiation-savings-calculator",
+  category: "finance",
+  title: "Medical Bill Negotiation Savings Calculator",
+  description:
+    "Estimate how much you could save by negotiating your medical bill or receiving a discount.",
+  keywords: [
+    "medical bill negotiation savings calculator",
+    "negotiate medical bill savings",
+    "medical bill discount calculator",
+    "hospital bill negotiation savings",
+    "medical bill reduction estimate"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical bill",
+    "negotiation",
+    "savings",
+    "self pay",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the original medical bill amount.",
+    "Enter the expected or negotiated discount percentage.",
+    "Calculate the discounted bill and savings.",
+    "Use the result to evaluate whether negotiation is worthwhile."
+  ],
+  example: {
+    description:
+      "If your medical bill is $3,200 and you negotiate a 25% discount:",
+    bullets: [
+      "Original bill = $3,200",
+      "Discount = 25%",
+      "Savings = $800",
+      "Final bill = $2,400"
+    ]
+  }
 }
-
-
-
-
 
 
 

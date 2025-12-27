@@ -195,6 +195,7 @@ import UrgentCareVsClinicCostCalculator from "./UrgentCareVsClinicCostCalculator
 import ErCopayVsCoinsuranceCostCalculator from "./ErCopayVsCoinsuranceCostCalculator";
 import MedicalProcedureCostEstimator from "./MedicalProcedureCostEstimator";
 import OutOfNetworkMedicalCostCalculator from "./OutOfNetworkMedicalCostCalculator";
+import MedicalBillNegotiationSavingsCalculator from "./MedicalBillNegotiationSavingsCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -394,7 +395,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "er-copay-vs-coinsurance-cost-calculator": ErCopayVsCoinsuranceCostCalculator,
   "medical-procedure-cost-estimator": MedicalProcedureCostEstimator,
   "out-of-network-medical-cost-calculator": OutOfNetworkMedicalCostCalculator,
-
+  "medical-bill-negotiation-savings-calculator": MedicalBillNegotiationSavingsCalculator,
 
 };
 
