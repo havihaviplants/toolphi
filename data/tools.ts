@@ -6844,7 +6844,48 @@ export const tools: Tool[] = [
       "Estimated total annual cost = $2,640 + $1,800 = $4,440"
     ]
   }
+},
+
+{
+  slug: "medical-expense-tax-deduction-calculator",
+  category: "finance",
+  title: "Medical Expense Tax Deduction Calculator",
+  description:
+    "Estimate how much of your medical expenses may be tax-deductible based on your AGI and the deduction threshold percentage.",
+  keywords: [
+    "medical expense tax deduction calculator",
+    "medical expenses tax deductible calculator",
+    "medical deduction calculator",
+    "are medical expenses tax deductible",
+    "agi medical expense threshold calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "tax",
+    "medical expenses",
+    "deduction",
+    "agi",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your adjusted gross income (AGI).",
+    "Enter your qualified medical expenses for the year.",
+    "Enter the threshold percentage (often 7.5%).",
+    "Calculate the deductible portion above the threshold.",
+    "See the estimated medical expense deduction."
+  ],
+  example: {
+    description:
+      "If your AGI is $80,000, qualified medical expenses are $10,000, and threshold is 7.5%:",
+    bullets: [
+      "Threshold amount = $80,000 × 7.5% = $6,000",
+      "Deductible medical expenses = $10,000 − $6,000 = $4,000",
+      "Estimated deduction = $4,000"
+    ]
+  }
 }
+
 
 
 
