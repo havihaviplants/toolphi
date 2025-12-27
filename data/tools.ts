@@ -6604,7 +6604,48 @@ export const tools: Tool[] = [
       "Clinic is cheaper by $160"
     ]
   }
+},
+
+{
+  slug: "er-copay-vs-coinsurance-cost-calculator",
+  category: "finance",
+  title: "ER Copay vs Coinsurance Cost Calculator",
+  description:
+    "Compare ER copay vs coinsurance by estimating your out-of-pocket cost under each option to see which may be cheaper.",
+  keywords: [
+    "er copay vs coinsurance calculator",
+    "er copay vs coinsurance",
+    "emergency room copay or coinsurance",
+    "er coinsurance cost calculator",
+    "er out of pocket copay vs coinsurance"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "emergency room",
+    "copay",
+    "coinsurance",
+    "out of pocket",
+    "insurance decision"
+  ],
+  howToSteps: [
+    "Enter the total ER charges.",
+    "Enter the ER copay amount.",
+    "Enter the coinsurance percentage.",
+    "Calculate out-of-pocket cost for both options.",
+    "Compare which option is cheaper."
+  ],
+  example: {
+    description:
+      "If ER charges are $3,000, copay is $300, and coinsurance is 20%:",
+    bullets: [
+      "Copay cost = $300",
+      "Coinsurance cost = $3,000 × 20% = $600",
+      "Copay is cheaper in this example"
+    ]
+  }
 }
+
 
 
 
