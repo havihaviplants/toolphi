@@ -6644,7 +6644,47 @@ export const tools: Tool[] = [
       "Copay is cheaper in this example"
     ]
   }
+},
+
+{
+  slug: "medical-procedure-cost-estimator",
+  category: "finance",
+  title: "Medical Procedure Cost Estimator",
+  description:
+    "Estimate the cost of a medical procedure by combining the base procedure price with additional hospital or provider fees.",
+  keywords: [
+    "medical procedure cost estimator",
+    "medical procedure cost calculator",
+    "procedure cost estimate",
+    "surgery cost estimate",
+    "medical procedure price"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical procedure",
+    "surgery",
+    "medical cost",
+    "self pay",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the base price of the medical procedure or surgery.",
+    "Add estimated hospital, anesthesia, or provider fees.",
+    "Calculate the total estimated procedure cost.",
+    "Use the estimate to prepare for medical expenses."
+  ],
+  example: {
+    description:
+      "If a procedure costs $4,500 and additional fees are $1,200:",
+    bullets: [
+      "Procedure base cost = $4,500",
+      "Additional fees = $1,200",
+      "Estimated total cost = $5,700"
+    ]
+  }
 }
+
 
 
 
