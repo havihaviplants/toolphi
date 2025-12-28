@@ -6966,7 +6966,50 @@ export const tools: Tool[] = [
       "Estimated total ambulance cost = $1,500"
     ]
   }
+},
+
+{
+  slug: "emergency-room-cost-without-insurance-calculator",
+  category: "finance",
+  title: "Emergency Room Cost Without Insurance Calculator",
+  description:
+    "Estimate the cost of an emergency room visit without insurance by combining facility fees, physician charges, and additional services.",
+  keywords: [
+    "emergency room cost without insurance calculator",
+    "er cost without insurance",
+    "emergency room bill uninsured",
+    "how much does er cost without insurance",
+    "uninsured emergency room cost"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "emergency room",
+    "uninsured",
+    "medical cost",
+    "self pay",
+    "out of pocket",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the emergency room facility fee.",
+    "Enter the physician or provider fee.",
+    "Add any additional charges such as labs or imaging.",
+    "Calculate the estimated total ER cost.",
+    "Use the estimate to prepare for emergency medical expenses."
+  ],
+  example: {
+    description:
+      "If the ER facility fee is $2,500, physician fee is $900, and additional services cost $600:",
+    bullets: [
+      "Facility fee = $2,500",
+      "Physician fee = $900",
+      "Additional services = $600",
+      "Estimated ER cost (uninsured) = $4,000"
+    ]
+  }
 }
+
 
 
 
