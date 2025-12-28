@@ -7227,7 +7227,41 @@ export const tools: Tool[] = [
       "Total position value stays roughly similar (before fees/slippage)"
     ]
   }
+},
+
+{
+  slug: "penny-stock-dilution-impact-calculator",
+  category: "finance",
+  title: "Penny Stock Dilution Impact Calculator",
+  description:
+    "Estimate dilution impact by comparing market cap and your ownership percentage before and after new shares are issued.",
+  keywords: [
+    "penny stock dilution impact calculator",
+    "share dilution calculator",
+    "new shares issued dilution calculator",
+    "how dilution affects share price",
+    "penny stock dilution ownership calculator"
+  ],
+  type: "calculator",
+  tags: ["penny stock", "dilution", "share issuance", "ownership", "market cap", "decision"],
+  howToSteps: [
+    "Enter current shares outstanding and current share price.",
+    "Enter the number of new shares to be issued.",
+    "Enter your current shares held.",
+    "Calculate ownership % before and after dilution.",
+    "See implied diluted market cap and ownership change."
+  ],
+  example: {
+    description:
+      "If shares outstanding are 100M at $0.20, new shares 50M, and you hold 200,000 shares:",
+    bullets: [
+      "Ownership before = 200,000 / 100,000,000 = 0.20%",
+      "Ownership after = 200,000 / 150,000,000 ≈ 0.133%",
+      "Your ownership is diluted even if price stays the same"
+    ]
+  }
 }
+
 
 
 
