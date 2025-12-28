@@ -7162,7 +7162,40 @@ export const tools: Tool[] = [
       "Position size ≈ $100 / 0.10 = $1,000"
     ]
   }
+},
+
+{
+  slug: "penny-stock-average-down-calculator",
+  category: "finance",
+  title: "Penny Stock Average Down Calculator",
+  description:
+    "Calculate your new average cost and break-even price when averaging down on a penny stock position.",
+  keywords: [
+    "penny stock average down calculator",
+    "average cost penny stock calculator",
+    "average down break even calculator",
+    "penny stock breakeven after averaging down",
+    "stock average price calculator"
+  ],
+  type: "calculator",
+  tags: ["penny stock", "average down", "break-even", "cost basis", "trading", "decision"],
+  howToSteps: [
+    "Enter your current shares and average cost.",
+    "Enter the additional shares and buy price.",
+    "Calculate new average cost.",
+    "See the new break-even price."
+  ],
+  example: {
+    description:
+      "If you own 2,000 shares at $0.90 and buy 2,000 more at $0.60:",
+    bullets: [
+      "Total cost = 2,000×0.90 + 2,000×0.60 = $3,000",
+      "Total shares = 4,000",
+      "New average cost = $3,000 / 4,000 = $0.75"
+    ]
+  }
 }
+
 
 
 
