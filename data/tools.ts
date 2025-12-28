@@ -7089,7 +7089,48 @@ export const tools: Tool[] = [
       "Medical debt option is cheaper in this example"
     ]
   }
+},
+
+{
+  slug: "medical-bill-negotiation-chance-calculator",
+  category: "finance",
+  title: "Medical Bill Negotiation Chance Calculator",
+  description:
+    "Estimate expected savings from negotiating a medical bill by factoring in your discount rate and the chance of successful negotiation.",
+  keywords: [
+    "medical bill negotiation chance calculator",
+    "medical bill negotiation success rate calculator",
+    "expected savings negotiate medical bill",
+    "medical bill negotiation worth it",
+    "hospital bill negotiation success rate"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical bill",
+    "negotiation",
+    "expected value",
+    "savings",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your original medical bill amount.",
+    "Enter the discount percentage you are aiming for.",
+    "Enter your estimated chance of success (%).",
+    "Calculate expected savings and expected final bill.",
+    "Use the result to decide whether negotiating is worth your time."
+  ],
+  example: {
+    description:
+      "If your bill is $4,000, you aim for a 25% discount, and success chance is 40%:",
+    bullets: [
+      "Savings if successful = $4,000 × 25% = $1,000",
+      "Expected savings = $1,000 × 40% = $400",
+      "Expected final bill = $4,000 − $400 = $3,600"
+    ]
+  }
 }
+
 
 
 

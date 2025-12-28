@@ -204,6 +204,7 @@ import AmbulanceCostCalculator from "./AmbulanceCostCalculator";
 import EmergencyRoomCostWithoutInsuranceCalculator from "./EmergencyRoomCostWithoutInsuranceCalculator";
 import MedicalDebtInterestCalculator from "./MedicalDebtInterestCalculator";
 import MedicalDebtVsCreditCardPayoffCalculator from "./MedicalDebtVsCreditCardPayoffCalculator";
+import MedicalBillNegotiationChanceCalculator from "./MedicalBillNegotiationChanceCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -412,6 +413,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "emergency-room-cost-without-insurance-calculator": EmergencyRoomCostWithoutInsuranceCalculator,
   "medical-debt-interest-calculator": MedicalDebtInterestCalculator,
   "medical-debt-vs-credit-card-payoff-calculator": MedicalDebtVsCreditCardPayoffCalculator,
+  "medical-bill-negotiation-chance-calculator": MedicalBillNegotiationChanceCalculator,
+
 
 };
 
