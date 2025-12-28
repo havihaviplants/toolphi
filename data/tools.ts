@@ -7049,7 +7049,48 @@ export const tools: Tool[] = [
       "Estimated total paid ≈ $5,660"
     ]
   }
+},
+
+{
+  slug: "medical-debt-vs-credit-card-payoff-calculator",
+  category: "finance",
+  title: "Medical Debt vs Credit Card Payoff Calculator",
+  description:
+    "Compare paying off medical debt directly versus transferring it to a credit card by estimating total interest and payments for each option.",
+  keywords: [
+    "medical debt vs credit card payoff calculator",
+    "pay medical debt with credit card",
+    "medical debt credit card comparison",
+    "medical debt vs credit card interest",
+    "medical bill credit card payoff"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical debt",
+    "credit card",
+    "interest",
+    "debt comparison",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your medical debt balance.",
+    "Enter the APR and repayment period for the medical debt.",
+    "Enter the APR and repayment period for the credit card option.",
+    "Calculate total interest and total paid for both options.",
+    "Compare which option costs less overall."
+  ],
+  example: {
+    description:
+      "If medical debt is $6,000 at 8% APR for 24 months, and credit card APR is 18% for 24 months:",
+    bullets: [
+      "Medical debt interest ≈ $520",
+      "Credit card interest ≈ $1,200",
+      "Medical debt option is cheaper in this example"
+    ]
+  }
 }
+
 
 
 
