@@ -200,6 +200,7 @@ import PaymentPlanMedicalCostCalculator from "./PaymentPlanMedicalCostCalculator
 import HighDeductibleHealthPlanCostCalculator from "./HighDeductibleHealthPlanCostCalculator";
 import MedicalExpenseTaxDeductionCalculator from "./MedicalExpenseTaxDeductionCalculator";
 import PrescriptionDrugCostComparisonCalculator from "./PrescriptionDrugCostComparisonCalculator";
+import AmbulanceCostCalculator from "./AmbulanceCostCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -404,7 +405,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "high-deductible-health-plan-cost-calculator": HighDeductibleHealthPlanCostCalculator,
   "medical-expense-tax-deduction-calculator": MedicalExpenseTaxDeductionCalculator,
   "prescription-drug-cost-comparison-calculator": PrescriptionDrugCostComparisonCalculator,
-  
+  "ambulance-cost-calculator": AmbulanceCostCalculator,
+
 };
 
 export function getToolComponent(slug: string) {

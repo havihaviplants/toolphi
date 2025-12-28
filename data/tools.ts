@@ -6925,7 +6925,49 @@ export const tools: Tool[] = [
       "Option B is cheaper by $1,380"
     ]
   }
+},
+
+{
+  slug: "ambulance-cost-calculator",
+  category: "finance",
+  title: "Ambulance Cost Calculator",
+  description:
+    "Estimate the cost of an ambulance ride by calculating base fees and per-mile charges to understand potential emergency medical expenses.",
+  keywords: [
+    "ambulance cost calculator",
+    "how much does an ambulance cost",
+    "ambulance ride cost",
+    "emergency ambulance cost",
+    "ambulance cost per mile"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "ambulance",
+    "emergency",
+    "medical cost",
+    "self pay",
+    "out of pocket",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter the ambulance base fee.",
+    "Enter the per-mile charge.",
+    "Enter the distance traveled (miles).",
+    "Calculate the estimated ambulance cost.",
+    "Use the result to understand potential emergency expenses."
+  ],
+  example: {
+    description:
+      "If the base fee is $1,200, the per-mile charge is $25, and distance is 12 miles:",
+    bullets: [
+      "Mileage cost = 12 × $25 = $300",
+      "Base fee = $1,200",
+      "Estimated total ambulance cost = $1,500"
+    ]
+  }
 }
+
 
 
 
