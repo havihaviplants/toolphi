@@ -7260,7 +7260,39 @@ export const tools: Tool[] = [
       "Your ownership is diluted even if price stays the same"
     ]
   }
+},
+
+{
+  slug: "penny-stock-market-cap-calculator",
+  category: "finance",
+  title: "Penny Stock Market Cap Calculator",
+  description:
+    "Calculate penny stock market cap using share price and shares outstanding, and estimate market cap at a target price.",
+  keywords: [
+    "penny stock market cap calculator",
+    "market cap calculator penny stocks",
+    "shares outstanding market cap calculator",
+    "penny stock valuation calculator",
+    "market cap at target price calculator"
+  ],
+  type: "calculator",
+  tags: ["penny stock", "market cap", "valuation", "shares outstanding", "target price", "decision"],
+  howToSteps: [
+    "Enter current share price and shares outstanding.",
+    "Calculate current market cap.",
+    "Enter a target share price to estimate target market cap.",
+    "Use it to sanity-check penny stock price targets."
+  ],
+  example: {
+    description:
+      "If price is $0.25 and shares outstanding are 200,000,000:",
+    bullets: [
+      "Market cap = $0.25 × 200,000,000 = $50,000,000",
+      "At $1.00, market cap would be $200,000,000"
+    ]
+  }
 }
+
 
 
 

@@ -209,6 +209,7 @@ import PennyStockPositionSizeCalculator from "./PennyStockPositionSizeCalculator
 import PennyStockAverageDownCalculator from "./PennyStockAverageDownCalculator";
 import PennyStockReverseSplitImpactCalculator from "./PennyStockReverseSplitImpactCalculator";
 import PennyStockDilutionImpactCalculator from "./PennyStockDilutionImpactCalculator";
+import PennyStockMarketCapCalculator from "./PennyStockMarketCapCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -422,6 +423,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "penny-stock-average-down-calculator": PennyStockAverageDownCalculator,
   "penny-stock-reverse-split-impact-calculator": PennyStockReverseSplitImpactCalculator,
   "penny-stock-dilution-impact-calculator": PennyStockDilutionImpactCalculator,
+  "penny-stock-market-cap-calculator": PennyStockMarketCapCalculator,
 
 
 };
