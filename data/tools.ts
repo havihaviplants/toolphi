@@ -7008,7 +7008,49 @@ export const tools: Tool[] = [
       "Estimated ER cost (uninsured) = $4,000"
     ]
   }
+},
+
+{
+  slug: "medical-debt-interest-calculator",
+  category: "finance",
+  title: "Medical Debt Interest Calculator",
+  description:
+    "Estimate the total cost of medical debt by calculating interest over time based on balance, APR, and repayment period.",
+  keywords: [
+    "medical debt interest calculator",
+    "medical debt cost calculator",
+    "medical bill interest calculator",
+    "medical debt repayment calculator",
+    "medical debt interest cost"
+  ],
+  type: "calculator",
+  tags: [
+    "healthcare",
+    "medical debt",
+    "interest",
+    "debt",
+    "repayment",
+    "finance",
+    "decision"
+  ],
+  howToSteps: [
+    "Enter your medical debt balance.",
+    "Enter the annual interest rate (APR).",
+    "Enter the repayment period in months.",
+    "Calculate total interest and total amount paid.",
+    "Understand the long-term cost of carrying medical debt."
+  ],
+  example: {
+    description:
+      "If your medical debt is $5,000, APR is 12%, and repayment period is 24 months:",
+    bullets: [
+      "Monthly interest rate = 12% / 12",
+      "Estimated total interest ≈ $660",
+      "Estimated total paid ≈ $5,660"
+    ]
+  }
 }
+
 
 
 
