@@ -207,6 +207,7 @@ import MedicalDebtVsCreditCardPayoffCalculator from "./MedicalDebtVsCreditCardPa
 import MedicalBillNegotiationChanceCalculator from "./MedicalBillNegotiationChanceCalculator";
 import PennyStockPositionSizeCalculator from "./PennyStockPositionSizeCalculator";
 import PennyStockAverageDownCalculator from "./PennyStockAverageDownCalculator";
+import PennyStockReverseSplitImpactCalculator from "./PennyStockReverseSplitImpactCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -418,6 +419,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "medical-bill-negotiation-chance-calculator": MedicalBillNegotiationChanceCalculator,
   "penny-stock-position-size-calculator": PennyStockPositionSizeCalculator,
   "penny-stock-average-down-calculator": PennyStockAverageDownCalculator,
+  "penny-stock-reverse-split-impact-calculator": PennyStockReverseSplitImpactCalculator,
 
 
 };

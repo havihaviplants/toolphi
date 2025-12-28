@@ -7194,14 +7194,40 @@ export const tools: Tool[] = [
       "New average cost = $3,000 / 4,000 = $0.75"
     ]
   }
+},
+
+
+{
+  slug: "penny-stock-reverse-split-impact-calculator",
+  category: "finance",
+  title: "Penny Stock Reverse Split Impact Calculator",
+  description:
+    "Estimate how a reverse stock split changes your share count, price per share, and cost basis per share for a penny stock position.",
+  keywords: [
+    "penny stock reverse split impact calculator",
+    "reverse split calculator",
+    "reverse stock split shares price calculator",
+    "how reverse split affects shares",
+    "reverse split cost basis calculator"
+  ],
+  type: "calculator",
+  tags: ["penny stock", "reverse split", "shares", "price", "cost basis", "decision"],
+  howToSteps: [
+    "Enter your current shares and share price.",
+    "Enter your reverse split ratio (e.g., 1-for-10).",
+    "Calculate new shares and post-split price.",
+    "See implied cost basis per share (unchanged total basis)."
+  ],
+  example: {
+    description:
+      "If you have 10,000 shares at $0.40 and a 1-for-10 reverse split:",
+    bullets: [
+      "New shares = 10,000 / 10 = 1,000",
+      "New price ≈ $0.40 × 10 = $4.00",
+      "Total position value stays roughly similar (before fees/slippage)"
+    ]
+  }
 }
-
-
-
-
-
-
-
 
 
 
