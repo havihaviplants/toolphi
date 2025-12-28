@@ -7129,7 +7129,41 @@ export const tools: Tool[] = [
       "Expected final bill = $4,000 − $400 = $3,600"
     ]
   }
+},
+
+{
+  slug: "penny-stock-position-size-calculator",
+  category: "finance",
+  title: "Penny Stock Position Size Calculator",
+  description:
+    "Calculate how many shares to buy for a penny stock based on your account size, risk per trade, and stop-loss percentage.",
+  keywords: [
+    "penny stock position size calculator",
+    "penny stock risk per trade calculator",
+    "how many shares to buy penny stock",
+    "position sizing penny stocks",
+    "penny stock stop loss position size"
+  ],
+  type: "calculator",
+  tags: ["penny stock", "position size", "risk", "stop loss", "trading", "decision"],
+  howToSteps: [
+    "Enter your account size.",
+    "Enter your risk per trade (dollars or %).",
+    "Enter your stop-loss percentage.",
+    "Calculate max shares and position value.",
+    "Use the result to avoid oversized penny stock positions."
+  ],
+  example: {
+    description:
+      "If account is $10,000, risk per trade is $100, and stop-loss is 10%:",
+    bullets: [
+      "Max dollar loss allowed = $100",
+      "Loss per $1 position at 10% stop = $0.10",
+      "Position size ≈ $100 / 0.10 = $1,000"
+    ]
+  }
 }
+
 
 
 
