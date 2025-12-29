@@ -7559,6 +7559,43 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// #8 ✅ tools 배열에 추가
+
+{
+  slug: "0-25-percent-rate-change-payment-calculator",
+  category: "finance",
+  title: "0.25% Rate Change Payment Calculator",
+  description:
+    "Estimate how a 0.25% interest rate change affects your monthly mortgage payment and total interest.",
+  keywords: [
+    "0.25 rate change payment calculator",
+    "0.25 percent rate increase mortgage payment",
+    "quarter point rate change mortgage payment",
+    "how much does 0.25 rate change affect mortgage payment",
+    "0.25% rate change impact calculator",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "rate", "impact", "0.25", "payment"],
+  howToSteps: [
+    "Enter your loan amount and term (years).",
+    "Enter your current interest rate.",
+    "Choose whether the rate changes up or down by 0.25%.",
+    "Click Calculate to see the monthly payment and interest difference.",
+  ],
+  example: {
+    description:
+      "Suppose you want to see how a quarter-point rate change affects your mortgage payment.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Current rate: 7.00%",
+      "Rate change: -0.25% (to 6.75%)",
+      "This tool shows monthly payment change and lifetime interest difference.",
+    ],
+  },
+},
+
+
 
 
 
