@@ -213,6 +213,7 @@ import PennyStockMarketCapCalculator from "./PennyStockMarketCapCalculator";
 import MortgagePointsBreakEvenCalculator from "./MortgagePointsBreakEvenCalculator";
 import MortgageRateChangeImpactCalculator from "./MortgageRateChangeImpactCalculator";
 import RateLockVsFloatCalculator from "./RateLockVsFloatCalculator";
+import MortgageRateBuydownCalculator from "./MortgageRateBuydownCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -430,6 +431,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "mortgage-points-break-even-calculator": MortgagePointsBreakEvenCalculator,
   "mortgage-rate-change-impact-calculator": MortgageRateChangeImpactCalculator,
   "rate-lock-vs-float-calculator": RateLockVsFloatCalculator,
+  "mortgage-rate-buydown-calculator": MortgageRateBuydownCalculator,
 
 
 };

@@ -7410,6 +7410,43 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// ✅ tools 배열에 추가
+
+{
+  slug: "mortgage-rate-buydown-calculator",
+  category: "finance",
+  title: "Mortgage Rate Buydown Calculator (2-1 / 1-0)",
+  description:
+    "Calculate how temporary mortgage rate buydowns (2-1 or 1-0) affect your monthly payment and total cost.",
+  keywords: [
+    "mortgage rate buydown calculator",
+    "2-1 buydown calculator",
+    "1-0 buydown calculator",
+    "temporary rate buydown mortgage",
+    "mortgage buydown worth it",
+    "seller paid buydown calculator",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "rate", "buydown", "temporary", "payment"],
+  howToSteps: [
+    "Enter your loan amount, term, and standard interest rate.",
+    "Choose a buydown type (2-1 or 1-0).",
+    "Click Calculate to see reduced payments in early years and the normal payment afterward.",
+  ],
+  example: {
+    description:
+      "Suppose you qualify for a temporary mortgage rate buydown.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Standard rate: 7.00%",
+      "2-1 buydown: 5.00% (year 1), 6.00% (year 2), then 7.00%",
+      "This tool estimates early-year savings and payment changes.",
+    ],
+  },
+},
+
+
 
 
 
