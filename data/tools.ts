@@ -7484,5 +7484,43 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// #6 ✅ tools 배열에 추가
+
+{
+  slug: "fixed-vs-arm-rate-difference-calculator",
+  category: "finance",
+  title: "Fixed vs ARM Rate Difference Calculator",
+  description:
+    "Compare fixed-rate and adjustable-rate mortgages (ARM) to see how rate structure differences affect monthly payments and interest.",
+  keywords: [
+    "fixed vs arm rate difference calculator",
+    "fixed vs arm mortgage calculator",
+    "arm vs fixed rate payment difference",
+    "adjustable vs fixed mortgage comparison",
+    "fixed rate vs arm impact calculator",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "rate", "fixed", "arm", "comparison"],
+  howToSteps: [
+    "Enter your loan amount and term.",
+    "Enter the fixed mortgage rate.",
+    "Enter the initial ARM rate and the expected ARM rate after adjustment.",
+    "Click Calculate to compare payments and see the impact of rate structure differences.",
+  ],
+  example: {
+    description:
+      "Suppose you are choosing between a fixed-rate mortgage and an ARM.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Fixed rate: 7.00%",
+      "ARM initial rate: 5.75%",
+      "Expected ARM adjusted rate: 7.50%",
+      "This tool compares monthly payments under each rate structure.",
+    ],
+  },
+},
+
+
 
 ];
