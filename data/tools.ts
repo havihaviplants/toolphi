@@ -7291,7 +7291,47 @@ export const tools: Tool[] = [
       "At $1.00, market cap would be $200,000,000"
     ]
   }
-}
+},
+
+// data/tools.ts
+// ✅ tools 배열 맨 아래(또는 mortgage/refinance 근처)에 그대로 추가
+
+{
+  slug: "mortgage-points-break-even-calculator",
+  category: "finance",
+  title: "Mortgage Points Break-Even Calculator",
+  description:
+    "Calculate how long it takes to break even when you pay discount points to get a lower mortgage interest rate.",
+  keywords: [
+    "mortgage points break even calculator",
+    "discount points calculator",
+    "buying points worth it",
+    "mortgage points vs rate",
+    "points breakeven months",
+    "mortgage rate buydown breakeven",
+    "should i buy mortgage points",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "points", "interest", "break-even", "refinance"],
+  howToSteps: [
+    "Enter your loan amount and term (years).",
+    "Enter the interest rate without points and the interest rate with points.",
+    "Enter how many points you would pay (1 point = 1% of the loan amount).",
+    "Click Calculate to see monthly payments, monthly savings, and break-even time.",
+  ],
+  example: {
+    description:
+      "Suppose you’re considering paying points to lower your mortgage rate.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Rate without points: 7.00%",
+      "Rate with points: 6.50%",
+      "Points paid: 1.5 points",
+      "This tool estimates monthly savings and the break-even month.",
+    ],
+  },
+},
+
 
 
 
