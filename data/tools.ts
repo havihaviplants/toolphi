@@ -7633,6 +7633,42 @@ export const tools: Tool[] = [
   },
 },
 
+// #10 ✅ tools 배열에 추가
+
+{
+  slug: "rate-vs-apr-difference-calculator",
+  category: "finance",
+  title: "Rate vs APR Difference Calculator",
+  description:
+    "Understand the difference between interest rate and APR by seeing how fees increase the effective borrowing cost.",
+  keywords: [
+    "rate vs apr calculator",
+    "interest rate vs apr difference",
+    "why is apr higher than interest rate",
+    "mortgage rate vs apr calculator",
+    "apr vs interest rate comparison",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "loan", "rate", "apr", "fees"],
+  howToSteps: [
+    "Enter your loan amount, term, and stated interest rate.",
+    "Enter estimated APR (from a lender quote).",
+    "Enter total upfront fees included in the APR.",
+    "Click Calculate to see how fees translate into an effective rate difference.",
+  ],
+  example: {
+    description:
+      "Suppose a lender quotes you a low rate but a higher APR.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Interest rate: 6.75%",
+      "APR: 7.05%",
+      "Upfront fees: $5,000",
+      "This tool explains how fees widen the gap between rate and APR.",
+    ],
+  },
+},
+
 
 
 
