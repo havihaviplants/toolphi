@@ -7332,6 +7332,44 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// ✅ tools 배열에 그대로 추가 (mortgage/loan 근처 추천)
+
+{
+  slug: "mortgage-rate-change-impact-calculator",
+  category: "finance",
+  title: "Mortgage Rate Change Impact Calculator",
+  description:
+    "Estimate how a mortgage interest rate increase or decrease changes your monthly payment and total interest.",
+  keywords: [
+    "mortgage rate change impact calculator",
+    "mortgage rate increase impact",
+    "mortgage rate decrease impact",
+    "interest rate change mortgage payment",
+    "0.25 rate increase mortgage payment",
+    "how much will my mortgage payment change if rates change",
+    "rate hike impact mortgage calculator",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "interest", "rate", "impact", "payment"],
+  howToSteps: [
+    "Enter your loan amount and term (years).",
+    "Enter your current interest rate.",
+    "Enter the new interest rate (after an increase or decrease).",
+    "Click Calculate to see the monthly payment change and total interest difference.",
+  ],
+  example: {
+    description:
+      "Suppose you want to see how a rate change affects your mortgage payment.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Current rate: 7.00%",
+      "New rate: 6.50%",
+      "This tool shows monthly payment change and lifetime interest difference.",
+    ],
+  },
+},
+
 
 
 
