@@ -7595,6 +7595,44 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// #9 ✅ tools 배열에 추가
+
+{
+  slug: "effective-rate-after-fees-calculator",
+  category: "finance",
+  title: "Effective Rate After Fees Calculator",
+  description:
+    "Estimate your effective interest rate after lender fees by converting upfront fees into an equivalent rate increase over your time horizon.",
+  keywords: [
+    "effective rate after fees calculator",
+    "effective interest rate including fees",
+    "mortgage effective rate with fees",
+    "loan effective rate after origination fee",
+    "rate after fees calculator",
+    "effective rate vs apr",
+  ],
+  type: "calculator",
+  tags: ["loan", "mortgage", "rate", "fees", "effective-rate"],
+  howToSteps: [
+    "Enter your loan amount, term, and stated interest rate.",
+    "Enter total upfront fees (origination, lender fees, points if applicable).",
+    "Enter your time horizon (how long you expect to keep the loan).",
+    "Click Calculate to see a simple estimate of the effective rate after fees.",
+  ],
+  example: {
+    description:
+      "Suppose you’re comparing two loans and one has higher fees but a lower rate.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Stated rate: 6.75%",
+      "Upfront fees: $4,500",
+      "Time horizon: 5 years",
+      "This tool estimates the rate-equivalent cost of fees over 5 years.",
+    ],
+  },
+},
+
 
 
 
