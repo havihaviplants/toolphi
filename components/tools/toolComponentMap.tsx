@@ -216,6 +216,7 @@ import RateLockVsFloatCalculator from "./RateLockVsFloatCalculator";
 import MortgageRateBuydownCalculator from "./MortgageRateBuydownCalculator";
 import ArmRateAdjustmentImpactCalculator from "./ArmRateAdjustmentImpactCalculator";
 import FixedVsArmRateDifferenceCalculator from "./FixedVsArmRateDifferenceCalculator";
+import RefinanceRateSavingsCalculator from "./RefinanceRateSavingsCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -436,6 +437,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "mortgage-rate-buydown-calculator": MortgageRateBuydownCalculator,
   "arm-rate-adjustment-impact-calculator": ArmRateAdjustmentImpactCalculator,
   "fixed-vs-arm-rate-difference-calculator": FixedVsArmRateDifferenceCalculator,
+  "refinance-rate-savings-calculator": RefinanceRateSavingsCalculator,
 
 
 

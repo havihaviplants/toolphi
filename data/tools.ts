@@ -7521,6 +7521,45 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// #7 ✅ tools 배열에 추가
+
+{
+  slug: "refinance-rate-savings-calculator",
+  category: "finance",
+  title: "Refinance Rate Savings Calculator",
+  description:
+    "Estimate how much you could save by refinancing to a lower interest rate based on payment difference and time horizon (rate-only view).",
+  keywords: [
+    "refinance rate savings calculator",
+    "refinance to lower rate savings",
+    "refinance interest rate savings calculator",
+    "how much can i save by refinancing rate",
+    "refinance rate drop savings",
+    "mortgage refinance rate savings",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "refinance", "rate", "savings", "comparison"],
+  howToSteps: [
+    "Enter your remaining loan balance and remaining term (years).",
+    "Enter your current interest rate and the new refinance rate you’re considering.",
+    "Enter how long you plan to keep the loan (months or years).",
+    "Click Calculate to see monthly savings and estimated savings over your time horizon (rate-only).",
+  ],
+  example: {
+    description:
+      "Suppose you want to estimate savings if you refinance to a lower rate.",
+    bullets: [
+      "Remaining balance: $280,000, remaining term: 27 years",
+      "Current rate: 7.00%",
+      "New rate: 6.25%",
+      "Planned time horizon: 5 years",
+      "This tool estimates monthly savings and 5-year savings (excluding fees).",
+    ],
+  },
+},
+
+
 
 
 ];
