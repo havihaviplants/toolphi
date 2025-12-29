@@ -7370,6 +7370,47 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// ✅ tools 배열에 그대로 추가 (mortgage/rate/impact 근처 추천)
+
+{
+  slug: "rate-lock-vs-float-calculator",
+  category: "finance",
+  title: "Rate Lock vs Float Calculator",
+  description:
+    "Compare locking your mortgage rate now vs waiting (floating) based on expected rate changes and time to closing.",
+  keywords: [
+    "rate lock vs float calculator",
+    "should i lock my mortgage rate",
+    "lock or float mortgage rate",
+    "mortgage rate lock decision calculator",
+    "rate lock vs float break even",
+    "mortgage rate lock vs float",
+    "when to lock mortgage rate",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "rate", "lock", "float", "decision"],
+  howToSteps: [
+    "Enter your loan amount, term, and the rate you can lock today.",
+    "Enter your expected rate if you wait (float) until closing.",
+    "Enter your time to closing (days) and the probability that rates go to your expected float rate.",
+    "Click Calculate to compare monthly payments and an expected-cost view of lock vs float.",
+  ],
+  example: {
+    description:
+      "Suppose you can lock a rate today, but you think rates might fall before you close.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Lock rate today: 7.00%",
+      "Expected float rate at closing: 6.75%",
+      "Probability rates reach expected float rate: 60%",
+      "Time to closing: 30 days",
+      "This tool estimates the payment difference and expected value of locking vs floating.",
+    ],
+  },
+},
+
+
 
 
 
