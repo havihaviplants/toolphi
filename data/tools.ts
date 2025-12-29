@@ -7446,15 +7446,43 @@ export const tools: Tool[] = [
   },
 },
 
+// data/tools.ts
+// #5 ✅ tools 배열에 추가
 
-
-
-
-
-
-
-
-
+{
+  slug: "arm-rate-adjustment-impact-calculator",
+  category: "finance",
+  title: "ARM Rate Adjustment Impact Calculator",
+  description:
+    "Estimate how an adjustable-rate mortgage (ARM) rate reset changes your monthly payment, including caps and adjustment size.",
+  keywords: [
+    "arm rate adjustment impact calculator",
+    "arm reset payment increase calculator",
+    "adjustable rate mortgage adjustment calculator",
+    "arm rate cap impact",
+    "arm payment increase after adjustment",
+    "arm reset calculator",
+  ],
+  type: "calculator",
+  tags: ["mortgage", "arm", "rate", "adjustment", "impact"],
+  howToSteps: [
+    "Enter your loan amount, term, and current ARM rate.",
+    "Enter the expected rate after the next adjustment (or enter the index change + margin effect as a single new rate).",
+    "Optional: enter a per-adjustment cap and lifetime cap to see capped scenarios.",
+    "Click Calculate to see the payment change at the reset.",
+  ],
+  example: {
+    description:
+      "Suppose your ARM is about to reset and you want to estimate the payment impact.",
+    bullets: [
+      "Loan amount: $300,000, term: 30 years",
+      "Current rate: 5.50%",
+      "Expected new rate: 7.25%",
+      "Per-adjustment cap: 2.00%, lifetime cap: 5.00%",
+      "This tool shows the payment change with and without caps.",
+    ],
+  },
+},
 
 
 ];
