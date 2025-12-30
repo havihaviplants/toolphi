@@ -7703,6 +7703,41 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "exchange-rate-spread-calculator",
+    category: "finance",
+    title: "Exchange Rate Spread Calculator",
+    description:
+      "Calculate the exchange rate spread between the mid-market rate and the rate you’re offered, and estimate the hidden cost impact.",
+    keywords: [
+      "exchange rate spread calculator",
+      "exchange rate spread",
+      "currency spread calculator",
+      "mid market rate vs bank rate",
+      "exchange rate markup",
+      "hidden exchange rate cost",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "spread", "markup", "conversion", "fee"],
+    howToSteps: [
+      "Enter the mid-market exchange rate (true market rate).",
+      "Enter the offered exchange rate (bank/service rate).",
+      "Optionally enter an amount to estimate the cost impact.",
+      "Click Calculate to see spread (%) and estimated hidden cost.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 and the offered rate is 1.05, the calculator shows the spread and cost impact:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Spread (%): computed from the rate difference",
+        "Optional: enter an amount to estimate hidden loss",
+      ],
+    },
+  },
+
+
 
 
 

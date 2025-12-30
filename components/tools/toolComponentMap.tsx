@@ -221,6 +221,7 @@ import QuarterPointRateChangePaymentCalculator from "./QuarterPointRateChangePay
 import EffectiveRateAfterFeesCalculator from "./EffectiveRateAfterFeesCalculator";
 import RateVsAprDifferenceCalculator from "./RateVsAprDifferenceCalculator";
 import ExchangeRateFeeImpactCalculator from "./ExchangeRateFeeImpactCalculator";
+import ExchangeRateSpreadCalculator from "./ExchangeRateSpreadCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -446,6 +447,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "effective-rate-after-fees-calculator": EffectiveRateAfterFeesCalculator,
   "rate-vs-apr-difference-calculator": RateVsAprDifferenceCalculator,
   "exchange-rate-fee-impact-calculator": ExchangeRateFeeImpactCalculator,
+  "exchange-rate-spread-calculator": ExchangeRateSpreadCalculator,
 
 
 
