@@ -7737,6 +7737,39 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "bank-vs-market-exchange-rate-calculator",
+    category: "finance",
+    title: "Bank vs Market Exchange Rate Calculator",
+    description:
+      "Compare a bank’s offered exchange rate to the mid-market rate and estimate the hidden cost of exchanging money at the bank.",
+    keywords: [
+      "bank vs market exchange rate",
+      "mid market rate vs bank rate",
+      "bank exchange rate markup",
+      "hidden exchange rate cost",
+      "exchange rate comparison calculator",
+      "currency exchange loss calculator",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "bank", "mid-market", "markup", "spread"],
+    howToSteps: [
+      "Enter the mid-market exchange rate (true market rate).",
+      "Enter the bank’s offered exchange rate.",
+      "Enter the amount you want to exchange.",
+      "Click Calculate to see the hidden loss and the effective markup percentage.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 but your bank offers 1.05, you can estimate the cost of using the bank:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Bank rate: 1.05",
+        "Amount exchanged: $1,000",
+        "See hidden loss amount and bank markup (%)",
+      ],
+    },
+  },
 
 
 
