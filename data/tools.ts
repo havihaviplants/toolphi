@@ -7669,6 +7669,42 @@ export const tools: Tool[] = [
   },
 },
 
+  {
+    slug: "exchange-rate-fee-impact-calculator",
+    category: "finance",
+    title: "Exchange Rate Fee Impact Calculator",
+    description:
+      "Estimate how much money you lose due to hidden exchange rate markups compared to the mid-market rate.",
+    keywords: [
+      "exchange rate fee impact",
+      "exchange rate markup",
+      "hidden exchange rate fees",
+      "real exchange rate cost",
+      "currency exchange loss",
+      "mid market rate vs bank rate",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "markup", "spread", "fee", "conversion"],
+    howToSteps: [
+      "Enter the mid-market exchange rate (the true market rate).",
+      "Enter the exchange rate offered by your bank or service.",
+      "Enter the amount you want to exchange.",
+      "Click Calculate to see your hidden exchange rate loss and loss percentage.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 but the offered rate is 1.05, this calculator helps you understand the hidden cost:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Amount exchanged: $1,000",
+        "You can see the hidden loss amount and loss percentage instantly.",
+      ],
+    },
+  },
+
+
+
 
 
 

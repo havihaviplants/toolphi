@@ -220,6 +220,7 @@ import RefinanceRateSavingsCalculator from "./RefinanceRateSavingsCalculator";
 import QuarterPointRateChangePaymentCalculator from "./QuarterPointRateChangePaymentCalculator";
 import EffectiveRateAfterFeesCalculator from "./EffectiveRateAfterFeesCalculator";
 import RateVsAprDifferenceCalculator from "./RateVsAprDifferenceCalculator";
+import ExchangeRateFeeImpactCalculator from "./ExchangeRateFeeImpactCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -444,6 +445,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "0-25-percent-rate-change-payment-calculator": QuarterPointRateChangePaymentCalculator,
   "effective-rate-after-fees-calculator": EffectiveRateAfterFeesCalculator,
   "rate-vs-apr-difference-calculator": RateVsAprDifferenceCalculator,
+  "exchange-rate-fee-impact-calculator": ExchangeRateFeeImpactCalculator,
 
 
 
