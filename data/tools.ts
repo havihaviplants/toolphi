@@ -7839,6 +7839,41 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "after-fee-exchange-rate-calculator",
+    category: "finance",
+    title: "After-Fee Exchange Rate Calculator",
+    description:
+      "Calculate your effective exchange rate after including a flat fee or percentage fee charged by a bank or service.",
+    keywords: [
+      "after fee exchange rate calculator",
+      "effective exchange rate after fees",
+      "currency exchange rate with fees",
+      "exchange rate including fees",
+      "remittance effective rate calculator",
+      "real exchange rate after fees",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "fee", "effective-rate", "conversion", "remittance"],
+    howToSteps: [
+      "Enter the offered exchange rate (provider rate).",
+      "Enter the amount you want to exchange.",
+      "Enter a flat fee and/or a percentage fee (if applicable).",
+      "Click Calculate to see your effective exchange rate after fees.",
+    ],
+    example: {
+      description:
+        "If your provider offers 1.05 but charges a $5 fee and a 1% fee, this tool estimates your effective rate:",
+      bullets: [
+        "Offered rate: 1.05",
+        "Amount exchanged: $1,000",
+        "Flat fee: $5",
+        "Percentage fee: 1%",
+        "Output: effective exchange rate after fees",
+      ],
+    },
+  },
+
 
 
 
