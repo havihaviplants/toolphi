@@ -7985,6 +7985,40 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+  slug: "exchange-rate-volatility-impact-calculator",
+  category: "finance",
+  title: "Exchange Rate Volatility Impact Calculator",
+  description:
+    "Estimate how exchange rate fluctuations impact your total cost or value under different volatility scenarios.",
+  keywords: [
+    "exchange rate volatility calculator",
+    "fx volatility impact calculator",
+    "currency fluctuation cost calculator",
+    "exchange rate change impact",
+    "fx rate movement calculator"
+  ],
+  type: "calculator",
+  tags: ["exchange-rate", "volatility", "scenario", "risk"],
+  howToSteps: [
+    "Enter the current exchange rate.",
+    "Enter the transaction amount in base currency.",
+    "Enter expected exchange rate change (%) up or down.",
+    "Calculate to see best and worst case outcomes."
+  ],
+  example: {
+    description:
+      "If the exchange rate moves ±3% on a $10,000 transaction:",
+    bullets: [
+      "Current rate: 1470",
+      "Amount: 10,000",
+      "Volatility: 3%",
+      "Output: best vs worst case value difference"
+    ]
+  }
+}
+
+
 
 
 
