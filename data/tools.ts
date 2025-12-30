@@ -7771,6 +7771,41 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "exchange-rate-markup-calculator",
+    category: "finance",
+    title: "Exchange Rate Markup Calculator",
+    description:
+      "Calculate the exchange rate markup (%) compared to the mid-market rate and estimate the hidden cost for your exchange amount.",
+    keywords: [
+      "exchange rate markup calculator",
+      "exchange rate markup",
+      "currency markup calculator",
+      "mid market rate vs offered rate",
+      "hidden exchange rate fee",
+      "exchange rate spread",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "markup", "spread", "mid-market", "conversion"],
+    howToSteps: [
+      "Enter the mid-market exchange rate (true market rate).",
+      "Enter the offered exchange rate (provider rate).",
+      "Enter the amount you want to exchange.",
+      "Click Calculate to see markup (%) and estimated hidden loss.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 and the offered rate is 1.05, this tool calculates the markup and hidden cost:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Amount exchanged: $1,000",
+        "Output: markup (%) and estimated hidden loss",
+      ],
+    },
+  },
+
+
 
 
 
