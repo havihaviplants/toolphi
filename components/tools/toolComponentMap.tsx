@@ -228,6 +228,7 @@ import RealExchangeRateLossCalculator from "./RealExchangeRateLossCalculator";
 import AfterFeeExchangeRateCalculator from "./AfterFeeExchangeRateCalculator";
 import CurrencyExchangeTotalCostCalculator from "./CurrencyExchangeTotalCostCalculator";
 import InternationalMoneyTransferExchangeRateCalculator from "./InternationalMoneyTransferExchangeRateCalculator";
+import TravelMoneyExchangeCashVsCardCalculator from "./TravelMoneyExchangeCashVsCardCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -460,6 +461,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "after-fee-exchange-rate-calculator": AfterFeeExchangeRateCalculator,
   "currency-exchange-total-cost-calculator": CurrencyExchangeTotalCostCalculator,
   "international-money-transfer-exchange-rate-calculator": InternationalMoneyTransferExchangeRateCalculator,
+  "travel-money-exchange-cash-vs-card-calculator": TravelMoneyExchangeCashVsCardCalculator,
 
 
 

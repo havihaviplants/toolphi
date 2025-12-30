@@ -7948,12 +7948,42 @@ export const tools: Tool[] = [
     },
   },
 
-
-
-
-
-
-
+    {
+    slug: "travel-money-exchange-cash-vs-card-calculator",
+    category: "finance",
+    title: "Travel Money Exchange Calculator (Cash vs Card)",
+    description:
+      "Compare the all-in cost of getting foreign currency via cash exchange vs card payments using exchange rates and fees.",
+    keywords: [
+      "travel money exchange calculator",
+      "cash vs card exchange rate",
+      "foreign currency cash vs card",
+      "travel exchange fees calculator",
+      "overseas card exchange rate calculator",
+      "currency exchange cash vs card comparison",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "travel", "cash", "card", "fee", "comparison"],
+    howToSteps: [
+      "Enter the mid-market exchange rate.",
+      "Enter the cash exchange offered rate and fees (if any).",
+      "Enter the card rate (or use mid-market) and card FX fee (%).",
+      "Enter the amount you plan to spend/exchange.",
+      "Click Calculate to compare total cost and effective rates for cash vs card.",
+    ],
+    example: {
+      description:
+        "Compare exchanging cash at 1.05 with a $5 fee vs paying by card with a 2% FX fee at 1.10:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Cash offered rate: 1.05",
+        "Cash flat fee: $5",
+        "Card FX fee: 2%",
+        "Amount: $1,000",
+        "Output: which option is cheaper and by how much",
+      ],
+    },
+  },
 
 
 
