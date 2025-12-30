@@ -7911,6 +7911,44 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "international-money-transfer-exchange-rate-calculator",
+    category: "finance",
+    title: "International Money Transfer Exchange Rate Calculator",
+    description:
+      "Estimate the effective exchange rate for international money transfers after including transfer fees and exchange rate markups.",
+    keywords: [
+      "international money transfer exchange rate calculator",
+      "remittance exchange rate calculator",
+      "money transfer effective exchange rate",
+      "wire transfer exchange rate calculator",
+      "international transfer all in rate",
+      "remittance total cost calculator",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "remittance", "money-transfer", "fee", "effective-rate", "international"],
+    howToSteps: [
+      "Enter the mid-market exchange rate.",
+      "Enter the offered exchange rate from the transfer service.",
+      "Enter the amount you want to send.",
+      "Enter transfer fees (flat and/or percentage).",
+      "Click Calculate to see the all-in effective exchange rate and total cost.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 and the service offers 1.05 with fees, this tool estimates your all-in rate:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Amount sent: $1,000",
+        "Flat fee: $5",
+        "Percentage fee: 1%",
+        "Output: effective exchange rate and total cost",
+      ],
+    },
+  },
+
+
 
 
 
