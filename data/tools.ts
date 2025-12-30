@@ -7805,6 +7805,41 @@ export const tools: Tool[] = [
     },
   },
 
+  {
+    slug: "real-exchange-rate-loss-calculator",
+    category: "finance",
+    title: "Real Exchange Rate Loss Calculator",
+    description:
+      "Calculate the real monetary loss caused by an unfavorable exchange rate compared to the mid-market rate.",
+    keywords: [
+      "real exchange rate loss",
+      "exchange rate loss calculator",
+      "currency exchange loss",
+      "hidden currency loss",
+      "exchange rate cost calculator",
+      "mid market rate loss",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "loss", "mid-market", "conversion"],
+    howToSteps: [
+      "Enter the mid-market exchange rate.",
+      "Enter the offered exchange rate.",
+      "Enter the amount exchanged.",
+      "Click Calculate to see the real loss caused by the exchange rate difference.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10 but the offered rate is 1.05, this calculator shows the real loss:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Amount exchanged: $1,000",
+        "Output: real loss amount and percentage",
+      ],
+    },
+  },
+
+
 
 
 
