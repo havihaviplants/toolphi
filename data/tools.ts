@@ -7874,6 +7874,44 @@ export const tools: Tool[] = [
     },
   },
 
+    {
+    slug: "currency-exchange-total-cost-calculator",
+    category: "finance",
+    title: "Currency Exchange Total Cost Calculator",
+    description:
+      "Estimate the total cost of exchanging currency by combining exchange rate markup losses and explicit fees.",
+    keywords: [
+      "currency exchange total cost calculator",
+      "total cost currency exchange",
+      "exchange rate and fees calculator",
+      "currency exchange cost estimate",
+      "exchange rate markup plus fees",
+      "real cost of currency exchange",
+    ],
+    type: "calculator",
+    tags: ["exchange-rate", "currency", "fee", "markup", "total-cost", "conversion"],
+    howToSteps: [
+      "Enter the mid-market exchange rate.",
+      "Enter the offered exchange rate.",
+      "Enter the amount you want to exchange.",
+      "Enter any flat fee and/or percentage fee.",
+      "Click Calculate to see total cost (loss + fees) and effective exchange rate.",
+    ],
+    example: {
+      description:
+        "If the mid-market rate is 1.10, offered rate is 1.05, and the provider charges fees, this tool estimates the true total cost:",
+      bullets: [
+        "Mid-market rate: 1.10",
+        "Offered rate: 1.05",
+        "Amount exchanged: $1,000",
+        "Flat fee: $5",
+        "Percentage fee: 1%",
+        "Output: total cost and effective exchange rate",
+      ],
+    },
+  },
+
+
 
 
 
