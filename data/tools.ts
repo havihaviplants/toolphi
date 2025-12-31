@@ -8213,8 +8213,37 @@ export const tools: Tool[] = [
   },
 },
 
-
-
+{
+  slug: "pto-accrual-calculator",
+  category: "finance",
+  title: "PTO Accrual Calculator",
+  description:
+    "Estimate how much PTO you’ll accrue over time based on your accrual rate and pay period (weekly, biweekly, semimonthly, or monthly).",
+  keywords: [
+    "pto accrual calculator",
+    "vacation accrual calculator",
+    "pto hours accrued calculator",
+    "how to calculate pto accrual",
+    "vacation time accrual calculator",
+  ],
+  type: "calculator",
+  tags: ["pto", "vacation", "payroll", "benefits", "work", "time-off"],
+  howToSteps: [
+    "Choose your accrual frequency (weekly, biweekly, semimonthly, or monthly).",
+    "Enter how many PTO hours you accrue per period.",
+    "Enter how many periods you want to estimate (or months and convert).",
+    "Calculate to see total PTO accrued and an annualized estimate.",
+  ],
+  example: {
+    description:
+      "If you accrue 4 hours of PTO every 2 weeks and want to estimate 6 months, this tool shows:",
+    bullets: [
+      "Total PTO hours accrued over the chosen time.",
+      "Equivalent PTO days (based on your hours per workday).",
+      "Annualized PTO estimate for easy comparison.",
+    ],
+  },
+},
 
 
 
