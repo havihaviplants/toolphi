@@ -8182,6 +8182,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "salary-overtime-calculator",
+  category: "finance",
+  title: "Salary Overtime Calculator (Exempt vs Non-Exempt)",
+  description:
+    "Estimate overtime pay for a salaried worker by converting salary to an hourly equivalent and comparing exempt vs non-exempt scenarios.",
+  keywords: [
+    "salary overtime calculator",
+    "exempt vs non exempt overtime",
+    "salary to hourly overtime calculator",
+    "overtime for salary employees",
+  ],
+  type: "calculator",
+  tags: ["salary", "overtime", "payroll", "income", "hourly", "work"],
+  howToSteps: [
+    "Enter your annual salary.",
+    "Enter hours worked per week and your overtime threshold (typically 40).",
+    "Choose whether you are exempt or non-exempt and set an overtime multiplier.",
+    "Review estimated weekly pay and overtime premium.",
+  ],
+  example: {
+    description:
+      "If you earn $60,000/year and work 50 hours in a week, this tool helps you compare:",
+    bullets: [
+      "Weekly salary-based pay (salary converted to a weekly amount).",
+      "Estimated overtime pay if treated as non-exempt using an hourly equivalent.",
+      "Exempt vs non-exempt difference in total weekly earnings.",
+    ],
+  },
+},
+
+
 
 
 
