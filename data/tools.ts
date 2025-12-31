@@ -8114,7 +8114,42 @@ export const tools: Tool[] = [
       "Compare: quote amount difference and per-1-unit impact"
     ]
   }
-}
+},
+
+{
+  slug: "overtime-pay-calculator",
+  category: "finance",
+  title: "Overtime Pay Calculator",
+  description:
+    "Estimate your overtime pay (time-and-a-half and double time) and see total weekly pay and effective hourly rate.",
+  keywords: [
+    "overtime pay calculator",
+    "ot pay calculator",
+    "time and a half calculator",
+    "double time calculator",
+    "overtime wage calculator",
+    "how to calculate overtime pay",
+  ],
+  type: "calculator",
+  tags: ["overtime", "payroll", "wage", "hourly", "work", "income"],
+  howToSteps: [
+    "Enter your hourly rate.",
+    "Enter your regular hours and overtime hours (time-and-a-half).",
+    "Optionally add double-time hours and adjust multipliers if needed.",
+    "Click Calculate to see overtime pay, total pay, and effective hourly rate.",
+  ],
+  example: {
+    description:
+      "If you earn $20/hour, work 40 regular hours, 5 overtime hours at 1.5x, and 2 double-time hours at 2x, this tool shows:",
+    bullets: [
+      "Regular pay vs overtime pay breakdown.",
+      "Total weekly pay including overtime.",
+      "How much extra you earned from overtime premiums.",
+      "Your effective hourly rate for the week.",
+    ],
+  },
+},
+
 
 
 
