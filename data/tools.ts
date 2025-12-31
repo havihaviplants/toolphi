@@ -8277,6 +8277,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "pto-accrual-rate-calculator",
+  category: "finance",
+  title: "PTO Accrual Rate Calculator",
+  description:
+    "Convert your PTO policy into an annual PTO rate by estimating PTO hours per year and PTO days per year from your per-period accrual.",
+  keywords: [
+    "pto accrual rate calculator",
+    "pto accrual rate",
+    "vacation accrual rate calculator",
+    "annual pto hours calculator",
+    "how much pto per year",
+  ],
+  type: "calculator",
+  tags: ["pto", "vacation", "rate", "payroll", "benefits", "work"],
+  howToSteps: [
+    "Choose your accrual frequency (weekly, biweekly, semimonthly, or monthly).",
+    "Enter PTO hours accrued per period.",
+    "Enter hours per workday to convert hours into days.",
+    "Calculate to see PTO hours per year and PTO days per year.",
+  ],
+  example: {
+    description:
+      "If you accrue 3.08 hours biweekly and work 8-hour days, this tool shows:",
+    bullets: [
+      "Annual PTO hours based on 26 pay periods.",
+      "Annual PTO days (hours ÷ 8).",
+      "A clear annual rate you can compare across job offers.",
+    ],
+  },
+},
+
+
 
 
 
