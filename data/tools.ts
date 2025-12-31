@@ -8309,6 +8309,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "hourly-pay-calculator",
+  category: "finance",
+  title: "Hourly Pay Calculator (Hours × Rate)",
+  description:
+    "Calculate your gross pay from hours worked and hourly rate. Great for estimating weekly or pay-period earnings before taxes and deductions.",
+  keywords: [
+    "hourly pay calculator",
+    "hours times rate calculator",
+    "gross pay calculator hourly",
+    "weekly pay calculator hourly",
+    "hourly wage pay calculator",
+  ],
+  type: "calculator",
+  tags: ["hourly", "pay", "wage", "income", "payroll", "work"],
+  howToSteps: [
+    "Enter your hourly rate.",
+    "Enter hours worked for the period.",
+    "Optionally add unpaid breaks and extra earnings (bonuses/tips).",
+    "Calculate to see gross pay and effective hourly rate.",
+  ],
+  example: {
+    description:
+      "If you earn $18/hour, work 42 hours, take 2 unpaid break hours, and earned $35 in tips, this tool shows:",
+    bullets: [
+      "Paid hours and gross pay for the period.",
+      "How much unpaid breaks reduce gross pay.",
+      "Effective hourly rate including extra earnings.",
+    ],
+  },
+},
+
+
 
 
 

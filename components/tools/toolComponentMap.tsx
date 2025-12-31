@@ -239,6 +239,7 @@ import SalaryOvertimeCalculator from "./SalaryOvertimeCalculator";
 import PtoAccrualCalculator from "./PtoAccrualCalculator";
 import ContractorHourlyRateCalculator from "./ContractorHourlyRateCalculator";
 import PtoAccrualRateCalculator from "./PtoAccrualRateCalculator";
+import HourlyPayCalculator from "./HourlyPayCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -482,6 +483,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "pto-accrual-calculator": PtoAccrualCalculator,
   "contractor-hourly-rate-calculator": ContractorHourlyRateCalculator,
   "pto-accrual-rate-calculator": PtoAccrualRateCalculator,
+  "hourly-pay-calculator": HourlyPayCalculator,
 
 
 
