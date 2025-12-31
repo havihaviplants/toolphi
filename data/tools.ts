@@ -8081,7 +8081,41 @@ export const tools: Tool[] = [
       "Output: offered rate and extra cost vs market"
     ]
   }
+},
+
+{
+  slug: "best-time-to-exchange-currency-calculator",
+  category: "finance",
+  title: "Best Time to Exchange Currency Calculator",
+  description:
+    "Compare two possible exchange rates (now vs later) to estimate how much you could gain or lose by waiting. Use scenario rates to decide timing.",
+  keywords: [
+    "best time to exchange currency calculator",
+    "should I exchange currency now or wait",
+    "exchange rate timing calculator",
+    "when to exchange money calculator",
+    "exchange now vs later calculator"
+  ],
+  type: "calculator",
+  tags: ["exchange-rate", "currency", "timing", "decision", "fx"],
+  howToSteps: [
+    "Enter the amount you plan to exchange (base currency).",
+    "Enter today’s exchange rate (quote per 1 base).",
+    "Enter a future/target exchange rate scenario.",
+    "Calculate the difference to see the impact of waiting."
+  ],
+  example: {
+    description:
+      "If you plan to exchange $10,000 and the rate might move from 1470 to 1500:",
+    bullets: [
+      "Amount: 10,000",
+      "Rate (today): 1470",
+      "Rate (future scenario): 1500",
+      "Compare: quote amount difference and per-1-unit impact"
+    ]
+  }
 }
+
 
 
 
