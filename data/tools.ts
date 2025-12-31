@@ -8016,7 +8016,39 @@ export const tools: Tool[] = [
       "Output: best vs worst case value difference"
     ]
   }
+},
+
+{
+  slug: "exchange-rate-conversion-calculator",
+  category: "finance",
+  title: "Exchange Rate Conversion Calculator",
+  description:
+    "Convert an amount from one currency to another using a given exchange rate. Enter the rate and amount to calculate the converted value instantly.",
+  keywords: [
+    "exchange rate conversion calculator",
+    "currency conversion calculator",
+    "convert currency using exchange rate",
+    "fx conversion calculator",
+    "exchange rate converter"
+  ],
+  type: "calculator",
+  tags: ["exchange-rate", "currency", "conversion", "fx"],
+  howToSteps: [
+    "Enter the exchange rate (quote currency per 1 base currency).",
+    "Enter the amount in the base currency.",
+    "Calculate to get the converted amount in the quote currency."
+  ],
+  example: {
+    description:
+      "If 1 USD = 1470 KRW, converting $10,000 gives:",
+    bullets: [
+      "Exchange rate: 1470",
+      "Amount (USD): 10,000",
+      "Converted amount (KRW): 14,700,000"
+    ]
+  }
 }
+
 
 
 
