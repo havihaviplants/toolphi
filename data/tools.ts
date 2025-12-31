@@ -8151,6 +8151,36 @@ export const tools: Tool[] = [
 },
 
 
+{
+  slug: "overtime-rate-calculator",
+  category: "finance",
+  title: "Overtime Rate Calculator",
+  description:
+    "Convert your base hourly rate into an overtime rate (1.5x, 2x, or custom) and see the per-hour premium.",
+  keywords: [
+    "overtime rate calculator",
+    "overtime pay rate calculator",
+    "time and a half rate calculator",
+    "double time rate calculator",
+    "ot rate",
+  ],
+  type: "calculator",
+  tags: ["overtime", "rate", "hourly", "payroll", "wage"],
+  howToSteps: [
+    "Enter your base hourly rate.",
+    "Choose an overtime multiplier (1.5x, 2x, or custom).",
+    "View your overtime hourly rate and the premium earned per overtime hour.",
+  ],
+  example: {
+    description:
+      "If your base rate is $22/hour and overtime is 1.5x, this calculator shows:",
+    bullets: [
+      "Overtime rate ($/hour).",
+      "Extra premium per overtime hour compared to base pay.",
+      "Percent increase from base rate.",
+    ],
+  },
+},
 
 
 

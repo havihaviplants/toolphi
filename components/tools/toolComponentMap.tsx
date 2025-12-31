@@ -234,6 +234,7 @@ import ExchangeRateConversionCalculator from "./ExchangeRateConversionCalculator
 import CrossBorderPaymentExchangeRateCalculator from "./CrossBorderPaymentExchangeRateCalculator";
 import BestTimeToExchangeCurrencyCalculator from "./BestTimeToExchangeCurrencyCalculator";
 import OvertimePayCalculator from "./OvertimePayCalculator";
+import OvertimeRateCalculator from "./OvertimeRateCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -472,6 +473,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "cross-border-payment-exchange-rate-calculator": CrossBorderPaymentExchangeRateCalculator,
   "best-time-to-exchange-currency-calculator": BestTimeToExchangeCurrencyCalculator,
   "overtime-pay-calculator": OvertimePayCalculator,
+  "overtime-rate-calculator": OvertimeRateCalculator,
 
 
 
