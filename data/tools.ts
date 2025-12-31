@@ -8047,7 +8047,42 @@ export const tools: Tool[] = [
       "Converted amount (KRW): 14,700,000"
     ]
   }
+},
+
+{
+  slug: "cross-border-payment-exchange-rate-calculator",
+  category: "finance",
+  title: "Cross-Border Payment Exchange Rate Calculator",
+  description:
+    "Estimate the true cost of a cross-border payment using an exchange rate plus a provider markup and optional fixed fee. Compare offered vs market rate outcomes.",
+  keywords: [
+    "cross-border payment exchange rate calculator",
+    "international payment exchange rate calculator",
+    "fx markup cross border payment",
+    "cross border payment cost calculator",
+    "international payment fx rate calculator"
+  ],
+  type: "calculator",
+  tags: ["exchange-rate", "cross-border", "payment", "fx", "markup", "fee"],
+  howToSteps: [
+    "Enter the market (mid) exchange rate.",
+    "Enter the provider markup (%) applied to the rate.",
+    "Enter the payment amount in base currency.",
+    "Optionally add a fixed fee, then calculate the true cost difference."
+  ],
+  example: {
+    description:
+      "If market rate is 1470 and the provider adds a 1% markup on a $10,000 payment:",
+    bullets: [
+      "Market rate: 1470",
+      "Markup: 1%",
+      "Amount: 10,000",
+      "Fixed fee: 0",
+      "Output: offered rate and extra cost vs market"
+    ]
+  }
 }
+
 
 
 
