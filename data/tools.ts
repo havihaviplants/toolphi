@@ -8245,6 +8245,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "contractor-hourly-rate-calculator",
+  category: "finance",
+  title: "Contractor Hourly Rate Calculator",
+  description:
+    "Estimate the hourly rate you should charge as a contractor or freelancer based on your target annual income, billable hours, expenses, and taxes.",
+  keywords: [
+    "contractor hourly rate calculator",
+    "freelance rate calculator",
+    "1099 hourly rate calculator",
+    "what hourly rate should i charge",
+    "contractor rate calculator",
+  ],
+  type: "calculator",
+  tags: ["contractor", "freelance", "1099", "hourly", "rate", "income", "tax"],
+  howToSteps: [
+    "Enter your target annual take-home income.",
+    "Estimate billable hours per week and weeks per year.",
+    "Add annual business expenses.",
+    "Set an estimated tax rate to compute a suggested hourly rate.",
+  ],
+  example: {
+    description:
+      "If you want $80,000 take-home per year, expect 25 billable hours/week for 48 weeks, have $10,000 expenses, and estimate 25% taxes, this tool shows:",
+    bullets: [
+      "Required pre-tax revenue to hit your take-home goal.",
+      "Total billable hours per year.",
+      "Suggested hourly rate to charge clients.",
+    ],
+  },
+},
+
 
 
 
