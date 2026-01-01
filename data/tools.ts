@@ -8631,6 +8631,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "ria-exchange-rate-markup-calculator",
+  category: "finance",
+  title: "Ria Exchange Rate Markup Calculator",
+  description:
+    "Estimate Ria exchange rate markup by comparing the offered rate to the mid-market rate and calculating the hidden FX cost.",
+  keywords: [
+    "ria exchange rate markup calculator",
+    "ria exchange rate markup",
+    "ria exchange rate spread",
+    "ria hidden exchange rate fee",
+    "ria rate vs mid market",
+    "how much does ria mark up exchange rate"
+  ],
+  type: "calculator",
+  tags: ["ria", "exchange-rate", "fx", "markup", "transfer", "finance"],
+  howToSteps: [
+    "Enter the amount you are converting/sending.",
+    "Enter the mid-market exchange rate.",
+    "Enter the Ria offered exchange rate.",
+    "Calculate the markup percentage and hidden FX cost.",
+    "Use results to compare with other providers."
+  ],
+  example: {
+    description:
+      "If mid-market is 1 USD = 1.0000 and Ria offers 0.9650:",
+    bullets: [
+      "Amount: $1,000",
+      "Markup ≈ (1.0000 / 0.9650 - 1) × 100 ≈ 3.63%",
+      "Hidden FX cost ≈ $35.00",
+      "Combine with explicit fees to estimate total transfer cost"
+    ]
+  }
+},
+
+
 
 
 
