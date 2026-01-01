@@ -5,6 +5,7 @@ import Link from "next/link";
 import { categories } from "../../../data/categories";
 import { tools } from "../../../data/tools";
 import { getToolComponent } from "../../../components/tools/toolComponentMap";
+import { getRelatedTools } from "../../../lib/related";
 
 type ToolPageParams = {
   category: string;
@@ -105,29 +106,8 @@ export default async function ToolPage({ params }: ToolPageProps) {
   const ToolComponent = getToolComponent(tool.slug);
   const jsonLd = buildToolJsonLd(tool, categoryObj.name);
 
-  // ✅ 같은 카테고리 + tags 기반 연관 툴
-  const relatedTools = tools
-    .filter((otherTool) => {
-      // 1. 자기 자신 제외
-      if (otherTool.slug === tool.slug) return false;
+  const relatedTools = getRelatedTools(tool, 4);
 
-      // 2. 카테고리 다르면 제외
-      if (otherTool.category !== tool.category) return false;
-
-      // 3. tags가 없으면: 같은 카테고리면 일단 포함 (기존 동작과 유사)
-      if (
-        !tool.tags ||
-        !otherTool.tags ||
-        tool.tags.length === 0 ||
-        otherTool.tags.length === 0
-      ) {
-        return true;
-      }
-
-      // 4. tags에 공통 요소가 하나라도 있으면 연관 툴
-      return otherTool.tags.some((tag) => tool.tags!.includes(tag));
-    })
-    .slice(0, 4);
 
   return (
     <main
