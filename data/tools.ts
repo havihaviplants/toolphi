@@ -8595,6 +8595,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "moneygram-charges-calculator",
+  category: "finance",
+  title: "MoneyGram Charges Calculator",
+  description:
+    "Estimate MoneyGram charges using fixed and percentage fees, with optional minimum/maximum caps and discounts to match real pricing scenarios.",
+  keywords: [
+    "moneygram charges calculator",
+    "moneygram fees calculator",
+    "moneygram transfer fee",
+    "moneygram service fee",
+    "how much does moneygram charge",
+    "moneygram fee cap"
+  ],
+  type: "calculator",
+  tags: ["moneygram", "transfer", "fee", "charges", "international", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter MoneyGram fixed fee and percentage fee (if applicable).",
+    "Optionally add minimum/maximum fee caps.",
+    "Optionally add discounts or promo reductions.",
+    "Review final MoneyGram charges and effective fee rate."
+  ],
+  example: {
+    description:
+      "A MoneyGram transfer with fixed + percent fee and a promo discount:",
+    bullets: [
+      "Amount: $600",
+      "Fixed fee: $4",
+      "Percent fee: 1.0% → $6.00",
+      "Promo discount: 15% off → -$1.50",
+      "Final charges ≈ $8.50 (effective rate ≈ 1.42%)"
+    ]
+  }
+},
+
 
 
 
