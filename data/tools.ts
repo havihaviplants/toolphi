@@ -8450,6 +8450,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "bank-transfer-charges-calculator",
+  category: "finance",
+  title: "Bank Transfer Charges Calculator",
+  description:
+    "Estimate bank transfer charges using fixed fees, percentage fees, and optional FX markup to calculate total cost and effective fee rate.",
+  keywords: [
+    "bank transfer charges calculator",
+    "bank transfer charges",
+    "bank transfer fee calculator",
+    "bank transfer fees and charges",
+    "international bank transfer charges",
+    "bank transfer fx markup"
+  ],
+  type: "calculator",
+  tags: ["bank", "transfer", "fee", "fx", "international", "finance"],
+  howToSteps: [
+    "Enter the transfer amount.",
+    "Enter your bank’s fixed transfer fee.",
+    "Enter any percentage-based transfer fee (if applicable).",
+    "If currency conversion applies, enter FX markup.",
+    "Review total cost and effective fee rate."
+  ],
+  example: {
+    description:
+      "A bank transfer with both fixed and percentage fees, plus FX markup:",
+    bullets: [
+      "Amount: $1,500",
+      "Fixed fee: $10",
+      "Percentage fee: 0.6% → $9.00",
+      "FX markup: 0.8% → $12.00",
+      "Total charges ≈ $31.00 (effective rate ≈ 2.07%)"
+    ]
+  }
+},
+
 
 
 
