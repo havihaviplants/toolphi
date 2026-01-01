@@ -8413,6 +8413,44 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "wire-transfer-total-cost-calculator",
+  category: "finance",
+  title: "Wire Transfer Total Cost Calculator",
+  description:
+    "Estimate the total (all-in) cost of a wire transfer including bank fee, intermediary fees, FX markup, and recipient bank charges.",
+  keywords: [
+    "wire transfer total cost calculator",
+    "wire transfer total cost",
+    "international wire transfer total cost",
+    "wire transfer all in cost",
+    "intermediary bank fee wire transfer",
+    "wire transfer fees and exchange rate"
+  ],
+  type: "calculator",
+  // ✅ v1 규칙: 6개 이하 + 기존 코어 계열
+  tags: ["wire", "international", "transfer", "fee", "fx", "finance"],
+  howToSteps: [
+    "Enter the wire transfer amount.",
+    "Enter your bank's outgoing wire fee.",
+    "Enter estimated intermediary bank fees (if any).",
+    "Enter recipient bank charges (if any).",
+    "Enter FX markup if currency conversion applies, then compare total cost."
+  ],
+  example: {
+    description:
+      "Sending $2,000 internationally via wire with multiple fee layers:",
+    bullets: [
+      "Outgoing bank fee: $25",
+      "Intermediary fees: $15",
+      "Recipient bank charges: $10",
+      "FX markup: 1.2% → $24",
+      "Total cost ≈ $74 (effective rate ≈ 3.70%)"
+    ]
+  }
+},
+
+
 
 
 
