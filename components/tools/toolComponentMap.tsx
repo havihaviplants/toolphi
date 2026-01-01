@@ -246,6 +246,7 @@ import WireTransferTotalCostCalculator from "./WireTransferTotalCostCalculator";
 import BankTransferChargesCalculator from "./BankTransferChargesCalculator";
 import MoneyTransferChargesBreakdownCalculator from "./MoneyTransferChargesBreakdownCalculator";
 import WesternUnionChargesCalculator from "./WesternUnionChargesCalculator";
+import WesternUnionExchangeRateMarkupCalculator from "./WesternUnionExchangeRateMarkupCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -496,6 +497,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "bank-transfer-charges-calculator": BankTransferChargesCalculator,
   "money-transfer-charges-breakdown-calculator": MoneyTransferChargesBreakdownCalculator,
   "western-union-charges-calculator": WesternUnionChargesCalculator,
+  "western-union-exchange-rate-markup-calculator": WesternUnionExchangeRateMarkupCalculator,
 
 
 

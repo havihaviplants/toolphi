@@ -8560,6 +8560,42 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "western-union-exchange-rate-markup-calculator",
+  category: "finance",
+  title: "Western Union Exchange Rate Markup Calculator",
+  description:
+    "Estimate Western Union exchange rate markup by comparing the offered rate to the mid-market rate and calculating the hidden FX cost.",
+  keywords: [
+    "western union exchange rate markup calculator",
+    "western union exchange rate markup",
+    "western union exchange rate spread",
+    "western union hidden exchange rate fee",
+    "western union rate vs mid market",
+    "how much does western union mark up exchange rate"
+  ],
+  type: "calculator",
+  tags: ["western-union", "exchange-rate", "fx", "markup", "transfer", "finance"],
+  howToSteps: [
+    "Enter the amount you are converting/sending.",
+    "Enter the mid-market exchange rate.",
+    "Enter the Western Union offered exchange rate.",
+    "Calculate the markup percentage and hidden FX cost.",
+    "Use results to compare with other providers."
+  ],
+  example: {
+    description:
+      "If mid-market is 1 USD = 1.0000 and Western Union offers 0.9700:",
+    bullets: [
+      "Amount: $1,000",
+      "Markup ≈ (1.0000 / 0.9700 - 1) × 100 ≈ 3.09%",
+      "Hidden FX cost ≈ $30.93",
+      "Use this to compare total cost vs other providers"
+    ]
+  }
+},
+
+
 
 
 
