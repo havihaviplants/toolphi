@@ -8377,6 +8377,43 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "money-transfer-service-comparison-calculator",
+  category: "finance",
+  title: "Money Transfer Service Comparison Calculator",
+  description:
+    "Compare popular money transfer providers using fees and FX markup to estimate total cost and find the cheapest service for your amount.",
+  keywords: [
+    "money transfer service comparison calculator",
+    "compare money transfer services",
+    "best money transfer service",
+    "cheapest money transfer service",
+    "wise vs western union vs moneygram",
+    "compare international money transfer fees"
+  ],
+  type: "calculator",
+  // ✅ v1 규칙: 6개 이하 + 기존 코어 계열 유지
+  tags: ["international", "transfer", "compare", "fee", "fx", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "For each provider, enter fixed fee, percentage fee, and FX markup.",
+    "Review total cost and effective fee rate for each provider.",
+    "See which provider is cheapest for your exact amount.",
+    "Adjust values to match real quotes from each provider."
+  ],
+  example: {
+    description:
+      "Compare Wise vs Western Union vs MoneyGram for sending $1,000:",
+    bullets: [
+      "Wise — $2 fixed, 0.4% fee, 0.2% FX markup → Total cost ≈ $8.00",
+      "Western Union — $5 fixed, 0.8% fee, 1.0% FX markup → Total cost ≈ $23.00",
+      "MoneyGram — $4 fixed, 0.6% fee, 0.8% FX markup → Total cost ≈ $18.00",
+      "Cheapest provider: Wise"
+    ]
+  }
+},
+
+
 
 
 
