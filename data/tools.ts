@@ -8341,6 +8341,43 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "cheapest-way-to-send-money-internationally-calculator",
+  category: "finance",
+  title: "Cheapest Way to Send Money Internationally Calculator",
+  description:
+    "Compare international money transfer options using fees and FX markup to estimate total cost and find the cheapest method.",
+  keywords: [
+    "cheapest way to send money internationally calculator",
+    "cheapest way to send money internationally",
+    "cheapest international money transfer",
+    "best way to send money abroad",
+    "compare international money transfer fees",
+    "which money transfer is cheapest"
+  ],
+  type: "calculator",
+  // ✅ 기존 국제송금 툴 태그 계열 + 비교 의도 1개 추가, 총 6개 (v1 규칙 OK)
+  tags: ["international", "transfer", "fee", "fx", "compare", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "For each option, enter fixed fee, percentage fee, and FX markup.",
+    "Click Calculate to compare total cost and effective fee rate.",
+    "See which option is cheapest for your amount.",
+    "Adjust inputs to match real quotes from providers."
+  ],
+  example: {
+    description:
+      "If you send $1,000 and compare Bank Wire vs Online Transfer vs Cash Pickup:",
+    bullets: [
+      "Bank Wire — $25 fixed, 0% fee, 1.5% FX markup → Total cost ≈ $40.00",
+      "Online Transfer — $4 fixed, 0.5% fee, 0.6% FX markup → Total cost ≈ $15.00",
+      "Cash Pickup — $8 fixed, 1% fee, 1.0% FX markup → Total cost ≈ $28.00",
+      "Cheapest option: Online Transfer (lowest total cost)"
+    ]
+  }
+},
+
+
 
 
 
