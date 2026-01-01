@@ -8486,12 +8486,42 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
-
-
-
+{
+  slug: "money-transfer-charges-breakdown-calculator",
+  category: "finance",
+  title: "Money Transfer Charges Breakdown Calculator",
+  description:
+    "Calculate money transfer charges using fixed + percentage fees with optional minimum/maximum caps and discounts to estimate final provider charges.",
+  keywords: [
+    "money transfer charges breakdown calculator",
+    "money transfer charges breakdown",
+    "money transfer fee structure",
+    "money transfer fee minimum maximum",
+    "money transfer fee cap calculator",
+    "money transfer discount fee calculator"
+  ],
+  type: "calculator",
+  // ✅ v1 규칙: 6개 이하 + 코어 계열
+  tags: ["transfer", "fee", "compare", "international", "finance", "charges"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter the provider’s fixed fee and percentage fee.",
+    "Optionally add minimum/maximum fee caps (if the provider applies them).",
+    "Optionally add discounts (percent-off or fixed-off).",
+    "Review the final charges and see which rule affected the fee."
+  ],
+  example: {
+    description:
+      "A provider charges $2 fixed + 1% fee, with a $5 minimum fee and 20% discount:",
+    bullets: [
+      "Amount: $200",
+      "Base fee = $2 + ($200 × 1%) = $4",
+      "Minimum fee applies → $5",
+      "Discount 20% → $4",
+      "Final charges ≈ $4 (effective rate ≈ 2.00%)"
+    ]
+  }
+},
 
 
 
