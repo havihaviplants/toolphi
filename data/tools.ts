@@ -8523,6 +8523,44 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "western-union-charges-calculator",
+  category: "finance",
+  title: "Western Union Charges Calculator",
+  description:
+    "Estimate Western Union charges using fixed and percentage fees, with optional minimum/maximum caps and discounts to match real pricing scenarios.",
+  keywords: [
+    "western union charges calculator",
+    "western union fees calculator",
+    "western union transfer fee",
+    "western union service fee",
+    "how much does western union charge",
+    "western union fee cap"
+  ],
+  type: "calculator",
+  // ✅ v1 규칙: 6개 이하 + 기존 코어 계열
+  tags: ["western-union", "transfer", "fee", "charges", "international", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter Western Union fixed fee and percentage fee (if applicable).",
+    "Optionally add minimum/maximum fee caps (if your quote shows them).",
+    "Optionally add discounts or promo reductions.",
+    "Review final Western Union charges and effective fee rate."
+  ],
+  example: {
+    description:
+      "A Western Union transfer with fixed + percent fee, plus a promo discount:",
+    bullets: [
+      "Amount: $800",
+      "Fixed fee: $5",
+      "Percent fee: 1.2% → $9.60",
+      "Promo discount: 10% off → -$1.46",
+      "Final charges ≈ $13.14 (effective rate ≈ 1.64%)"
+    ]
+  }
+},
+
+
 
 
 ];
