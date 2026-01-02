@@ -8770,6 +8770,43 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "money-transfer-mistake-cost-calculator",
+  category: "finance",
+  title: "Money Transfer Mistake Cost Calculator",
+  description:
+    "Estimate the cost of a money transfer mistake, including extra fees and exchange rate loss when you must cancel, reverse, or resend.",
+  keywords: [
+    "money transfer mistake cost",
+    "sent money wrong amount cost",
+    "international transfer error cost",
+    "money transfer resend cost",
+    "wrong recipient transfer fee",
+    "transfer cancellation fee calculator"
+  ],
+  type: "calculator",
+  tags: ["money transfer", "international", "fees", "exchange rate", "risk", "finance"],
+  howToSteps: [
+    "Enter the amount you intended to send.",
+    "Enter the original transfer fee and expected exchange rate.",
+    "Enter extra mistake-related fees (cancel/reverse/resend).",
+    "Enter the exchange rate you expect when resending (optional).",
+    "Click Calculate to see the estimated total mistake cost."
+  ],
+  example: {
+    description:
+      "If you intended to send $1,000, paid a $12 fee, expected 0.90, then had to pay $25 extra fees and resend at 0.88:",
+    bullets: [
+      "Intended send amount: $1,000",
+      "Original fee: $12, expected rate: 0.90",
+      "Extra mistake fees: $25",
+      "Resend rate: 0.88",
+      "Estimated mistake cost: includes extra fees + FX loss vs expected"
+    ]
+  }
+},
+
+
 
 
 
