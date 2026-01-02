@@ -253,6 +253,7 @@ import HowMuchWillRecipientReceiveCalculator from "./HowMuchWillRecipientReceive
 import WireTransferVsOnlineTransferCalculator from "./WireTransferVsOnlineTransferCalculator";
 import XoomExchangeRateMarkupCalculator from "./XoomExchangeRateMarkupCalculator";
 import MoneyTransferMistakeCostCalculator from "./MoneyTransferMistakeCostCalculator";
+import RefundDelayCostCalculator from "./RefundDelayCostCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -510,6 +511,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "wire-transfer-vs-online-transfer-calculator": WireTransferVsOnlineTransferCalculator,
   "xoom-exchange-rate-markup-calculator": XoomExchangeRateMarkupCalculator,
   "money-transfer-mistake-cost-calculator": MoneyTransferMistakeCostCalculator,
+  "refund-delay-cost-calculator": RefundDelayCostCalculator,
 
 
 

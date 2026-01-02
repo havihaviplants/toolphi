@@ -8806,7 +8806,39 @@ export const tools: Tool[] = [
   }
 },
 
-
+{
+  slug: "refund-delay-cost-calculator",
+  category: "finance",
+  title: "Refund Delay Cost Calculator",
+  description:
+    "Estimate how much value you lose when a refund is delayed using an annual interest or opportunity rate.",
+  keywords: [
+    "refund delay cost calculator",
+    "refund delay cost",
+    "delayed refund loss",
+    "refund processing delay",
+    "refund interest loss",
+    "refund opportunity cost",
+  ],
+  type: "calculator",
+  tags: ["refund", "delay", "cost", "interest", "opportunity", "cash-flow"],
+  howToSteps: [
+    "Enter the refund amount.",
+    "Enter how many days the refund is delayed.",
+    "Enter an annual interest or opportunity rate.",
+    "View the estimated value lost due to the delay.",
+  ],
+  example: {
+    description:
+      "A $2,000 refund delayed by 30 days at a 6% annual opportunity rate.",
+    bullets: [
+      "Refund amount: $2,000",
+      "Delay: 30 days",
+      "Annual rate: 6%",
+      "Estimated loss: $9.86",
+    ],
+  },
+},
 
 
 
