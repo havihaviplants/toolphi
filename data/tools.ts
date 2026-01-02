@@ -8878,6 +8878,43 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "refund-mistake-cost-calculator",
+  category: "finance",
+  title: "Refund Mistake Cost Calculator",
+  description:
+    "Estimate the total cost of a refund mistake, including fees, delays, interest loss, and reprocessing costs.",
+  keywords: [
+    "refund mistake cost calculator",
+    "refund error cost",
+    "refund sent to wrong account",
+    "refund correction fee",
+    "refund reprocessing cost",
+    "refund delay loss"
+  ],
+  type: "calculator",
+  tags: ["refund", "mistake", "error", "fees", "delay", "interest", "reprocessing"],
+  howToSteps: [
+    "Enter the refund amount affected by the mistake.",
+    "Enter correction or reprocessing fees.",
+    "Enter how many extra days the mistake causes.",
+    "Enter an annual interest or opportunity rate.",
+    "View the total cost caused by the mistake."
+  ],
+  example: {
+    description:
+      "A $500 refund was sent incorrectly, causing a $15 correction fee and a 20-day delay at a 6% annual rate.",
+    bullets: [
+      "Refund amount: $500",
+      "Correction fee: $15",
+      "Extra delay: 20 days",
+      "Annual rate: 6%",
+      "Total mistake cost: ~$16.64"
+    ]
+  }
+},
+
+
 
 
 
