@@ -8701,6 +8701,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "wire-transfer-vs-online-transfer-calculator",
+  category: "finance",
+  title: "Wire Transfer vs Online Transfer Calculator",
+  description:
+    "Compare wire transfers vs online money transfer services to estimate total cost and choose the better option.",
+  keywords: [
+    "wire transfer vs online transfer",
+    "wire vs online money transfer calculator",
+    "bank wire vs transfer service",
+    "compare money transfer methods",
+    "international wire vs online transfer",
+    "best way to send money wire vs online"
+  ],
+  type: "calculator",
+  tags: ["money transfer", "international", "comparison", "fees", "exchange rate", "finance"],
+  howToSteps: [
+    "Enter the amount you want to send.",
+    "Enter fees and exchange rates for both options (Wire vs Online).",
+    "Optionally add intermediary/receiving fees for wire transfers.",
+    "Click Calculate to compare total cost and recipient amount."
+  ],
+  example: {
+    description:
+      "If you send $1,000 and Wire charges $35 with a 0.88 rate, while Online charges $12 with a 0.90 rate:",
+    bullets: [
+      "Send amount: $1,000",
+      "Wire: fee $35, rate 0.88 → recipient receives €850. (after fee)",
+      "Online: fee $12, rate 0.90 → recipient receives €889. (after fee)",
+      "Online is better in this example because the recipient receives more."
+    ]
+  }
+},
+
+
 
 
 
