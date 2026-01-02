@@ -8840,7 +8840,43 @@ export const tools: Tool[] = [
   },
 },
 
-
+{
+  slug: "is-claiming-a-refund-worth-it-calculator",
+  category: "finance",
+  title: "Is Claiming a Refund Worth It Calculator",
+  description:
+    "Estimate whether claiming a refund is worth it after fees, time cost, and approval probability.",
+  keywords: [
+    "is claiming a refund worth it",
+    "refund worth it calculator",
+    "should I request a refund",
+    "refund time cost",
+    "refund fee cost",
+    "refund approval probability",
+    "refund net benefit"
+  ],
+  type: "calculator",
+  tags: ["refund", "worth it", "decision", "fees", "time cost", "expected value"],
+  howToSteps: [
+    "Enter the refund amount you expect to receive.",
+    "Enter any fees you must pay to claim the refund.",
+    "Enter how many hours it will take and your hourly value.",
+    "Enter the probability the refund is approved.",
+    "View the expected net benefit and recommendation."
+  ],
+  example: {
+    description:
+      "You expect a $120 refund, it takes 1.5 hours, your time is worth $25/hour, there’s a $5 fee, and approval chance is 80%.",
+    bullets: [
+      "Expected refund: $120",
+      "Fees: $5",
+      "Time: 1.5 hours",
+      "Hourly value: $25",
+      "Approval probability: 80%",
+      "Expected net benefit: $59.00 (Worth it)"
+    ]
+  }
+},
 
 
 
