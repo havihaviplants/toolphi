@@ -8914,6 +8914,44 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "refund-denial-impact-calculator",
+  category: "finance",
+  title: "Refund Denial Impact Calculator",
+  description:
+    "Estimate the financial impact if your refund is denied, including fees, time cost, and expected loss based on approval probability.",
+  keywords: [
+    "refund denial impact calculator",
+    "refund denied cost",
+    "refund denial loss",
+    "refund claim denied",
+    "refund approval probability",
+    "refund expected loss"
+  ],
+  type: "calculator",
+  tags: ["refund", "denial", "rejected", "expected value", "fees", "time cost", "decision"],
+  howToSteps: [
+    "Enter the refund amount you are trying to receive.",
+    "Enter any non-refundable fees you paid (shipping, restocking, filing, etc.).",
+    "Enter the hours you spent and your hourly value.",
+    "Enter the probability your refund request is approved.",
+    "View expected loss and denial impact metrics."
+  ],
+  example: {
+    description:
+      "You’re trying to get a $150 refund. You paid $10 in non-refundable fees, spent 2 hours worth $20/hour, and approval chance is 60%.",
+    bullets: [
+      "Refund amount: $150",
+      "Non-refundable fees: $10",
+      "Time: 2 hours",
+      "Hourly value: $20",
+      "Approval probability: 60%",
+      "Expected loss (denial risk): $60.00"
+    ]
+  }
+},
+
+
 
 
 
