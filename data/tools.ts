@@ -8951,6 +8951,47 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "refund-rejection-loss-calculator",
+  category: "finance",
+  title: "Refund Rejection Loss Calculator",
+  description:
+    "Estimate your total loss when a refund is rejected, including lost refund amount, fees, shipping, and time cost.",
+  keywords: [
+    "refund rejection loss calculator",
+    "refund rejected loss",
+    "refund rejected cost",
+    "refund refusal loss",
+    "refund rejected fees",
+    "refund rejected shipping cost",
+  ],
+  type: "calculator",
+  tags: ["refund", "rejected", "rejection", "loss", "fees", "shipping", "time cost"],
+  howToSteps: [
+    "Enter the refund amount you expected to receive.",
+    "Add any non-refundable fees already paid.",
+    "Enter return shipping and restocking costs (if applicable).",
+    "Estimate the time you spent and your hourly value.",
+    "Optionally enter any store credit offered.",
+    "See the total rejection loss and the loss after store credit.",
+  ],
+  example: {
+    description:
+      "A $120 refund was rejected. You paid $8 in fees, $6 return shipping, $10 restocking, spent 1.5 hours at $20/hour, and got $30 store credit.",
+    bullets: [
+      "Expected refund: $120",
+      "Non-refundable fees: $8",
+      "Return shipping: $6",
+      "Restocking fee: $10",
+      "Time cost: 1.5 hours × $20 = $30",
+      "Store credit offered: $30",
+      "Total loss: $174",
+      "Loss after store credit: $144",
+    ],
+  },
+},
+
+
 
 
 

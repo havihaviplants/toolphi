@@ -257,6 +257,7 @@ import RefundDelayCostCalculator from "./RefundDelayCostCalculator";
 import IsClaimingARefundWorthItCalculator from "./IsClaimingARefundWorthItCalculator";
 import RefundMistakeCostCalculator from "./RefundMistakeCostCalculator";
 import RefundDenialImpactCalculator from "./RefundDenialImpactCalculator";
+import RefundRejectionLossCalculator from "./RefundRejectionLossCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -518,6 +519,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "is-claiming-a-refund-worth-it-calculator": IsClaimingARefundWorthItCalculator,
   "refund-mistake-cost-calculator": RefundMistakeCostCalculator,
   "refund-denial-impact-calculator": RefundDenialImpactCalculator,
+  "refund-rejection-loss-calculator": RefundRejectionLossCalculator,
 
 
 
