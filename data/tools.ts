@@ -8735,6 +8735,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "xoom-exchange-rate-markup-calculator",
+  category: "finance",
+  title: "Xoom Exchange Rate Markup Calculator",
+  description:
+    "Estimate Xoom exchange rate markup by comparing the rate you get vs the mid-market rate and calculating the hidden FX cost.",
+  keywords: [
+    "xoom exchange rate markup",
+    "xoom exchange rate calculator",
+    "xoom rate vs mid market",
+    "xoom hidden fees exchange rate",
+    "paypal xoom exchange rate spread",
+    "xoom fx markup calculator"
+  ],
+  type: "calculator",
+  tags: ["money transfer", "exchange rate", "markup", "xoom", "international", "finance"],
+  howToSteps: [
+    "Enter the amount you send.",
+    "Enter the mid-market exchange rate (reference rate).",
+    "Enter the exchange rate shown by Xoom.",
+    "Click Calculate to see the markup (%) and estimated hidden FX cost."
+  ],
+  example: {
+    description:
+      "If the mid-market rate is 0.92 EUR per USD but Xoom shows 0.90 and you send $1,000:",
+    bullets: [
+      "Amount sent: $1,000",
+      "Mid-market rate: 0.92",
+      "Xoom rate: 0.90",
+      "Markup (spread): ~2.17%",
+      "Hidden FX cost: about €18.40 compared to mid-market"
+    ]
+  }
+},
+
 
 
 

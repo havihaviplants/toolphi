@@ -251,6 +251,7 @@ import MoneyGramChargesCalculator from "./MoneyGramChargesCalculator";
 import RiaExchangeRateMarkupCalculator from "./RiaExchangeRateMarkupCalculator";
 import HowMuchWillRecipientReceiveCalculator from "./HowMuchWillRecipientReceiveCalculator";
 import WireTransferVsOnlineTransferCalculator from "./WireTransferVsOnlineTransferCalculator";
+import XoomExchangeRateMarkupCalculator from "./XoomExchangeRateMarkupCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -506,6 +507,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "ria-exchange-rate-markup-calculator": RiaExchangeRateMarkupCalculator,
   "how-much-will-recipient-receive-calculator": HowMuchWillRecipientReceiveCalculator,
   "wire-transfer-vs-online-transfer-calculator": WireTransferVsOnlineTransferCalculator,
+  "xoom-exchange-rate-markup-calculator": XoomExchangeRateMarkupCalculator,
 
 
 
