@@ -8666,6 +8666,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "how-much-will-recipient-receive-calculator",
+  category: "finance",
+  title: "How Much Will the Recipient Receive Calculator",
+  description:
+    "Calculate how much the recipient will actually receive after transfer fees and exchange rate conversion.",
+  keywords: [
+    "how much will recipient receive",
+    "recipient receive calculator",
+    "money transfer recipient amount",
+    "international transfer net amount",
+    "transfer after fees calculator",
+    "recipient amount after exchange rate"
+  ],
+  type: "calculator",
+  tags: ["money transfer", "international", "recipient", "fees", "exchange rate", "finance"],
+  howToSteps: [
+    "Enter the amount you send.",
+    "Enter the transfer fee charged by the provider.",
+    "Enter the exchange rate used for conversion.",
+    "Click Calculate to see the recipient's final amount."
+  ],
+  example: {
+    description:
+      "If you send $1,000 with a $30 transfer fee and the provider uses 1 USD = 0.90 EUR:",
+    bullets: [
+      "Amount sent: $1,000.00",
+      "Transfer fee: $30.00",
+      "Net after fee: $970.00",
+      "Exchange rate: 0.90 EUR per USD",
+      "Recipient receives: €873.00"
+    ]
+  }
+},
+
 
 
 
