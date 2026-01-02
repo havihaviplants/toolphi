@@ -8991,6 +8991,46 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "refund-cancellation-cost-calculator",
+  category: "finance",
+  title: "Refund Cancellation Cost Calculator",
+  description:
+    "Estimate the total cost of cancelling a refund request, including cancellation fees, non-refundable charges, shipping costs, and time cost.",
+  keywords: [
+    "refund cancellation cost calculator",
+    "cancel refund cost",
+    "refund cancellation fee",
+    "refund cancellation charges",
+    "cancel return refund cost",
+    "refund cancellation penalty"
+  ],
+  type: "calculator",
+  tags: ["refund", "cancellation", "fee", "penalty", "shipping", "time cost"],
+  howToSteps: [
+    "Enter the refund amount you expected to receive.",
+    "Enter a cancellation fee (flat) and/or a cancellation rate (%).",
+    "Add any non-refundable fees and return shipping already paid.",
+    "Estimate time spent and your hourly value.",
+    "View the total cancellation cost and effective cost rate."
+  ],
+  example: {
+    description:
+      "You expected a $200 refund, canceling costs $10 + 3%, you already paid $6 shipping and $4 fees, and spent 0.8 hours at $25/hour.",
+    bullets: [
+      "Expected refund: $200",
+      "Cancellation fee: $10",
+      "Cancellation rate: 3%",
+      "Non-refundable fees: $4",
+      "Return shipping: $6",
+      "Time cost: 0.8h × $25 = $20",
+      "Total cancellation cost: $46.00",
+      "Effective cost rate: 23.00%"
+    ]
+  }
+},
+
+
 
 
 
