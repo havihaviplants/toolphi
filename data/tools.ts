@@ -9094,6 +9094,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "refund-vs-store-credit-comparison-calculator",
+  category: "finance",
+  title: "Refund vs Store Credit Comparison Calculator",
+  description:
+    "Compare a cash refund vs store credit to see which option is worth more after fees, delays, and bonus credit.",
+  keywords: [
+    "refund vs store credit calculator",
+    "refund or store credit which is better",
+    "store credit bonus worth it",
+    "cash refund vs credit comparison",
+    "refund delay vs store credit",
+  ],
+  type: "calculator",
+  tags: ["refund", "store credit", "compare", "fee", "delay", "bonus"],
+  howToSteps: [
+    "Enter the purchase amount you would get refunded.",
+    "Enter refund fees (percent and fixed fee) and an estimated delay in days.",
+    "Enter store credit bonus percentage and how soon you can use it.",
+    "Click Calculate to compare the effective value of each option.",
+  ],
+  example: {
+    description:
+      "If a $200 refund has a 5% fee and arrives in 7 days, but store credit gives a 10% bonus available today:",
+    bullets: [
+      "Refund value is reduced by fees and delay (time value).",
+      "Store credit value increases with bonus but may have restrictions.",
+      "The calculator compares both as an estimated effective value.",
+    ],
+  },
+},
+
 
 
 
