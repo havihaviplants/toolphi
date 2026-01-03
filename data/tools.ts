@@ -9300,7 +9300,43 @@ export const tools: Tool[] = [
       "ROI: 114.00%"
     ]
   }
+},
+
+{
+  slug: "climate-risk-financial-impact-calculator",
+  category: "finance",
+  title: "Climate Risk Financial Impact Calculator",
+  description:
+    "Estimate the potential annual financial impact of climate risk using revenue exposure, probability of disruption, and expected loss severity.",
+  keywords: [
+    "climate risk financial impact calculator",
+    "climate risk cost calculator",
+    "financial impact of climate risk",
+    "climate disruption cost estimate",
+    "climate risk loss estimate",
+    "climate risk exposure calculator"
+  ],
+  type: "calculator",
+  tags: ["climate", "risk", "finance", "impact", "loss"],
+  howToSteps: [
+    "Enter annual revenue exposed to climate risk.",
+    "Enter probability of disruption per year.",
+    "Enter expected loss severity if disruption happens.",
+    "Review expected annual loss and scenario loss."
+  ],
+  example: {
+    description:
+      "A business has $50,000,000 in annual revenue exposed to climate risk, with a 12% chance of disruption each year and 18% loss severity if it occurs.",
+    bullets: [
+      "Exposed revenue: $50,000,000",
+      "Probability of disruption: 12%",
+      "Loss severity: 18%",
+      "Scenario loss (if event occurs): $9,000,000",
+      "Expected annual loss: $1,080,000 (50,000,000 × 0.12 × 0.18)"
+    ]
+  }
 }
+
 
 
 
