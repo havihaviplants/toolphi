@@ -9224,7 +9224,46 @@ export const tools: Tool[] = [
       "Total estimated TCFD reporting cost: $300,000"
     ]
   }
+},
+
+{
+  slug: "carbon-disclosure-cost-calculator",
+  category: "finance",
+  title: "Carbon Disclosure Cost Calculator",
+  description:
+    "Estimate the total cost of carbon disclosure reporting based on reporting scope, data coverage, internal effort, and external vendor or consulting fees.",
+  keywords: [
+    "carbon disclosure cost calculator",
+    "carbon disclosure cost",
+    "carbon reporting cost",
+    "esg disclosure cost",
+    "cdp reporting cost",
+    "carbon footprint reporting cost",
+    "carbon accounting cost"
+  ],
+  type: "calculator",
+  tags: ["carbon", "disclosure", "finance", "esg", "reporting"],
+  howToSteps: [
+    "Enter the number of reporting entities (subsidiaries or business units).",
+    "Enter the number of facilities or sites to include.",
+    "Select reporting scope (Scope 1+2 vs Scope 1+2+3).",
+    "Enter external vendor/consulting fees (if any).",
+    "Review the estimated internal cost and total disclosure cost."
+  ],
+  example: {
+    description:
+      "A company reports carbon emissions for 5 business units and 20 sites, including Scope 1+2+3, with $75,000 in external support.",
+    bullets: [
+      "Reporting entities: 5",
+      "Sites included: 20",
+      "Reporting scope: Scope 1+2+3",
+      "Estimated internal cost: $95,000",
+      "External support: $75,000",
+      "Total estimated disclosure cost: $170,000"
+    ]
+  }
 }
+
 
 
 
