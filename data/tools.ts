@@ -9158,6 +9158,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "climate-finance-calculator",
+  category: "finance",
+  title: "Climate Finance Calculator",
+  description:
+    "Estimate total climate finance needed and basic payback metrics from project cost, timeframe, and expected annual financial impact.",
+  keywords: [
+    "climate finance calculator",
+    "climate finance",
+    "climate project finance",
+    "climate investment cost",
+    "climate finance estimate",
+    "climate risk finance",
+    "climate funding calculator",
+  ],
+  type: "calculator",
+  tags: ["climate", "finance", "funding", "payback", "impact"],
+  howToSteps: [
+    "Enter the total project cost.",
+    "Enter the project timeframe in years.",
+    "Enter expected annual financial impact (savings or profit).",
+    "Review total finance needed, annualized finance, and payback estimate.",
+  ],
+  example: {
+    description:
+      "Suppose a climate project costs $10,000,000 over 10 years, and you expect $800,000 per year in financial impact (savings or profit).",
+    bullets: [
+      "Total climate finance needed: $10,000,000",
+      "Annualized finance: $1,000,000 per year",
+      "Estimated payback: 12.5 years (10,000,000 / 800,000)",
+    ],
+  },
+},
+
 
 
 
