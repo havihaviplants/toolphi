@@ -9262,7 +9262,46 @@ export const tools: Tool[] = [
       "Total estimated disclosure cost: $170,000"
     ]
   }
+},
+
+{
+  slug: "climate-impact-investment-roi-calculator",
+  category: "finance",
+  title: "Climate Impact Investment ROI Calculator",
+  description:
+    "Estimate ROI for climate impact investments using initial investment, annual cashflow impact, holding period, and exit value assumptions.",
+  keywords: [
+    "climate impact investment roi calculator",
+    "impact investing roi calculator",
+    "climate investment roi",
+    "climate impact roi",
+    "sustainable investment roi calculator",
+    "climate fund roi calculator",
+    "green investment roi"
+  ],
+  type: "calculator",
+  tags: ["climate", "impact", "roi", "finance", "investment"],
+  howToSteps: [
+    "Enter the initial investment amount.",
+    "Enter expected annual cashflow impact (profit or savings).",
+    "Enter the holding period in years.",
+    "Enter expected exit value at the end of the holding period.",
+    "Review total return and ROI percentage."
+  ],
+  example: {
+    description:
+      "An investor puts $500,000 into a climate impact project, expects $60,000/year in cashflow, holds for 7 years, and exits at $650,000.",
+    bullets: [
+      "Initial investment: $500,000",
+      "Annual cashflow impact: $60,000",
+      "Holding period: 7 years",
+      "Exit value: $650,000",
+      "Total return: $570,000 (cashflows + exit - initial)",
+      "ROI: 114.00%"
+    ]
+  }
 }
+
 
 
 

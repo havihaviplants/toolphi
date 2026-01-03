@@ -266,6 +266,7 @@ import PartialRefundCalculationTool from "./PartialRefundCalculationTool";
 import ClimateFinanceCalculator from "./ClimateFinanceCalculator";
 import TcfdReportingCostEstimator from "./TcfdReportingCostEstimator";
 import CarbonDisclosureCostCalculator from "./CarbonDisclosureCostCalculator";
+import ClimateImpactInvestmentROICalculator from "./ClimateImpactInvestmentROICalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -536,6 +537,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "climate-finance-calculator": ClimateFinanceCalculator,
   "tcfd-reporting-cost-estimator": TcfdReportingCostEstimator,
   "carbon-disclosure-cost-calculator": CarbonDisclosureCostCalculator,
+  "climate-impact-investment-roi-calculator": ClimateImpactInvestmentROICalculator,
 
 
 
