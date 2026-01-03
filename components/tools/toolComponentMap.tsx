@@ -262,6 +262,7 @@ import RefundCancellationCostCalculator from "./RefundCancellationCostCalculator
 import RefundFeeCalculator from "./RefundFeeCalculator";
 import RefundProcessingTimeEstimator from "./RefundProcessingTimeEstimator";
 import RefundVsStoreCreditComparisonCalculator from "./RefundVsStoreCreditComparisonCalculator";
+import PartialRefundCalculationTool from "./PartialRefundCalculationTool";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -528,6 +529,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "refund-fee-calculator": RefundFeeCalculator,
   "refund-processing-time-estimator": RefundProcessingTimeEstimator,
   "refund-vs-store-credit-comparison-calculator": RefundVsStoreCreditComparisonCalculator,
+  "partial-refund-calculation-tool": PartialRefundCalculationTool,
 
 
 

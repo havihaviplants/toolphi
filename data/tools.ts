@@ -9126,6 +9126,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "partial-refund-calculation-tool",
+  category: "finance",
+  title: "Partial Refund Calculation Tool",
+  description:
+    "Calculate a partial refund amount based on refund percentage, item quantity, damaged portion, or fixed deductions.",
+  keywords: [
+    "partial refund calculator",
+    "partial refund calculation",
+    "refund percentage calculator",
+    "partial refund amount",
+    "refund deduction calculator",
+  ],
+  type: "calculator",
+  tags: ["refund", "partial", "percentage", "deduction", "calculate"],
+  howToSteps: [
+    "Enter the original purchase amount.",
+    "Choose a partial refund method (percentage, quantity, or fixed deduction).",
+    "Enter the required values for the chosen method.",
+    "Click Calculate to see the partial refund amount.",
+  ],
+  example: {
+    description:
+      "If you paid $300 and the seller offers a 25% partial refund due to minor damage:",
+    bullets: [
+      "Partial refund = $300 × 25% = $75",
+      "You keep the item and receive $75 back (policy-dependent).",
+      "You can also model fixed deductions or quantity-based refunds.",
+    ],
+  },
+},
+
+
 
 
 
