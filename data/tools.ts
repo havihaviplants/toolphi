@@ -9192,6 +9192,41 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "tcfd-reporting-cost-estimator",
+  category: "finance",
+  title: "TCFD Reporting Cost Estimator",
+  description:
+    "Estimate the total cost of TCFD reporting based on company size, reporting scope, internal resources, and external consulting needs.",
+  keywords: [
+    "tcfd reporting cost estimator",
+    "tcfd reporting cost",
+    "tcfd compliance cost",
+    "tcfd disclosure cost",
+    "climate disclosure reporting cost",
+    "tcfd consulting cost"
+  ],
+  type: "calculator",
+  tags: ["tcfd", "climate", "finance", "disclosure", "compliance"],
+  howToSteps: [
+    "Enter annual company revenue.",
+    "Select reporting scope and complexity level.",
+    "Enter estimated external consulting cost.",
+    "Review total estimated TCFD reporting cost."
+  ],
+  example: {
+    description:
+      "A mid-sized company with $500M in annual revenue prepares its first TCFD report with moderate scope and external consulting support.",
+    bullets: [
+      "Annual revenue: $500,000,000",
+      "Internal reporting cost estimate: $120,000",
+      "External consulting cost: $180,000",
+      "Total estimated TCFD reporting cost: $300,000"
+    ]
+  }
+}
+
+
 
 
 
