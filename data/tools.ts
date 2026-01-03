@@ -9335,7 +9335,43 @@ export const tools: Tool[] = [
       "Expected annual loss: $1,080,000 (50,000,000 × 0.12 × 0.18)"
     ]
   }
+},
+
+{
+  slug: "climate-change-cost-impact-estimator",
+  category: "finance",
+  title: "Climate Change Cost Impact Estimator",
+  description:
+    "Estimate the annual financial cost impact of climate change using exposed cost base, impact probability, and expected cost increase severity.",
+  keywords: [
+    "climate change cost impact estimator",
+    "climate change cost calculator",
+    "financial cost of climate change",
+    "climate impact cost estimate",
+    "climate cost increase calculator",
+    "climate disruption cost estimator"
+  ],
+  type: "calculator",
+  tags: ["climate", "cost", "impact", "finance", "risk"],
+  howToSteps: [
+    "Enter the annual cost base exposed to climate impacts.",
+    "Enter the probability of a climate-related cost impact per year.",
+    "Enter the expected cost increase severity if it occurs.",
+    "Review expected annual cost impact and scenario cost impact."
+  ],
+  example: {
+    description:
+      "A company has $12,000,000 of annual costs exposed to climate impacts, with a 20% chance of disruption and a 15% cost increase if it occurs.",
+    bullets: [
+      "Exposed annual costs: $12,000,000",
+      "Probability of cost impact: 20%",
+      "Cost increase severity: 15%",
+      "Scenario cost impact (if occurs): $1,800,000",
+      "Expected annual cost impact: $360,000 (12,000,000 × 0.20 × 0.15)"
+    ]
+  }
 }
+
 
 
 
