@@ -9062,6 +9062,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "refund-processing-time-estimator",
+  category: "finance",
+  title: "Refund Processing Time Estimator",
+  description:
+    "Estimate when your refund will arrive based on the refund method, processing time, and bank posting delay.",
+  keywords: [
+    "refund processing time estimator",
+    "how long does a refund take",
+    "refund pending time",
+    "refund timeline calculator",
+    "refund arrival date estimate",
+  ],
+  type: "calculator",
+  tags: ["refund", "processing", "time", "timeline", "estimate"],
+  howToSteps: [
+    "Select your refund request date.",
+    "Choose the refund method (card, bank transfer, wallet, store credit).",
+    "Enter the merchant processing days and bank posting days.",
+    "Click Calculate to estimate the refund arrival date.",
+  ],
+  example: {
+    description:
+      "If you requested a refund on Jan 3, the merchant takes 5 business days, and your bank takes 2 business days to post it:",
+    bullets: [
+      "Estimated processing completion date is calculated first.",
+      "Then bank posting delay is added.",
+      "You get an estimated refund arrival date.",
+    ],
+  },
+},
+
+
 
 
 
