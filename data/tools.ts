@@ -9030,6 +9030,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "refund-fee-calculator",
+  category: "finance",
+  title: "Refund Fee Calculator",
+  description:
+    "Calculate how much refund fees (restocking or processing fees) reduce the final amount you receive.",
+  keywords: [
+    "refund fee calculator",
+    "refund processing fee",
+    "restocking fee calculator",
+    "refund fee deduction",
+    "refund amount after fees",
+  ],
+  type: "calculator",
+  tags: ["refund", "fee", "restocking", "processing", "cost"],
+  howToSteps: [
+    "Enter the original purchase amount.",
+    "Enter the restocking/refund fee percentage.",
+    "Optionally add a fixed processing fee.",
+    "Click Calculate to see your final refund amount after fees.",
+  ],
+  example: {
+    description:
+      "If your purchase was $500 and the merchant charges a 10% restocking fee plus a $5 processing fee, this calculator shows:",
+    bullets: [
+      "How much the percentage-based fee costs.",
+      "Total fees deducted from the refund.",
+      "Your final refund amount after fees.",
+    ],
+  },
+},
+
+
 
 
 
