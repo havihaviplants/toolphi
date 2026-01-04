@@ -9370,7 +9370,45 @@ export const tools: Tool[] = [
       "Expected annual cost impact: $360,000 (12,000,000 × 0.20 × 0.15)"
     ]
   }
-}
+},
+
+{
+  slug: "climate-disclosure-non-compliance-cost-calculator",
+  category: "finance",
+  title: "Climate Disclosure Non-Compliance Cost Calculator",
+  description:
+    "Estimate the total annual cost of climate disclosure non-compliance, including regulatory fines, financing impact, and reputational risk.",
+  keywords: [
+    "climate disclosure non compliance cost calculator",
+    "climate disclosure penalty calculator",
+    "cost of non compliance climate reporting",
+    "esg disclosure non compliance cost",
+    "climate reporting penalty estimate",
+    "climate disclosure fines estimate",
+    "financing cost non compliance climate",
+    "reputational risk cost climate disclosure"
+  ],
+  type: "calculator",
+  tags: ["climate", "disclosure", "compliance", "penalty", "risk", "cost"],
+  howToSteps: [
+    "Enter your estimated annual regulatory fines or penalties.",
+    "Enter the estimated annual increase in financing or capital costs due to non-compliance.",
+    "Enter an estimated annual reputational or business risk cost (lost deals, brand damage, churn).",
+    "Click Calculate to get the total estimated annual non-compliance cost.",
+    "Use the result to compare against the cost of compliance projects and reporting.",
+  ],
+  example: {
+    description:
+      "A company estimates annual non-compliance costs across three areas (fines, financing, reputation).",
+    bullets: [
+      "Regulatory fines: $250,000",
+      "Financing cost increase: $400,000",
+      "Reputational/business risk cost: $150,000",
+      "Estimated total annual non-compliance cost: $800,000",
+    ],
+  },
+},
+
 
 
 
