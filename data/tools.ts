@@ -9593,7 +9593,44 @@ export const tools: Tool[] = [
       "Estimated total cost: $245.00"
     ]
   }
+},
+
+{
+  slug: "heating-oil-monthly-cost-estimator",
+  title: "Heating Oil Monthly Cost Estimator",
+  description:
+    "Estimate your monthly heating oil cost using price per gallon, average daily usage, and the number of heating days in a month.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "heating oil monthly cost",
+    "heating oil monthly cost estimator",
+    "heating oil cost calculator",
+    "how much does heating oil cost per month",
+    "home heating oil monthly bill",
+    "heating oil price per gallon monthly bill",
+    "fuel oil monthly cost estimate",
+    "heating oil usage per day"
+  ],
+  tags: ["finance", "energy", "heating", "oil", "cost"],
+  howToSteps: [
+    "Enter your heating oil price per gallon.",
+    "Enter your average daily oil usage (gallons per day).",
+    "Enter the number of heating days in the month.",
+    "Click Calculate to estimate monthly gallons and monthly cost."
+  ],
+  example: {
+    description: "Estimate a winter month heating oil bill.",
+    bullets: [
+      "Price per gallon: $4.00",
+      "Daily usage: 3.0 gallons/day",
+      "Heating days: 30",
+      "Estimated monthly usage: 90 gallons",
+      "Estimated monthly cost: $360.00"
+    ]
+  }
 }
+
 
 
 
