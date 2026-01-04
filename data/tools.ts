@@ -9409,6 +9409,46 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "climate-project-break-even-calculator",
+  category: "finance",
+  title: "Climate Project Break-Even Calculator",
+  description:
+    "Estimate when a climate project breaks even by comparing upfront and ongoing costs against annual savings and financial benefits.",
+  keywords: [
+    "climate project break even calculator",
+    "carbon reduction project break even",
+    "esg project breakeven calculator",
+    "sustainability project break even analysis",
+    "renewable energy project break even",
+    "energy efficiency project break even",
+    "climate project payback period calculator",
+    "climate investment break even point"
+  ],
+  type: "calculator",
+  tags: ["climate", "project", "break-even", "payback", "savings", "investment"],
+  howToSteps: [
+    "Enter your upfront project cost (capex).",
+    "Enter the ongoing annual operating cost (opex).",
+    "Enter the estimated annual savings (energy, fuel, efficiency).",
+    "Enter any additional annual financial benefits (tax credits, incentives, avoided fees).",
+    "Click Calculate to estimate annual net benefit and break-even (payback) period.",
+  ],
+  example: {
+    description:
+      "A company estimates the break-even period for an energy-efficiency project.",
+    bullets: [
+      "Upfront cost: $500,000",
+      "Annual operating cost: $30,000",
+      "Annual savings: $140,000",
+      "Additional annual benefits: $20,000",
+      "Annual net benefit: $130,000",
+      "Estimated break-even (payback) period: 3.85 years",
+    ],
+  },
+},
+
+
 
 
 
