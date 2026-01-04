@@ -9669,7 +9669,44 @@ export const tools: Tool[] = [
       "Estimated total cost: $2,080.00"
     ]
   }
+},
+
+{
+  slug: "heating-oil-price-change-impact-calculator",
+  title: "Heating Oil Price Change Impact Calculator",
+  description:
+    "Estimate how changes in heating oil price per gallon affect your monthly heating bill based on your expected monthly usage.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "heating oil price change impact",
+    "heating oil price increase impact calculator",
+    "heating oil price per gallon bill impact",
+    "heating oil bill increase calculator",
+    "how much does heating oil price change affect bill",
+    "fuel oil price change monthly cost",
+    "heating oil cost sensitivity calculator"
+  ],
+  tags: ["finance", "energy", "heating", "oil", "cost"],
+  howToSteps: [
+    "Enter your expected monthly heating oil usage (gallons).",
+    "Enter your current price per gallon.",
+    "Enter a new price per gallon (or a price change amount).",
+    "Click Calculate to see current vs new bill and the difference."
+  ],
+  example: {
+    description: "Estimate the monthly bill impact when heating oil prices rise.",
+    bullets: [
+      "Monthly usage: 90 gallons",
+      "Current price: $3.75/gal",
+      "New price: $4.25/gal",
+      "Current bill: $337.50",
+      "New bill: $382.50",
+      "Monthly increase: $45.00"
+    ]
+  }
 }
+
 
 
 
