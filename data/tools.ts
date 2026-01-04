@@ -9448,6 +9448,44 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-change-cost-estimator",
+  title: "Oil Change Cost Estimator",
+  description:
+    "Estimate the total cost of an oil change based on oil type, oil quantity, labor, and optional shop fees.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "oil change cost estimator",
+    "oil change cost calculator",
+    "how much does an oil change cost",
+    "synthetic oil change cost",
+    "full synthetic oil change price",
+    "oil change labor cost",
+    "oil change total cost",
+    "oil change service fee"
+  ],
+  tags: ["finance", "auto", "maintenance", "cost", "oil"],
+  howToSteps: [
+    "Select an oil type (conventional, blend, or full synthetic).",
+    "Enter oil quantity in quarts and the price per quart (or keep defaults).",
+    "Enter labor cost and any additional shop fees.",
+    "Click Calculate to see the total estimated cost."
+  ],
+  example: {
+    description: "Estimate the cost of a full synthetic oil change at a local shop.",
+    bullets: [
+      "Oil type: Full synthetic",
+      "Oil quantity: 5 quarts",
+      "Price per quart: $9.00",
+      "Labor cost: $40",
+      "Additional shop fees: $5",
+      "Estimated total cost: $90.00"
+    ]
+  }
+}
+
+
 
 
 

@@ -271,6 +271,7 @@ import ClimateRiskFinancialImpactCalculator from "./ClimateRiskFinancialImpactCa
 import ClimateChangeCostImpactEstimator from "./ClimateChangeCostImpactEstimator";
 import ClimateDisclosureNonComplianceCostCalculator from "./ClimateDisclosureNonComplianceCostCalculator";
 import ClimateProjectBreakEvenCalculator from "./ClimateProjectBreakEvenCalculator";
+import OilChangeCostEstimator from "./OilChangeCostEstimator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -546,6 +547,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "climate-change-cost-impact-estimator": ClimateChangeCostImpactEstimator,
   "climate-disclosure-non-compliance-cost-calculator": ClimateDisclosureNonComplianceCostCalculator,
   "climate-project-break-even-calculator": ClimateProjectBreakEvenCalculator,
+  "oil-change-cost-estimator": OilChangeCostEstimator,
 
 
 
