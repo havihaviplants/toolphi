@@ -9705,13 +9705,45 @@ export const tools: Tool[] = [
       "Monthly increase: $45.00"
     ]
   }
+},
+
+{
+  slug: "heating-oil-prebuy-vs-pay-as-you-go-calculator",
+  title: "Heating Oil Prebuy vs Pay-As-You-Go Comparison Calculator",
+  description:
+    "Compare heating oil prebuy plans vs pay-as-you-go pricing by estimating total seasonal cost under each option, including price assumptions and optional fees.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "heating oil prebuy vs pay as you go",
+    "heating oil prebuy vs pay as you go calculator",
+    "heating oil prebuy worth it",
+    "heating oil prebuy plan comparison",
+    "heating oil fixed price plan vs market price",
+    "heating oil price lock vs pay as you go",
+    "heating oil prebuy savings calculator"
+  ],
+  tags: ["finance", "energy", "heating", "oil", "comparison"],
+  howToSteps: [
+    "Enter your expected total seasonal gallons.",
+    "Enter the prebuy locked price per gallon and any prebuy fee.",
+    "Enter your expected average pay-as-you-go price per gallon and any fees.",
+    "Click Calculate to compare total seasonal cost and the difference."
+  ],
+  example: {
+    description: "Compare a prebuy locked price vs expected market price for the season.",
+    bullets: [
+      "Seasonal gallons: 600",
+      "Prebuy locked price: $3.70/gal",
+      "Prebuy fee: $50",
+      "Pay-as-you-go expected average price: $4.10/gal",
+      "Pay-as-you-go fees: $0",
+      "Prebuy total: $2,270.00",
+      "Pay-as-you-go total: $2,460.00",
+      "Estimated prebuy savings: $190.00"
+    ]
+  }
 }
-
-
-
-
-
-
 
 
 
