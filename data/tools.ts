@@ -9554,7 +9554,47 @@ export const tools: Tool[] = [
       "Estimated total cost: $88.20"
     ]
   }
+},
+
+{
+  slug: "transmission-fluid-change-cost-estimator",
+  title: "Transmission Fluid Change Cost Estimator",
+  description:
+    "Estimate the total cost of a transmission fluid change based on transmission type, fluid capacity, fluid price, labor, and optional service add-ons.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "transmission fluid change cost",
+    "transmission fluid change cost estimator",
+    "transmission fluid change cost calculator",
+    "how much does a transmission fluid change cost",
+    "automatic transmission fluid change cost",
+    "cvtt fluid change cost",
+    "transmission flush vs change cost",
+    "transmission service price estimate"
+  ],
+  tags: ["finance", "auto", "maintenance", "cost", "transmission"],
+  howToSteps: [
+    "Select your transmission type (automatic, CVT, manual, or DCT).",
+    "Enter fluid capacity and price per quart.",
+    "Enter labor cost and choose whether you’re doing a drain & fill or a full flush.",
+    "Add optional items (filter/gasket) if needed.",
+    "Click Calculate to estimate your total transmission service cost."
+  ],
+  example: {
+    description: "Estimate an automatic transmission drain & fill with filter replacement.",
+    bullets: [
+      "Transmission type: Automatic",
+      "Service type: Drain & fill",
+      "Fluid capacity: 8 quarts",
+      "Price per quart: $10.00",
+      "Labor cost: $120",
+      "Filter & gasket: $45",
+      "Estimated total cost: $245.00"
+    ]
+  }
 }
+
 
 
 
