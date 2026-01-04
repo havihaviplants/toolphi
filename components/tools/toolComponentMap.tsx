@@ -273,6 +273,7 @@ import ClimateDisclosureNonComplianceCostCalculator from "./ClimateDisclosureNon
 import ClimateProjectBreakEvenCalculator from "./ClimateProjectBreakEvenCalculator";
 import OilChangeCostEstimator from "./OilChangeCostEstimator";
 import JiffyLubeOilChangeCostEstimator from "./JiffyLubeOilChangeCostEstimator";
+import FirestoneOilChangeCostEstimator from "./FirestoneOilChangeCostEstimator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -550,6 +551,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "climate-project-break-even-calculator": ClimateProjectBreakEvenCalculator,
   "oil-change-cost-estimator": OilChangeCostEstimator,
   "jiffy-lube-oil-change-cost-estimator": JiffyLubeOilChangeCostEstimator,
+  "firestone-oil-change-cost-estimator": FirestoneOilChangeCostEstimator,
 
 
 

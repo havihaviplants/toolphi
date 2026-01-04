@@ -9519,22 +9519,42 @@ export const tools: Tool[] = [
       "Estimated total cost: $92.20"
     ]
   }
+},
+
+{
+  slug: "firestone-oil-change-cost-estimator",
+  title: "Firestone Oil Change Cost Estimator",
+  description:
+    "Estimate the total cost of an oil change at Firestone based on oil type, service package, optional add-ons, and local pricing differences.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "firestone oil change cost",
+    "firestone oil change price",
+    "firestone oil change cost estimator",
+    "how much is an oil change at firestone",
+    "firestone full synthetic oil change",
+    "firestone oil change package price",
+    "firestone oil change add-ons"
+  ],
+  tags: ["finance", "auto", "maintenance", "cost", "oil"],
+  howToSteps: [
+    "Select an oil type or service package.",
+    "Choose optional add-ons.",
+    "Adjust for local pricing differences.",
+    "Click Calculate to estimate your total cost."
+  ],
+  example: {
+    description: "Estimate a Firestone full synthetic oil change with add-ons.",
+    bullets: [
+      "Oil type: Full synthetic",
+      "Service package: Standard",
+      "Add-ons: Tire rotation ($25)",
+      "Local price adjustment: +5%",
+      "Estimated total cost: $88.20"
+    ]
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
