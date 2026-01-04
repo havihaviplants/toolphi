@@ -9483,7 +9483,44 @@ export const tools: Tool[] = [
       "Estimated total cost: $90.00"
     ]
   }
+},
+
+{
+  slug: "jiffy-lube-oil-change-cost-estimator",
+  title: "Jiffy Lube Oil Change Cost Estimator",
+  description:
+    "Estimate your oil change total at Jiffy Lube by selecting oil type, adding common service options, and adjusting for local pricing.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "jiffy lube oil change cost",
+    "jiffy lube oil change price",
+    "jiffy lube oil change cost estimator",
+    "how much is an oil change at jiffy lube",
+    "jiffy lube synthetic oil change cost",
+    "jiffy lube conventional oil change price",
+    "jiffy lube service fees",
+    "jiffy lube coupon savings estimate"
+  ],
+  tags: ["finance", "auto", "maintenance", "cost", "oil"],
+  howToSteps: [
+    "Select an oil type for your service.",
+    "Choose optional add-ons (filter, tire rotation, etc.).",
+    "Adjust for local pricing and any coupon discount.",
+    "Click Calculate to estimate your total cost."
+  ],
+  example: {
+    description: "Estimate a full synthetic oil change at Jiffy Lube with a coupon.",
+    bullets: [
+      "Oil type: Full synthetic",
+      "Add-ons: Premium oil filter ($10), Tire rotation ($25)",
+      "Local price adjustment: +8%",
+      "Coupon discount: $15",
+      "Estimated total cost: $92.20"
+    ]
+  }
 }
+
 
 
 
