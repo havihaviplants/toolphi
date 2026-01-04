@@ -9629,7 +9629,48 @@ export const tools: Tool[] = [
       "Estimated monthly cost: $360.00"
     ]
   }
+},
+
+{
+  slug: "home-heating-oil-cost-estimator",
+  title: "Home Heating Oil Cost Estimator",
+  description:
+    "Estimate home heating oil cost using home size, insulation level, local heating intensity, furnace efficiency, and oil price per gallon.",
+  category: "finance",
+  type: "calculator",
+  keywords: [
+    "home heating oil cost estimator",
+    "home heating oil cost calculator",
+    "how much heating oil does a house use",
+    "heating oil cost by square footage",
+    "heating oil usage estimate",
+    "oil heat cost estimate",
+    "heating oil annual cost estimate",
+    "heating oil consumption calculator"
+  ],
+  tags: ["finance", "energy", "heating", "oil", "cost"],
+  howToSteps: [
+    "Enter your home size (square feet).",
+    "Select insulation level and local heating intensity.",
+    "Enter furnace efficiency and oil price per gallon.",
+    "Choose a time period (month or season).",
+    "Click Calculate to estimate oil usage and total cost."
+  ],
+  example: {
+    description: "Estimate seasonal heating oil cost for a medium-size home.",
+    bullets: [
+      "Home size: 1,800 sq ft",
+      "Insulation: Average",
+      "Heating intensity: Cold",
+      "Furnace efficiency: 82%",
+      "Oil price: $4.00/gal",
+      "Period: Season (5 months)",
+      "Estimated oil usage: 520 gallons",
+      "Estimated total cost: $2,080.00"
+    ]
+  }
 }
+
 
 
 

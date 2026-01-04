@@ -276,6 +276,7 @@ import JiffyLubeOilChangeCostEstimator from "./JiffyLubeOilChangeCostEstimator";
 import FirestoneOilChangeCostEstimator from "./FirestoneOilChangeCostEstimator";
 import TransmissionFluidChangeCostEstimator from "./TransmissionFluidChangeCostEstimator";
 import HeatingOilMonthlyCostEstimator from "./HeatingOilMonthlyCostEstimator";
+import HomeHeatingOilCostEstimator from "./HomeHeatingOilCostEstimator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -556,6 +557,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "firestone-oil-change-cost-estimator": FirestoneOilChangeCostEstimator,
   "transmission-fluid-change-cost-estimator": TransmissionFluidChangeCostEstimator,
   "heating-oil-monthly-cost-estimator": HeatingOilMonthlyCostEstimator,
+  "home-heating-oil-cost-estimator": HomeHeatingOilCostEstimator,
 
 
 
