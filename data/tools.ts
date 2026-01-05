@@ -9743,7 +9743,41 @@ export const tools: Tool[] = [
       "Estimated prebuy savings: $190.00"
     ]
   }
-}
+},
+
+{
+  slug: "heating-oil-price-per-gallon-monthly-bill-calculator",
+  category: "finance",
+  title: "Heating Oil Price per Gallon to Monthly Bill Calculator",
+  description:
+    "Estimate your monthly heating oil bill from price per gallon, usage, tax, and delivery fees.",
+  keywords: [
+    "heating oil price per gallon",
+    "heating oil monthly bill",
+    "heating oil cost calculator",
+    "home heating oil cost",
+    "heating oil delivery fee",
+  ],
+  type: "calculator",
+  tags: ["heating-oil", "oil", "fuel", "cost", "budget", "home"],
+  howToSteps: [
+    "Enter your heating oil price per gallon.",
+    "Enter your expected monthly usage in gallons.",
+    "Optionally add delivery fee and sales tax.",
+    "Review your estimated monthly total and the annual projection.",
+  ],
+  example: {
+    description:
+      "If heating oil costs $3.50/gal and you use 80 gallons per month with a $20 delivery fee and 6% tax:",
+    bullets: [
+      "Fuel cost = 3.50 × 80 = $280.00",
+      "Subtotal = $280.00 + $20.00 = $300.00",
+      "Tax = $300.00 × 6% = $18.00",
+      "Estimated monthly bill = $318.00 (annual ≈ $3,816)",
+    ],
+  },
+},
+
 
 
 
