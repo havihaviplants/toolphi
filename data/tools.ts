@@ -9940,6 +9940,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-budget-shock-calculator",
+  category: "finance",
+  title: "Oil Budget Shock Calculator",
+  description:
+    "Estimate how a change in oil price impacts your monthly and annual budget based on your usage volume.",
+  keywords: [
+    "oil budget shock",
+    "oil price impact calculator",
+    "oil price increase cost",
+    "oil price change budget",
+    "crude oil cost impact",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "budget", "impact", "volatility", "cost"],
+  howToSteps: [
+    "Enter your baseline oil price and new oil price.",
+    "Enter your usage volume (barrels per month or gallons per month).",
+    "Choose your unit and conversion assumptions if needed.",
+    "Review the monthly and annual budget impact.",
+  ],
+  example: {
+    description:
+      "If oil rises from $75 to $85 and you use 300 gallons per month (42 gal/bbl):",
+    bullets: [
+      "Monthly barrels ≈ 300 ÷ 42 ≈ 7.14 bbl",
+      "Baseline monthly cost ≈ 7.14 × 75 = $535.50",
+      "New monthly cost ≈ 7.14 × 85 = $606.90",
+      "Monthly impact ≈ +$71.40 (annual ≈ +$856.80)",
+    ],
+  },
+},
+
+
 
 
 
