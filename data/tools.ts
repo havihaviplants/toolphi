@@ -9909,6 +9909,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "crude-oil-price-change-percent-calculator",
+  category: "finance",
+  title: "Crude Oil Price Change Percentage Calculator",
+  description:
+    "Calculate the percentage change in crude oil price between two values and see the absolute difference (WTI/Brent friendly).",
+  keywords: [
+    "crude oil price change",
+    "crude oil price change percent",
+    "wti price change percent",
+    "brent price change percent",
+    "crude oil percentage change",
+  ],
+  type: "calculator",
+  tags: ["crude-oil", "oil", "wti", "brent", "price-change", "percent", "volatility"],
+  howToSteps: [
+    "Choose a benchmark (WTI or Brent) to label your calculation.",
+    "Enter the starting price (old price).",
+    "Enter the ending price (new price).",
+    "Review the percent change and the absolute difference.",
+  ],
+  example: {
+    description:
+      "If WTI moves from $74.00 to $79.18:",
+    bullets: [
+      "Absolute change = 79.18 − 74.00 = $5.18",
+      "Percent change = 5.18 ÷ 74.00 ≈ 7.00%",
+    ],
+  },
+},
+
+
 
 
 

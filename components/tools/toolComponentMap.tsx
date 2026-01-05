@@ -284,6 +284,7 @@ import HeatingOilAnnualCostEstimatorWinterSeason from "./HeatingOilAnnualCostEst
 import OilPricePerBarrelTotalCostCalculator from "./OilPricePerBarrelTotalCostCalculator";
 import CrudeOilPricePerBarrelTotalCostCalculatorWtiBrent from "./CrudeOilPricePerBarrelTotalCostCalculatorWtiBrent";
 import OilPriceChangePercentCalculator from "./OilPriceChangePercentCalculator";
+import CrudeOilPriceChangePercentCalculator from "./CrudeOilPriceChangePercentCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -572,6 +573,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "oil-price-per-barrel-total-cost-calculator": OilPricePerBarrelTotalCostCalculator,
   "crude-oil-price-per-barrel-total-cost-calculator-wti-brent": CrudeOilPricePerBarrelTotalCostCalculatorWtiBrent,
   "oil-price-change-percent-calculator": OilPriceChangePercentCalculator,
+  "crude-oil-price-change-percent-calculator": CrudeOilPriceChangePercentCalculator,
 
 
 
