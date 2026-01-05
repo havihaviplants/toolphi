@@ -288,6 +288,7 @@ import CrudeOilPriceChangePercentCalculator from "./CrudeOilPriceChangePercentCa
 import OilBudgetShockCalculator from "./OilBudgetShockCalculator";
 import WtiVsBrentSpreadCalculator from "./WtiVsBrentSpreadCalculator";
 import WtiBrentPriceDifferenceImpactCalculator from "./WtiBrentPriceDifferenceImpactCalculator";
+import CrudeOilBenchmarkComparisonCalculator from "./CrudeOilBenchmarkComparisonCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -580,6 +581,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "oil-budget-shock-calculator": OilBudgetShockCalculator,
   "wti-vs-brent-spread-calculator": WtiVsBrentSpreadCalculator,
   "wti-brent-price-difference-impact-calculator": WtiBrentPriceDifferenceImpactCalculator,
+  "crude-oil-benchmark-comparison-calculator": CrudeOilBenchmarkComparisonCalculator,
 
 
 

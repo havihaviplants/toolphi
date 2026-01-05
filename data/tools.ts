@@ -10036,6 +10036,41 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "crude-oil-benchmark-comparison-calculator",
+  category: "finance",
+  title: "Crude Oil Benchmark Comparison Calculator",
+  description:
+    "Compare WTI vs Brent for price, spread, percent difference, and total cost for a chosen volume (barrels).",
+  keywords: [
+    "crude oil benchmark comparison",
+    "wti vs brent comparison",
+    "oil benchmark calculator",
+    "compare wti and brent",
+    "wti brent spread",
+  ],
+  type: "calculator",
+  tags: ["crude-oil", "oil", "wti", "brent", "comparison", "spread", "benchmark", "cost"],
+  howToSteps: [
+    "Enter WTI and Brent prices per barrel.",
+    "Enter a volume (barrels) to compare total costs.",
+    "Review spread, percent difference, and which benchmark is higher.",
+    "Use the quick preset buttons if you want common example values.",
+  ],
+  example: {
+    description:
+      "If WTI is $78, Brent is $82, and volume is 5,000 barrels:",
+    bullets: [
+      "Spread (Brent − WTI) = 82 − 78 = $4/bbl",
+      "Percent vs WTI = 4 ÷ 78 ≈ 5.13%",
+      "WTI total = 78 × 5,000 = $390,000",
+      "Brent total = 82 × 5,000 = $410,000",
+      "Difference = $20,000 (Brent higher)",
+    ],
+  },
+},
+
+
 
 
 
