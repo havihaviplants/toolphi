@@ -10004,6 +10004,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "wti-brent-price-difference-impact-calculator",
+  category: "finance",
+  title: "WTI–Brent Price Difference Impact Calculator",
+  description:
+    "Estimate how the WTI–Brent spread impacts total cost for a given volume (barrels), and see the cost difference if you price using WTI vs Brent.",
+  keywords: [
+    "wti brent spread impact",
+    "wti brent difference impact",
+    "wti vs brent cost difference",
+    "brent vs wti total cost",
+    "oil benchmark impact calculator",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "wti", "brent", "spread", "impact", "cost"],
+  howToSteps: [
+    "Enter WTI price per barrel and Brent price per barrel.",
+    "Enter the volume you care about (barrels).",
+    "Review the spread (Brent − WTI) and the total cost difference for that volume.",
+    "Optionally see which benchmark produces the higher total cost.",
+  ],
+  example: {
+    description:
+      "If WTI is $78, Brent is $82, and you price 10,000 barrels:",
+    bullets: [
+      "Spread = 82 − 78 = $4/bbl",
+      "Total cost difference = 4 × 10,000 = $40,000",
+      "Brent-based total is higher by $40,000",
+    ],
+  },
+},
+
+
 
 
 
