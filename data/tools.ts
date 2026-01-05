@@ -9814,6 +9814,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-price-per-barrel-total-cost-calculator",
+  category: "finance",
+  title: "Oil Price per Barrel to Total Cost Calculator",
+  description:
+    "Calculate total oil cost from price per barrel and quantity (barrels). Optionally convert to gallons and estimate cost per gallon.",
+  keywords: [
+    "oil price per barrel",
+    "total oil cost",
+    "barrel cost calculator",
+    "oil cost per gallon",
+    "barrels to gallons",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "cost", "barrel", "gallon", "conversion", "budget"],
+  howToSteps: [
+    "Enter the oil price per barrel.",
+    "Enter how many barrels you want to price.",
+    "Optionally set a barrels-to-gallons conversion factor (default 42 gallons per barrel).",
+    "Review total cost and cost per gallon.",
+  ],
+  example: {
+    description:
+      "If oil is $78.50 per barrel and you price 12 barrels (42 gal per barrel):",
+    bullets: [
+      "Total cost = 78.50 × 12 = $942.00",
+      "Total gallons = 12 × 42 = 504 gal",
+      "Cost per gallon = 942.00 ÷ 504 ≈ $1.87/gal",
+    ],
+  },
+},
+
+
 
 
 
