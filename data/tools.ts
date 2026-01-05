@@ -9778,6 +9778,43 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "heating-oil-annual-cost-estimator-winter-season",
+  category: "finance",
+  title: "Heating Oil Annual Cost Estimator (Winter Season)",
+  description:
+    "Estimate your total heating oil cost for the winter season based on price per gallon, usage, delivery fees, and tax.",
+  keywords: [
+    "heating oil annual cost",
+    "winter heating oil cost",
+    "heating oil seasonal cost",
+    "heating oil budget",
+    "heating oil cost estimator",
+  ],
+  type: "calculator",
+  tags: ["heating-oil", "oil", "fuel", "cost", "budget", "winter"],
+  howToSteps: [
+    "Enter heating oil price per gallon.",
+    "Enter your estimated gallons used per month (or per season).",
+    "Select winter season length (months).",
+    "Optionally add delivery fee and sales tax.",
+    "Review the estimated winter total and monthly breakdown.",
+  ],
+  example: {
+    description:
+      "If heating oil costs $3.60/gal, you use 90 gallons per month for 5 winter months, pay a $20 monthly delivery fee, and 6% tax:",
+    bullets: [
+      "Season gallons = 90 × 5 = 450 gal",
+      "Fuel cost = 3.60 × 450 = $1,620.00",
+      "Delivery fees = 20 × 5 = $100.00",
+      "Subtotal = $1,720.00",
+      "Tax = $1,720.00 × 6% = $103.20",
+      "Estimated winter total = $1,823.20",
+    ],
+  },
+},
+
+
 
 
 

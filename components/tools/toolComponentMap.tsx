@@ -280,6 +280,7 @@ import HomeHeatingOilCostEstimator from "./HomeHeatingOilCostEstimator";
 import HeatingOilPriceChangeImpactCalculator from "./HeatingOilPriceChangeImpactCalculator";
 import HeatingOilPrebuyVsPayAsYouGoCalculator from "./HeatingOilPrebuyVsPayAsYouGoCalculator";
 import HeatingOilPricePerGallonMonthlyBillCalculator from "./HeatingOilPricePerGallonMonthlyBillCalculator";
+import HeatingOilAnnualCostEstimatorWinterSeason from "./HeatingOilAnnualCostEstimatorWinterSeason";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -564,6 +565,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "heating-oil-price-change-impact-calculator": HeatingOilPriceChangeImpactCalculator,
   "heating-oil-prebuy-vs-pay-as-you-go-calculator": HeatingOilPrebuyVsPayAsYouGoCalculator,
   "heating-oil-price-per-gallon-monthly-bill-calculator": HeatingOilPricePerGallonMonthlyBillCalculator,
+  "heating-oil-annual-cost-estimator-winter-season": HeatingOilAnnualCostEstimatorWinterSeason,
 
 
 
