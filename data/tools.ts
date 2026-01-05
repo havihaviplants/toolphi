@@ -9878,6 +9878,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-price-change-percent-calculator",
+  category: "finance",
+  title: "Oil Price Change Percentage Calculator",
+  description:
+    "Calculate the percentage change in oil price between two values (e.g., yesterday vs today) and see the absolute difference.",
+  keywords: [
+    "oil price change",
+    "oil price change percent",
+    "oil price percentage change",
+    "crude oil price change",
+    "oil price increase percent",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "price-change", "percent", "volatility", "impact"],
+  howToSteps: [
+    "Enter the starting oil price (old price).",
+    "Enter the ending oil price (new price).",
+    "Review the percent change and price difference.",
+    "Optionally flip the inputs to check the reverse move.",
+  ],
+  example: {
+    description:
+      "If oil moves from $75.00 to $82.50:",
+    bullets: [
+      "Absolute change = 82.50 − 75.00 = $7.50",
+      "Percent change = 7.50 ÷ 75.00 = 10.00%",
+    ],
+  },
+},
+
 
 
 
