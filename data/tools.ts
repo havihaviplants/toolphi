@@ -9973,6 +9973,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "wti-vs-brent-spread-calculator",
+  category: "finance",
+  title: "WTI vs Brent Spread Calculator",
+  description:
+    "Calculate the price spread between WTI and Brent (absolute and percent) and see which benchmark is trading higher.",
+  keywords: [
+    "wti vs brent spread",
+    "wti brent spread calculator",
+    "brent wti difference",
+    "oil benchmark spread",
+    "wti brent price gap",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "wti", "brent", "spread", "comparison", "benchmark"],
+  howToSteps: [
+    "Enter the WTI price per barrel.",
+    "Enter the Brent price per barrel.",
+    "Review the spread (Brent − WTI), and the percent difference.",
+    "Optionally swap inputs to view the reverse spread.",
+  ],
+  example: {
+    description:
+      "If WTI is $78.00 and Brent is $82.00:",
+    bullets: [
+      "Spread (Brent − WTI) = 82.00 − 78.00 = $4.00",
+      "Percent vs WTI = 4.00 ÷ 78.00 ≈ 5.13%",
+    ],
+  },
+},
+
 
 
 
