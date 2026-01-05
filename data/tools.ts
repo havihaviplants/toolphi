@@ -9846,6 +9846,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "crude-oil-price-per-barrel-total-cost-calculator-wti-brent",
+  category: "finance",
+  title: "Crude Oil Price per Barrel to Total Cost Calculator (WTI / Brent)",
+  description:
+    "Estimate total crude oil cost using WTI or Brent price per barrel, quantity (barrels), and an optional barrels-to-gallons conversion.",
+  keywords: [
+    "crude oil price per barrel",
+    "wti price per barrel",
+    "brent price per barrel",
+    "crude oil total cost",
+    "barrel cost calculator",
+  ],
+  type: "calculator",
+  tags: ["crude-oil", "oil", "wti", "brent", "cost", "barrel", "conversion"],
+  howToSteps: [
+    "Choose a benchmark (WTI or Brent).",
+    "Enter the price per barrel for your chosen benchmark (or override it).",
+    "Enter quantity in barrels.",
+    "Optionally convert barrels to gallons to see estimated cost per gallon.",
+  ],
+  example: {
+    description:
+      "If Brent is $82.00/bbl and you price 15 barrels (42 gal/bbl):",
+    bullets: [
+      "Total cost = 82.00 × 15 = $1,230.00",
+      "Total gallons = 15 × 42 = 630 gal",
+      "Cost per gallon ≈ 1,230.00 ÷ 630 ≈ $1.952/gal",
+    ],
+  },
+},
+
+
 
 
 
