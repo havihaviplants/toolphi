@@ -10101,6 +10101,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "heating-oil-consumption-estimator",
+  category: "finance",
+  title: "Heating Oil Consumption Estimator",
+  description:
+    "Estimate heating oil consumption for a winter season using home size, insulation level, climate severity, and heating days.",
+  keywords: [
+    "heating oil consumption estimator",
+    "heating oil usage calculator",
+    "how many gallons of heating oil do i use",
+    "heating oil gallons per month",
+    "heating oil seasonal usage",
+  ],
+  type: "calculator",
+  tags: ["heating-oil", "oil", "fuel", "consumption", "winter", "budget", "estimate"],
+  howToSteps: [
+    "Enter your home size (square feet).",
+    "Choose insulation/efficiency level.",
+    "Choose climate severity (mild/average/cold).",
+    "Enter heating season length (days) or use a typical range.",
+    "Review estimated gallons for the season and average gallons per month.",
+  ],
+  example: {
+    description:
+      "For a 2,000 sq ft home, average insulation, cold climate, and 150 heating days:",
+    bullets: [
+      "Base gallons/day estimate is derived from home size × factors",
+      "Season gallons = gallons/day × heating days",
+      "Monthly avg = season gallons ÷ (heating days ÷ 30)",
+    ],
+  },
+},
+
+
 
 
 
