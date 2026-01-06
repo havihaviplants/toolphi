@@ -10296,6 +10296,37 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "refinery-margin-crack-spread-calculator",
+  category: "finance",
+  title: "Refinery Margin (Crack Spread) Calculator",
+  description:
+    "Estimate refinery margin using a simple crack spread model (e.g., 3-2-1) with crude input and refined product prices.",
+  keywords: [
+    "crack spread calculator",
+    "refinery margin calculator",
+    "3-2-1 crack spread",
+    "refining margin estimate",
+    "crude to gasoline diesel spread",
+  ],
+  type: "calculator",
+  tags: ["oil", "refinery", "crack-spread", "margin", "gasoline", "diesel", "wti", "brent"],
+  howToSteps: [
+    "Choose a crack spread ratio (3-2-1 or custom).",
+    "Enter crude price (per barrel).",
+    "Enter product prices (gasoline, distillate) per barrel.",
+    "Review estimated crack spread per barrel and total for a chosen crude volume.",
+  ],
+  example: {
+    description:
+      "For a 3-2-1 model: crude $80/bbl, gasoline $95/bbl, distillate $100/bbl:",
+    bullets: [
+      "Crack (3-2-1) = (2×95 + 1×100 − 3×80) ÷ 3 = $16.67/bbl",
+      "If you process 30,000 bbl crude: margin ≈ 16.67 × 30,000 = $500,100",
+    ],
+  },
+},
+
 
 
 
