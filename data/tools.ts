@@ -10199,6 +10199,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-futures-margin-risk-calculator",
+  category: "finance",
+  title: "Oil Futures Margin & Risk Calculator",
+  description:
+    "Estimate margin requirement, notional exposure, leverage, and risk per move for an oil futures position using contracts, contract size, price, and margin rate.",
+  keywords: [
+    "oil futures margin calculator",
+    "crude oil futures margin requirement",
+    "futures leverage calculator",
+    "oil futures risk calculator",
+    "wti futures margin",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "futures", "margin", "risk", "leverage", "position-size"],
+  howToSteps: [
+    "Enter oil futures price (per barrel), contracts, and barrels per contract.",
+    "Enter margin rate (or initial margin as a percent).",
+    "Enter an expected adverse move ($ per barrel) to estimate risk impact.",
+    "Review notional exposure, estimated margin, leverage, and P/L impact.",
+  ],
+  example: {
+    description:
+      "If price is $80, 2 contracts, 1,000 bbl/contract, margin rate 10%, adverse move $3:",
+    bullets: [
+      "Notional = 80 × 2 × 1,000 = $160,000",
+      "Margin (est.) = 10% × 160,000 = $16,000",
+      "Leverage ≈ 160,000 ÷ 16,000 = 10×",
+      "Adverse P/L ≈ 3 × 2,000 = $6,000",
+    ],
+  },
+},
+
+
 
 
 
