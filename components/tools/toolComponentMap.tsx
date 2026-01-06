@@ -297,6 +297,7 @@ import OilFuturesMarginRiskCalculator from "./OilFuturesMarginRiskCalculator";
 import OilPositionSizeCalculator from "./OilPositionSizeCalculator";
 import OilHedgingRatioCalculator from "./OilHedgingRatioCalculator";
 import RefineryMarginCrackSpreadCalculator from "./RefineryMarginCrackSpreadCalculator";
+import OilPriceSensitivityCalculator from "./OilPriceSensitivityCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -598,6 +599,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "oil-position-size-calculator": OilPositionSizeCalculator,
   "oil-hedging-ratio-calculator": OilHedgingRatioCalculator,
   "refinery-margin-crack-spread-calculator": RefineryMarginCrackSpreadCalculator,
+  "oil-price-sensitivity-calculator": OilPriceSensitivityCalculator,
 
 
 

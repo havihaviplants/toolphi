@@ -10327,6 +10327,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-price-sensitivity-calculator",
+  category: "finance",
+  title: "Oil Price Sensitivity Calculator",
+  description:
+    "Estimate how changes in oil price affect your costs or revenue using volume exposure (barrels), price change, and optional pass-through rate.",
+  keywords: [
+    "oil price sensitivity calculator",
+    "crude oil price impact on business",
+    "oil price change impact calculator",
+    "fuel cost sensitivity",
+    "oil exposure calculator",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "sensitivity", "business", "cost", "risk", "budget"],
+  howToSteps: [
+    "Enter your oil exposure volume (barrels per month or per year).",
+    "Enter the oil price change ($/barrel or %).",
+    "Optionally set a pass-through rate (how much you can pass to customers).",
+    "Review gross impact, net impact after pass-through, and sensitivity per $1 move.",
+  ],
+  example: {
+    description:
+      "If exposure is 10,000 bbl/month and oil rises by $5/bbl with 40% pass-through:",
+    bullets: [
+      "Gross impact = 10,000 × $5 = $50,000/month",
+      "Passed through = 50,000 × 40% = $20,000",
+      "Net impact = 50,000 − 20,000 = $30,000/month",
+      "Sensitivity per $1 = 10,000 × $1 = $10,000/month",
+    ],
+  },
+},
+
 
 
 
