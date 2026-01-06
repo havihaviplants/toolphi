@@ -10265,6 +10265,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-hedging-ratio-calculator",
+  category: "finance",
+  title: "Oil Hedging Ratio Calculator",
+  description:
+    "Estimate how many oil futures contracts you need to hedge a physical exposure, based on volume (barrels) and contract size.",
+  keywords: [
+    "oil hedging ratio calculator",
+    "crude oil hedge ratio",
+    "how many futures contracts to hedge oil",
+    "oil hedging contracts calculator",
+    "physical oil hedge calculator",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "hedge", "hedging", "futures", "risk", "contracts"],
+  howToSteps: [
+    "Enter your physical exposure in barrels (or convert from gallons first).",
+    "Enter barrels per futures contract.",
+    "Choose hedge coverage percent (e.g., 50%, 100%).",
+    "Review estimated hedge contracts and the hedged volume.",
+  ],
+  example: {
+    description:
+      "If you need to hedge 25,000 barrels, contract size is 1,000 bbl, and you hedge 80%:",
+    bullets: [
+      "Hedged volume = 25,000 × 80% = 20,000 bbl",
+      "Contracts ≈ 20,000 ÷ 1,000 = 20 contracts",
+    ],
+  },
+},
+
+
 
 
 

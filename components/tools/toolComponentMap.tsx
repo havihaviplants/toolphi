@@ -295,6 +295,7 @@ import HeatingOilDeliverySchedulePlanner from "./HeatingOilDeliverySchedulePlann
 import OilFuturesPLCalculator from "./OilFuturesPLCalculator";
 import OilFuturesMarginRiskCalculator from "./OilFuturesMarginRiskCalculator";
 import OilPositionSizeCalculator from "./OilPositionSizeCalculator";
+import OilHedgingRatioCalculator from "./OilHedgingRatioCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -594,6 +595,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "oil-futures-pl-calculator": OilFuturesPLCalculator,
   "oil-futures-margin-risk-calculator": OilFuturesMarginRiskCalculator,
   "oil-position-size-calculator": OilPositionSizeCalculator,
+  "oil-hedging-ratio-calculator": OilHedgingRatioCalculator,
 
 
 
