@@ -10070,6 +10070,38 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "barrel-gallon-conversion-calculator",
+  category: "finance",
+  title: "Barrel to Gallon Conversion Calculator",
+  description:
+    "Convert between barrels and gallons using a configurable conversion factor (default: 42 US gallons per barrel).",
+  keywords: [
+    "barrel to gallon",
+    "barrels to gallons",
+    "gallons to barrels",
+    "oil unit conversion",
+    "42 gallons per barrel",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "conversion", "barrel", "gallon", "unit"],
+  howToSteps: [
+    "Choose conversion direction (barrels → gallons or gallons → barrels).",
+    "Enter the amount you want to convert.",
+    "Optionally adjust gallons per barrel (default 42).",
+    "Review the converted result and the formula used.",
+  ],
+  example: {
+    description:
+      "If you convert 10 barrels to gallons using 42 gal/bbl:",
+    bullets: [
+      "Gallons = 10 × 42 = 420 gal",
+      "Reverse: Barrels = 420 ÷ 42 = 10 bbl",
+    ],
+  },
+},
+
+
 
 
 
