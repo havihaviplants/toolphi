@@ -10232,6 +10232,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-position-size-calculator",
+  category: "finance",
+  title: "Oil Position Size Calculator",
+  description:
+    "Estimate how many oil futures contracts you can trade based on account size, risk per trade, stop distance ($/barrel), and contract size (barrels per contract).",
+  keywords: [
+    "oil position size calculator",
+    "crude oil position sizing",
+    "futures position size calculator",
+    "how many futures contracts can i trade",
+    "oil risk per trade calculator",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "position-size", "futures", "risk", "money-management"],
+  howToSteps: [
+    "Enter your account size and the percent you want to risk per trade.",
+    "Enter your stop distance (how many $/barrel against you).",
+    "Enter barrels per contract (contract size).",
+    "Review risk per contract and the estimated number of contracts to trade.",
+  ],
+  example: {
+    description:
+      "If account is $50,000, risk is 1%, stop is $2/bbl, and 1,000 bbl/contract:",
+    bullets: [
+      "Risk budget = 50,000 × 1% = $500",
+      "Risk per contract = 2 × 1,000 = $2,000",
+      "Contracts ≈ 500 ÷ 2,000 = 0.25 → 0 contracts (too large)",
+      "Smaller contract size or tighter stop needed",
+    ],
+  },
+},
+
+
 
 
 
