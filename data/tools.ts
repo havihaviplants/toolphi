@@ -10134,6 +10134,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "heating-oil-delivery-schedule-planner",
+  category: "finance",
+  title: "Heating Oil Delivery Schedule Planner",
+  description:
+    "Plan heating oil delivery timing based on tank size, current fill level, daily usage estimate, and a safety buffer.",
+  keywords: [
+    "heating oil delivery schedule",
+    "when to order heating oil",
+    "heating oil tank delivery planner",
+    "heating oil reorder point calculator",
+    "heating oil tank run out date",
+  ],
+  type: "calculator",
+  tags: ["heating-oil", "oil", "delivery", "schedule", "tank", "consumption", "planning"],
+  howToSteps: [
+    "Enter your tank capacity and current fill level.",
+    "Enter your estimated daily usage (gallons/day).",
+    "Set a safety buffer (days or minimum gallons).",
+    "Review estimated days until reorder and an estimated run-out date.",
+  ],
+  example: {
+    description:
+      "If tank is 275 gal, current fill is 40%, usage is 3 gal/day, and buffer is 7 days:",
+    bullets: [
+      "Current gallons = 275 × 0.40 = 110 gal",
+      "Buffer gallons = 3 × 7 = 21 gal",
+      "Usable gallons ≈ 110 − 21 = 89 gal",
+      "Days until reorder ≈ 89 ÷ 3 ≈ 29.7 days",
+    ],
+  },
+},
+
+
 
 
 
