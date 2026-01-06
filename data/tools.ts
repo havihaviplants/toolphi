@@ -10360,6 +10360,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "engine-oil-change-interval-calculator",
+  category: "finance",
+  title: "Engine Oil Change Interval Calculator",
+  description:
+    "Estimate your next engine oil change due date and due mileage based on last change date/mileage, current mileage, and your target interval (miles and/or months).",
+  keywords: [
+    "engine oil change interval calculator",
+    "oil change interval calculator",
+    "when is my next oil change",
+    "oil change due date calculator",
+    "oil change mileage calculator",
+  ],
+  type: "calculator",
+  tags: ["oil", "car", "maintenance", "oil-change", "interval", "schedule"],
+  howToSteps: [
+    "Enter your current odometer reading.",
+    "Enter the mileage and date of your last oil change.",
+    "Set your target interval (miles and/or months).",
+    "Review next due mileage, remaining miles, due date, and remaining days.",
+  ],
+  example: {
+    description:
+      "If last oil change was at 30,000 miles on 2025-10-01, current mileage is 33,200, interval is 5,000 miles and 6 months:",
+    bullets: [
+      "Next due mileage = 30,000 + 5,000 = 35,000",
+      "Remaining miles = 35,000 − 33,200 = 1,800",
+      "Due date = 2025-10-01 + 6 months = 2026-04-01 (approx.)",
+    ],
+  },
+},
+
+
+
 
 
 
