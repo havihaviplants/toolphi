@@ -10167,6 +10167,39 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "oil-futures-pl-calculator",
+  category: "finance",
+  title: "Oil Futures P/L Calculator",
+  description:
+    "Estimate profit/loss for an oil futures position using entry price, exit price, number of contracts, and contract size (barrels per contract).",
+  keywords: [
+    "oil futures p/l calculator",
+    "crude oil futures profit loss",
+    "wti futures pnl calculator",
+    "brent futures pnl calculator",
+    "futures contract pnl",
+  ],
+  type: "calculator",
+  tags: ["oil", "crude-oil", "futures", "pnl", "profit", "loss", "contract"],
+  howToSteps: [
+    "Select long or short position.",
+    "Enter entry price and exit price (per barrel).",
+    "Enter number of contracts and barrels per contract.",
+    "Review P/L per barrel, total P/L, and notional exposure.",
+  ],
+  example: {
+    description:
+      "If you go long 2 contracts, entry $78, exit $82, 1,000 bbl/contract:",
+    bullets: [
+      "P/L per barrel = 82 − 78 = $4",
+      "Total barrels = 2 × 1,000 = 2,000 bbl",
+      "Total P/L = 4 × 2,000 = $8,000",
+    ],
+  },
+},
+
+
 
 
 

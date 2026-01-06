@@ -292,6 +292,7 @@ import CrudeOilBenchmarkComparisonCalculator from "./CrudeOilBenchmarkComparison
 import BarrelGallonConversionCalculator from "./BarrelGallonConversionCalculator";
 import HeatingOilConsumptionEstimator from "./HeatingOilConsumptionEstimator";
 import HeatingOilDeliverySchedulePlanner from "./HeatingOilDeliverySchedulePlanner";
+import OilFuturesPLCalculator from "./OilFuturesPLCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -588,6 +589,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "barrel-gallon-conversion-calculator": BarrelGallonConversionCalculator,
   "heating-oil-consumption-estimator": HeatingOilConsumptionEstimator,
   "heating-oil-delivery-schedule-planner": HeatingOilDeliverySchedulePlanner,
+  "oil-futures-pl-calculator": OilFuturesPLCalculator,
 
 
 
