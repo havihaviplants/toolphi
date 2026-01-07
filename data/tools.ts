@@ -10392,6 +10392,40 @@ export const tools: Tool[] = [
   },
 },
 
+{
+  slug: "farm-loan-payment-calculator",
+  category: "finance",
+  title: "Farm Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a farm loan based on amount, APR, and term.",
+  keywords: [
+    "farm loan payment calculator",
+    "farm loan calculator",
+    "agricultural loan payment calculator",
+    "farm loan monthly payment",
+    "farm loan interest cost",
+    "farm loan amortization"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "payment", "interest", "amortization"],
+  howToSteps: [
+    "Enter the loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term (years).",
+    "Click Calculate to view payment and interest totals."
+  ],
+  example: {
+    description:
+      "If you borrow $250,000 at 6% APR for 20 years, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total amount repaid over the full term.",
+      "Total interest paid over the loan."
+    ]
+  }
+},
+
+
 
 
 
