@@ -10556,6 +10556,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-land-loan-payment-calculator",
+  category: "finance",
+  title: "USDA Land Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a USDA land loan using loan amount, APR, and term.",
+  keywords: [
+    "usda land loan payment calculator",
+    "usda land loan calculator",
+    "usda rural land loan calculator",
+    "usda land loan monthly payment",
+    "usda land loan interest calculator",
+    "usda farmland loan calculator"
+  ],
+  type: "calculator",
+  tags: ["usda", "land", "farmland", "loan", "payment", "interest"],
+  howToSteps: [
+    "Enter the land loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view the monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you borrow $300,000 at 6.25% APR for 30 years to purchase land, the calculator estimates:",
+    bullets: [
+      "Monthly land loan payment (principal + interest).",
+      "Total amount repaid over the term.",
+      "Total interest paid over the loan."
+    ]
+  }
+},
+
+
 
 
 
