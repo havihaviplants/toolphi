@@ -10425,6 +10425,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "agricultural-loan-payment-calculator",
+  category: "finance",
+  title: "Agricultural Loan Payment Calculator",
+  description:
+    "Calculate monthly payments, total repayment, and interest cost for agricultural loans based on loan amount, APR, and term.",
+  keywords: [
+    "agricultural loan payment calculator",
+    "ag loan calculator",
+    "agricultural loan calculator",
+    "ag loan monthly payment",
+    "agricultural loan interest calculator",
+    "agricultural loan amortization"
+  ],
+  type: "calculator",
+  tags: ["agriculture", "loan", "payment", "interest", "amortization"],
+  howToSteps: [
+    "Enter the agricultural loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to see monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you borrow $150,000 at 5.5% APR for 15 years, the calculator estimates:",
+    bullets: [
+      "Monthly payment for the agricultural loan.",
+      "Total amount repaid over the loan term.",
+      "Total interest paid over time."
+    ]
+  }
+},
+
 
 
 
