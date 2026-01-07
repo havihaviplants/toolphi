@@ -10490,6 +10490,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-farm-loan-payment-calculator",
+  category: "finance",
+  title: "USDA Farm Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a USDA farm loan using loan amount, APR, and term.",
+  keywords: [
+    "usda farm loan payment calculator",
+    "usda farm loan calculator",
+    "usda farm loan monthly payment",
+    "farm service agency loan calculator",
+    "fsa farm loan payment calculator",
+    "usda agricultural loan payment calculator"
+  ],
+  type: "calculator",
+  tags: ["usda", "farm", "loan", "payment", "interest", "amortization"],
+  howToSteps: [
+    "Enter the USDA farm loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you borrow $200,000 at 5% APR for 25 years through a USDA-backed farm loan, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total repayment over the full term.",
+      "Total interest paid over time."
+    ]
+  }
+},
 
 
 

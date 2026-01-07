@@ -302,6 +302,7 @@ import EngineOilChangeIntervalCalculator from "./EngineOilChangeIntervalCalculat
 import FarmLoanPaymentCalculator from "./FarmLoanPaymentCalculator";
 import AgriculturalLoanPaymentCalculator from "./AgriculturalLoanPaymentCalculator";
 import AgLoanPaymentCalculator from "./AgLoanPaymentCalculator";
+import UsdaFarmLoanPaymentCalculator from "./UsdaFarmLoanPaymentCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -608,6 +609,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "farm-loan-payment-calculator": FarmLoanPaymentCalculator,
   "agricultural-loan-payment-calculator": AgriculturalLoanPaymentCalculator,
   "ag-loan-payment-calculator": AgLoanPaymentCalculator,
+  "usda-farm-loan-payment-calculator": UsdaFarmLoanPaymentCalculator,
 
 
 
