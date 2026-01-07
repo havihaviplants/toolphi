@@ -10688,6 +10688,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "combine-harvester-loan-payment-calculator",
+  category: "finance",
+  title: "Combine Harvester Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a combine harvester loan using loan amount, APR, and term.",
+  keywords: [
+    "combine harvester loan payment calculator",
+    "combine harvester loan calculator",
+    "combine financing calculator",
+    "combine loan payment calculator",
+    "harvester loan calculator",
+    "combine loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["combine", "harvester", "farm", "equipment", "loan", "payment", "financing"],
+  howToSteps: [
+    "Enter the amount financed for the combine harvester.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you finance $250,000 for a combine at 6.5% APR for 7 years, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total repayment over the loan term.",
+      "Total interest paid over time."
+    ]
+  }
+},
+
+
 
 
 
