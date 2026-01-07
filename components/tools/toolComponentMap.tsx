@@ -307,6 +307,7 @@ import FsaLoanPaymentCalculator from "./FsaLoanPaymentCalculator";
 import UsdaLandLoanPaymentCalculator from "./UsdaLandLoanPaymentCalculator";
 import UsdaAgriculturalLoanPaymentCalculator from "./UsdaAgriculturalLoanPaymentCalculator";
 import FarmEquipmentLoanPaymentCalculator from "./FarmEquipmentLoanPaymentCalculator";
+import TractorLoanPaymentCalculator from "./TractorLoanPaymentCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -618,6 +619,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "usda-land-loan-payment-calculator": UsdaLandLoanPaymentCalculator,
   "usda-agricultural-loan-payment-calculator": UsdaAgriculturalLoanPaymentCalculator,
   "farm-equipment-loan-payment-calculator": FarmEquipmentLoanPaymentCalculator,
+  "tractor-loan-payment-calculator": TractorLoanPaymentCalculator,
 
 
 

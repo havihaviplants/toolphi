@@ -10655,6 +10655,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "tractor-loan-payment-calculator",
+  category: "finance",
+  title: "Tractor Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a tractor loan using loan amount, APR, and term.",
+  keywords: [
+    "tractor loan payment calculator",
+    "tractor loan calculator",
+    "tractor financing calculator",
+    "farm tractor loan payment",
+    "tractor loan monthly payment",
+    "tractor loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["tractor", "farm", "equipment", "loan", "payment", "financing"],
+  howToSteps: [
+    "Enter the tractor price or amount financed.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you finance $50,000 for a tractor at 6.9% APR for 5 years, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total amount repaid over the loan term.",
+      "Total interest paid over time."
+    ]
+  }
+},
+
+
 
 
 
