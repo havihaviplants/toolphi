@@ -10622,6 +10622,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-equipment-loan-payment-calculator",
+  category: "finance",
+  title: "Farm Equipment Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a farm equipment loan using loan amount, APR, and term.",
+  keywords: [
+    "farm equipment loan payment calculator",
+    "farm equipment loan calculator",
+    "agricultural equipment loan payment calculator",
+    "farm equipment financing calculator",
+    "equipment loan monthly payment",
+    "farm equipment loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "equipment", "loan", "payment", "interest", "financing"],
+  howToSteps: [
+    "Enter the equipment loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you finance $75,000 of farm equipment at 7% APR for 7 years, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total repayment over the full term.",
+      "Total interest paid over time."
+    ]
+  }
+},
+
 
 
 
