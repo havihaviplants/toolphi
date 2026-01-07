@@ -10523,6 +10523,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "fsa-loan-payment-calculator",
+  category: "finance",
+  title: "FSA Loan Payment Calculator",
+  description:
+    "Estimate monthly payment, total payment, and total interest for a Farm Service Agency (FSA) loan using loan amount, APR, and term.",
+  keywords: [
+    "fsa loan payment calculator",
+    "farm service agency loan calculator",
+    "farm service agency loan payment calculator",
+    "fsa farm loan calculator",
+    "fsa loan monthly payment",
+    "fsa loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["fsa", "farm service agency", "usda", "farm", "loan", "payment"],
+  howToSteps: [
+    "Enter the FSA loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to see the monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "If you borrow $120,000 at 4.75% APR for 15 years through an FSA loan, the calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total repayment over the term.",
+      "Total interest paid over time."
+    ]
+  }
+},
+
+
 
 
 
