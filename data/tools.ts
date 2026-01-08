@@ -10786,6 +10786,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-loan-monthly-payment-estimator",
+  category: "finance",
+  title: "Farm Loan Monthly Payment Estimator",
+  description:
+    "Quickly estimate your monthly farm loan payment using loan amount, APR, and term. Includes a what-if payment range for nearby rates.",
+  keywords: [
+    "farm loan monthly payment estimator",
+    "farm loan monthly payment estimate",
+    "farm loan monthly payment calculator",
+    "ag loan monthly payment estimator",
+    "agricultural loan monthly payment estimate"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "monthly payment", "estimate", "apr", "term"],
+  howToSteps: [
+    "Enter the loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click estimate to see your monthly payment and a quick rate range."
+  ],
+  example: {
+    description:
+      "If you borrow $100,000 at 6% APR for 10 years, the estimator shows:",
+    bullets: [
+      "Estimated monthly payment (principal + interest).",
+      "Total repayment and total interest.",
+      "A quick range if the APR changes by ±1%."
+    ]
+  }
+},
+
 
 
 
