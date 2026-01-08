@@ -10979,6 +10979,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farmland-loan-amortization-calculator",
+  category: "finance",
+  title: "Farmland Loan Amortization Calculator",
+  description:
+    "Create a farmland loan amortization schedule showing monthly payment breakdown, interest vs principal, and remaining balance over time.",
+  keywords: [
+    "farmland loan amortization calculator",
+    "farmland loan amortization schedule",
+    "farmland loan payment breakdown",
+    "farm land amortization calculator",
+    "farmland mortgage amortization calculator"
+  ],
+  type: "calculator",
+  tags: ["farmland", "land loan", "loan", "amortization", "schedule", "interest"],
+  howToSteps: [
+    "Enter the farmland loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view the amortization schedule and interest breakdown."
+  ],
+  example: {
+    description:
+      "For a farmland loan of $400,000 at 6% APR over 25 years, this calculator shows:",
+    bullets: [
+      "Estimated monthly payment.",
+      "Monthly interest vs principal split.",
+      "Remaining balance over time.",
+      "Total interest paid over the loan term."
+    ]
+  }
+},
+
+
 
 
 
