@@ -10882,6 +10882,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-farm-loan-monthly-payment-estimator",
+  category: "finance",
+  title: "USDA Farm Loan Monthly Payment Estimator",
+  description:
+    "Quickly estimate monthly payments for a USDA farm loan using loan amount, APR, and term. Includes a rate sensitivity range for nearby APR values.",
+  keywords: [
+    "usda farm loan monthly payment estimator",
+    "usda farm loan monthly payment calculator",
+    "usda farm loan payment estimate",
+    "farm service agency loan monthly payment estimator",
+    "fsa loan payment estimator"
+  ],
+  type: "calculator",
+  tags: ["usda", "farm", "loan", "monthly payment", "estimate", "apr", "fsa"],
+  howToSteps: [
+    "Enter the USDA farm loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click estimate to see your monthly payment and a quick rate range."
+  ],
+  example: {
+    description:
+      "If you borrow $180,000 at 5% APR for 15 years, the estimator shows:",
+    bullets: [
+      "Estimated monthly payment (principal + interest).",
+      "Estimated total interest and total repayment.",
+      "A quick payment range if APR shifts by ±1%."
+    ]
+  }
+},
+
+
+
+
 
 
 

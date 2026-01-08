@@ -314,6 +314,7 @@ import FarmLoanInterestCostCalculator from "./FarmLoanInterestCostCalculator";
 import FarmLoanMonthlyPaymentEstimator from "./FarmLoanMonthlyPaymentEstimator";
 import FarmLoanInterestRateComparisonCalculator from "./FarmLoanInterestRateComparisonCalculator";
 import USDAFarmLoanInterestCalculator from "./USDAFarmLoanInterestCalculator";
+import USDAFarmLoanMonthlyPaymentEstimator from "./USDAFarmLoanMonthlyPaymentEstimator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -632,7 +633,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "farm-loan-monthly-payment-estimator": FarmLoanMonthlyPaymentEstimator,
   "farm-loan-interest-rate-comparison-calculator": FarmLoanInterestRateComparisonCalculator,
   "usda-farm-loan-interest-calculator": USDAFarmLoanInterestCalculator,
-
+  "usda-farm-loan-monthly-payment-estimator": USDAFarmLoanMonthlyPaymentEstimator,
 
 };
 
