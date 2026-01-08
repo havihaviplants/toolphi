@@ -10914,6 +10914,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-farm-loan-amortization-calculator",
+  category: "finance",
+  title: "USDA Farm Loan Amortization Calculator",
+  description:
+    "Generate a USDA farm loan amortization schedule with monthly payment breakdown, total interest, and remaining balance over time.",
+  keywords: [
+    "usda farm loan amortization calculator",
+    "usda farm loan amortization schedule",
+    "usda farm loan payment breakdown",
+    "fsa loan amortization calculator",
+    "farm service agency loan amortization schedule"
+  ],
+  type: "calculator",
+  tags: ["usda", "farm", "loan", "amortization", "schedule", "interest", "fsa"],
+  howToSteps: [
+    "Enter the USDA farm loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view the amortization schedule and interest breakdown."
+  ],
+  example: {
+    description:
+      "For a USDA farm loan of $250,000 at 5% APR over 20 years, this calculator shows:",
+    bullets: [
+      "Estimated monthly payment.",
+      "Interest vs principal breakdown each month.",
+      "Remaining balance over time.",
+      "Total interest paid over the full term."
+    ]
+  }
+},
+
 
 
 
