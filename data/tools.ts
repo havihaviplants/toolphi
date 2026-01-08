@@ -11012,6 +11012,51 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-operating-cost-calculator",
+  category: "finance",
+  title: "Farm Operating Cost Calculator",
+  description:
+    "Estimate total farm operating costs including labor, fuel, seed, fertilizer, equipment maintenance, and overhead to understand true annual farming expenses.",
+  keywords: [
+    "farm operating cost calculator",
+    "farm operating expenses calculator",
+    "agricultural operating cost calculator",
+    "farm cost of operation",
+    "farm production cost calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "farm",
+    "operating cost",
+    "agriculture",
+    "expenses",
+    "cash flow",
+    "profitability"
+  ],
+  howToSteps: [
+    "Enter annual labor costs for the farm.",
+    "Enter fuel and energy expenses.",
+    "Enter seed, fertilizer, and input costs.",
+    "Enter equipment maintenance and repair costs.",
+    "Enter insurance, rent, and overhead expenses.",
+    "Calculate to see total operating cost and cost structure."
+  ],
+  example: {
+    description:
+      "A mid-size farm estimating its annual operating costs:",
+    bullets: [
+      "Labor: $85,000",
+      "Fuel & energy: $32,000",
+      "Seed & fertilizer: $74,000",
+      "Maintenance & repairs: $28,000",
+      "Overhead & insurance: $21,000",
+      "Total annual operating cost: $240,000"
+    ]
+  }
+},
+
+
 
 
 
