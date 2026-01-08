@@ -10721,6 +10721,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-loan-amortization-calculator",
+  category: "finance",
+  title: "Farm Loan Amortization Calculator",
+  description:
+    "Calculate a detailed amortization schedule for a farm loan, including monthly payment breakdown, total interest, and remaining balance over time.",
+  keywords: [
+    "farm loan amortization calculator",
+    "farm loan amortization schedule",
+    "farm loan payment breakdown",
+    "farm loan interest over time",
+    "agricultural loan amortization calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "amortization", "interest", "payment", "schedule"],
+  howToSteps: [
+    "Enter the farm loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to view the amortization schedule and interest breakdown."
+  ],
+  example: {
+    description:
+      "For a farm loan of $200,000 at 5.5% APR over 20 years, this calculator shows:",
+    bullets: [
+      "Monthly payment amount.",
+      "How much of each payment goes to interest vs principal.",
+      "Remaining loan balance after each year.",
+      "Total interest paid over the full term."
+    ]
+  }
+},
+
+
 
 
 
