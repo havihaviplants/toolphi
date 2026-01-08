@@ -10947,6 +10947,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-land-loan-payment-calculator",
+  category: "finance",
+  title: "Farm Land Loan Payment Calculator",
+  description:
+    "Calculate monthly payments for a farm land loan using loan amount, APR, and term. Includes a quick rate sensitivity table to compare nearby APR values.",
+  keywords: [
+    "farm land loan payment calculator",
+    "farmland loan payment calculator",
+    "farm land loan monthly payment calculator",
+    "farmland loan monthly payment estimator",
+    "farm land mortgage payment calculator"
+  ],
+  type: "calculator",
+  tags: ["farm land", "farmland", "land loan", "loan", "payment", "apr", "term"],
+  howToSteps: [
+    "Enter the farm land loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to see monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "For a farm land loan of $400,000 at 6.25% APR over 25 years, this calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total interest cost over the term.",
+      "A what-if table for APR ±1%."
+    ]
+  }
+},
+
+
 
 
 
