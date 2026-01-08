@@ -10754,6 +10754,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-loan-interest-cost-calculator",
+  category: "finance",
+  title: "Farm Loan Interest Cost Calculator",
+  description:
+    "Estimate total interest cost for a farm loan and compare how interest changes with different rates and terms.",
+  keywords: [
+    "farm loan interest cost calculator",
+    "farm loan total interest calculator",
+    "farm loan interest estimate",
+    "ag loan interest cost calculator",
+    "agricultural loan interest calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "interest", "cost", "apr", "term"],
+  howToSteps: [
+    "Enter the farm loan amount.",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Click calculate to see monthly payment and total interest cost."
+  ],
+  example: {
+    description:
+      "For a farm loan of $150,000 at 6% APR over 15 years, this calculator estimates:",
+    bullets: [
+      "Monthly payment (principal + interest).",
+      "Total amount repaid over the loan term.",
+      "Total interest cost over time."
+    ]
+  }
+},
+
+
 
 
 

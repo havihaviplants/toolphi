@@ -310,6 +310,7 @@ import FarmEquipmentLoanPaymentCalculator from "./FarmEquipmentLoanPaymentCalcul
 import TractorLoanPaymentCalculator from "./TractorLoanPaymentCalculator";
 import CombineHarvesterLoanPaymentCalculator from "./CombineHarvesterLoanPaymentCalculator";
 import FarmLoanAmortizationCalculator from "./FarmLoanAmortizationCalculator";
+import FarmLoanInterestCostCalculator from "./FarmLoanInterestCostCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -624,7 +625,8 @@ const toolComponentMap: Record<string, ComponentType> = {
   "tractor-loan-payment-calculator": TractorLoanPaymentCalculator,
   "combine-harvester-loan-payment-calculator": CombineHarvesterLoanPaymentCalculator,
   "farm-loan-amortization-calculator": FarmLoanAmortizationCalculator,
-
+  "farm-loan-interest-cost-calculator": FarmLoanInterestCostCalculator,
+  
 };
 
 export function getToolComponent(slug: string) {
