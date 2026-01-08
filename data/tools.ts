@@ -10818,6 +10818,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-loan-interest-rate-comparison-calculator",
+  category: "finance",
+  title: "Farm Loan Interest Rate Comparison Calculator",
+  description:
+    "Compare two farm loan interest rates side-by-side to see differences in monthly payment, total interest, and total repayment cost.",
+  keywords: [
+    "farm loan interest rate comparison calculator",
+    "farm loan rate comparison calculator",
+    "compare farm loan rates",
+    "farm loan apr comparison",
+    "ag loan interest rate comparison calculator",
+    "agricultural loan rate comparison calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "interest rate", "apr", "compare", "payment", "interest"],
+  howToSteps: [
+    "Enter the loan amount and term.",
+    "Enter Rate A (APR) and Rate B (APR).",
+    "Click compare to see monthly payment and total interest differences."
+  ],
+  example: {
+    description:
+      "If you borrow $200,000 for 20 years and compare 5.5% APR vs 6.5% APR, this tool shows:",
+    bullets: [
+      "Monthly payment for each rate.",
+      "Total interest for each rate.",
+      "How much more Rate B costs over the full term."
+    ]
+  }
+},
+
+
 
 
 
