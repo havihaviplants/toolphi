@@ -11300,6 +11300,48 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "agricultural-equipment-financing-calculator",
+  category: "finance",
+  title: "Agricultural Equipment Financing Calculator",
+  description:
+    "Estimate monthly payment and total financing cost for agricultural equipment. Includes optional down payment and upfront fees to calculate financed amount and effective cost.",
+  keywords: [
+    "agricultural equipment financing calculator",
+    "farm equipment financing calculator",
+    "equipment financing payment calculator",
+    "ag equipment financing calculator",
+    "machinery financing calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "agriculture",
+    "equipment financing",
+    "machinery",
+    "payment",
+    "interest",
+    "fees"
+  ],
+  howToSteps: [
+    "Enter equipment price.",
+    "Enter down payment and optional upfront fees (dealer fees, origination, documentation).",
+    "Enter APR and term (months or years).",
+    "Calculate to see financed amount, monthly payment, total interest, and total cost."
+  ],
+  example: {
+    description:
+      "Financing equipment with a down payment and dealer fees:",
+    bullets: [
+      "Equipment price: $95,000",
+      "Down payment: $10,000",
+      "Upfront fees: $1,500",
+      "APR: 8.50%",
+      "Term: 60 months",
+      "Output: financed amount + monthly payment + total cost"
+    ]
+  }
+},
+
 
 
 
