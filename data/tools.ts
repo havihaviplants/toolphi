@@ -11342,6 +11342,51 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-equipment-financing-calculator",
+  category: "finance",
+  title: "Farm Equipment Financing Calculator",
+  description:
+    "Estimate monthly payment and total financing cost for farm equipment. Includes optional down payment, trade-in value, and upfront fees for an all-in view.",
+  keywords: [
+    "farm equipment financing calculator",
+    "farm equipment finance calculator",
+    "farm equipment financing payment calculator",
+    "equipment financing calculator farm",
+    "farm equipment loan financing calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "farm",
+    "equipment",
+    "financing",
+    "payment",
+    "interest",
+    "trade-in",
+    "fees"
+  ],
+  howToSteps: [
+    "Enter equipment price.",
+    "Optionally enter trade-in value and down payment.",
+    "Optionally enter upfront fees (dealer/doc/origination).",
+    "Enter APR and term, then calculate monthly payment and total cost."
+  ],
+  example: {
+    description:
+      "Financing equipment with trade-in and fees:",
+    bullets: [
+      "Equipment price: $110,000",
+      "Trade-in: $15,000",
+      "Down payment: $10,000",
+      "Upfront fees: $1,200",
+      "APR: 8.25%",
+      "Term: 72 months",
+      "Output: financed amount + monthly payment + total interest + effective total cost"
+    ]
+  }
+},
+
+
 
 
 
