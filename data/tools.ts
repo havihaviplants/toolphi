@@ -11178,6 +11178,47 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-land-loan-interest-calculator",
+  category: "finance",
+  title: "Farm Land Loan Interest Calculator",
+  description:
+    "Calculate total interest paid and total loan cost for a farm land loan based on loan amount, APR, and term. Includes interest share of total payments.",
+  keywords: [
+    "farm land loan interest calculator",
+    "farmland loan interest calculator",
+    "land loan total interest calculator",
+    "farm land loan interest cost",
+    "farm land loan cost calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "farm land",
+    "land loan",
+    "farmland",
+    "interest",
+    "total cost",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the farm land loan amount (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in years.",
+    "Calculate to see total interest paid and total loan cost."
+  ],
+  example: {
+    description:
+      "Estimating interest cost for a farm land loan:",
+    bullets: [
+      "Loan amount: $350,000",
+      "APR: 6.75%",
+      "Term: 25 years",
+      "Output: total interest + total cost + interest share"
+    ]
+  }
+},
+
+
 
 
 
