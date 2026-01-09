@@ -11056,6 +11056,46 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "agricultural-land-loan-calculator",
+  category: "finance",
+  title: "Agricultural Land Loan Calculator",
+  description:
+    "Calculate monthly payments, total interest, and loan cost for agricultural land purchases based on loan amount, interest rate, and term.",
+  keywords: [
+    "agricultural land loan calculator",
+    "farm land loan calculator",
+    "ag land loan payment calculator",
+    "agricultural land mortgage calculator",
+    "farmland loan calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "agriculture",
+    "land loan",
+    "farmland",
+    "farm finance",
+    "mortgage"
+  ],
+  howToSteps: [
+    "Enter the agricultural land purchase price or loan amount.",
+    "Enter the annual interest rate for the land loan.",
+    "Enter the loan term in years.",
+    "Calculate to see monthly payment and total interest cost."
+  ],
+  example: {
+    description:
+      "A farmer purchasing agricultural land with a long-term land loan:",
+    bullets: [
+      "Loan amount: $450,000",
+      "Interest rate: 6.25%",
+      "Loan term: 25 years",
+      "Estimated monthly payment: $2,960",
+      "Total interest paid: $438,000"
+    ]
+  }
+},
+
 
 
 
