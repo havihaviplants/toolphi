@@ -11426,6 +11426,47 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "agricultural-equipment-loan-interest-calculator",
+  category: "finance",
+  title: "Agricultural Equipment Loan Interest Calculator",
+  description:
+    "Calculate total interest paid and total loan cost for an agricultural equipment loan based on loan amount, APR, and term. Includes interest share and APR sensitivity.",
+  keywords: [
+    "agricultural equipment loan interest calculator",
+    "ag equipment loan interest calculator",
+    "agricultural machinery loan interest calculator",
+    "equipment loan total interest calculator",
+    "farm equipment loan interest calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "agriculture",
+    "equipment",
+    "machinery",
+    "loan",
+    "interest",
+    "total cost",
+    "finance"
+  ],
+  howToSteps: [
+    "Enter the equipment loan amount (principal).",
+    "Enter the annual interest rate (APR).",
+    "Enter the loan term in months or years.",
+    "Calculate to see total interest paid and total loan cost."
+  ],
+  example: {
+    description:
+      "Estimating total interest on an agricultural equipment loan:",
+    bullets: [
+      "Loan amount: $140,000",
+      "APR: 7.75%",
+      "Term: 72 months",
+      "Output: total interest + total cost + interest share"
+    ]
+  }
+},
+
 
 
 
