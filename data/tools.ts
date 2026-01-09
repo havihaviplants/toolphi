@@ -11258,6 +11258,48 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-machinery-loan-calculator",
+  category: "finance",
+  title: "Farm Machinery Loan Calculator",
+  description:
+    "Estimate monthly payment, total interest, and total cost for a farm machinery loan. Includes optional down payment to calculate the financed amount.",
+  keywords: [
+    "farm machinery loan calculator",
+    "farm machinery loan payment calculator",
+    "farm machine financing calculator",
+    "ag machinery loan calculator",
+    "farm equipment machinery loan calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "farm",
+    "machinery",
+    "equipment",
+    "loan",
+    "payment",
+    "financing"
+  ],
+  howToSteps: [
+    "Enter the machinery price (or total amount).",
+    "Optionally enter a down payment to calculate financed amount.",
+    "Enter APR and loan term (months or years).",
+    "Calculate to see monthly payment and total interest."
+  ],
+  example: {
+    description:
+      "Financing a piece of farm machinery with a down payment:",
+    bullets: [
+      "Machinery price: $180,000",
+      "Down payment: $30,000",
+      "Financed amount: $150,000",
+      "APR: 8.00%",
+      "Term: 6 years",
+      "Output: monthly payment + total interest + total cost"
+    ]
+  }
+},
+
 
 
 
