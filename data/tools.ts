@@ -11136,6 +11136,49 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-mortgage-calculator",
+  category: "finance",
+  title: "Farm Mortgage Calculator",
+  description:
+    "Estimate farm mortgage monthly payment with optional down payment, PMI, property tax, and insurance. Shows principal & interest and an all-in monthly estimate.",
+  keywords: [
+    "farm mortgage calculator",
+    "farm mortgage payment calculator",
+    "farm house mortgage calculator",
+    "rural mortgage calculator",
+    "farm property mortgage calculator"
+  ],
+  type: "calculator",
+  tags: [
+    "farm",
+    "mortgage",
+    "property",
+    "payment",
+    "pmi",
+    "property tax",
+    "insurance"
+  ],
+  howToSteps: [
+    "Enter the farm property purchase price or loan amount.",
+    "Optionally enter down payment (amount or %).",
+    "Enter the annual interest rate (APR) and term in years.",
+    "Optionally include PMI, property tax, and insurance for an all-in monthly estimate."
+  ],
+  example: {
+    description:
+      "Estimating a farm mortgage with optional all-in costs:",
+    bullets: [
+      "Purchase price: $600,000",
+      "Down payment: 20%",
+      "APR: 6.25%, Term: 30 years",
+      "Optional: property tax + insurance",
+      "Output: monthly P&I and all-in monthly estimate"
+    ]
+  }
+},
+
+
 
 
 
