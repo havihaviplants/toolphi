@@ -11632,6 +11632,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-equipment-loan-calculator",
+  category: "finance",
+  title: "Farm Equipment Loan Calculator",
+  description:
+    "Calculate farm equipment loan payments, total interest, payoff timeline, and compare scenarios (rate/term/down payment). Includes a quick affordability view using estimated monthly cash flow.",
+  keywords: [
+    "farm equipment loan calculator",
+    "equipment loan calculator",
+    "farm machinery loan calculator",
+    "tractor loan calculator",
+    "equipment financing calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "equipment", "loan", "financing", "tractor", "agriculture", "finance"],
+  howToSteps: [
+    "Enter equipment price, down payment, and loan term.",
+    "Enter interest rate (APR) and any fees you expect to finance.",
+    "Review monthly payment, total interest, and total cost.",
+    "Use scenario comparison to test different rates/terms.",
+    "Optional: enter estimated monthly operating cash flow to see payment burden."
+  ],
+  example: {
+    description: "Example equipment loan estimate:",
+    bullets: [
+      "Equipment price: $180,000, down payment: $30,000",
+      "APR: 7.25%, term: 7 years, fees financed: $2,000",
+      "Outputs: monthly payment, total interest, total cost, scenario comparison"
+    ]
+  }
+},
+
+
 
 
 
