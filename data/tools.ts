@@ -11500,6 +11500,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-working-capital-calculator",
+  category: "finance",
+  title: "Farm Working Capital Calculator",
+  description:
+    "Calculate farm working capital (current assets minus current liabilities) and key liquidity ratios like current ratio and working capital per acre/head to assess short-term financial health.",
+  keywords: [
+    "farm working capital calculator",
+    "agricultural working capital",
+    "farm liquidity calculator",
+    "working capital per acre",
+    "current ratio farm"
+  ],
+  type: "calculator",
+  tags: ["farm", "agriculture", "working capital", "liquidity", "finance"],
+  howToSteps: [
+    "Enter current assets such as cash, receivables, and inventory.",
+    "Enter current liabilities such as operating loans, credit lines, and short-term payables.",
+    "Calculate working capital and liquidity ratios.",
+    "Use per-unit metrics (per acre/head) to compare over time."
+  ],
+  example: {
+    description: "Example working capital calculation:",
+    bullets: [
+      "Current assets: $180,000",
+      "Current liabilities: $120,000",
+      "Working capital: $60,000",
+      "Current ratio: 1.50"
+    ]
+  }
+},
+
+
 
 
 
