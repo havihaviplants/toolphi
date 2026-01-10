@@ -11729,30 +11729,38 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+  slug: "agricultural-equipment-lease-vs-loan-calculator",
+  category: "finance",
+  title: "Agricultural Equipment Lease vs Loan Calculator",
+  description:
+    "Compare leasing agricultural equipment versus financing with a loan. Estimate effective monthly cost, total out-of-pocket cost, and break-even usage horizon including residual value and remaining loan balance.",
+  keywords: [
+    "agricultural equipment lease vs loan calculator",
+    "farm equipment lease vs loan",
+    "equipment lease vs loan calculator",
+    "ag equipment lease vs loan",
+    "lease or finance equipment"
+  ],
+  type: "calculator",
+  tags: ["agriculture", "equipment", "lease", "loan", "financing", "comparison", "finance"],
+  howToSteps: [
+    "Enter equipment price and expected years of use.",
+    "Enter lease terms (payment, months, fees, buyout).",
+    "Enter loan terms (down payment, APR, loan term, financed fees).",
+    "Enter annual costs (maintenance, insurance) and expected resale value.",
+    "Compare effective monthly cost and break-even point."
+  ],
+  example: {
+    description: "Example lease vs loan comparison:",
+    bullets: [
+      "Price: $120,000, use: 6 years, resale: $45,000",
+      "Lease: $1,900/mo for 48 months, buyout $40,000",
+      "Loan: $20,000 down, APR 7.0% for 72 months",
+      "Outputs: effective monthly costs + break-even"
+    ]
+  }
+},
 
 
 
