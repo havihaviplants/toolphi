@@ -11467,6 +11467,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-cash-flow-calculator",
+  category: "finance",
+  title: "Farm Cash Flow Calculator",
+  description:
+    "Estimate farm cash flow by summing income sources and subtracting operating expenses, debt payments, and capital spending. Includes net cash flow, margin, and DSCR-style coverage.",
+  keywords: [
+    "farm cash flow calculator",
+    "agricultural cash flow calculator",
+    "farm income expense calculator",
+    "farm operating cash flow",
+    "farm financial planning calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "agriculture", "cash flow", "operating cost", "loan", "finance"],
+  howToSteps: [
+    "Enter your annual farm income (crop, livestock, subsidies, other).",
+    "Enter annual operating expenses (seed/feed, fertilizer, fuel, labor, utilities, insurance, maintenance).",
+    "Add annual debt payments and capital spending.",
+    "Review net cash flow, cash flow margin, and coverage metrics."
+  ],
+  example: {
+    description: "Example farm cash flow estimate:",
+    bullets: [
+      "Income: $250,000 (crop $190k + livestock $40k + subsidy $15k + other $5k)",
+      "Operating expenses: $170,000",
+      "Debt payments: $50,000",
+      "Capital spending: $20,000",
+      "Net cash flow: $10,000"
+    ]
+  }
+},
+
+
 
 
 
