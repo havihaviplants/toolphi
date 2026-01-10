@@ -11600,6 +11600,37 @@ export const tools: Tool[] = [
 },
 
 
+{
+  slug: "farmland-mortgage-affordability-calculator",
+  category: "finance",
+  title: "Farmland Mortgage Affordability Calculator",
+  description:
+    "Estimate whether you can afford a farmland mortgage based on income, expenses, down payment, interest rate, and term. Shows payment, DTI-style ratios, and a coverage view with stress tests.",
+  keywords: [
+    "farmland mortgage affordability calculator",
+    "can i afford farmland mortgage",
+    "farm mortgage affordability",
+    "farmland loan affordability calculator",
+    "farm land loan affordability"
+  ],
+  type: "calculator",
+  tags: ["farmland", "farm", "mortgage", "affordability", "loan", "finance"],
+  howToSteps: [
+    "Enter farmland price, down payment, interest rate, and loan term.",
+    "Enter your annual income and annual operating expenses.",
+    "Add other annual debt payments if any.",
+    "Review monthly payment, debt-to-income metrics, and coverage (surplus ÷ debt).",
+    "Use stress tests to see what happens if rates rise or income drops."
+  ],
+  example: {
+    description: "Example affordability check:",
+    bullets: [
+      "Price: $500,000, down payment: $100,000, rate: 6.5%, term: 20 years",
+      "Annual income: $250,000, operating expenses: $170,000, other debt: $10,000",
+      "Outputs: monthly payment, total annual debt, DTI %, coverage, stress tests"
+    ]
+  }
+},
 
 
 
