@@ -11696,6 +11696,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-equipment-lease-vs-buy-calculator",
+  category: "finance",
+  title: "Farm Equipment Lease vs Buy Calculator",
+  description:
+    "Compare leasing vs buying farm equipment using monthly payments, total cost, ownership value, and break-even points. Includes residual value, maintenance, tax assumptions, and sensitivity checks.",
+  keywords: [
+    "farm equipment lease vs buy calculator",
+    "lease vs buy farm equipment",
+    "equipment lease vs loan calculator",
+    "farm equipment financing comparison",
+    "tractor lease vs buy"
+  ],
+  type: "calculator",
+  tags: ["farm", "equipment", "lease", "buy", "financing", "comparison", "finance"],
+  howToSteps: [
+    "Enter equipment price and expected years of use.",
+    "Fill in lease details (monthly payment, term, down payment, end-of-lease buyout).",
+    "Fill in buy/loan details (down payment, APR, loan term).",
+    "Add annual costs (maintenance, insurance) and expected resale value.",
+    "Compare total out-of-pocket cost, effective monthly cost, and break-even."
+  ],
+  example: {
+    description: "Example lease vs buy comparison:",
+    bullets: [
+      "Price: $180,000, use: 7 years, resale: $70,000",
+      "Lease: $2,600/mo for 60 months, $0 down, buyout $60,000",
+      "Buy: $30,000 down, 7.25% APR for 84 months",
+      "Outputs: total cost lease vs buy, effective monthly cost, break-even"
+    ]
+  }
+},
+
+
 
 
 
