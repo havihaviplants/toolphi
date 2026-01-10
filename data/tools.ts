@@ -11664,6 +11664,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "rural-land-loan-payment-calculator",
+  category: "finance",
+  title: "Rural Land Loan Payment Calculator",
+  description:
+    "Calculate monthly payments for a rural land loan using loan amount, interest rate, and term. Includes total interest, total paid, and quick affordability signals.",
+  keywords: [
+    "rural land loan payment calculator",
+    "rural land loan monthly payment",
+    "rural land loan calculator",
+    "rural property loan payment",
+    "rural land financing payment"
+  ],
+  type: "calculator",
+  tags: ["rural-land", "land-loan", "payment", "finance", "agriculture"],
+  howToSteps: [
+    "Enter your loan amount (or purchase price minus down payment).",
+    "Enter the interest rate (APR) and loan term.",
+    "Review monthly payment, total interest, and total paid.",
+    "Optionally, enter estimated monthly cash flow to see payment burden."
+  ],
+  example: {
+    description: "Example rural land loan payment:",
+    bullets: [
+      "Loan amount: $300,000",
+      "APR: 6.00%",
+      "Term: 25 years",
+      "Estimated monthly payment: about $1,930 (principal + interest)"
+    ]
+  }
+},
+
+
 
 
 
