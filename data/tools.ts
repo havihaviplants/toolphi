@@ -11795,6 +11795,37 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "equipment-lease-apr-equivalent-calculator",
+  category: "finance",
+  title: "Equipment Lease APR Equivalent Calculator",
+  description:
+    "Convert equipment lease payments into an equivalent APR to compare leasing versus loan financing on an apples-to-apples basis.",
+  keywords: [
+    "equipment lease apr equivalent calculator",
+    "lease apr equivalent",
+    "equipment lease effective interest rate",
+    "lease vs loan apr"
+  ],
+  type: "calculator",
+  tags: ["equipment", "lease", "apr", "interest-rate", "finance"],
+  howToSteps: [
+    "Enter the equipment price and lease term.",
+    "Input the monthly lease payment and upfront fees.",
+    "Add the lease-end buyout value if applicable.",
+    "Review the equivalent APR implied by the lease."
+  ],
+  example: {
+    description: "Example:",
+    bullets: [
+      "Equipment price: $80,000",
+      "Lease: $1,450/month for 48 months",
+      "Buyout: $30,000",
+      "Equivalent APR: ~9.2%"
+    ]
+  }
+}
+
 
 
 

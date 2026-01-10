@@ -339,6 +339,7 @@ import RuralLandLoanPaymentCalculator from "./RuralLandLoanPaymentCalculator";
 import FarmEquipmentLeaseVsBuyCalculator from "./FarmEquipmentLeaseVsBuyCalculator";
 import AgriculturalEquipmentLeaseVsLoanCalculator from "./AgriculturalEquipmentLeaseVsLoanCalculator";
 import TractorLeaseVsBuyCalculator from "./TractorLeaseVsBuyCalculator";
+import EquipmentLeaseAprEquivalentCalculator from "./EquipmentLeaseAprEquivalentCalculator";
 
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
@@ -682,7 +683,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "farm-equipment-lease-vs-buy-calculator": FarmEquipmentLeaseVsBuyCalculator,
   "agricultural-equipment-lease-vs-loan-calculator": AgriculturalEquipmentLeaseVsLoanCalculator,
   "tractor-lease-vs-buy-calculator": TractorLeaseVsBuyCalculator,
-
+  "equipment-lease-apr-equivalent-calculator": EquipmentLeaseAprEquivalentCalculator,
 
 };
 
