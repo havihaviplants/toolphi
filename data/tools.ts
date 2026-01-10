@@ -11762,6 +11762,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "tractor-lease-vs-buy-calculator",
+  category: "finance",
+  title: "Tractor Lease vs Buy Calculator",
+  description:
+    "Compare leasing versus buying a tractor using effective monthly cost, total out-of-pocket, resale value, remaining loan balance, and break-even usage horizon.",
+  keywords: [
+    "tractor lease vs buy calculator",
+    "lease vs buy tractor",
+    "tractor lease vs loan",
+    "tractor financing comparison",
+    "buy or lease a tractor"
+  ],
+  type: "calculator",
+  tags: ["tractor", "equipment", "lease", "buy", "loan", "comparison", "finance"],
+  howToSteps: [
+    "Enter the tractor price, expected years of use, and end resale value.",
+    "Enter lease terms (monthly payment, term, fees, buyout).",
+    "Enter buy/loan terms (down payment, APR, loan term, financed fees).",
+    "Add annual maintenance and insurance assumptions.",
+    "Compare effective monthly cost and estimated break-even."
+  ],
+  example: {
+    description: "Example tractor lease vs buy:",
+    bullets: [
+      "Price: $95,000, use: 5 years, resale: $40,000",
+      "Lease: $1,450/mo for 48 months, buyout $35,000",
+      "Buy: $15,000 down, 7.5% APR for 60 months",
+      "Outputs: total cost + effective monthly cost + break-even"
+    ]
+  }
+},
 
 
 
