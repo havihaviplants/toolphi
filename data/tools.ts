@@ -11532,6 +11532,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-debt-to-income-ratio-calculator",
+  category: "finance",
+  title: "Farm Debt-to-Income Ratio Calculator",
+  description:
+    "Calculate farm debt-to-income (DTI) ratio using annual debt payments and farm income. Includes operating vs long-term debt split and a quick coverage view to assess borrowing capacity.",
+  keywords: [
+    "farm debt to income ratio calculator",
+    "agricultural debt to income calculator",
+    "farm dti calculator",
+    "farm borrowing capacity calculator",
+    "farm debt ratio"
+  ],
+  type: "calculator",
+  tags: ["farm", "agriculture", "debt", "DTI", "loan", "finance"],
+  howToSteps: [
+    "Enter your annual farm income (gross or net, but be consistent).",
+    "Enter annual operating debt payments (operating loan/line of credit).",
+    "Enter annual long-term debt payments (land, equipment, mortgages).",
+    "Review DTI ratio, debt payment share, and coverage indicators."
+  ],
+  example: {
+    description: "Example farm DTI calculation:",
+    bullets: [
+      "Annual income: $250,000",
+      "Operating debt payments: $18,000",
+      "Long-term debt payments: $42,000",
+      "Total debt payments: $60,000",
+      "DTI: 24.0%"
+    ]
+  }
+},
+
+
 
 
 
