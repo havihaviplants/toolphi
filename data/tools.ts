@@ -11565,6 +11565,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "is-buying-farmland-worth-it-calculator",
+  category: "finance",
+  title: "Is Buying Farmland Worth It Calculator",
+  description:
+    "Decide whether buying farmland makes financial sense by estimating annual net income, appreciation, total return, payback period, and comparing against an alternative investment return.",
+  keywords: [
+    "is buying farmland worth it calculator",
+    "farmland investment calculator",
+    "farmland roi calculator",
+    "should i buy farmland",
+    "farmland return calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "farmland", "investment", "ROI", "worth it", "finance"],
+  howToSteps: [
+    "Enter purchase price, down payment, and loan terms (optional).",
+    "Estimate annual net income from rent or farming operations.",
+    "Set expected annual land appreciation and holding period.",
+    "Compare farmland total return vs an alternative investment return.",
+    "Review ROI, annualized return, payback, and break-even appreciation."
+  ],
+  example: {
+    description: "Example farmland worth-it estimate:",
+    bullets: [
+      "Purchase price: $500,000, down payment: $100,000",
+      "Annual net income: $25,000",
+      "Appreciation: 3%/yr, holding period: 10 years",
+      "Alt investment return: 6%/yr",
+      "Result: farmland return vs alternative shown with payback + annualized return"
+    ]
+  }
+},
+
+
 
 
 
