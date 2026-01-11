@@ -12121,6 +12121,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-profitability-calculator",
+  category: "finance",
+  title: "Farm Profitability Calculator",
+  description:
+    "Calculate farm profitability using yield, price, variable costs, fixed costs, and optional land/equipment rent to estimate net profit and profit margin.",
+  keywords: [
+    "farm profitability calculator",
+    "farm profit calculator",
+    "farm profit margin calculator",
+    "farm income calculator",
+    "farm yield price cost calculator",
+    "ag profitability calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "profitability", "income", "cost", "margin"],
+  howToSteps: [
+    "Enter expected yield and selling price to estimate revenue.",
+    "Enter variable costs per unit and fixed costs per year.",
+    "Optionally include land rent and equipment payments.",
+    "Review net profit, profit margin, and break-even price."
+  ],
+  example: {
+    description:
+      "A farm expects 80,000 units at $3.75/unit, variable costs $2.20/unit, fixed costs $60,000/year, and rent/equipment $25,000/year.",
+    bullets: [
+      "Revenue = 80,000 × 3.75 = 300,000",
+      "Variable costs = 80,000 × 2.20 = 176,000",
+      "Total costs = 176,000 + 60,000 + 25,000 = 261,000",
+      "Net profit = 39,000; break-even price = total costs / yield"
+    ]
+  }
+},
+
 
 
 
