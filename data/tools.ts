@@ -12055,6 +12055,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "usda-subsidy-vs-loan-comparison-calculator",
+  category: "finance",
+  title: "USDA Subsidy vs Loan Comparison Calculator",
+  description:
+    "Compare the cash impact of receiving a USDA subsidy versus financing the same amount with a loan (payments, interest, and net benefit).",
+  keywords: [
+    "usda subsidy vs loan comparison calculator",
+    "subsidy vs loan calculator",
+    "farm subsidy vs financing",
+    "usda payment vs loan payment",
+    "farm assistance vs loan comparison",
+    "ag support vs debt comparison"
+  ],
+  type: "calculator",
+  tags: ["farm", "usda", "subsidy", "loan", "comparison"],
+  howToSteps: [
+    "Enter the amount you need (or would receive as a subsidy).",
+    "Enter the loan interest rate and term used for financing comparison.",
+    "Optionally include an origination/fees percentage.",
+    "Compare total loan cost vs subsidy benefit and see the net difference."
+  ],
+  example: {
+    description:
+      "A farm compares a $50,000 USDA subsidy vs taking a $50,000 loan at 8% for 5 years with 1% fees.",
+    bullets: [
+      "Subsidy cash benefit = $50,000",
+      "Loan fees = $500, total interest depends on rate/term",
+      "Net advantage shows how much better subsidy is than financing"
+    ]
+  }
+},
+
 
 
 
