@@ -11824,7 +11824,39 @@ export const tools: Tool[] = [
       "Equivalent APR: ~9.2%"
     ]
   }
+},
+
+{
+  slug: "farm-break-even-yield-calculator",
+  category: "finance",
+  title: "Farm Break-Even Yield Calculator",
+  description:
+    "Calculate the minimum crop yield needed to break even based on total costs and expected crop price.",
+  keywords: [
+    "farm break even yield",
+    "break even yield calculator",
+    "crop yield break even",
+    "farming profitability calculator",
+    "agriculture break even analysis"
+  ],
+  type: "calculator",
+  tags: ["farm", "break-even", "risk", "yield"],
+  howToSteps: [
+    "Enter your total farming costs",
+    "Enter the expected price per unit of crop",
+    "Calculate the break-even yield"
+  ],
+  example: {
+    description:
+      "A farmer wants to know the minimum yield needed to cover costs.",
+    bullets: [
+      "Total costs: $50,000",
+      "Crop price: $5 per unit",
+      "Break-even yield: 10,000 units"
+    ]
+  }
 }
+
 
 
 
