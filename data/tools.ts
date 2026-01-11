@@ -11955,6 +11955,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "interest-rate-increase-impact-on-farm-loan",
+  category: "finance",
+  title: "Interest Rate Increase Impact on Farm Loan",
+  description:
+    "Estimate how a rate increase changes monthly payment, annual debt service, and total interest for a farm loan.",
+  keywords: [
+    "interest rate increase impact on farm loan",
+    "farm loan rate increase calculator",
+    "ag loan interest rate impact",
+    "monthly payment increase calculator",
+    "loan payment change with interest rate",
+    "farm loan total interest comparison"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "interest", "rate", "impact"],
+  howToSteps: [
+    "Enter loan amount, current interest rate, and loan term.",
+    "Enter the new (higher) interest rate or a rate increase in percentage points.",
+    "Compare monthly payment, annual debt service, and total interest (baseline vs new)."
+  ],
+  example: {
+    description:
+      "A farmer compares a $400,000 loan over 20 years at 6.5% vs 8.0%.",
+    bullets: [
+      "Baseline monthly payment ≈ $2,983",
+      "New monthly payment ≈ $3,347",
+      "Increase ≈ +$364/month (+12.2%)"
+    ]
+  }
+},
+
 
 
 
