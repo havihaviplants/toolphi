@@ -11855,7 +11855,41 @@ export const tools: Tool[] = [
       "Break-even yield: 10,000 units"
     ]
   }
-}
+},
+
+{
+  slug: "farm-break-even-price-calculator",
+  category: "finance",
+  title: "Farm Break-Even Price Calculator",
+  description:
+    "Calculate the minimum crop price per unit needed to break even based on costs and expected yield.",
+  keywords: [
+    "farm break-even price calculator",
+    "farm break even price",
+    "crop break-even price",
+    "agriculture break even price",
+    "minimum price to break even farming",
+    "farm cost break even price"
+  ],
+  type: "calculator",
+  tags: ["farm", "break-even", "price", "cost", "risk"],
+  howToSteps: [
+    "Enter your fixed costs (rent, equipment payments, overhead, insurance, etc.).",
+    "Enter variable cost per unit (seed, fertilizer, hauling, drying, etc.).",
+    "Enter expected yield (total units).",
+    "Calculate to see your break-even price per unit."
+  ],
+  example: {
+    description:
+      "If fixed costs are $40,000, variable cost is $1.20/unit, and expected yield is 25,000 units:",
+    bullets: [
+      "Total variable cost = 25,000 × $1.20 = $30,000",
+      "Total cost = $40,000 + $30,000 = $70,000",
+      "Break-even price = $70,000 ÷ 25,000 = $2.80 per unit"
+    ]
+  }
+},
+
 
 
 
