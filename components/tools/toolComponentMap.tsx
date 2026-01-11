@@ -346,6 +346,7 @@ import FarmLoanStressTestCalculator from "./FarmLoanStressTestCalculator";
 import FarmDebtRiskCalculator from "./FarmDebtRiskCalculator";
 import InterestRateIncreaseImpactOnFarmLoan from "./InterestRateIncreaseImpactOnFarmLoan";
 import CropPriceDropImpactCalculator from "./CropPriceDropImpactCalculator";
+import FarmSubsidyImpactCalculator from "./FarmSubsidyImpactCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -695,6 +696,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "farm-debt-risk-calculator": FarmDebtRiskCalculator,
   "interest-rate-increase-impact-on-farm-loan": InterestRateIncreaseImpactOnFarmLoan,
   "crop-price-drop-impact-calculator": CropPriceDropImpactCalculator,
+  "farm-subsidy-impact-calculator": FarmSubsidyImpactCalculator,
 
 };
 

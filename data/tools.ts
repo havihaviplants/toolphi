@@ -12021,6 +12021,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-subsidy-impact-calculator",
+  category: "finance",
+  title: "Farm Subsidy Impact Calculator",
+  description:
+    "Estimate how farm subsidies change net income, break-even price, and cash-flow buffer under different scenarios.",
+  keywords: [
+    "farm subsidy impact calculator",
+    "ag subsidy impact",
+    "farm subsidy income calculator",
+    "usda subsidy impact calculator",
+    "farm cash flow subsidy calculator",
+    "subsidy break even calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "subsidy", "impact", "income", "risk"],
+  howToSteps: [
+    "Enter expected yield and baseline crop price.",
+    "Enter total costs (or cost per unit).",
+    "Enter expected subsidy amount (total or per unit).",
+    "Compare net income and break-even price with vs without subsidy."
+  ],
+  example: {
+    description:
+      "A farm expects 60,000 units at $4.50/unit with total costs $220,000 and a subsidy of $0.30/unit.",
+    bullets: [
+      "Baseline revenue = 60,000 × $4.50 = $270,000",
+      "Subsidy = 60,000 × $0.30 = $18,000",
+      "Net income change = +$18,000 (costs unchanged)",
+      "Break-even price decreases because subsidy offsets costs"
+    ]
+  }
+},
+
 
 
 
