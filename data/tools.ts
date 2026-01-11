@@ -11890,6 +11890,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-loan-stress-test-calculator",
+  category: "finance",
+  title: "Farm Loan Stress Test Calculator",
+  description:
+    "Stress test a farm loan by simulating interest-rate increases and cash-flow drops to see how payments and DSCR change.",
+  keywords: [
+    "farm loan stress test calculator",
+    "ag loan stress test",
+    "farm loan payment stress test",
+    "interest rate shock loan calculator",
+    "farm debt stress test",
+    "dscr farm loan calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "loan", "risk", "stress-test", "dscr"],
+  howToSteps: [
+    "Enter loan amount, interest rate, and term.",
+    "Enter your annual net operating income (NOI) estimate.",
+    "Set stress assumptions (rate increase, NOI drop).",
+    "Compare baseline vs stressed monthly payment and DSCR."
+  ],
+  example: {
+    description:
+      "A farmer stress tests a $500,000 loan at 7% for 20 years with NOI $120,000/year and a +2% rate shock plus 20% NOI drop.",
+    bullets: [
+      "Baseline monthly payment ≈ $3,876",
+      "Stressed payment at 9% ≈ $4,498",
+      "Baseline DSCR ≈ 3.09, stressed DSCR ≈ 2.00"
+    ]
+  }
+},
+
+
 
 
 
