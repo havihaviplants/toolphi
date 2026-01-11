@@ -11987,6 +11987,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "crop-price-drop-impact-calculator",
+  category: "finance",
+  title: "Crop Price Drop Impact Calculator",
+  description:
+    "Estimate how a crop price drop affects revenue, profit, and break-even cushion based on yield and costs.",
+  keywords: [
+    "crop price drop impact calculator",
+    "farm revenue loss calculator",
+    "crop price decrease impact",
+    "farm profit impact calculator",
+    "ag price drop calculator",
+    "crop price risk calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "crop", "price", "impact", "risk"],
+  howToSteps: [
+    "Enter expected yield (units) and baseline crop price.",
+    "Enter total costs (or cost per unit).",
+    "Enter a price drop (%) or a new (lower) price.",
+    "Compare baseline vs new revenue and profit impact."
+  ],
+  example: {
+    description:
+      "A farm expects 50,000 units at $5.00/unit with total costs $180,000. A 15% price drop is modeled.",
+    bullets: [
+      "Baseline revenue = 50,000 × $5.00 = $250,000",
+      "New price = $5.00 × (1 − 0.15) = $4.25",
+      "New revenue = 50,000 × $4.25 = $212,500 (−$37,500)",
+      "Profit change = −$37,500 (costs assumed unchanged)"
+    ]
+  }
+},
+
+
 
 
 
