@@ -11923,6 +11923,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "farm-debt-risk-calculator",
+  category: "finance",
+  title: "Farm Debt Risk Calculator",
+  description:
+    "Estimate farm debt risk using key ratios like debt-to-asset, debt-to-income, and DSCR to flag financial stress.",
+  keywords: [
+    "farm debt risk calculator",
+    "farm debt to asset ratio",
+    "agriculture debt risk",
+    "farm solvency ratio calculator",
+    "farm leverage calculator",
+    "farm dscr calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "debt", "risk", "leverage", "dscr"],
+  howToSteps: [
+    "Enter total farm debt and total farm assets.",
+    "Enter annual net operating income (NOI) and annual debt service.",
+    "Review leverage and coverage ratios to gauge risk."
+  ],
+  example: {
+    description:
+      "A farm has $600,000 debt, $2,000,000 assets, $140,000 NOI, and $95,000 annual debt service.",
+    bullets: [
+      "Debt-to-asset = 600,000 / 2,000,000 = 30.0%",
+      "Debt-to-income = 600,000 / 140,000 = 4.29×",
+      "DSCR = 140,000 / 95,000 = 1.47"
+    ]
+  }
+},
+
 
 
 
