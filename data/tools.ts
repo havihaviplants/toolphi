@@ -12088,6 +12088,38 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "is-farming-profitable-calculator",
+  category: "finance",
+  title: "Is Farming Profitable Calculator",
+  description:
+    "Estimate whether farming is profitable by comparing total revenue vs total costs, then calculating net profit and profit margin.",
+  keywords: [
+    "is farming profitable calculator",
+    "farming profitability calculator",
+    "farm profit margin calculator",
+    "is farming worth it",
+    "farm revenue vs cost calculator",
+    "farm net profit calculator"
+  ],
+  type: "calculator",
+  tags: ["farm", "profitability", "worth-it", "income", "cost"],
+  howToSteps: [
+    "Enter expected annual revenue (or yield and price).",
+    "Enter annual variable costs and annual fixed costs.",
+    "Review net profit and profit margin.",
+    "Optionally apply a revenue drop or cost increase stress to see downside risk."
+  ],
+  example: {
+    description:
+      "A farm expects $320,000 revenue with $210,000 variable costs and $55,000 fixed costs. Stress: -10% revenue, +5% costs.",
+    bullets: [
+      "Baseline net profit = 320,000 − (210,000 + 55,000) = 55,000",
+      "Profit margin = 55,000 / 320,000 = 17.2%",
+      "Stress scenario recalculates profit and margin under downside assumptions"
+    ]
+  }
+},
 
 
 
