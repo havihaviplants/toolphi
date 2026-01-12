@@ -12221,6 +12221,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "material-cost-increase-profit-impact-calculator",
+  category: "finance",
+  title: "Material Cost Increase Profit Impact Calculator",
+  description:
+    "Estimate how an increase in material costs changes profit, profit margin, and required price pass-through to maintain margin.",
+  keywords: [
+    "material cost increase profit impact calculator",
+    "material cost increase margin impact",
+    "material cost increase profit calculator",
+    "price pass through calculator",
+    "material cost inflation profit impact"
+  ],
+  type: "calculator",
+  tags: ["material-cost", "profit", "margin", "pass-through", "impact"],
+  howToSteps: [
+    "Enter annual revenue, material costs, and other costs.",
+    "Enter expected material cost increase percentage.",
+    "Review new profit and margin after the cost increase.",
+    "See the price pass-through needed to keep your original margin."
+  ],
+  example: {
+    description:
+      "Revenue is $1,000,000 with $280,000 material costs and $540,000 other costs. Materials rise by 15%.",
+    bullets: [
+      "Current profit = 1,000,000 − (280,000 + 540,000) = 180,000",
+      "New material costs = 280,000 × 1.15 = 322,000",
+      "New profit = 1,000,000 − (322,000 + 540,000) = 138,000",
+      "Calculator estimates required revenue increase to keep the original margin"
+    ]
+  }
+},
+
+
 
 
 
