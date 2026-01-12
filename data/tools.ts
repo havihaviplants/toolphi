@@ -12419,6 +12419,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "commodity-hedging-cost-vs-benefit-calculator",
+  category: "finance",
+  title: "Commodity Hedging Cost vs Benefit Calculator",
+  description:
+    "Estimate the expected cost vs benefit of hedging a commodity price risk using hedge ratio, price scenarios, and a hedging premium or fee.",
+  keywords: [
+    "commodity hedging cost vs benefit calculator",
+    "hedging cost benefit calculator",
+    "commodity hedge ratio calculator",
+    "hedge cost vs savings calculator",
+    "commodity price hedge calculator"
+  ],
+  type: "calculator",
+  tags: ["commodity", "hedging", "risk", "cost-benefit", "price"],
+  howToSteps: [
+    "Enter annual commodity usage (units) and current commodity price per unit.",
+    "Enter expected price change (%) without hedging and hedge coverage ratio (%).",
+    "Enter hedging cost as a premium (%) or fixed fee ($).",
+    "Review unhedged vs hedged spend and the expected net benefit of hedging."
+  ],
+  example: {
+    description:
+      "You buy 500,000 units/year at $2.40/unit. You fear prices may rise 12%. You hedge 70% of exposure. Hedging costs 1.5% of hedged notional.",
+    bullets: [
+      "Unhedged extra cost = 500,000 × 2.40 × 12% = 144,000",
+      "Hedged exposure = 70% of extra cost ≈ 100,800 avoided",
+      "Hedging premium ≈ (500,000 × 2.40 × 70%) × 1.5% = 12,600",
+      "Net benefit ≈ avoided cost − premium"
+    ]
+  }
+},
+
 
 
 
