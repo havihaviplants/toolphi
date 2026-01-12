@@ -12452,6 +12452,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "inventory-stockpiling-savings-calculator",
+  category: "finance",
+  title: "Inventory Stockpiling Savings Calculator",
+  description:
+    "Estimate whether stockpiling inventory before a price increase saves money after accounting for carrying costs like storage, insurance, and cost of capital.",
+  keywords: [
+    "inventory stockpiling savings calculator",
+    "stockpile before price increase calculator",
+    "inventory prebuy savings calculator",
+    "inventory carrying cost vs savings calculator",
+    "buy ahead inventory calculator"
+  ],
+  type: "calculator",
+  tags: ["inventory", "stockpiling", "carrying-cost", "savings", "price-increase"],
+  howToSteps: [
+    "Enter current unit price, expected price increase, and how many units you plan to pre-buy.",
+    "Enter how long you will hold the extra inventory (months).",
+    "Enter carrying cost rates (annual %), including cost of capital and storage/insurance.",
+    "Review gross savings from avoiding the price increase and net savings after carrying costs."
+  ],
+  example: {
+    description:
+      "You plan to pre-buy 120,000 units at $3.20/unit before a 10% supplier increase. You’ll hold them 4 months. Annual carrying cost is 18%.",
+    bullets: [
+      "Gross savings = units × price × increase% = 120,000 × 3.20 × 10% = 38,400",
+      "Inventory value = 120,000 × 3.20 = 384,000",
+      "Holding cost ≈ inventory value × (18% × 4/12) = 23,040",
+      "Net savings ≈ gross savings − holding cost"
+    ]
+  }
+},
+
+
 
 
 
