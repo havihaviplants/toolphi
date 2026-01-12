@@ -12155,6 +12155,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "raw-material-price-increase-impact-calculator",
+  category: "finance",
+  title: "Raw Material Price Increase Impact Calculator",
+  description:
+    "Calculate how a raw material price increase affects total costs, profit, and profit margin based on material usage and current pricing.",
+  keywords: [
+    "raw material price increase impact calculator",
+    "material price increase cost impact",
+    "raw material cost impact calculator",
+    "input cost increase profit impact",
+    "material price inflation calculator"
+  ],
+  type: "calculator",
+  tags: ["raw-material", "cost", "impact", "profit", "margin"],
+  howToSteps: [
+    "Enter current raw material unit cost and annual usage.",
+    "Enter expected price increase percentage.",
+    "Enter current annual revenue and non-material costs.",
+    "Review cost increase, new profit, and margin impact."
+  ],
+  example: {
+    description:
+      "A business uses 120,000 units of steel at $2.50/unit. Price rises by 12%. Revenue is $900,000 and other costs are $520,000.",
+    bullets: [
+      "Current material cost = 120,000 × 2.50 = 300,000",
+      "New unit cost = 2.50 × 1.12 = 2.80",
+      "New material cost = 336,000 (increase of 36,000)",
+      "Profit and margin are recalculated after the cost increase"
+    ]
+  }
+},
+
+
 
 
 
