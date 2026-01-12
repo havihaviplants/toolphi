@@ -12320,6 +12320,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "material-cost-overrun-impact-calculator",
+  category: "finance",
+  title: "Material Cost Overrun Impact Calculator",
+  description:
+    "Calculate how a material cost overrun impacts total project cost, profit, and required price adjustment to maintain the target margin.",
+  keywords: [
+    "material cost overrun impact calculator",
+    "material budget overrun calculator",
+    "project cost overrun impact calculator",
+    "materials cost overrun profit impact",
+    "construction material overrun calculator"
+  ],
+  type: "calculator",
+  tags: ["material-cost", "overrun", "project-cost", "profit", "margin"],
+  howToSteps: [
+    "Enter project revenue (or contract price), planned material cost, and other project costs.",
+    "Enter expected material overrun percentage or overrun amount.",
+    "Review updated total cost, profit, and margin after the overrun.",
+    "See the required revenue increase to keep your original target margin."
+  ],
+  example: {
+    description:
+      "A project has $1,500,000 contract revenue, $420,000 planned material cost, and $850,000 other costs. Materials overrun by 12%.",
+    bullets: [
+      "New material cost = 420,000 × 1.12 = 470,400",
+      "Total cost increases by 50,400",
+      "Profit and margin are recalculated under the same contract revenue",
+      "Required revenue increase is estimated to keep the original margin"
+    ]
+  }
+},
+
+
 
 
 
