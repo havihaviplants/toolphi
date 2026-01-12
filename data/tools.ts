@@ -12287,6 +12287,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "production-cost-increase-impact-calculator",
+  category: "finance",
+  title: "Production Cost Increase Impact Calculator",
+  description:
+    "Estimate how a production cost increase affects unit cost, unit margin, and annual profit based on your current unit economics and annual volume.",
+  keywords: [
+    "production cost increase impact calculator",
+    "production cost increase margin calculator",
+    "unit cost increase impact calculator",
+    "manufacturing cost increase profit impact",
+    "cost increase impact on profit calculator"
+  ],
+  type: "calculator",
+  tags: ["production-cost", "unit-cost", "margin", "profit", "impact"],
+  howToSteps: [
+    "Enter selling price per unit, current unit cost, and annual volume.",
+    "Enter expected production cost increase percentage.",
+    "Review new unit cost, new unit margin, and annual profit impact.",
+    "See the required price increase to keep your original unit margin."
+  ],
+  example: {
+    description:
+      "A product sells for $25/unit, costs $18/unit, and volume is 80,000 units/year. Production costs rise by 6%.",
+    bullets: [
+      "New unit cost = 18 × 1.06 = 19.08",
+      "Unit margin changes from 25 − 18 = 7.00 to 25 − 19.08 = 5.92",
+      "Annual profit impact ≈ margin change × 80,000",
+      "Calculator estimates price needed to maintain the original margin"
+    ]
+  }
+},
+
 
 
 
