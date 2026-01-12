@@ -12386,6 +12386,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "supplier-price-increase-cost-calculator",
+  category: "finance",
+  title: "Supplier Price Increase Cost Calculator",
+  description:
+    "Estimate how a supplier price increase changes your unit cost and annual purchasing spend based on usage per unit, production volume, and supplier share.",
+  keywords: [
+    "supplier price increase cost calculator",
+    "vendor price increase impact calculator",
+    "supplier cost increase calculator",
+    "supplier price increase unit cost",
+    "annual purchasing cost increase calculator"
+  ],
+  type: "calculator",
+  tags: ["supplier", "vendor", "price-increase", "unit-cost", "spend"],
+  howToSteps: [
+    "Enter current supplier unit price and expected price increase percentage.",
+    "Enter how many supplier units you use per product unit and annual production volume.",
+    "Optionally set supplier share (if this supplier covers only part of your input).",
+    "Review unit cost impact and annual spend increase."
+  ],
+  example: {
+    description:
+      "A supplier charges $4.00 per input unit. You use 2.2 input units per product unit and make 60,000 units/year. Supplier price rises 9%. Supplier covers 70% of this input.",
+    bullets: [
+      "Baseline annual input units = 2.2 × 60,000 = 132,000",
+      "Supplier-covered units = 132,000 × 0.70 = 92,400",
+      "Annual spend increase = (4.00 × 1.09 − 4.00) × 92,400",
+      "Calculator also shows unit cost change per finished unit"
+    ]
+  }
+},
+
+
 
 
 
