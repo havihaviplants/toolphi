@@ -12353,6 +12353,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "material-cost-break-even-shift-calculator",
+  category: "finance",
+  title: "Material Cost Break-Even Shift Calculator",
+  description:
+    "Estimate how a change in material costs shifts your break-even volume and break-even revenue using fixed costs, selling price, and unit costs.",
+  keywords: [
+    "material cost break even shift calculator",
+    "break even shift calculator",
+    "material cost increase break even",
+    "break even volume calculator material cost",
+    "break even revenue calculator cost increase"
+  ],
+  type: "calculator",
+  tags: ["material-cost", "break-even", "fixed-cost", "unit-cost", "volume"],
+  howToSteps: [
+    "Enter selling price per unit, current material cost per unit, and other unit costs.",
+    "Enter fixed costs (per month or per year).",
+    "Enter expected material cost change (percent or amount).",
+    "Review break-even units and break-even revenue before and after the material cost change."
+  ],
+  example: {
+    description:
+      "Selling price is $30/unit, material cost is $9/unit, other unit costs are $12/unit, and fixed costs are $240,000/year. Materials rise by 15%.",
+    bullets: [
+      "Current contribution margin = 30 − (9 + 12) = 9",
+      "Break-even units = 240,000 ÷ 9 = 26,667",
+      "New material cost = 9 × 1.15 = 10.35 (new contribution margin = 7.65)",
+      "New break-even units = 240,000 ÷ 7.65 = 31,373"
+    ]
+  }
+},
+
 
 
 
