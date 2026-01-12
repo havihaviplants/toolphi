@@ -12519,6 +12519,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "cost-shock-dscr-impact-calculator",
+  category: "finance",
+  title: "Cost Shock DSCR Impact Calculator",
+  description:
+    "Estimate how an increase in operating costs impacts EBITDA, DSCR, and loan covenant risk under different cost shock scenarios.",
+  keywords: [
+    "cost shock dscr impact calculator",
+    "dscr impact from cost increase",
+    "operating cost increase dscr calculator",
+    "loan covenant dscr stress test",
+    "ebitda cost shock calculator"
+  ],
+  type: "calculator",
+  tags: ["dscr", "debt", "cost-shock", "risk", "covenant"],
+  howToSteps: [
+    "Enter current annual revenue and operating costs.",
+    "Enter annual debt service (principal + interest).",
+    "Enter expected operating cost increase (%).",
+    "Review new EBITDA, DSCR, and covenant breach risk."
+  ],
+  example: {
+    description:
+      "A business has $4,000,000 revenue, $3,200,000 operating costs, and $500,000 annual debt service. Costs rise by 10%.",
+    bullets: [
+      "Baseline EBITDA = 4,000,000 − 3,200,000 = 800,000",
+      "Baseline DSCR = 800,000 ÷ 500,000 = 1.60",
+      "New operating costs = 3,200,000 × 1.10 = 3,520,000",
+      "New EBITDA = 480,000",
+      "New DSCR = 0.96 → covenant breach likely"
+    ]
+  }
+},
+
 
 
 
