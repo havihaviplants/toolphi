@@ -12485,6 +12485,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "bulk-purchase-discount-vs-holding-cost-calculator",
+  category: "finance",
+  title: "Bulk Purchase Discount vs Holding Cost Calculator",
+  description:
+    "Compare bulk purchase discounts against inventory holding costs to estimate net savings and the break-even holding period.",
+  keywords: [
+    "bulk purchase discount vs holding cost calculator",
+    "bulk buying savings calculator",
+    "quantity discount vs carrying cost calculator",
+    "moq discount holding cost calculator",
+    "inventory holding cost break even calculator"
+  ],
+  type: "calculator",
+  tags: ["bulk-buy", "discount", "inventory", "holding-cost", "moq"],
+  howToSteps: [
+    "Enter regular unit price and bulk discount (% or discounted unit price).",
+    "Enter bulk purchase quantity and your average usage per month.",
+    "Enter annual carrying cost rate (cost of capital + storage/insurance).",
+    "Review gross discount savings, holding cost, and net savings.",
+    "See the break-even holding months where discount equals carrying cost."
+  ],
+  example: {
+    description:
+      "Regular price is $5.00/unit. Bulk discount is 8%. You buy 80,000 units and use 20,000/month. Annual carrying cost is 18%.",
+    bullets: [
+      "Discounted price = 5.00 × (1 − 0.08) = 4.60",
+      "Gross discount savings = (5.00 − 4.60) × 80,000 = 32,000",
+      "Extra inventory held (avg) depends on usage; calculator estimates holding months",
+      "Net savings = discount savings − holding cost"
+    ]
+  }
+},
+
+
 
 
 
