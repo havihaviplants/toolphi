@@ -351,6 +351,7 @@ import UsdaSubsidyVsLoanComparisonCalculator from "./UsdaSubsidyVsLoanComparison
 import IsFarmingProfitableCalculator from "./IsFarmingProfitableCalculator";
 import FarmProfitabilityCalculator from "./FarmProfitabilityCalculator";
 import RawMaterialPriceIncreaseImpactCalculator from "./RawMaterialPriceIncreaseImpactCalculator";
+import InputCostInflationImpactCalculator from "./InputCostInflationImpactCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -705,6 +706,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "is-farming-profitable-calculator": IsFarmingProfitableCalculator,
   "farm-profitability-calculator": FarmProfitabilityCalculator,
   "raw-material-price-increase-impact-calculator": RawMaterialPriceIncreaseImpactCalculator,
+  "input-cost-inflation-impact-calculator": InputCostInflationImpactCalculator,
 
 };
 

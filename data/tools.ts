@@ -12188,6 +12188,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "input-cost-inflation-impact-calculator",
+  category: "finance",
+  title: "Input Cost Inflation Impact Calculator",
+  description:
+    "Estimate how overall input cost inflation changes total costs, profit, and margin using your current cost structure.",
+  keywords: [
+    "input cost inflation impact calculator",
+    "input cost increase impact",
+    "cost inflation profit impact calculator",
+    "cost inflation margin calculator",
+    "input cost inflation calculator"
+  ],
+  type: "calculator",
+  tags: ["input-cost", "inflation", "impact", "profit", "margin"],
+  howToSteps: [
+    "Enter annual revenue and current total costs.",
+    "Break costs into material costs and non-material costs (optional but recommended).",
+    "Enter an input cost inflation percentage to apply to the cost base.",
+    "Review the change in profit and margin."
+  ],
+  example: {
+    description:
+      "A business has $1,200,000 revenue, $780,000 total costs, and expects 8% input cost inflation.",
+    bullets: [
+      "Current profit = 1,200,000 − 780,000 = 420,000",
+      "New costs = 780,000 × 1.08 = 842,400",
+      "New profit = 1,200,000 − 842,400 = 357,600",
+      "Margin falls as costs rise"
+    ]
+  }
+},
+
 
 
 
