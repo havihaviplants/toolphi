@@ -353,6 +353,7 @@ import FarmProfitabilityCalculator from "./FarmProfitabilityCalculator";
 import RawMaterialPriceIncreaseImpactCalculator from "./RawMaterialPriceIncreaseImpactCalculator";
 import InputCostInflationImpactCalculator from "./InputCostInflationImpactCalculator";
 import MaterialCostIncreaseProfitImpactCalculator from "./MaterialCostIncreaseProfitImpactCalculator";
+import CommodityPriceChangeMarginCalculator from "./CommodityPriceChangeMarginCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -709,6 +710,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "raw-material-price-increase-impact-calculator": RawMaterialPriceIncreaseImpactCalculator,
   "input-cost-inflation-impact-calculator": InputCostInflationImpactCalculator,
   "material-cost-increase-profit-impact-calculator": MaterialCostIncreaseProfitImpactCalculator,
+  "commodity-price-change-margin-calculator": CommodityPriceChangeMarginCalculator,
 
 };
 

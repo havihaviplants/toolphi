@@ -12254,6 +12254,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "commodity-price-change-margin-calculator",
+  category: "finance",
+  title: "Commodity Price Change Margin Calculator",
+  description:
+    "Estimate how a commodity price change affects unit margin and annual profit based on your usage per unit and production volume.",
+  keywords: [
+    "commodity price change margin calculator",
+    "commodity price impact calculator",
+    "unit margin impact calculator",
+    "raw material price change margin",
+    "commodity cost change profit calculator"
+  ],
+  type: "calculator",
+  tags: ["commodity", "price-change", "margin", "profit", "unit-cost"],
+  howToSteps: [
+    "Enter current commodity unit price and expected price change percentage.",
+    "Enter commodity usage per product unit and your annual production volume.",
+    "Enter selling price per unit and non-commodity unit costs.",
+    "Review new unit margin and annual profit impact."
+  ],
+  example: {
+    description:
+      "A product uses 1.8 units of a commodity at $3.20/unit. Price increases 10%. You produce 50,000 units/year, sell at $18/unit, and other unit costs are $10.50.",
+    bullets: [
+      "Commodity cost/unit = 1.8 × 3.20 = 5.76",
+      "New commodity cost/unit = 1.8 × (3.20 × 1.10) = 6.34",
+      "Unit margin recalculates from selling price − (commodity + other costs)",
+      "Annual profit impact = unit margin change × 50,000 units"
+    ]
+  }
+},
+
+
 
 
 
