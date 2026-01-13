@@ -12648,6 +12648,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "supplier-cost-pass-through-impact-calculator",
+  category: "finance",
+  title: "Supplier Cost Pass-Through Impact Calculator",
+  description:
+    "Estimate margin and profit impact when supplier costs rise and you pass through part of the increase to customers via price changes.",
+  keywords: [
+    "supplier cost pass through impact calculator",
+    "cost pass through calculator",
+    "supplier price increase pass through",
+    "margin impact pass through calculator",
+    "price pass through inflation calculator"
+  ],
+  type: "calculator",
+  tags: ["supplier", "pass-through", "pricing", "margin", "cost-increase"],
+  howToSteps: [
+    "Enter current selling price and unit cost.",
+    "Enter supplier cost increase (%).",
+    "Enter pass-through rate (%) — how much of the increase you raise prices by.",
+    "Review new unit cost, new price, margin, and profit impact."
+  ],
+  example: {
+    description:
+      "Price is $50/unit, cost is $30/unit. Supplier increases cost by 10%. You pass through 60% of the increase.",
+    bullets: [
+      "New cost = 30 × 1.10 = 33.00",
+      "Cost increase = 3.00",
+      "Pass-through amount = 3.00 × 0.60 = 1.80",
+      "New price = 50 + 1.80 = 51.80",
+      "New margin = 51.80 − 33.00 = 18.80"
+    ]
+  }
+},
+
+
 
 
 
