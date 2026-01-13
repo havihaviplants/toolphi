@@ -12815,6 +12815,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "price-increase-needed-to-maintain-margin-calculator",
+  category: "finance",
+  title: "Price Increase Needed to Maintain Margin Calculator",
+  description:
+    "Calculate the price increase required to maintain a target gross margin after unit costs increase.",
+  keywords: [
+    "price increase needed to maintain margin calculator",
+    "maintain gross margin after cost increase",
+    "required price increase calculator",
+    "cost increase pricing calculator",
+    "target margin price calculator"
+  ],
+  type: "calculator",
+  tags: ["pricing", "gross-margin", "cost-increase", "target-margin", "profitability"],
+  howToSteps: [
+    "Enter your current selling price and unit cost (COGS).",
+    "Enter the expected cost increase (% or $ per unit).",
+    "Set a target gross margin % (defaults to your current margin).",
+    "Review the required new price and the implied price increase."
+  ],
+  example: {
+    description:
+      "Price is $100, cost is $65. Cost increases by 8%. Maintain the current gross margin.",
+    bullets: [
+      "Current margin% = (100−65)/100 = 35%",
+      "New cost = 65 × 1.08 = 70.20",
+      "Required price = new cost ÷ (1 − 0.35) = 108.00",
+      "Required increase = 8.00%"
+    ]
+  }
+},
+
+
 
 
 
