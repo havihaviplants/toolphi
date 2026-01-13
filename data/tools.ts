@@ -12615,6 +12615,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "unit-cost-increase-break-even-yield-calculator",
+  category: "finance",
+  title: "Unit Cost Increase Break-Even Yield Calculator",
+  description:
+    "Estimate how many additional units you must produce or sell to break even after a unit cost increase (assuming selling price stays the same).",
+  keywords: [
+    "unit cost increase break even yield calculator",
+    "additional units needed after cost increase",
+    "break even volume after cost increase",
+    "cost increase break even quantity calculator",
+    "unit cost inflation break even units"
+  ],
+  type: "calculator",
+  tags: ["break-even", "volume", "unit-cost", "cost-increase", "pricing"],
+  howToSteps: [
+    "Enter current selling price per unit and current cost per unit.",
+    "Enter the unit cost increase (% or amount).",
+    "Enter current units sold (baseline volume).",
+    "Review required new volume and additional units needed to break even."
+  ],
+  example: {
+    description:
+      "Price is $12/unit, cost is $8/unit, and you sell 50,000 units. Unit cost rises 10% (to $8.80).",
+    bullets: [
+      "Profit/unit before = 12 − 8 = 4.00",
+      "Profit/unit after = 12 − 8.80 = 3.20",
+      "To keep total profit constant, volume must increase",
+      "Calculator outputs required units and extra units needed"
+    ]
+  }
+},
+
 
 
 

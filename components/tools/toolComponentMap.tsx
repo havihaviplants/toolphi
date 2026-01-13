@@ -364,6 +364,7 @@ import BulkPurchaseDiscountVsHoldingCostCalculator from "./BulkPurchaseDiscountV
 import CostShockDscrImpactCalculator from "./CostShockDscrImpactCalculator";
 import InputCostIncreaseBreakEvenCalculator from "./InputCostIncreaseBreakEvenCalculator";
 import CostInflationBreakEvenPriceCalculator from "./CostInflationBreakEvenPriceCalculator";
+import UnitCostIncreaseBreakEvenYieldCalculator from "./UnitCostIncreaseBreakEvenYieldCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -731,6 +732,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "cost-shock-dscr-impact-calculator": CostShockDscrImpactCalculator,
   "input-cost-increase-break-even-calculator": InputCostIncreaseBreakEvenCalculator,
   "cost-inflation-break-even-price-calculator": CostInflationBreakEvenPriceCalculator,
+  "unit-cost-increase-break-even-yield-calculator": UnitCostIncreaseBreakEvenYieldCalculator,
 
 };
 
