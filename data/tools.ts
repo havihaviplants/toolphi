@@ -12848,6 +12848,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "fixed-vs-variable-cost-exposure-calculator",
+  category: "finance",
+  title: "Fixed vs Variable Cost Exposure Calculator",
+  description:
+    "Compare how fixed-cost-heavy and variable-cost-heavy structures respond to revenue or cost shocks, and identify which cost structure is more exposed.",
+  keywords: [
+    "fixed vs variable cost exposure calculator",
+    "fixed cost risk calculator",
+    "variable cost risk analysis",
+    "cost structure exposure calculator",
+    "operating leverage risk calculator"
+  ],
+  type: "calculator",
+  tags: ["cost-structure", "fixed-cost", "variable-cost", "risk", "operating-leverage"],
+  howToSteps: [
+    "Enter total revenue.",
+    "Enter fixed costs and variable cost percentage.",
+    "Apply a revenue or cost shock.",
+    "Compare profit sensitivity under fixed vs variable cost structures."
+  ],
+  example: {
+    description:
+      "A company has $1,000,000 revenue, $400,000 fixed costs, and 35% variable costs.",
+    bullets: [
+      "Revenue drops by 10%",
+      "Fixed-cost structure absorbs the full revenue shock",
+      "Variable-cost structure partially adjusts costs downward",
+      "Profit volatility differs by cost mix"
+    ]
+  }
+},
+
 
 
 
