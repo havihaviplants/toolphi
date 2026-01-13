@@ -12682,6 +12682,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "supplier-contract-price-escalation-calculator",
+  category: "finance",
+  title: "Supplier Contract Price Escalation Calculator",
+  description:
+    "Estimate contract price changes over time using escalation rates with optional caps and floors for supplier agreements.",
+  keywords: [
+    "supplier contract price escalation calculator",
+    "price escalation clause calculator",
+    "contract escalation cap floor calculator",
+    "supplier price adjustment calculator",
+    "cpi ppi escalation calculator"
+  ],
+  type: "calculator",
+  tags: ["supplier", "contract", "escalation", "pricing", "risk"],
+  howToSteps: [
+    "Enter the starting contract unit price.",
+    "Enter the annual escalation rate (%), or expected index change.",
+    "Optionally set a cap and floor (%).",
+    "Enter the number of years and review the escalated price schedule."
+  ],
+  example: {
+    description:
+      "A contract starts at $100/unit with 6% annual escalation, capped at 4% and floored at 1%, for 3 years.",
+    bullets: [
+      "Applied escalation each year = min(max(6%, 1%), 4%) = 4%",
+      "Year 1 price = 100 × 1.04 = 104.00",
+      "Year 2 price = 104 × 1.04 = 108.16",
+      "Year 3 price = 108.16 × 1.04 = 112.49"
+    ]
+  }
+},
+
+
 
 
 
