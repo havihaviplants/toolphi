@@ -12748,10 +12748,38 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
-
+{
+  slug: "contribution-margin-cost-shock-calculator",
+  category: "finance",
+  title: "Contribution Margin Cost Shock Calculator",
+  description:
+    "Calculate contribution margin and operating profit impact from a variable cost increase, including break-even units before and after the shock.",
+  keywords: [
+    "contribution margin cost shock calculator",
+    "variable cost increase contribution margin assume",
+    "break even units after cost increase",
+    "contribution margin ratio calculator",
+    "operating profit impact cost increase"
+  ],
+  type: "calculator",
+  tags: ["contribution-margin", "break-even", "fixed-costs", "variable-cost", "profit"],
+  howToSteps: [
+    "Enter selling price per unit and current variable cost per unit.",
+    "Enter variable cost increase (% or $ per unit).",
+    "Enter units sold and fixed costs for the same period.",
+    "Review contribution margin, operating profit, and break-even units before and after."
+  ],
+  example: {
+    description:
+      "Price is $40, variable cost is $26, units sold are 20,000, fixed costs are $180,000. Variable cost rises by 8%.",
+    bullets: [
+      "New variable cost = 26 × 1.08 = 28.08",
+      "CM/unit before = 40 − 26 = 14.00",
+      "CM/unit after = 40 − 28.08 = 11.92",
+      "Break-even units = fixed costs ÷ CM/unit"
+    ]
+  }
+},
 
 
 
