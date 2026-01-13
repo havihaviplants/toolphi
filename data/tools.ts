@@ -12553,12 +12553,36 @@ export const tools: Tool[] = [
   }
 },
 
-
-
-
-
-
-
+{
+  slug: "input-cost-increase-break-even-calculator",
+  category: "finance",
+  title: "Input Cost Increase Break-Even Calculator",
+  description:
+    "Calculate the maximum input cost increase a business can absorb before profit falls to zero.",
+  keywords: [
+    "input cost increase break even calculator",
+    "cost increase break even calculator",
+    "input cost break even analysis",
+    "cost inflation break even calculator"
+  ],
+  type: "calculator",
+  tags: ["break-even", "input-cost", "profit", "cost-increase"],
+  howToSteps: [
+    "Enter annual revenue.",
+    "Enter current total input costs.",
+    "Enter current profit.",
+    "See the break-even input cost increase amount and percentage."
+  ],
+  example: {
+    description:
+      "A business earns $2,000,000 in revenue with $1,500,000 input costs and $200,000 profit.",
+    bullets: [
+      "Maximum absorbable cost increase = current profit",
+      "Break-even cost increase % = profit ÷ input costs",
+      "Beyond this point, profit turns negative"
+    ]
+  }
+},
 
 
 
