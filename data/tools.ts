@@ -12584,6 +12584,36 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "cost-inflation-break-even-price-calculator",
+  category: "finance",
+  title: "Cost Inflation Break-Even Price Calculator",
+  description:
+    "Calculate the break-even selling price needed to offset cost inflation and keep profit at zero (no loss).",
+  keywords: [
+    "cost inflation break even price calculator",
+    "break even price after cost increase",
+    "price needed to cover cost increase",
+    "cost increase break even selling price"
+  ],
+  type: "calculator",
+  tags: ["break-even", "pricing", "cost-inflation", "unit-economics"],
+  howToSteps: [
+    "Enter current selling price per unit and units sold.",
+    "Enter current cost per unit and expected cost increase (%).",
+    "Review the break-even price per unit needed to avoid losses.",
+    "Optionally compare to your current price to see required price increase."
+  ],
+  example: {
+    description:
+      "You sell at $25 with cost $15 per unit. Costs rise 12%. You sell 10,000 units.",
+    bullets: [
+      "New cost = 15 × 1.12 = 16.80",
+      "Break-even price = new cost (profit = 0)",
+      "Required price increase = 16.80 − 25 (if current price already above break-even, you’re still profitable)"
+    ]
+  }
+},
 
 
 
