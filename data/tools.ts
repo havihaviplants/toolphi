@@ -12781,6 +12781,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "gross-margin-compression-calculator",
+  category: "finance",
+  title: "Gross Margin Compression Calculator",
+  description:
+    "Estimate how gross margin ($ and %) compresses after changes in selling price and unit cost, with before vs after comparison.",
+  keywords: [
+    "gross margin compression calculator",
+    "margin compression calculator",
+    "gross margin before after calculator",
+    "price increase cost increase margin impact",
+    "gross margin percentage change calculator"
+  ],
+  type: "calculator",
+  tags: ["gross-margin", "margin-compression", "pricing", "cogs", "profitability"],
+  howToSteps: [
+    "Enter selling price per unit, unit cost (COGS), and units sold.",
+    "Enter the price change (% or $) and cost change (% or $).",
+    "Review gross margin dollars and gross margin percentage before vs after.",
+    "See margin compression in percentage points (pp)."
+  ],
+  example: {
+    description:
+      "Price is $100, cost is $65, units are 1,000. Price increases 2% and cost increases 8%.",
+    bullets: [
+      "New price = 100 × 1.02 = 102.00",
+      "New cost = 65 × 1.08 = 70.20",
+      "Gross margin% before = (100−65)/100 = 35.0%",
+      "Gross margin% after = (102−70.2)/102 ≈ 31.18%",
+      "Compression ≈ −3.82 pp"
+    ]
+  }
+},
+
 
 
 

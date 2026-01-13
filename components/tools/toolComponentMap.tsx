@@ -369,6 +369,7 @@ import SupplierCostPassThroughImpactCalculator from "./SupplierCostPassThroughIm
 import SupplierContractPriceEscalationCalculator from "./SupplierContractPriceEscalationCalculator";
 import FixedPriceContractCostShockCalculator from "./FixedPriceContractCostShockCalculator";
 import ContributionMarginCostShockCalculator from "./ContributionMarginCostShockCalculator";
+import GrossMarginCompressionCalculator from "./GrossMarginCompressionCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -741,6 +742,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "supplier-contract-price-escalation-calculator": SupplierContractPriceEscalationCalculator,
   "fixed-price-contract-cost-shock-calculator": FixedPriceContractCostShockCalculator,
   "contribution-margin-cost-shock-calculator": ContributionMarginCostShockCalculator,
+  "gross-margin-compression-calculator": GrossMarginCompressionCalculator,
 
 };
 
