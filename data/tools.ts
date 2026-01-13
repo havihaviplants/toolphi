@@ -12715,6 +12715,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "fixed-price-contract-cost-shock-calculator",
+  category: "finance",
+  title: "Fixed-Price Contract Cost Shock Calculator",
+  description:
+    "Estimate profit or loss for a fixed-price contract when unit costs increase, including break-even cost shock thresholds.",
+  keywords: [
+    "fixed price contract cost shock calculator",
+    "fixed price contract cost overrun calculator",
+    "contract profit loss cost increase",
+    "fixed price contract margin impact",
+    "cost increase fixed price contract calculator"
+  ],
+  type: "calculator",
+  tags: ["contract", "fixed-price", "cost-shock", "profit", "risk"],
+  howToSteps: [
+    "Enter the fixed contract price per unit and the contract quantity.",
+    "Enter your baseline unit cost.",
+    "Enter the expected cost increase (% or $ per unit).",
+    "Review new profit per unit, total profit, and break-even cost shock limits."
+  ],
+  example: {
+    description:
+      "A contract pays $120/unit for 5,000 units. Baseline cost is $95/unit. Costs rise by 8%.",
+    bullets: [
+      "New cost = 95 × 1.08 = 102.60",
+      "Profit/unit before = 120 − 95 = 25.00",
+      "Profit/unit after = 120 − 102.60 = 17.40",
+      "Total profit change = (17.40 − 25.00) × 5,000"
+    ]
+  }
+},
+
+
 
 
 
