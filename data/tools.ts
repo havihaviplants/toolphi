@@ -13148,6 +13148,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "cost-shock-ebitda-margin-impact-calculator",
+  category: "finance",
+  title: "Cost Shock EBITDA Margin Impact Calculator",
+  description:
+    "Estimate how a cost shock compresses EBITDA and EBITDA margin by increasing COGS or total operating costs.",
+  keywords: [
+    "cost shock ebitda margin impact calculator",
+    "ebitda margin compression calculator",
+    "cost inflation ebitda impact",
+    "cogs increase ebitda margin calculator",
+    "operating cost shock ebitda calculator"
+  ],
+  type: "calculator",
+  tags: ["ebitda", "margin", "cost-shock", "cost-inflation", "finance"],
+  howToSteps: [
+    "Enter annual revenue, COGS, and operating expenses.",
+    "Enter shock size (%) and choose whether it applies to COGS only or total costs.",
+    "Review EBITDA before vs after and EBITDA margin before vs after.",
+    "Use the margin compression output to understand how pricing or cost actions may be needed."
+  ],
+  example: {
+    description:
+      "Revenue $5,000,000, COGS $3,000,000, Opex $1,200,000, shock +8% on COGS only.",
+    bullets: [
+      "EBITDA before = 5,000,000 − 3,000,000 − 1,200,000 = 800,000",
+      "EBITDA margin before = 800,000 / 5,000,000 = 16.00%",
+      "COGS after = 3,000,000 × 1.08 = 3,240,000",
+      "EBITDA after = 5,000,000 − 3,240,000 − 1,200,000 = 560,000",
+      "EBITDA margin after = 560,000 / 5,000,000 = 11.20%"
+    ]
+  }
+},
+
+
 
 
 
