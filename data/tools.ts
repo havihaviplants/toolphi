@@ -12948,6 +12948,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "required-price-increase-to-offset-cost-inflation-calculator",
+  category: "finance",
+  title: "Required Price Increase to Offset Cost Inflation Calculator",
+  description:
+    "Calculate the required price increase to keep the same total profit after unit costs rise, assuming sales volume stays constant.",
+  keywords: [
+    "required price increase to offset cost inflation",
+    "price increase needed after cost increase",
+    "cost inflation required price calculator",
+    "maintain profit after cost increase calculator",
+    "how much should I raise prices due to higher costs"
+  ],
+  type: "calculator",
+  tags: ["pricing", "cost-inflation", "profit", "break-even", "unit-economics"],
+  howToSteps: [
+    "Enter your current price, unit cost, and baseline units sold.",
+    "Enter the expected unit cost increase (%).",
+    "Assume volume stays constant.",
+    "See the required new price and required price increase to keep total profit unchanged."
+  ],
+  example: {
+    description:
+      "Price is $100, unit cost is $60, and volume is 10,000 units. Unit cost increases by 10%.",
+    bullets: [
+      "New unit cost = 60 × 1.10 = 66",
+      "Baseline total profit = (100 − 60) × 10,000 = 400,000",
+      "Required new unit profit = 400,000 ÷ 10,000 = 40",
+      "Required new price = 66 + 40 = 106 → required increase = 6%"
+    ]
+  }
+},
+
+
 
 
 
