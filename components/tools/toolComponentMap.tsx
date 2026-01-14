@@ -378,6 +378,7 @@ import RequiredPriceIncreaseToOffsetCostInflationCalculator from "./RequiredPric
 import CostInflationWorkingCapitalImpactCalculator from "./CostInflationWorkingCapitalImpactCalculator";
 import InputCostIncreaseCashFlowGapCalculator from "./InputCostIncreaseCashFlowGapCalculator";
 import InventoryCostInflationCarryingCostCalculator from "./InventoryCostInflationCarryingCostCalculator";
+import CostShockInterestCoverageRatioImpactCalculator from "./CostShockInterestCoverageRatioImpactCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -759,6 +760,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "cost-inflation-working-capital-impact-calculator": CostInflationWorkingCapitalImpactCalculator,
   "input-cost-increase-cash-flow-gap-calculator": InputCostIncreaseCashFlowGapCalculator,
   "inventory-cost-inflation-carrying-cost-calculator": InventoryCostInflationCarryingCostCalculator,
+  "cost-shock-interest-coverage-ratio-impact-calculator": CostShockInterestCoverageRatioImpactCalculator,
 
 };
 

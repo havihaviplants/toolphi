@@ -13082,6 +13082,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "cost-shock-interest-coverage-ratio-impact-calculator",
+  category: "finance",
+  title: "Cost Shock Interest Coverage Ratio Impact Calculator",
+  description:
+    "Estimate how a cost shock reduces EBIT and worsens the interest coverage ratio (ICR = EBIT / interest expense).",
+  keywords: [
+    "cost shock interest coverage ratio impact calculator",
+    "interest coverage ratio cost increase",
+    "icr impact calculator",
+    "ebit interest coverage cost inflation",
+    "interest coverage ratio after cost increase"
+  ],
+  type: "calculator",
+  tags: ["icr", "interest-coverage", "debt", "risk", "cost-inflation"],
+  howToSteps: [
+    "Enter annual revenue, COGS, operating expenses, and annual interest expense.",
+    "Enter a cost shock percentage to apply to COGS.",
+    "Review EBIT and ICR before vs after the shock.",
+    "Use the risk flags to interpret whether coverage becomes stressed."
+  ],
+  example: {
+    description:
+      "Revenue $5,000,000, COGS $3,000,000, Opex $1,200,000, interest $250,000, COGS shock +8%.",
+    bullets: [
+      "EBIT before = 5,000,000 − 3,000,000 − 1,200,000 = 800,000",
+      "EBIT after = 5,000,000 − (3,000,000×1.08) − 1,200,000 = 560,000",
+      "ICR before = 800,000 ÷ 250,000 = 3.20x",
+      "ICR after = 560,000 ÷ 250,000 = 2.24x"
+    ]
+  }
+},
+
 
 
 
