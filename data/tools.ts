@@ -13115,6 +13115,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "cost-shock-covenant-headroom-calculator",
+  category: "finance",
+  title: "Cost Shock Covenant Headroom Calculator",
+  description:
+    "Estimate whether a cost shock could trigger a loan covenant breach by reducing EBITDA and worsening Net Debt / EBITDA leverage.",
+  keywords: [
+    "cost shock covenant headroom calculator",
+    "net debt to ebitda covenant calculator",
+    "covenant breach risk calculator",
+    "ebitda drop leverage ratio calculator",
+    "loan covenant headroom calculator"
+  ],
+  type: "calculator",
+  tags: ["covenant", "leverage", "debt", "risk", "ebitda"],
+  howToSteps: [
+    "Enter net debt and baseline EBITDA.",
+    "Choose how to model the shock: EBITDA % decrease or EBITDA $ decrease.",
+    "Enter your covenant limit for Net Debt / EBITDA.",
+    "Review leverage before vs after and headroom (limit minus actual)."
+  ],
+  example: {
+    description:
+      "Net debt $6,000,000, EBITDA $2,000,000, EBITDA drops 20%, covenant limit 3.50x.",
+    bullets: [
+      "Leverage before = 6,000,000 / 2,000,000 = 3.00x",
+      "EBITDA after = 2,000,000 × (1 − 0.20) = 1,600,000",
+      "Leverage after = 6,000,000 / 1,600,000 = 3.75x",
+      "Headroom after = 3.50x − 3.75x = −0.25x (breach)"
+    ]
+  }
+},
+
+
 
 
 
