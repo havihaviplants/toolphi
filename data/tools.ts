@@ -12881,6 +12881,39 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "price-increase-vs-volume-drop-break-even-calculator",
+  category: "finance",
+  title: "Price Increase vs Volume Drop Break-Even Calculator",
+  description:
+    "Calculate how much sales volume can drop after a price increase while keeping total gross profit (or contribution profit) the same.",
+  keywords: [
+    "price increase vs volume drop break even calculator",
+    "price increase volume decrease break even",
+    "how much can volume drop after price increase",
+    "price elasticity break even calculator",
+    "maintain profit after price increase calculator"
+  ],
+  type: "calculator",
+  tags: ["pricing", "volume", "break-even", "gross-profit", "contribution-margin"],
+  howToSteps: [
+    "Enter your current price, unit variable cost, and baseline units sold.",
+    "Enter your planned price increase (%).",
+    "Choose what you want to hold constant: total gross profit or contribution profit (same here when using variable cost).",
+    "See the maximum volume drop allowed and the break-even units after the price change."
+  ],
+  example: {
+    description:
+      "Price is $100, variable cost is $60, and you sell 10,000 units. You plan a 10% price increase.",
+    bullets: [
+      "Old unit profit = 100 − 60 = 40",
+      "New price = 110, new unit profit = 110 − 60 = 50",
+      "Profit must stay same: 40×10,000 = 50×newUnits → newUnits = 8,000",
+      "Max volume drop = (10,000−8,000)/10,000 = 20%"
+    ]
+  }
+},
+
 
 
 
