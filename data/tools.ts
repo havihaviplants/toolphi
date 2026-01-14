@@ -13048,6 +13048,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "inventory-cost-inflation-carrying-cost-calculator",
+  category: "finance",
+  title: "Inventory Cost Inflation Carrying Cost Calculator",
+  description:
+    "Estimate how inventory cost inflation increases annual inventory carrying costs (capital, storage, insurance, shrink).",
+  keywords: [
+    "inventory cost inflation carrying cost calculator",
+    "inventory carrying cost inflation",
+    "inventory holding cost increase calculator",
+    "carrying cost increase due to inflation",
+    "inventory value carrying cost calculator"
+  ],
+  type: "calculator",
+  tags: ["inventory", "carrying-cost", "holding-cost", "cost-inflation", "finance"],
+  howToSteps: [
+    "Choose input mode: inventory units or inventory value.",
+    "Enter current unit cost (or current inventory value) and cost increase (%).",
+    "Enter annual carrying cost rate (%).",
+    "See annual carrying cost before vs after and the added carrying cost."
+  ],
+  example: {
+    description:
+      "Average inventory is 50,000 units at $8/unit. Costs rise 12%. Carrying cost rate is 22%/year.",
+    bullets: [
+      "Inventory value before = 50,000 × 8 = 400,000",
+      "Inventory value after = 50,000 × 8.96 = 448,000",
+      "Carrying cost before = 400,000 × 22% = 88,000",
+      "Carrying cost after = 448,000 × 22% = 98,560",
+      "Added carrying cost = 10,560"
+    ]
+  }
+},
+
+
 
 
 
