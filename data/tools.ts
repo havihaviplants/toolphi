@@ -12981,7 +12981,38 @@ export const tools: Tool[] = [
   }
 },
 
-
+{
+  slug: "cost-inflation-working-capital-impact-calculator",
+  category: "finance",
+  title: "Cost Inflation Working Capital Impact Calculator",
+  description:
+    "Estimate how higher unit costs increase inventory value and working capital needs, with optional AR/AP terms for net working capital impact.",
+  keywords: [
+    "cost inflation working capital impact calculator",
+    "inventory cost increase working capital",
+    "working capital increase due to inflation",
+    "inventory value inflation calculator",
+    "net working capital impact calculator"
+  ],
+  type: "calculator",
+  tags: ["working-capital", "inventory", "cash-flow", "cost-inflation", "finance"],
+  howToSteps: [
+    "Enter current unit cost and expected cost increase (%).",
+    "Enter average inventory units on hand.",
+    "Optionally enter accounts receivable and accounts payable days.",
+    "Review the added inventory cash tied up and net working capital change."
+  ],
+  example: {
+    description:
+      "Unit cost is $8.00, average inventory is 50,000 units, and costs rise by 12%.",
+    bullets: [
+      "New unit cost = 8.00 × 1.12 = 8.96",
+      "Inventory value before = 8.00 × 50,000 = 400,000",
+      "Inventory value after = 8.96 × 50,000 = 448,000",
+      "Extra working capital tied up = 48,000"
+    ]
+  }
+},
 
 
 
