@@ -12914,6 +12914,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "required-volume-increase-to-offset-cost-inflation-calculator",
+  category: "finance",
+  title: "Required Volume Increase to Offset Cost Inflation Calculator",
+  description:
+    "Calculate how much sales volume must increase to offset higher input costs and maintain the same total profit when prices cannot be raised.",
+  keywords: [
+    "required volume increase to offset cost inflation",
+    "how much volume increase needed after cost increase",
+    "cost inflation volume increase calculator",
+    "maintain profit after cost increase",
+    "break even volume cost increase calculator"
+  ],
+  type: "calculator",
+  tags: ["cost-inflation", "volume", "break-even", "profit", "pricing"],
+  howToSteps: [
+    "Enter your current price, unit cost, and baseline sales volume.",
+    "Enter the expected unit cost increase (percentage or absolute).",
+    "Assume price stays constant.",
+    "See the required sales volume increase to maintain the same total profit."
+  ],
+  example: {
+    description:
+      "Price is $100, unit cost is $60, and baseline sales are 10,000 units. Unit cost increases by 10%.",
+    bullets: [
+      "Old unit profit = 40",
+      "New unit cost = 66 → new unit profit = 34",
+      "Old total profit = 40 × 10,000 = 400,000",
+      "Required units = 400,000 ÷ 34 ≈ 11,765",
+      "Required volume increase ≈ 17.6%"
+    ]
+  }
+},
+
+
 
 
 
