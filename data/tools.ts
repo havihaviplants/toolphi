@@ -13182,6 +13182,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "supplier-price-increase-negotiation-savings-calculator",
+  category: "finance",
+  title: "Supplier Price Increase Negotiation Savings Calculator",
+  description:
+    "Estimate how much you save annually by negotiating a lower supplier price increase versus the proposed increase.",
+  keywords: [
+    "supplier price increase negotiation savings calculator",
+    "negotiated price increase savings",
+    "supplier price hike negotiation calculator",
+    "purchase cost increase negotiation savings",
+    "vendor price increase negotiation savings"
+  ],
+  type: "calculator",
+  tags: ["supplier", "negotiation", "cost", "savings", "finance"],
+  howToSteps: [
+    "Choose input mode: units + unit price, or annual spend.",
+    "Enter the supplier’s proposed price increase (%) and your negotiated increase (%).",
+    "Optionally enter pass-through rate (%) to model how much of the increase you can pass to customers.",
+    "Compare annual cost under proposed vs negotiated terms and see your savings."
+  ],
+  example: {
+    description:
+      "You buy 600,000 units/year at $8. Supplier proposes +12%, negotiated to +7%, pass-through 30%.",
+    bullets: [
+      "Annual cost before = 600,000 × 8 = 4,800,000",
+      "Proposed annual cost = 4,800,000 × 1.12 = 5,376,000",
+      "Negotiated annual cost = 4,800,000 × 1.07 = 5,136,000",
+      "Negotiation savings = 5,376,000 − 5,136,000 = 240,000",
+      "Absorbed cost (with 30% pass-through) = increase × (1 − 0.30)"
+    ]
+  }
+},
+
 
 
 

@@ -381,6 +381,7 @@ import InventoryCostInflationCarryingCostCalculator from "./InventoryCostInflati
 import CostShockInterestCoverageRatioImpactCalculator from "./CostShockInterestCoverageRatioImpactCalculator";
 import CostShockCovenantHeadroomCalculator from "./CostShockCovenantHeadroomCalculator";
 import CostShockEbitdaMarginImpactCalculator from "./CostShockEbitdaMarginImpactCalculator";
+import SupplierPriceIncreaseNegotiationSavingsCalculator from "./SupplierPriceIncreaseNegotiationSavingsCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -765,6 +766,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "cost-shock-interest-coverage-ratio-impact-calculator": CostShockInterestCoverageRatioImpactCalculator,
   "cost-shock-covenant-headroom-calculator": CostShockCovenantHeadroomCalculator,
   "cost-shock-ebitda-margin-impact-calculator": CostShockEbitdaMarginImpactCalculator,
+  "supplier-price-increase-negotiation-savings-calculator": SupplierPriceIncreaseNegotiationSavingsCalculator,
 
 };
 
