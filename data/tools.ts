@@ -13014,6 +13014,41 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "input-cost-increase-cash-flow-gap-calculator",
+  category: "finance",
+  title: "Input Cost Increase Cash Flow Gap Calculator",
+  description:
+    "Estimate how higher input costs increase the cash flow gap by widening the cash conversion cycle (inventory, AR, AP).",
+  keywords: [
+    "input cost increase cash flow gap calculator",
+    "cost inflation cash flow impact",
+    "cash conversion cycle inflation calculator",
+    "working capital cash gap calculator",
+    "ccc cash gap cost increase"
+  ],
+  type: "calculator",
+  tags: ["cash-flow", "working-capital", "ccc", "cost-inflation", "finance"],
+  howToSteps: [
+    "Enter annual units sold and unit cost (before) and cost increase (%).",
+    "Enter inventory days, accounts receivable days, and accounts payable days.",
+    "Review the cash conversion cycle and estimated cash tied up (before vs after).",
+    "See the added cash needed due to higher input costs."
+  ],
+  example: {
+    description:
+      "Annual units sold 600,000, unit cost $8, cost increases 12%, DIO 60, DSO 30, DPO 30.",
+    bullets: [
+      "CCC = 60 + 30 − 30 = 60 days",
+      "Daily purchases (before) = (600,000×8)/365",
+      "Daily purchases (after) = (600,000×8.96)/365",
+      "Cash tied up ≈ daily purchases × CCC",
+      "Added cash need = after − before"
+    ]
+  }
+},
+
+
 
 
 
