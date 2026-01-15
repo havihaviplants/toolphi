@@ -13348,7 +13348,41 @@ export const tools: Tool[] = [
       "Lowest cost option: Bank transfer"
     ]
   }
+},
+
+{
+  slug: "payment-fee-impact-on-profit-calculator",
+  category: "finance",
+  title: "Payment Fee Impact on Profit Calculator",
+  description:
+    "Calculate how payment processing fees affect your gross profit and net profit based on revenue, margin, and fee structure.",
+  keywords: [
+    "payment fee impact on profit calculator",
+    "payment fees profit impact",
+    "processing fees effect on profit",
+    "payment fee margin impact",
+    "how fees affect profit"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "profit", "margin", "impact"],
+  howToSteps: [
+    "Enter your monthly revenue.",
+    "Enter your gross margin percentage.",
+    "Enter your payment fee rate and fixed fee.",
+    "View gross profit, total fees, and net profit impact."
+  ],
+  example: {
+    description: "Estimate how payment fees reduce net profit.",
+    bullets: [
+      "Monthly revenue: $50,000",
+      "Gross margin: 40%",
+      "Payment fee: 2.9% + $0.30",
+      "Total fees: $1,450",
+      "Net profit after fees: $18,550"
+    ]
+  }
 }
+
 
 
 
