@@ -13512,7 +13512,40 @@ export const tools: Tool[] = [
       "Profit difference: +$1.10 per transaction"
     ]
   }
+},
+
+{
+  slug: "online-payment-fee-comparison-calculator",
+  category: "finance",
+  title: "Online Payment Fee Comparison Calculator",
+  description:
+    "Compare online payment processing fees across providers to find the most cost-effective option for your business.",
+  keywords: [
+    "online payment fee comparison calculator",
+    "compare payment processing fees",
+    "stripe vs paypal fees",
+    "payment processor fee comparison",
+    "best payment processing fees"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "comparison", "processor", "cost"],
+  howToSteps: [
+    "Enter transaction amount and volume.",
+    "Select payment providers to compare.",
+    "Review total fees for each provider.",
+    "Choose the most cost-effective option."
+  ],
+  example: {
+    description: "Compare Stripe vs PayPal for a $1,000 transaction.",
+    bullets: [
+      "Transaction amount: $1,000",
+      "Stripe fee: $29.30",
+      "PayPal fee: $34.80",
+      "Difference: $5.50"
+    ]
+  }
 }
+
 
 
 
