@@ -13480,7 +13480,40 @@ export const tools: Tool[] = [
       "Profit change: -$250"
     ]
   }
+},
+
+{
+  slug: "payment-fee-vs-price-increase-calculator",
+  category: "finance",
+  title: "Payment Fee vs Price Increase Calculator",
+  description:
+    "Compare absorbing payment processing fees versus increasing prices to offset fees and see the impact on revenue and profit.",
+  keywords: [
+    "payment fee vs price increase calculator",
+    "absorb fees vs raise prices",
+    "payment fee pricing decision",
+    "processing fee price adjustment",
+    "should i increase prices to cover fees"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "pricing", "decision", "profit"],
+  howToSteps: [
+    "Enter current price and cost structure.",
+    "Enter payment fee rate and fixed fee.",
+    "Enter proposed price increase percentage.",
+    "Compare profit outcomes under each strategy."
+  ],
+  example: {
+    description: "Compare absorbing fees vs raising prices by 2%.",
+    bullets: [
+      "Current price: $100",
+      "Payment fee: 2.9% + $0.30",
+      "Price increase scenario: +2%",
+      "Profit difference: +$1.10 per transaction"
+    ]
+  }
 }
+
 
 
 
