@@ -13247,7 +13247,43 @@ export const tools: Tool[] = [
       "Net received: $970.70"
     ]
   }
+},
+
+{
+  slug: "online-payment-processing-cost-calculator",
+  category: "finance",
+  title: "Online Payment Processing Cost Calculator",
+  description:
+    "Estimate total online payment processing costs based on your monthly volume, average transaction size, fee rate, and fixed fees per transaction.",
+  keywords: [
+    "online payment processing cost calculator",
+    "payment processing cost calculator",
+    "payment processing fees",
+    "merchant processing fees",
+    "transaction fee calculator",
+    "monthly payment processing cost"
+  ],
+  type: "calculator",
+  tags: ["payment", "processing", "fee", "cost", "merchant"],
+  howToSteps: [
+    "Enter your monthly number of transactions.",
+    "Enter your average transaction amount.",
+    "Enter the percentage fee rate and fixed fee per transaction.",
+    "View estimated monthly processing fees and effective fee rate."
+  ],
+  example: {
+    description: "Estimate monthly processing costs for an online business.",
+    bullets: [
+      "Monthly transactions: 300",
+      "Average transaction: $45",
+      "Fee rate: 2.9%",
+      "Fixed fee: $0.30",
+      "Estimated monthly fees: $481.50",
+      "Effective fee rate: 3.57%"
+    ]
+  }
 }
+
 
 
 
