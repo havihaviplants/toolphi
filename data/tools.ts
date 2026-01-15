@@ -13315,7 +13315,41 @@ export const tools: Tool[] = [
       "Net received: $485.20"
     ]
   }
+},
+
+{
+  slug: "payment-method-fee-comparison-calculator",
+  category: "finance",
+  title: "Payment Method Fee Comparison Calculator",
+  description:
+    "Compare fees across different payment methods such as credit cards, debit cards, bank transfers, and digital wallets to find the most cost-effective option.",
+  keywords: [
+    "payment method fee comparison calculator",
+    "compare payment method fees",
+    "credit card vs bank transfer fees",
+    "payment method cost comparison",
+    "online payment fee comparison"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "comparison", "cost", "method"],
+  howToSteps: [
+    "Enter the transaction amount.",
+    "Enter fee rates for each payment method.",
+    "Compare total fees and net received for each option.",
+    "Identify the most cost-effective payment method."
+  ],
+  example: {
+    description: "Compare fees for different payment methods on a $1,000 transaction.",
+    bullets: [
+      "Credit card fee: 2.9% + $0.30 → $29.30",
+      "Debit card fee: 1.5% + $0.20 → $15.20",
+      "Bank transfer fee: $5.00 flat",
+      "Digital wallet fee: 2.5% + $0.30",
+      "Lowest cost option: Bank transfer"
+    ]
+  }
 }
+
 
 
 
