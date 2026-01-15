@@ -13216,6 +13216,40 @@ export const tools: Tool[] = [
   }
 },
 
+{
+  slug: "online-payment-fee-calculator",
+  category: "finance",
+  title: "Online Payment Fee Calculator",
+  description:
+    "Calculate online payment fees and see how much you pay in processing costs and how much the recipient receives after fees.",
+  keywords: [
+    "online payment fee calculator",
+    "payment processing fee calculator",
+    "online payment fees",
+    "payment fee calculation",
+    "payment processing cost"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "cost", "online-payment"],
+  howToSteps: [
+    "Enter the payment amount.",
+    "Enter the payment fee percentage.",
+    "Add any fixed transaction fee if applicable.",
+    "View the total fee and net amount received."
+  ],
+  example: {
+    description: "Estimate fees for an online payment.",
+    bullets: [
+      "Payment amount: $1,000",
+      "Fee rate: 2.9%",
+      "Fixed fee: $0.30",
+      "Total fee: $29.30",
+      "Net received: $970.70"
+    ]
+  }
+}
+
+
 
 
 
