@@ -389,6 +389,7 @@ import PaymentMethodFeeComparisonCalculator from "./PaymentMethodFeeComparisonCa
 import PaymentFeeImpactOnProfitCalculator from "./PaymentFeeImpactOnProfitCalculator";
 import PaymentFeeBreakEvenCalculator from "./PaymentFeeBreakEvenCalculator";
 import PaymentFeeRateCalculator from "./PaymentFeeRateCalculator";
+import PaymentFeeStressTestCalculator from "./PaymentFeeStressTestCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -781,8 +782,9 @@ const toolComponentMap: Record<string, ComponentType> = {
   "payment-fee-impact-on-profit-calculator": PaymentFeeImpactOnProfitCalculator,
   "payment-fee-break-even-calculator": PaymentFeeBreakEvenCalculator,
   "payment-fee-rate-calculator": PaymentFeeRateCalculator,
-
-  };
+  "payment-fee-stress-test-calculator": PaymentFeeStressTestCalculator,
+  
+};
 
 export function getToolComponent(slug: string) {
   return toolComponentMap[slug] ?? null;

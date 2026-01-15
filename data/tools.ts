@@ -13447,7 +13447,41 @@ export const tools: Tool[] = [
       "Effective fee rate: 3.50%"
     ]
   }
+},
+
+{
+  slug: "payment-fee-stress-test-calculator",
+  category: "finance",
+  title: "Payment Fee Stress Test Calculator",
+  description:
+    "Stress test how changes in payment processing fees affect profit under different scenarios such as fee increases or transaction size changes.",
+  keywords: [
+    "payment fee stress test calculator",
+    "processing fee stress test",
+    "payment fee scenario analysis",
+    "payment fee risk analysis",
+    "payment fee increase impact"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "stress-test", "scenario", "risk"],
+  howToSteps: [
+    "Enter baseline revenue and gross margin.",
+    "Enter current payment fee rate and fixed fee.",
+    "Adjust stress scenarios (fee increase or transaction size change).",
+    "Compare profit outcomes across scenarios."
+  ],
+  example: {
+    description: "Stress test a 0.5% fee increase on monthly profit.",
+    bullets: [
+      "Baseline revenue: $50,000",
+      "Gross margin: 40%",
+      "Current fee: 2.9% + $0.30",
+      "Stress scenario: fee +0.5%",
+      "Profit change: -$250"
+    ]
+  }
 }
+
 
 
 
