@@ -13282,7 +13282,41 @@ export const tools: Tool[] = [
       "Effective fee rate: 3.57%"
     ]
   }
+},
+
+{
+  slug: "payment-gateway-fee-calculator",
+  category: "finance",
+  title: "Payment Gateway Fee Calculator",
+  description:
+    "Calculate payment gateway fees based on transaction amount, fee percentage, and fixed fees to see total costs and net proceeds.",
+  keywords: [
+    "payment gateway fee calculator",
+    "payment gateway fees",
+    "online payment gateway cost",
+    "transaction gateway fee",
+    "payment processor gateway fees"
+  ],
+  type: "calculator",
+  tags: ["payment", "gateway", "fee", "processing", "cost"],
+  howToSteps: [
+    "Enter the transaction amount.",
+    "Enter the gateway fee percentage.",
+    "Add any fixed gateway fee per transaction.",
+    "View total gateway fees and net amount received."
+  ],
+  example: {
+    description: "Estimate fees charged by a payment gateway.",
+    bullets: [
+      "Transaction amount: $500",
+      "Gateway fee rate: 2.9%",
+      "Fixed gateway fee: $0.30",
+      "Total gateway fee: $14.80",
+      "Net received: $485.20"
+    ]
+  }
 }
+
 
 
 
