@@ -13414,7 +13414,41 @@ export const tools: Tool[] = [
       "Break-even transactions: 43"
     ]
   }
+},
+
+{
+  slug: "payment-fee-rate-calculator",
+  category: "finance",
+  title: "Payment Fee Rate Calculator",
+  description:
+    "Calculate your effective payment fee rate based on percentage fees, fixed fees per transaction, and average transaction size.",
+  keywords: [
+    "payment fee rate calculator",
+    "effective payment fee rate",
+    "effective processing fee rate",
+    "transaction fee rate calculator",
+    "payment processor effective rate"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "rate", "effective-rate", "processing"],
+  howToSteps: [
+    "Enter the fee percentage charged by your processor.",
+    "Enter the fixed fee per transaction.",
+    "Enter your average transaction amount.",
+    "View the effective fee rate including fixed fees."
+  ],
+  example: {
+    description: "Estimate the effective fee rate for typical online payments.",
+    bullets: [
+      "Fee rate: 2.9%",
+      "Fixed fee: $0.30",
+      "Average transaction: $50",
+      "Total fee per transaction: $1.75",
+      "Effective fee rate: 3.50%"
+    ]
+  }
 }
+
 
 
 
