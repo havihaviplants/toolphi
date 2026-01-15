@@ -13381,7 +13381,41 @@ export const tools: Tool[] = [
       "Net profit after fees: $18,550"
     ]
   }
+},
+
+{
+  slug: "payment-fee-break-even-calculator",
+  category: "finance",
+  title: "Payment Fee Break-Even Calculator",
+  description:
+    "Calculate the break-even revenue or transaction volume required to offset payment processing fees based on margin and fee structure.",
+  keywords: [
+    "payment fee break even calculator",
+    "payment fee break-even",
+    "processing fee break even point",
+    "payment fee margin break even",
+    "break even transaction fee"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "break-even", "margin", "profit"],
+  howToSteps: [
+    "Enter your gross margin percentage.",
+    "Enter your payment fee rate and fixed fee.",
+    "Enter your average transaction amount.",
+    "View the revenue and transaction volume required to break even."
+  ],
+  example: {
+    description: "Estimate the break-even point for payment fees.",
+    bullets: [
+      "Gross margin: 40%",
+      "Payment fee: 2.9% + $0.30",
+      "Average transaction: $50",
+      "Break-even revenue: $2,145",
+      "Break-even transactions: 43"
+    ]
+  }
 }
+
 
 
 
