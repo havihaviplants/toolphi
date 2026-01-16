@@ -13577,7 +13577,40 @@ export const tools: Tool[] = [
       "Effective monthly fee rate: 3.50%"
     ]
   }
+},
+
+{
+  slug: "credit-card-vs-ach-payment-fee-calculator",
+  category: "finance",
+  title: "Credit Card vs ACH Payment Fee Calculator",
+  description:
+    "Compare credit card and ACH payment fees to determine the most cost-effective option for your transaction volume.",
+  keywords: [
+    "credit card vs ach payment fee calculator",
+    "ach vs credit card fees",
+    "payment method fee comparison",
+    "credit card or ach cheaper",
+    "ach payment cost calculator"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "credit card", "ach", "comparison"],
+  howToSteps: [
+    "Enter the transaction amount.",
+    "Enter credit card fee structure.",
+    "Enter ACH flat or percentage fee.",
+    "Compare total fees for each payment method."
+  ],
+  example: {
+    description: "Compare credit card vs ACH for a $2,000 payment.",
+    bullets: [
+      "Transaction amount: $2,000",
+      "Credit card fee (2.9% + $0.30): $58.30",
+      "ACH flat fee: $5.00",
+      "Cheaper option: ACH"
+    ]
+  }
 }
+
 
 
 
