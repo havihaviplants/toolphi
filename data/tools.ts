@@ -13710,7 +13710,41 @@ export const tools: Tool[] = [
       "Effective rate: 2.80%"
     ]
   }
+},
+
+{
+  slug: "online-payment-fee-break-even-calculator",
+  category: "finance",
+  title: "Online Payment Fee Break-Even Calculator",
+  description:
+    "Find the break-even transaction amount (or volume) where switching from one payment fee plan to another becomes cheaper.",
+  keywords: [
+    "online payment fee break even calculator",
+    "payment processor break even calculator",
+    "switch payment provider break even",
+    "compare payment fee plans break even",
+    "when is it worth switching payment processors"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "break-even", "comparison", "switching"],
+  howToSteps: [
+    "Enter Plan A fee rate and fixed fee per transaction.",
+    "Enter Plan B fee rate and fixed fee per transaction.",
+    "Enter your transaction amount to estimate per-transaction savings.",
+    "View break-even transaction amount and which plan is cheaper."
+  ],
+  example: {
+    description: "Compare Plan A (2.9% + $0.30) vs Plan B (2.6% + $0.10).",
+    bullets: [
+      "Plan A: 2.9% + $0.30",
+      "Plan B: 2.6% + $0.10",
+      "Transaction amount: $50",
+      "Cheaper plan at $50: Plan B",
+      "Break-even amount: $66.67"
+    ]
+  }
 }
+
 
 
 
