@@ -13643,7 +13643,41 @@ export const tools: Tool[] = [
       "Cheaper option: Percentage"
     ]
   }
+},
+
+{
+  slug: "international-online-payment-fee-calculator",
+  category: "finance",
+  title: "International Online Payment Fee Calculator",
+  description:
+    "Estimate international online payment fees including processing fees, cross-border fees, and currency conversion (FX) fees.",
+  keywords: [
+    "international online payment fee calculator",
+    "cross border payment fee calculator",
+    "currency conversion fee calculator",
+    "fx fee payment calculator",
+    "international payment processing fees"
+  ],
+  type: "calculator",
+  tags: ["payment", "international", "fee", "cross-border", "fx"],
+  howToSteps: [
+    "Enter the transaction amount in the original currency.",
+    "Enter processing fee rate and fixed fee.",
+    "Enter cross-border fee rate and FX conversion fee rate.",
+    "View estimated total fees and effective fee rate."
+  ],
+  example: {
+    description: "Estimate fees for a $1,000 international payment.",
+    bullets: [
+      "Amount: $1,000",
+      "Processing fee: 2.9% + $0.30",
+      "Cross-border fee: 1.0%",
+      "FX fee: 2.0%",
+      "Estimated total fees: $59.30"
+    ]
+  }
 }
+
 
 
 
