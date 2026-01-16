@@ -13544,7 +13544,41 @@ export const tools: Tool[] = [
       "Difference: $5.50"
     ]
   }
+},
+
+{
+  slug: "online-payment-monthly-fee-calculator",
+  category: "finance",
+  title: "Online Payment Monthly Fee Calculator",
+  description:
+    "Estimate your total monthly payment processing fees based on monthly revenue, transaction count, and fee structure.",
+  keywords: [
+    "online payment monthly fee calculator",
+    "monthly payment processing fees",
+    "payment processor monthly cost",
+    "estimate monthly processing fees",
+    "online payment fees per month"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "monthly", "processing", "cost"],
+  howToSteps: [
+    "Enter your monthly revenue.",
+    "Enter your monthly transaction count.",
+    "Enter your fee rate and fixed fee per transaction.",
+    "View estimated total monthly fees and effective fee rate."
+  ],
+  example: {
+    description: "Estimate monthly fees for a typical online business.",
+    bullets: [
+      "Monthly revenue: $50,000",
+      "Monthly transactions: 1,000",
+      "Fee: 2.9% + $0.30",
+      "Estimated monthly fees: $1,750",
+      "Effective monthly fee rate: 3.50%"
+    ]
+  }
 }
+
 
 
 
