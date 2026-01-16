@@ -13778,7 +13778,42 @@ export const tools: Tool[] = [
       "Net impact: +$680/month"
     ]
   }
+},
+
+{
+  slug: "online-payment-fee-impact-on-profit-margin-calculator",
+  category: "finance",
+  title: "Online Payment Fee Impact on Profit Margin Calculator",
+  description:
+    "See how payment processing fees reduce your profit margin based on revenue, gross margin, and fee structure.",
+  keywords: [
+    "payment fee impact on profit margin calculator",
+    "online payment fees profit margin",
+    "processing fees margin impact",
+    "how fees affect profit margin",
+    "payment processing fee margin calculator"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "profit", "margin", "impact"],
+  howToSteps: [
+    "Enter monthly revenue and gross margin (%).",
+    "Enter monthly transaction count.",
+    "Enter processing fee rate (%) and fixed fee per transaction.",
+    "View profit before fees vs after fees, and margin change."
+  ],
+  example: {
+    description: "Estimate how fees affect a business with 35% gross margin.",
+    bullets: [
+      "Monthly revenue: $60,000",
+      "Gross margin: 35%",
+      "Transactions: 1,200",
+      "Fee: 2.9% + $0.30",
+      "Margin after fees: 30.8%",
+      "Margin drop: 4.2 percentage points"
+    ]
+  }
 }
+
 
 
 
