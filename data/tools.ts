@@ -13743,7 +13743,43 @@ export const tools: Tool[] = [
       "Break-even amount: $66.67"
     ]
   }
+},
+
+{
+  slug: "is-online-payment-processing-worth-it-calculator",
+  category: "finance",
+  title: "Is Online Payment Processing Worth It Calculator",
+  description:
+    "Estimate whether online payment processing is worth it by comparing added revenue from higher conversion to total processing and operational costs.",
+  keywords: [
+    "is online payment processing worth it calculator",
+    "payment processing worth it",
+    "should i accept credit cards calculator",
+    "online payment processing cost vs benefit",
+    "payment processing roi calculator"
+  ],
+  type: "calculator",
+  tags: ["payment", "worth it", "roi", "conversion", "cost-benefit"],
+  howToSteps: [
+    "Enter your baseline monthly revenue (without online payments).",
+    "Estimate conversion lift (%) from offering online payment options.",
+    "Enter payment processing fees (%) and fixed fees per transaction.",
+    "Enter estimated monthly operational costs (tools, fraud, admin).",
+    "View net impact and break-even conversion lift."
+  ],
+  example: {
+    description: "Check if adding online payments is worth it for a small store.",
+    bullets: [
+      "Baseline revenue: $20,000/month",
+      "Conversion lift: 5%",
+      "Processing fee: 2.9% + $0.30",
+      "Transactions: 400/month",
+      "Operational cost: $150/month",
+      "Net impact: +$680/month"
+    ]
+  }
 }
+
 
 
 
