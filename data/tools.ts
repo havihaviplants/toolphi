@@ -13845,7 +13845,40 @@ export const tools: Tool[] = [
       "Payback period: 7.5 months"
     ]
   }
+},
+
+{
+  slug: "online-payment-fee-stress-test-calculator",
+  category: "finance",
+  title: "Online Payment Fee Stress Test Calculator",
+  description:
+    "Stress test your payment processing costs under fee increases, higher refund rates, and changes in transaction volume to see profit impact.",
+  keywords: [
+    "online payment fee stress test calculator",
+    "payment processing fee increase impact",
+    "stress test payment fees",
+    "refund rate impact on processing fees",
+    "payment fee scenario calculator"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "stress test", "risk", "scenario"],
+  howToSteps: [
+    "Enter baseline monthly revenue, transactions, and gross margin (%).",
+    "Enter baseline processing fees (rate + fixed).",
+    "Enter stress scenario changes (fee rate increase, refund rate, revenue change).",
+    "View baseline vs stressed profit and margin impact."
+  ],
+  example: {
+    description: "Stress test a business facing fee increases and refunds.",
+    bullets: [
+      "Revenue: $80,000, Transactions: 1,600, Gross margin: 35%",
+      "Baseline fee: 2.9% + $0.30",
+      "Stress: +0.4% fee rate, 3% refunds, -10% revenue",
+      "Result: profit drops and effective fee rate rises"
+    ]
+  }
 }
+
 
 
 
