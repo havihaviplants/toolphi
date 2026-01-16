@@ -13676,7 +13676,42 @@ export const tools: Tool[] = [
       "Estimated total fees: $59.30"
     ]
   }
+},
+
+{
+  slug: "high-volume-payment-processing-cost-calculator",
+  category: "finance",
+  title: "High-Volume Payment Processing Cost Calculator",
+  description:
+    "Estimate payment processing costs for high-volume businesses and see how average transaction size affects total fees and effective rates.",
+  keywords: [
+    "high volume payment processing cost calculator",
+    "large volume processing fees",
+    "payment processing cost high volume",
+    "high transaction volume fee calculator",
+    "effective payment processing rate"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "high-volume", "cost", "effective-rate"],
+  howToSteps: [
+    "Enter total monthly payment volume.",
+    "Enter monthly transaction count.",
+    "Enter processing fee rate and fixed fee per transaction.",
+    "View total fees, average transaction size, and effective fee rate."
+  ],
+  example: {
+    description: "Estimate fees for $500,000/month across 10,000 transactions.",
+    bullets: [
+      "Monthly volume: $500,000",
+      "Transactions: 10,000",
+      "Fee: 2.6% + $0.10",
+      "Avg transaction: $50",
+      "Total fees: $14,000",
+      "Effective rate: 2.80%"
+    ]
+  }
 }
+
 
 
 
