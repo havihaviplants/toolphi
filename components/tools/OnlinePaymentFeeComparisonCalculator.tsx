@@ -26,27 +26,35 @@ export default function OnlinePaymentFeeComparisonCalculator() {
 
   return (
     <div className="space-y-10">
+      {/* Header */}
       <div>
         <h1 className="text-2xl font-semibold">
           Online Payment Fee Comparison Calculator
         </h1>
         <p className="mt-2 text-gray-600">
-          Compare payment processing fees across popular providers.
+          Compare estimated payment processing fees across popular online
+          payment providers.
         </p>
       </div>
 
-      <div className="max-w-xl">
+      {/* Input */}
+      <div className="max-w-xl space-y-2">
         <label className="block font-medium">Transaction Amount</label>
         <input
           type="number"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
-          className="mt-1 w-full rounded border px-3 py-2"
+          className="w-full rounded border px-3 py-2"
+          placeholder="Enter transaction amount"
         />
+        <p className="text-sm text-gray-500">
+          Enter the gross transaction amount before fees.
+        </p>
       </div>
 
+      {/* Results */}
       {results && (
-        <div className="rounded-lg border p-6 max-w-xl space-y-3">
+        <div className="max-w-xl rounded-lg border p-6 space-y-3">
           {results.map((r) => (
             <div key={r.name} className="flex justify-between">
               <span>{r.name}</span>
@@ -55,6 +63,24 @@ export default function OnlinePaymentFeeComparisonCalculator() {
           ))}
         </div>
       )}
+
+      {/* Disclaimer */}
+      <div className="max-w-xl text-xs text-gray-500 leading-relaxed border-t pt-4">
+        Fees vary by country, card type, transaction volume, and individual
+        agreements. This calculator provides estimates for comparison purposes
+        only and does not represent official pricing from any payment provider.
+        It should not be considered financial, legal, or accounting advice.
+      </div>
+
+      {/* How it works */}
+      <div className="max-w-xl space-y-2">
+        <h2 className="font-semibold">How this calculator works</h2>
+        <p className="text-sm text-gray-600">
+          The calculator applies typical percentage-based and fixed fees used by
+          major payment processors to estimate total processing costs. Actual
+          fees may differ depending on your account terms.
+        </p>
+      </div>
     </div>
   );
 }

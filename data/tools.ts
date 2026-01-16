@@ -13519,7 +13519,7 @@ export const tools: Tool[] = [
   category: "finance",
   title: "Online Payment Fee Comparison Calculator",
   description:
-    "Compare online payment processing fees across providers to find the most cost-effective option for your business.",
+    "Compare online payment processing fees across providers to find the most cost-effective option for your business. ",
   keywords: [
     "online payment fee comparison calculator",
     "compare payment processing fees",
