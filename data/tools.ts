@@ -13609,7 +13609,42 @@ export const tools: Tool[] = [
       "Cheaper option: ACH"
     ]
   }
+},
+
+{
+  slug: "online-payment-fixed-vs-percentage-fee-calculator",
+  category: "finance",
+  title: "Online Payment Fixed vs Percentage Fee Calculator",
+  description:
+    "Compare fixed fees versus percentage fees to find the break-even transaction amount where one fee structure becomes cheaper than the other.",
+  keywords: [
+    "fixed vs percentage fee calculator",
+    "fixed fee vs percent fee break even",
+    "transaction fee break even calculator",
+    "payment fee structure comparison",
+    "percentage fee vs flat fee"
+  ],
+  type: "calculator",
+  tags: ["payment", "fee", "fixed", "percentage", "break-even"],
+  howToSteps: [
+    "Enter a fixed fee amount.",
+    "Enter a percentage fee rate.",
+    "Enter a transaction amount to compare.",
+    "See which fee is cheaper and the break-even amount."
+  ],
+  example: {
+    description: "Compare $1 fixed fee vs 2.9% fee.",
+    bullets: [
+      "Fixed fee: $1.00",
+      "Percentage fee: 2.9%",
+      "Transaction amount: $30",
+      "Fixed fee cost: $1.00",
+      "Percentage fee cost: $0.87",
+      "Cheaper option: Percentage"
+    ]
+  }
 }
+
 
 
 

@@ -394,6 +394,7 @@ import PaymentFeeVsPriceIncreaseCalculator from "./PaymentFeeVsPriceIncreaseCalc
 import OnlinePaymentFeeComparisonCalculator from "./OnlinePaymentFeeComparisonCalculator";
 import OnlinePaymentMonthlyFeeCalculator from "./OnlinePaymentMonthlyFeeCalculator";
 import CreditCardVsAchPaymentFeeCalculator from "./CreditCardVsAchPaymentFeeCalculator";
+import OnlinePaymentFixedVsPercentageFeeCalculator from "./OnlinePaymentFixedVsPercentageFeeCalculator";
 
 // 앞으로 여기다가 새 툴 생길 때마다 import + 매핑만 추가하면 됨
 const toolComponentMap: Record<string, ComponentType> = {
@@ -791,7 +792,7 @@ const toolComponentMap: Record<string, ComponentType> = {
   "online-payment-fee-comparison-calculator": OnlinePaymentFeeComparisonCalculator,
   "online-payment-monthly-fee-calculator": OnlinePaymentMonthlyFeeCalculator,
   "credit-card-vs-ach-payment-fee-calculator": CreditCardVsAchPaymentFeeCalculator,
-
+  "online-payment-fixed-vs-percentage-fee-calculator": OnlinePaymentFixedVsPercentageFeeCalculator,
 
 };
 
